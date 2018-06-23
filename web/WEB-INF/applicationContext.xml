@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+
+    <!--配置自动扫描的包-->
+    <context:component-scan base-package="daoImpl"></context:component-scan>
+    <context:component-scan base-package="serviceImpl"></context:component-scan>
+
+    <!--配置数据源-->
+    <!--导入资源文件-->
+    <context:property-placeholder location="WEB-INF/db.properties"></context:property-placeholder>
+
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="user" value="${jdbc.user}"></property>
+        <property name="password" value="${jdbc.password}"></property>
+        <property name="driverClass" value="${jdbc.driverClass}"></property>
+        <property name="jdbcUrl" value="${jdbc.jdbcUrl}"></property>
+
+        <property name="initialPoolSize" value="${jdbc.initPoolSize}"></property>
+        <property name="maxPoolSize" value="${jdbc.maxPoolSize}"></property>
+    </bean>
+
+    <!--配置hibernate的sessionFactory实例:通过Spring提供的LocalSessionFactoryBean 进行配置-->
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+        <!--配置数据源属性-->
+        <property name="dataSource" ref="dataSource"></property>
+        <!--配置hibernate配置文件的位置及名称-->
+        <property name="configLocation" value="WEB-INF/hibernate.cfg.xml"></property>
+        <!-- 自动扫描实体对象（annotation）-->
+        <property name="packagesToScan" value="entityPO" />
+
+    </bean>
+
+</beans>

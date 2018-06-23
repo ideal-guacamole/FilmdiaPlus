@@ -71,7 +71,7 @@
                         <ul class="nav navbar-nav ">
                             <li><a href="../../index.jsp">Home</a></li>
                             <li><a class=" active" href="library.jsp">Library</a></li>
-                            <li><a href="#">TopFilms</a></li>
+                            <li><a href="#">Charts</a></li>
                             <li><a href="#">Predict</a></li>
                         </ul>
 

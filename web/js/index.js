@@ -69,7 +69,7 @@ function setFilm(filmVO, name, pic, summary, url) {
     pic.src = filmVO.posterURL;
     summary.innerHTML = filmVO.summary;
 
-    var temp = 'views/details.jsp';
+    var temp = 'views/film/details.jsp';
     temp = setQueryString(temp, 'filmID', filmVO.filmID);
     temp = setQueryString(temp, 'imdb_filmID', filmVO.imdb_filmID);
     temp = setQueryString(temp, 'name', filmVO.name);

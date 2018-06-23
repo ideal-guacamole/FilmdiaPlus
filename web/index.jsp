@@ -69,7 +69,56 @@
 <body>
 <!-- Header -->
 <div class="header w3layouts-1">
-    <jsp:include page="views/common/headbar.jsp"></jsp:include>
+    <div class="top-bar w3-1">
+        <div class="container">
+            <div class="header-nav w3-agileits-1">
+                <nav class="navbar navbar-default">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <h1><a class="navbar-brand" href="index.jsp"><img src="images/logo2.png"></a></h1>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav ">
+                            <li><a class="active" href="index.jsp">Home</a></li>
+                            <li><a href="views/film/library.jsp">Library</a></li>
+                            <li><a href="#">Top Films</a></li>
+                            <li><a href="#">Predict</a></li>
+                        </ul>
+
+                        <jsp:include page="views/common/searchbar.jsp"></jsp:include>
+
+                        <ul class="user-manage">
+                            <img id="userCenter" src="images/Center.png">
+                            <div id="userUnderBox">
+                                <div style="text-indent:0;text-align: center">Hello, <span>xxx</span>!</div>
+                                <ul>
+                                    <li><img src="images/userCenter.png"/><a href="views/film/userCenter.jsp">User
+                                        Center</a></li>
+                                    <li><img src="images/exit.png"/><a href="" onclick="signOut()">Sign Out</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </div><!-- /navbar-collapse -->
+                    <!-- search-scripts -->
+                    <script src="js/classie.js"></script>
+                    <script src="js/uisearch.js"></script>
+                    <script>
+                        new UISearch(document.getElementById('sb-search'));
+                    </script>
+                    <!-- //search-scripts -->
+                </nav>
+            </div>
+        </div>
+    </div>
     <!-- Slider -->
     <div class="slider">
         <div class="callbacks_container">
@@ -77,7 +126,7 @@
 
                 <li>
                     <div class="slider-img">
-                        <img id="" src="../images/Dangal.jpg" class="img-responsive" alt="Manufactory">
+                        <img id="" src="images/Dangal.jpg" class="img-responsive" alt="Manufactory">
                     </div>
                     <div class="slider-info w3ls-1">
                         <h3>Dangal</h3>
@@ -88,7 +137,7 @@
                 </li>
                 <li>
                     <div class="slider-img">
-                        <img src="../images/Call_Me_By_Your_Name.jpg" class="img-responsive" alt="Manufactory">
+                        <img src="images/Call_Me_By_Your_Name.jpg" class="img-responsive" alt="Manufactory">
                     </div>
                     <div class="slider-info w3ls-1">
                         <h3>Call Me By Your Name</h3>
@@ -100,7 +149,7 @@
 
                 <li>
                     <div class="slider-img">
-                        <img src="../images/Coco.jpg" class="img-responsive" alt="Manufactory">
+                        <img src="images/Coco.jpg" class="img-responsive" alt="Manufactory">
                     </div>
                     <div class="slider-info w3ls-1">
                         <h3>Coco</h3>
@@ -110,7 +159,7 @@
                 </li>
                 <li>
                     <div class="slider-img">
-                        <img src="../images/Wolf_Warriors.jpg" class="img-responsive" alt="Manufactory">
+                        <img src="images/Wolf_Warriors.jpg" class="img-responsive" alt="Manufactory">
                     </div>
                     <div class="slider-info">
                         <h3>Zhan Lang</h3>
@@ -122,7 +171,7 @@
                 </li>
                 <li>
                     <div class="slider-img">
-                        <img src="../images/Contratiempo.jpg" class="img-responsive" alt="Manufactory">
+                        <img src="images/Contratiempo.jpg" class="img-responsive" alt="Manufactory">
                     </div>
                     <div class="slider-info w3ls-1">
                         <h3>The Invisible Guest</h3>
