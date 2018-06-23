@@ -1,0 +1,44 @@
+.menu{
+    padding: 0;
+    margin: 0;
+    padding-top: 2%;
+    width: 200px;
+    height: 500px;
+    position: fixed;
+    top: 100px;
+    left: 10%;
+    font-family: BlizzardGlobal;
+    text-align: center;
+    font-size: 15px;
+    background: rgba(0,0,0,0.1);
+}
+.menu .userName{
+    font-size: 25px;
+    color: white;
+}
+.menu img{
+    width: 100px;
+    border-radius: 50px;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li a{
+    color: white;
+    font-size: 18px;
+    line-height: 40px;
+}
+.menu .active{
+    background: #a0a0a0;
+}
+.menu .active a{
+    color: black;
+}
+.content{
+    width: 800px;
+    height: 1000px;
+    position: relative;
+    top:  91px;
+    left: 10%;
+    background: rgba(0,0,0,0.1);
+}

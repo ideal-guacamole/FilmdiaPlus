@@ -1,0 +1,130 @@
+.section{
+    padding: 5em 0;
+}
+.section:nth-of-type(2n){
+    background: #606060;
+}
+.section div h2{
+    color: #1ca0de;
+    margin-bottom: 20px;
+}
+.section:nth-of-type(2n) div h2{
+    color: #ffdb79;
+}
+.bann-info{
+    background: url("../images/statistic.jpeg") center no-repeat;
+    padding: 0 0 0;
+}
+.bann-info h1:first-of-type{
+    padding-top: 120px;
+}
+.bann-info h1{
+    opacity: 0;
+    transition: 1s;
+    text-align: left;
+    text-indent: 600px;
+    color: white;
+    font-size: 30px;
+    line-height: 115px;
+    white-space: nowrap;
+}
+
+.section:nth-of-type(2n+1) .chart-text{
+    width: 300px;
+    height: 550px;
+    /*background: paleturquoise;*/
+    float: left;
+}
+.section:nth-of-type(2n) .chart-text{
+    width: 300px;
+    height: 550px;
+    /*background: paleturquoise;*/
+    float: right;
+}
+.section:nth-of-type(2n+1) .chart{
+    width: 840px;
+    height: 550px;
+    /*background: pink;*/
+    float: left;
+}
+.section:nth-of-type(2n) .chart{
+    width: 840px;
+    height: 550px;
+    /*background: pink;*/
+    float: right;
+}
+.chart-text{
+    color: black;
+    padding: 20px;
+    padding-top: 100px;
+    font-size: 20px;
+    /*text-align: center;*/
+}
+.chart-text p{
+    margin-top: 20px;
+}
+.section:nth-of-type(2n) .chart-text p{
+    color: white;
+}
+#indexList {
+    position: fixed;
+    top: 0;
+    /*visibility: hidden;*/
+    background: rgba(0,0,0,0.8);
+    transition: width 0.5s;
+    left: 30px;
+    list-style: none;
+    z-index: 99;
+    /*width: 300px;*/
+    width: 0px;
+    height: 450px;
+}
+.index:hover{
+    width: 300px;
+    height: 450px;
+}
+.index li{
+    transition: 0.5s;
+    white-space: nowrap;
+    opacity: 0;
+    /*float: left;*/
+    padding:0 12px;
+    text-align: center;
+    border-right: 1px solid rgba(255,255,255,0.5);
+}
+.index li:last-of-type{
+    border-right: none;
+}
+
+.index li:hover{
+    /*background: rgba(0,0,0,0.3);*/
+
+}
+.index li a{
+    transition: 0.5s;
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+}
+.index li a:hover{
+    color: #fff047;
+}
+.index .active a{
+    color: #ffde3e;
+}
+.index .active a:hover{
+    color: #ffde3e;
+}
+
+.bann-info {
+    height:500px;
+}
+.bann-info em {
+    font-size: 40px;
+}
+
+.bann-info h1 {
+    font: 25px/50px Georgia, "Times New Roman", Times, serif;
+    /*height:60px;*/
+}

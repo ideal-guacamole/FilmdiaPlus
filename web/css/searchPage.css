@@ -1,0 +1,78 @@
+#filterPane {
+    width: 100%;
+    height: 90px;
+    /*background: url("images/moscow.jpg") top center no-repeat;*/
+    background: url("../images/librartFilterBg.jpg") center no-repeat;
+    background-size: cover;
+    /*position: fixed;*/
+    color: white;
+    padding-bottom: 30px;
+}
+
+
+h5 {
+    position: relative;
+    left: 170px;
+    width: 400px;
+    top: 30px;
+    margin-bottom: 40px;
+    color: #073763;
+    font-style: italic;
+}
+
+.search_item-filmName {
+    font-size: 18px;
+    font-weight: bold;
+    color: #073763;
+}
+
+.search_item-filmName span {
+    color: #6cb7fb;
+}
+
+.search_item {
+    width: 800px;
+    margin: 10px auto;
+}
+.search_item:hover{
+    background: rgba(204, 205, 255, 0.57);
+}
+.search_item img {
+    width: 91px;
+    height: 134px;
+}
+
+.search_item-info {
+    display: inline-block;
+    float: right;
+    margin-top: 20px;
+    max-width: 700px;
+}
+
+.search_item-score {
+    position: relative;
+    left: 90px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: #582b22;
+}
+
+.search_item-onTime {
+    display: block;
+    font-size: 12px;
+    color: grey;
+}
+
+.search_item-actors {
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.search_item-summary {
+    display: block;
+    font-size: 13px;
+    color: #343434;
+    width: 700px;
+}

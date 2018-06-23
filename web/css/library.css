@@ -1,0 +1,76 @@
+#filterPane{
+    width: 100%;
+    /*background: url("images/moscow.jpg") top center no-repeat;*/
+    background: url("../images/librartFilterBg.jpg") center no-repeat;
+    background-size: cover;
+    /*position: fixed;*/
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 100px;
+}
+
+.filterBox{
+    /*margin-left: 8%;*/
+    width: 73%;
+    margin: 0 auto;
+    /*height: 80px;*/
+    border-bottom: 1px solid #f1f1f1;
+    /*border-bottom: 1px solid #f1f1f1;*/
+    word-spacing: 10px;
+    padding-left: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: scroll;
+    line-height: 100px;
+}
+#genreBox{
+    background: url("../images/genre.png") 35px center no-repeat;
+    line-height: 30px;
+    padding-left: 97px;
+}
+#countryBox{
+    background: url("../images/country.png") 35px center no-repeat;
+    line-height: 30px;
+}
+#yearBox{
+    background: url("../images/year.png") 35px center no-repeat;
+    line-height: 30px;
+}
+#sortBox{
+    background: url("../images/score.png") 35px center no-repeat;
+    line-height: 30px;
+}
+
+.genreLabel, .countryLabel, .yearLabel,.sortLabel{
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    border-radius: 15px;
+    /*border: solid pink;*/
+}
+/*.genreLabel:hover,.yearLabel:hover, .countryLabel:hover, .sortLabel:hover{*/
+    /*background-color: gainsboro;*/
+    /*color: black;*/
+/*}*/
+#filterPane .active{
+    background-color: gainsboro;
+    color: black;
+}
+#returnToPick{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 100px;
+    height: 40px;
+    background: #e3e3e3;
+    border-radius: 3px;
+    font-family: BlizzardGlobal;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    color: black;
+    z-index: 3;
+}
+#returnToPick:hover{
+    color: #00BFFF;
+}

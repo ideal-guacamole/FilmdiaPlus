@@ -1,0 +1,148 @@
+.title-info {
+    position: absolute;
+    /*background:rgba(0, 0, 0, .2);*/
+    width: 1170px;
+    margin: 120px auto 0;
+    height: 300px;
+    display: block;
+    left: 0;
+    right: 0;
+}
+
+.title-info .film_poster {
+    float: left;
+    width: 182px;
+    height: 268px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.title-info .film_poster img {
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, .5);
+}
+
+.fast_info {
+    position: relative;
+    float: left;
+    left: 60px;
+    margin-top: 20px;
+    width: 600px;
+    height: 270px;
+    /*background: #123456;*/
+    color: #fff;
+}
+
+h2 {
+    max-width: 400px;
+    color: #fff;
+}
+
+.film_summary {
+    position: relative;
+    top: 20px;
+    color: #fff;
+    width: 600px;
+    font-size: 15px;
+}
+
+.fast_info label {
+    font-size: 13px;
+}
+
+.fast_info .Directors {
+    position: relative;
+    display: block;
+    top: 75px;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.fast_info .Stars {
+    position: relative;
+    display: block;
+    top: 75px;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.fast_info .Tags {
+    position: relative;
+    display: block;
+    font-size: 13px;
+    top: 75px;
+}
+
+.add_fav {
+    position: absolute;
+    float: left;
+    width: 270px;
+    height: 250px;
+    top: 30px;
+    right: 20px;
+    background: rgba(255, 255, 255, .1);
+    border-radius: 5px;
+}
+
+.add_fav .fav_content {
+    width: 230px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.add_fav .fav_content .Score {
+    color: #ffd966;
+    font-size: 50px;
+    font-style: italic;
+    display: block;
+    margin-left: 50px;
+}
+
+.add_fav .fav_content .rating_label {
+    margin-top: 20px;
+}
+
+.add_fav .fav_content .add_button {
+    display: block;
+    margin: 10px auto 0;
+    left: 12%;
+}
+
+#graph ul li section:nth-of-type(2n+1) {
+    width: 800px;
+    height: 400px;
+    /*margin-left: 200px;*/
+    margin-top: 50px;
+    transition: 1s;
+}
+
+#graph ul li section:nth-of-type(2n) {
+    width: 800px;
+    height: 400px;
+    margin-left: 400px;
+    margin-top: 50px;
+    transition: 1s;
+}
+
+.graphs {
+    width: 80% !important;
+    height: 70vh !important;
+    min-height: 500px;
+    max-height: 1000px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.half_graphs {
+    width: 45% !important;
+    height: 50vh !important;
+    min-height: 300px;
+    max-height: 500px;
+    margin-top: 2% !important;
+    margin-bottom: 2% !important;
+    float: left;
+}
+
+#graphForStatistics {
+    height: auto;
+}

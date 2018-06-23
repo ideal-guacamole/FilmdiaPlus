@@ -1,0 +1,194 @@
+/*public*/
+.fr {
+    display: inline;
+    float: left
+}
+
+.cf:after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden
+}
+
+.cf {
+    zoom: 1
+}
+
+.pb10 {
+    padding-bottom: 10px
+}
+
+.mt10 {
+    margin-top: 10px
+}
+
+/*main*/
+.latestinfo {
+    width: 80%;
+    margin: 50px auto 100px;
+    background: #fff;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.latestinfo .title {
+    border-bottom: 3px solid #e7e7e7;
+    padding-bottom: 20px;
+}
+
+.latestinfo .title h2 {
+    font-size: 20px;
+    font-family: "microsoft yahei";
+}
+
+.latestinfo .title-list {
+    position: relative;
+    top: 9px;
+}
+
+.latestinfo .title-list li {
+    width: 21.5em;
+    line-height: 20px;
+    text-align: center;
+    float: left;
+    display: inline;
+}
+
+.latestinfo .title-list li.on {
+    color: #073763;
+    font-weight: bold;
+}
+
+.latestinfo .title-list p {
+    position: absolute;
+    top: 31px;
+    left: 0px;
+    width: 34%;
+    height: 7px;
+    border-top: 3px solid #073763;
+    overflow: hidden;
+    text-align: center;
+}
+
+.latestinfo .title-list b {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-top: -3px;
+    border-style: solid dashed dashed dashed;
+    border-width: 9px;
+    border-color: #073763 #fff #fff #fff;
+    overflow: hidden;
+    zoom: 1;
+    font-size: 0;
+}
+
+.product {
+    height: 268px;
+    position: relative;
+    overflow: hidden;
+    display: none;
+}
+
+.product ul {
+    position: absolute;
+    left: 0px;
+}
+
+.product-wrap .showing {
+    display: block;
+}
+
+.product-wrap .product li {
+    float: left;
+    display: inline;
+    margin-left: 0px;
+    background: #f3f3f3;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    -ms-transition: 0.4s;
+}
+
+.product-wrap .product li.ml0 {
+    margin-left: 0px;
+}
+
+.product-wrap .product li a.imgwrap {
+    display: block;
+    width: 226px;
+    height: 200px;
+    background: #fff;
+    text-align: center;
+}
+
+.product-wrap .product li p {
+    line-height: 22px;
+    max-height: 150px;
+    font-size: 14px
+}
+
+.product-wrap .product li h4 {
+    font-size: 20px;
+}
+
+.product-wrap .product li p a {
+    color: #666666;
+    text-decoration: none;
+}
+
+.product-wrap .product li p a:hover {
+    color: #073763;
+    text-decoration: none;
+}
+
+#IMDb {
+    cursor: pointer;
+    color: #3774ab;
+    font-weight: bold;
+}
+
+#Oscar {
+    cursor: pointer;
+    color: gray;
+    font-weight: bold;
+}
+
+#toptable {
+    width: 950px;
+}
+
+#toptable .chartPoster {
+    width: 50px !important;
+}
+
+#toptable .table td, .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    padding: 3px !important;
+}
+
+#toptable .table td, .table > tbody > tr > td {
+    line-height: 67px;
+}
+
+.slider-img {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.slider-img img {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.callbacks_nav {
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+}
+
+.slider-info {
+    background: rgba(0, 0, 0, 0.20) !important;
+}

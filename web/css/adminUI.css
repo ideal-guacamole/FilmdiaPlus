@@ -1,0 +1,766 @@
+
+.clear {
+	clear: both;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	background: url(../images/2.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-attachment: fixed;
+}
+body a{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
+}
+
+/*movie*/
+.tab-right h4 {
+	font-size: 12px;
+}
+.tab-right p {
+	font-size: 11px;
+}
+.tab-right .col-md-4 {
+	/*height: 240px;*/
+	position: relative;
+}
+
+.tab-right .col-md-4 .content-grid-effect {
+	position: absolute;
+}
+.deleteBtn {
+	position: absolute;
+}
+p{
+	margin:0;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+label{
+	margin:0;
+}
+a:focus, a:hover {
+	text-decoration: none;
+	outline: none;
+}
+img {
+	width: 100%;
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: 600;
+	text-align: center;
+	color: #FFF;
+	margin: 48px 0;
+}
+
+.container2 {
+	width: 70%;
+	margin: -100px auto 120px;
+	height: 100%;
+	overflow: hidden;
+
+}
+.tabs_user {
+    background-color: rgba(226, 234, 236, 0.19);
+    padding: .7em;
+    min-height: 455px;
+}
+.tab-left {
+	width: 15%;
+	float: left;
+}
+.tab-right {
+	float: left;
+	width: 85%;
+	background-color: #001540;
+}
+.tab{
+	clear:both;
+	padding: 0px;
+}
+.tab_box{
+	background:#fd926d;
+	padding: 2px;
+}
+.top1{
+	margin-top: 2%;
+}
+.resp-tabs-list {
+	text-align:center;
+}
+.resp-tab-item {
+	font-size: 14px;
+	color: #ffffff;
+	cursor: pointer;
+	display: block;
+	outline: none;
+	padding: 15px;
+	text-align:left;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.resp-tab-active {
+    position: relative;
+    background: #073763;
+    color: #ffffff;
+}
+.resp-tab-active:before {
+    content: '';
+    border-top: 15px solid rgba(255, 185, 0, 0);
+    border-bottom: 15px solid rgba(255, 185, 0, 0);
+    border-right: 15px solid #001543;
+    position: absolute;
+    top: 18%;
+    right: 0%;
+    opacity: 0.8;
+}
+.resp-tabs-container {
+	clear: left;
+}
+
+.resp-tab-content {
+	display: none;
+}
+
+h2.resp-accordion {
+	cursor: pointer;
+	display: none;
+}
+ul.w3agile {
+    float: left;
+}
+.resp-content-active, .resp-accordion-active {
+	display: block;
+}
+
+.tab-content1 img {
+	width: 100%;
+}
+.tab-content1 h3 {
+	font-size: 15px;
+	font-weight: 600;
+	color: #00BCD4;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+.tab-content1 h4 {
+	font-size: 15px;
+	color: #636363;
+	margin-left: 10px;
+}
+
+/*-- Hover-Styles --*/
+.cbp-ig-grid {
+	list-style: none;
+	margin: 0;
+	text-align: center;
+}
+.cbp-ig-grid img {
+	width: 60%;
+	margin: 0 auto;
+}
+.cbp-ig-grid:before,
+.cbp-ig-grid:after {
+	content: " ";
+	display: table;
+}
+.cbp-ig-grid:after {
+	clear: both; 
+}
+.cbp-ig-grid li {
+	width: 33.3%;
+	float: left;
+	height: 165px;
+	text-align: center;
+	border-top: 1px solid #ddd;
+}
+.cbp-ig-grid li:nth-child(-n+3){
+	border-top: none;
+}
+.cbp-ig-grid li:nth-child(3n-1),
+.cbp-ig-grid li:nth-child(3n-2) {
+	box-shadow: 1px 0 0 #ddd;
+}
+.cbp-ig-grid li > a {
+	display: block;
+	height: 100%;
+	color: #47a3da;
+	-webkit-transition: background 0.2s;
+	-moz-transition: background 0.2s;
+	transition: background 0.2s;
+}
+.cbp-ig-icon {
+	display: block;
+	-webkit-transition: -webkit-transform 0.2s;
+	transition: -moz-transform 0.2s;
+	transition: transform 0.2s;
+}
+.cbp-ig-icon:before {
+	font-family: 'anyoldicon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.cbp-ig-icon-facebook:before {
+	content: "\e000";
+}
+.cbp-ig-icon-twitter:before {
+	content: "\e001";
+}
+.cbp-ig-icon-gplus:before {
+	content: "\e002";
+}
+.cbp-ig-icon-pinterest:before {
+	content: "\e003";
+}
+.cbp-ig-icon-tumblr:before {
+	content: "\e004";
+}
+.cbp-ig-icon-linkedin:before {
+	content: "\e007";
+}
+.cbp-ig-grid .cbp-ig-title {
+	margin: 30px 0 10px 0;
+	padding: 30px 0 0 0;
+	font-size: 16px;
+	position: relative;
+	-webkit-transition: -webkit-transform 0.2s;
+	-moz-transition: -moz-transform 0.2s;
+	transition: transform 0.2s;
+}
+.cbp-ig-grid:hover {
+	font-weight: 600;
+}
+.cbp-ig-grid .cbp-ig-title:before {
+	content: '';
+	position: absolute;
+	background: #47a3da;
+	width: 115px;
+	height: 5px;
+	top: 0px;
+	left: 70%;
+	margin: 10px 0 0 -80px;
+	-webkit-transition: margin-top 0.2s;
+	-moz-transition: margin-top 0.2s;
+	transition: margin-top 0.2s;
+}
+/*-- //Hover-Styles --*/
+
+.cbp-ig-grid li > a:hover {
+	background: #47a3da;
+}
+
+.cbp-ig-grid li > a:hover .cbp-ig-icon {
+	-webkit-transform: translateY(10px);
+	-moz-transform: translateY(10px);
+	-ms-transform: translateY(10px);
+	transform: translateY(10px);
+}
+
+.cbp-ig-grid li > a:hover .cbp-ig-icon:before,
+.cbp-ig-grid li > a:hover .cbp-ig-title {
+	color: #fff;
+}
+
+.cbp-ig-grid li > a:hover .cbp-ig-title {
+	-webkit-transform: translateY(-30px);
+	-moz-transform: translateY(-30px);
+	-ms-transform: translateY(-30px);
+	transform: translateY(-30px);
+}
+
+.cbp-ig-grid li > a:hover .cbp-ig-title:before {
+	background: #fff;
+	margin-top: 80px;
+}
+
+.tab-content4 h3 {
+	text-align: center;
+	margin: 20px 0;
+	font-size: 15px;
+	font-weight: 600;
+	color: #F44336;
+}
+.tab-content4 p {
+	padding: 0 30px;
+	line-height: 25px;
+	font-size: 14px;
+	color: #636363;
+}
+.tab-content4 span {
+	font-size: 20px;
+	float: right;
+	margin: 25px 20px 0 0;
+	color: #00BCD4;
+}
+
+
+
+
+/*-- Index-Page-Styling --*/
+input.name {
+    width: 92%;
+    padding: 12px 10px 12px 12px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+input.password {
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+	height: 40px;
+}
+input.email {
+    width: 92%;
+    padding: 12px 10px 12px 12px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+input.location {
+   width: 92%;
+    padding: 12px 10px 12px 12px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+ul.w3agile li input[type="checkbox"] {
+	display: none;
+}
+ul.w3agile li input[type="checkbox"]+label {
+	position: relative;
+	padding-left: 25px;
+	border: #F0F8FF;
+	color: #FFFFFF;
+	display: inline-block;
+	font-size: 14px;
+	letter-spacing:1px;
+}
+ul.w3agile li input[type="checkbox"]+label span:first-child {
+	width: 13px;
+	height: 13px;
+	display: inline-block;
+	border: 1px solid #FFFFFF;
+	position: absolute;
+	top: 1px;
+	left: 4px;
+	bottom: 4px;
+}
+ul.w3agile li input[type="checkbox"]:checked+label span:first-child:before {
+	content: "";
+	background: url(../images/tick.png)no-repeat;
+	position: absolute;
+	left: 2px;
+	top: 2px;
+	font-size: 10px;
+	width: 10px;
+	height: 10px;
+}
+label {
+    color: #e8e8e8;
+}
+.w3l-sign-in input[type="submit"] {
+    float: right;
+    background-color: #073763;
+    color: #fff;
+    padding: 7px 15px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+.w3l-sign-in input[type="submit"]:hover {
+    background-color: #b18e32;
+}
+.w3l-sign-in, .register.agileits, .agileinfo-recover, .wthree-subscribe, .agile-send-mail {
+    background: #001540;
+    padding: 1.5em 14em;
+    border: 1px solid #001642;
+}
+.agileinfo-recover input[type="submit"], .wthree-subscribe input[type="submit"] {
+    background-color:#073763;
+    color: #fff;
+    padding: 11px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    width: 44%;
+    cursor: pointer;
+}
+.agileinfo-recover input[type="submit"]:hover, .wthree-subscribe input[type="submit"]:hover {
+    background-color:#b18e32;
+}
+input.done, input.no-thanks {
+    margin-left: 10%;
+    background-color: #b18e32 !important;
+}
+input.done:hover, input.no-thanks:hover {
+    background-color: #073763 !important;
+}
+.agileinfo-recover input.number {
+    width: 92%;
+    padding: 12px 10px 12px 12px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.agile-send-mail  textarea {
+    width: 92%;
+    resize: none;
+    padding: 10px;
+    height: 110px;
+    font-size: 15px;
+    border: none;
+	outline: none;
+	border-radius: 3px;
+    letter-spacing: 1px;
+}
+input[type="submit"] {
+    transition: 0.5s all;
+    webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+ h3 {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/*--- Responsive Code ---*/
+@media screen and (max-width: 1920px) {
+.container2 {
+    width: 80%;
+}
+}
+
+@media screen and (max-width: 1440px) {
+.container2 {
+    width: 80%;
+}
+}
+@media screen and (max-width: 1366px) {
+.container2 {
+    width: 80%;
+}
+}
+@media screen and (max-width: 1280px) {
+.container2 {
+    width: 80%;
+}
+}
+@media screen and (max-width: 1080px) {
+.container2 {
+    width: 80%;
+}
+}
+@media screen and (max-width: 1024px) {
+.container2 {
+    width: 80%;
+}
+}
+@media screen and (max-width: 991px) {
+.container2 {
+    width: 80%;
+}
+}
+@media screen and (max-width: 800px) {
+.container2 {
+    width: 80%;
+}
+}
+@media screen and (max-width: 768px) {
+.container2 {
+    width: 74%;
+}
+}
+@media screen and (max-width: 736px) {
+.container2 {
+    width: 76%;
+}
+}
+@media screen and (max-width: 667px) {
+.container2 {
+    width:85%;
+}
+}
+@media screen and (max-width: 640px) {
+.container2 {
+    width: 87%;
+}
+h1 {
+    font-size: 34px;
+}
+h3 {
+    font-size: 26px;
+}
+
+}
+@media screen and (max-width: 600px) {
+.container2 {
+    width: 93%;
+}
+}
+@media screen and (max-width: 568px) {
+.container2 {
+    width: 94%;
+}
+input.name,input.password,input.email,input.location,.agileinfo-recover input.number,.agile-send-mail  textarea {
+    width: 91%;
+}
+}
+@media screen and (max-width: 480px) {
+.container2 {
+    width: 94%;
+}
+h1 {
+    font-size: 28px;
+	margin: 30px 0;
+}
+input.name, input.password, input.email, input.location, .agileinfo-recover input.number, .agile-send-mail textarea {
+    width: 89%;
+}
+.resp-tab-item {
+    font-size: 14px;
+}
+.w3l-sign-in input[type="submit"] {
+    margin-top: 20px;
+}
+.agileinfo-recover input[type="submit"], .wthree-subscribe input[type="submit"] {
+    width: 47%;
+}
+input.done, input.no-thanks {
+    margin-left: 2%;
+    background-color: #b18e32 !important;
+}
+h3 {
+    font-size: 22px;
+}
+.resp-tab-item {
+    padding: 12px;
+}
+.resp-tab-active:before {
+    top: 16%;
+}
+}
+@media screen and (max-width: 414px) {
+.container2 {
+    width: 94%;
+}
+.tabs_user {
+    padding: 1em;
+}
+.w3l-sign-in, .register.agileits, .agileinfo-recover, .wthree-subscribe, .agile-send-mail {
+    padding: 1em;
+}
+.resp-tab-item {
+    font-size: 13px;
+}
+input.name, input.password, input.email, input.location, .agileinfo-recover input.number, .agile-send-mail textarea {
+    width: 91%;
+	padding: 10px 10px 10px 10px;
+	font-size: 13px;
+}
+ul.w3agile li input[type="checkbox"]+label {
+    font-size: 13px;
+}
+.w3l-sign-in input[type="submit"] {
+    font-size: 13px;
+}
+h3 {
+    font-size: 20px;
+}
+
+.tabs_user {
+    min-height: 394px;
+}
+
+.agileinfo-recover input[type="submit"], .wthree-subscribe input[type="submit"] {
+    font-size: 13px;
+}
+}
+@media screen and (max-width: 384px) {
+.container2 {
+    width: 94%;
+}
+.tab-left {
+    width: 100%;
+    float: left;
+}
+.tab-right {
+    float: left;
+    width: 100%;
+    background-color: #001540;;
+    margin-top: 20px;
+}
+
+.w3l-sign-in input[type="submit"] {
+    margin-top: 0;
+}
+.agile-send-mail textarea {
+    margin-bottom: 20px;
+}
+}
+@media screen and (max-width: 320px) {
+.container2 {
+    width: 90%;
+}
+h1 {
+    font-size: 24px;
+    margin: 25px 0;
+}
+
+
+}
+/*--- //Responsive Code ---*/
+
+/*Other components*/
+.deleteBtn {
+	color: rgba(255,255,255,.4);
+	text-align: center;
+	cursor: pointer;
+	top: 88%;
+	left: 30%;
+}
+
+/*.review_box {*/
+	/*width: 800px;*/
+	/*margin: 20px;*/
+	/*color: rgba(255,255,255,.8);*/
+	/*border: 1px solid rgba(255,255,255,.3);*/
+	/*padding: 7px;*/
+/*}*/
+/*.review_box .review_moviename {*/
+	/*color: rgba(255,255,255,1);*/
+	/*font-size: 16px;*/
+	/*font-weight: bold;*/
+	/*cursor: pointer;*/
+	/*margin: 5px 0;*/
+	/*display: inline-block;*/
+/*}*/
+/*.review_box .review_time {*/
+	/*display: inline;*/
+	/*margin-left: 50px;*/
+	/*font-size: 12px;*/
+	/*margin-right: 50px;*/
+/*}*/
+/*.review_box .review_deleteBtn {*/
+	/*display: inline;*/
+	/*color: rgba(125,168,255,.5);*/
+	/*float: right;*/
+	/*margin: 5px 10px 0 0;*/
+	/*font-size: 12px;*/
+	/*cursor: pointer;*/
+/*}*/
+/*.review_box .review_summary {*/
+	/*!*color: rgba(255,255,255,.8);	*!*/
+/*}*/
+
+/*.review_box .review_text {*/
+	/*margin: 5px 0;*/
+	/*font-size: 13px;*/
+	/*max-height: 148px;*/
+	/*overflow: hidden;*/
+/*}*/
+
+/*Review*/
+.reviews {
+	position: relative;
+	margin: auto;
+	width: 950px;
+	color: rgba(255,255,255,.8);
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.review_part {
+	position: relative;
+	width: 950px;
+	border-width: 2px 0 2px 0;
+	border-style: solid;
+	border-color: rgba(255,255,255,.3);
+}
+
+.review_part .review_title {
+	position: relative;
+	left: 20px;
+	width: 950px;
+	height: 30px;
+	line-height: 30px;
+	padding-top: 15px;
+}
+.review_part .review_movieName{
+	top: 10px;
+	left: 10px;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(255,255,255,.8);
+}
+.review_part .review_summary {
+	margin: 25px 0px 0px 20px;
+	font-weight: bold;
+	display: block;
+	font-size:14px;
+}
+
+.review_part .review_text {
+	font-size: 13px;
+	margin: 10px 20px 0px 20px;
+}
+
+.review_part .review_footer {
+	margin: 20px 0px 20px 10px;
+
+}
+
+.myLabel {
+	float: left;
+	width: 18%;
+	margin-right: 2%;
+	top: 50%;
+	height:38px;
+	line-height:38px;
+}

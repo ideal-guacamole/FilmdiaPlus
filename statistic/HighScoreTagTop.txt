@@ -1,0 +1,10 @@
+Drama/1125
+Comedy/451
+Romance/338
+Thriller/266
+Crime/213
+Action/167
+Adventure/154
+War/143
+Mystery/117
+History/111
