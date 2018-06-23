@@ -59,12 +59,12 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <h1><a class="navbar-brand" href="index.html"><img src="../../images/logo2.png"></a></h1>
+                        <h1><a class="navbar-brand" href="index_pro.jsp"><img src="../../images/logo2.png"></a></h1>
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav ">
-                            <li><a href="../../index.jsp">Home</a></li>
+                            <li><a href="index_pro.jsp">Home</a></li>
                             <li><a href="library.jsp">Library</a></li>
                             <li><a href="statistic.jsp">Statistic</a></li>
                             <li><a class=" active" href="predict.jsp">Predict</a></li>
@@ -77,7 +77,7 @@
                             <div id="userUnderBox">
                                 <div style="text-indent:0;text-align: center">Hello, <span>xxx</span>!</div>
                                 <ul>
-                                    <li><img src="../../images/userCenter.png"/><a href="userCenter.jsp">User
+                                    <li><img src="../../images/userCenter.png"/><a href="../film/userCenter.jsp">User
                                         Center</a></li>
                                     <li><img src="../../images/exit.png"/><a href="" onclick="signOut()">Sign Out</a></li>
                                 </ul>
@@ -402,7 +402,7 @@
 <link href="../../css/owl.carousel.css" rel="stylesheet" type="text/css" media="all">
 <script src="../../js/lib/owl.carousel.js"></script>
 <script src="../../js/predict.js"></script>
-<script src="../../js/search.js"></script>
+<script src="../../js/search_pro.js"></script>
 
 </body>
 <!-- //Body -->

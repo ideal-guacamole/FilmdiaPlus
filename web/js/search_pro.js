@@ -20,7 +20,7 @@ document.body.onclick = function () {
 
 function search() {
     if (searchField.value !== '') {
-        var url = '/views/film/searchPage.jsp';
+        var url = '/views/film_pro/searchPage.jsp';
         var ref = 'searchMsg';
         var value = searchField.value;
         url = setQueryString(url, ref, value);

@@ -90,10 +90,9 @@
                             <li><a class="active" href="index.jsp">Home</a></li>
                             <li><a href="views/film/library.jsp">Library</a></li>
                             <li><a href="#">Top Films</a></li>
-                            <li><a href="#">Predict</a></li>
                         </ul>
-
                         <jsp:include page="views/common/searchbar.jsp"></jsp:include>
+                        <span style="position: absolute; top: 35%; right: -10%"><a href="views/film_pro/index_pro.jsp">FilmdiaPro</a></span>
 
                         <ul class="user-manage">
                             <img id="userCenter" src="images/Center.png">

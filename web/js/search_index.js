@@ -11,7 +11,7 @@ searchField.onkeyup = function () {
 };
 function search() {
     if (searchField.value !== '') {
-        var url = 'views/searchPage.jsp';
+        var url = 'views/film/searchPage.jsp';
         var ref = 'searchMsg';
         var value = searchField.value;
         url = setQueryString(url, ref, value);

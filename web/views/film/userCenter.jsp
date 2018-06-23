@@ -95,7 +95,7 @@
                             <li><a href="../../index.jsp">Home</a></li>
                             <li><a href="library.jsp">Library</a></li>
                             <li><a href="details.jsp">Statistic</a></li>
-                            <li><a href="predict.jsp">Predict</a></li>
+                            <li><a href="../film_pro/predict.jsp">Predict</a></li>
                         </ul>
                         <jsp:include page="../common/searchbar.jsp"></jsp:include>
                         <ul class="user-manage">

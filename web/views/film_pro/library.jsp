@@ -64,15 +64,15 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <h1><a class="navbar-brand" href="../../index.jsp"><img src="../../images/logo2.png"></a></h1>
+                        <h1><a class="navbar-brand" href="index_pro.jsp"><img src="../../images/logo2.png"></a></h1>
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav ">
-                            <li><a href="../../index.jsp">Home</a></li>
+                            <li><a href="index_pro.jsp">Home</a></li>
                             <li><a class=" active" href="library.jsp">Library</a></li>
-                            <li><a href="#">Charts</a></li>
-                            <li><a href="#">Predict</a></li>
+                            <li><a href="statistic.jsp">Statistics</a></li>
+                            <li><a href="predict.jsp">Predict</a></li>
                         </ul>
 
                         <jsp:include page="../common/searchbar.jsp"></jsp:include>
@@ -607,7 +607,7 @@
     }
 
 </script>
-<script src="../../js/search.js"></script>
+<script src="../../js/search_pro.js"></script>
 
 
 </body>
