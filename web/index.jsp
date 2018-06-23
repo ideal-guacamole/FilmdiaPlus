@@ -222,7 +222,7 @@
 <div class="agileinfo">
     <div class="cinema_container">
         <h3 style="font-weight: bold; margin-top: 30px">Cinema Info</h3>
-        <p class="ttt">Movies playing and coming soon.</p>
+        <%--<p class="ttt">Movies playing and coming soon.</p>--%>
         <div class="latestinfo">
             <div class="title cf">
                 <ul class="title-list fr cf ">

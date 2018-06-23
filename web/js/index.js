@@ -98,6 +98,7 @@ $(function () {
 });
 
 $(window).load(function () {
+    //监听鼠标滚轮
     $.ajax({
         type: 'post',
         url: '/film/getFilmByType.action',
