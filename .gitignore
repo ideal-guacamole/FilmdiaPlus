@@ -3,3 +3,4 @@ target
 classes
 *.iml
 out/artifacts/Filmdia_war_exploded
+/web/WEB-INF/db.properties
