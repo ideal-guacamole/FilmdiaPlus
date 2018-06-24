@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="../../css/bootstrap.min.css" type="text/css" media="all">
     <link rel="stylesheet" href="../../css/style.css" type="text/css" media="all">
     <link rel="stylesheet" href="../../css/user.css"/>
-    <link rel="stylesheet" href="../../css/predict.css"/>
+    <link rel="stylesheet" href="../../css/film_pro/predict.css"/>
     <link rel="stylesheet" href="../../css/button.css" type="text/css" media="all">
     <script src="../../js/ajax.js"></script>
     <script src="../../js/lib/echarts.js"></script>
@@ -275,96 +275,7 @@
 
                 <div class="star_title"><h4>Stars & Representatives Box Office:</h4></div>
                 <div class="star_info" id="star_info">
-                    <%--<div class="director_info">--%>
-                    <%--<div class="directorBox">--%>
-                    <%--<img src="../images/posters/B005LAIHPE.jpg" alt="">--%>
-                    <%--<h6>Morgan Freeman</h6>--%>
-                    <%--</div>--%>
-                    <%--<div class="infobox">--%>
-                    <%--<div class="filmbox">--%>
-                    <%--<img src="../images/posters/B005LAIHPE.jpg" alt="">--%>
-                    <%--<h6>$20122016</h6>--%>
-                    <%--</div>--%>
-                    <%--</div>--%>
-                    <%--<div class="infobox">--%>
-                    <%--<div class="filmbox">--%>
-                    <%--<img src="../images/posters/B005LAIHPE.jpg" alt="">--%>
-                    <%--<h6>$20122016</h6>--%>
-                    <%--</div>--%>
-                    <%--</div>--%>
-                    <%--<div class="infobox">--%>
-                    <%--<div class="filmbox">--%>
-                    <%--<img src="../images/posters/B005LAIHPE.jpg" alt="">--%>
-                    <%--<h6>$20122016</h6>--%>
-                    <%--</div>--%>
-                    <%--</div>--%>
-                    <%--<div class="infobox">--%>
-                    <%--<div class="filmbox">--%>
-                    <%--<img src="../images/posters/B005LAIHPE.jpg" alt="">--%>
-                    <%--<h6>$20122016</h6>--%>
-                    <%--</div>--%>
-                    <%--</div>--%>
-                    <%--</div>--%>
-                    <%--<div class="director_info">--%>
-                    <%--<div class="directorBox">--%>
-                    <%--<img src="../images/posters/B005LAIHPE.jpg" alt="">--%>
-                    <%--<h6>Morgan Freeman</h6>--%>
-                    <%--</div>--%>
-                    <%--<div class="infobox">--%>
-                    <%--<div class="filmbox">--%>
-                    <%--<img src="../images/posters/B005LAIHPE.jpg" alt="">--%>
-                    <%--<h6>$20122016</h6>--%>
-                    <%--</div>--%>
-                    <%--</div>--%>
-                    <%--<div class="infobox">--%>
-                    <%--<div class="filmbox">--%>
-                    <%--<img src="../images/posters/B005LAIHPE.jpg" alt="">--%>
-                    <%--<h6>$20122016</h6>--%>
-                    <%--</div>--%>
-                    <%--</div>--%>
-                    <%--<div class="infobox">--%>
-                    <%--<div class="filmbox">--%>
-                    <%--<img src="../images/posters/B005LAIHPE.jpg" alt="">--%>
-                    <%--<h6>$20122016</h6>--%>
-                    <%--</div>--%>
-                    <%--</div>--%>
-                    <%--<div class="infobox">--%>
-                    <%--<div class="filmbox">--%>
-                    <%--<img src="../images/posters/B005LAIHPE.jpg" alt="">--%>
-                    <%--<h6>$20122016</h6>--%>
-                    <%--</div>--%>
-                    <%--</div>--%>
-                    <%--</div>--%>
-                    <%--<div class="director_info">--%>
-                    <%--<div class="directorBox">--%>
-                    <%--<img src="../images/posters/B005LAIHPE.jpg" alt="">--%>
-                    <%--<h6>Morgan Freeman</h6>--%>
-                    <%--</div>--%>
-                    <%--<div class="infobox">--%>
-                    <%--<div class="filmbox">--%>
-                    <%--<img src="../images/posters/B005LAIHPE.jpg" alt="">--%>
-                    <%--<h6>$20122016</h6>--%>
-                    <%--</div>--%>
-                    <%--</div>--%>
-                    <%--<div class="infobox">--%>
-                    <%--<div class="filmbox">--%>
-                    <%--<img src="../images/posters/B005LAIHPE.jpg" alt="">--%>
-                    <%--<h6>$20122016</h6>--%>
-                    <%--</div>--%>
-                    <%--</div>--%>
-                    <%--<div class="infobox">--%>
-                    <%--<div class="filmbox">--%>
-                    <%--<img src="../images/posters/B005LAIHPE.jpg" alt="">--%>
-                    <%--<h6>$20122016</h6>--%>
-                    <%--</div>--%>
-                    <%--</div>--%>
-                    <%--<div class="infobox">--%>
-                    <%--<div class="filmbox">--%>
-                    <%--<img src="../images/posters/B005LAIHPE.jpg" alt="">--%>
-                    <%--<h6>$20122016</h6>--%>
-                    <%--</div>--%>
-                    <%--</div>--%>
-                    <%--</div>--%>
+
                 </div>
 
 
