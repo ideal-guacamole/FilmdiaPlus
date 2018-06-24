@@ -146,3 +146,9 @@ h2 {
 #graphForStatistics {
     height: auto;
 }
+.sign-in-words:hover{
+    color: #428bca !important;
+}
+.layui-flow-more{
+    font-size: 20px !important;
+}

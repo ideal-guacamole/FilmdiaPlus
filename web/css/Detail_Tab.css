@@ -30,11 +30,13 @@ img {
 
 /*main*/
 .tab_group {
-    width: 1140px;
+    width: 80vw;
+    min-width: 600px;
     height: 100%;
-    margin: 180px auto;
+    margin-left:auto;
+    margin-right:auto;
     background: #fff;
-    box-shadow: 0 0 14px 0 rgba(0, 0, 0, .6);
+    /*box-shadow: 0 0 14px 0 rgba(0, 0, 0, .6);*/
 }
 
 .tab_group .title {
@@ -79,7 +81,7 @@ img {
 
 .product {
     position: relative;
-    display: none;
+    /*display: none;*/
     margin-top: 0px;
 }
 
@@ -149,13 +151,14 @@ img {
 }
 
 .info_line1 {
-    position: absolute;
+    /*position: absolute;*/
     background: #eee;
-    width: 1040px;
+    width: 100%;
+    min-width: 600px;
     height: 40px;
     line-height: 40px;
     font-size: 13px;
-    margin: 30px auto;
+    margin-top: 30px;
     left: 0;
     right: 0;
     border-radius: 2px;
@@ -163,48 +166,55 @@ img {
 }
 
 .info_line1 .country_label {
+    letter-spacing: 2px;
     position: relative;
     left: 10px;
 }
 
 .info_line1 .Country {
     position: relative;
+    color: #428bca;
     left: 20px;
 }
 
 .info_line1 .language_label {
     position: relative;
+    letter-spacing: 2px;
     left: 135px;
 }
 
 .info_line1 .Language {
     position: relative;
+    color: #428bca;
     left: 145px;
 }
 
 .info_line1 .runtime_label {
     position: relative;
     left: 260px;
+    letter-spacing: 2px;
 }
 
 .info_line1 .Runtime {
     position: relative;
+    color: #428bca;
     left: 270px;
 }
 
 .left {
     position: relative;
     float: left;
-    left: 4.3%;
-    width: 650px;
+    /*left: 4.3%;*/
+    /*width: 650px;*/
+    width: 65% !important;
 }
 
 .Cast {
     position: relative;
-    float: left;
+    /*float: left;*/
     /*top: 100px;*/
-    margin-top: 9%;
-    width: 700px;
+    margin-top: 30px;
+    /*width: 700px;*/
 }
 
 #castTable {
@@ -265,9 +275,10 @@ h3 {
     /* float: left; */
     /* top: 11.5%; */
     display: inline-block;
-    width: 310px;
-    margin-top: 103px;
-    margin-left: 78px;
+    width: 30%;
+    min-width: 100px;
+    margin-top: 30px;
+    margin-left: 5%;
 }
 
 .Details {
@@ -392,14 +403,14 @@ h3 {
 /*Review*/
 .reviews {
     position: relative;
-    margin: 10px auto;
-    width: 950px;
+    /*margin: 10px auto;*/
+    /*width: 950px;*/
 }
 
 .review_part {
     position: relative;
-    width: 950px;
-    border-width: 2px 0 0 0;
+    /*width: 950px;*/
+    border-width: 2px 2px 1px 2px;
     border-style: solid;
     border-color: #eee;
 }
@@ -417,19 +428,21 @@ h3 {
     top: 10px;
     left: 10px;
     font-weight: bold;
-    font-size: 13px;
-    color: #124587;
+    font-size: 15px;
+    color: #3467a9;
 }
-
+.review_part .review_time{
+    font-size: 15px;
+}
 .review_part .review_summary {
     margin: 25px 0px 0px 20px;
     font-weight: bold;
     display: block;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .review_part .review_text {
-    font-size: 13px;
+    font-size: 16px;
     margin: 10px 20px 0px 20px;
 }
 
@@ -440,11 +453,12 @@ h3 {
 
 #sort_option {
     display: block;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: bold;
     position: relative;
-    margin-left: 100px;
+    /*margin-left: 100px;*/
     margin-top: -20px;
+    margin-bottom: 5px;
     color: #37a;
 }
 
@@ -467,8 +481,9 @@ h3 {
 
 /* Basic Grey */
 .basic-grey {
-    margin: 50px 90px;
-    width: 950px;
+    /*margin: 50px 90px;*/
+    margin-bottom: 50px;
+    /*width: 950px;*/
     background: #F7F7F7;
     padding: 25px 15px 25px 10px;
     font: 12px Georgia, "Times New Roman", Times, serif;

@@ -215,10 +215,10 @@
                                                         filmName = data1;
                                                         var stars = '';
                                                         for (var j = 0; j < data[num].score; j++) {
-                                                            stars += '<img style="width: 18px" src="../../images/star-small.png" />';
+                                                            stars += '<img style="width: 18px" src="../../../images/star-small.png" />';
                                                         }
                                                         for (var j = 0; j < (10 - data[num].score); j++) {
-                                                            stars += '<img style="width: 18px" src="../../images/star-small-dark.png" />';
+                                                            stars += '<img style="width: 18px" src="../../../images/star-small-dark.png" />';
                                                         }
 
                                                         var helpfulnessArray = data[num].helpfulness.split("/");
