@@ -3,6 +3,7 @@
  */
 var poster = document.getElementById('poster');
 var title = document.getElementById('title');
+var backgroundurl = '../../images/bgDetail.jpg';
 var summary = document.getElementById('summary');
 var directors = document.getElementById('directors');
 var actors = document.getElementById('actors');
@@ -283,23 +284,23 @@ release_btn.addEventListener('click', function (e) {
     helpfulness_btn.className = "";
 });
 order_btn.addEventListener('click', function (e) {
-   if (reviewSort==='Latest' || reviewSort==='Oldest') {
-       if (reviewSort==='Latest') {
-           reviewSort = 'Oldest';
-           sortReviews();
-       } else {
-           reviewSort = 'Latest';
-           sortReviews();
-       }
-   } else {
-       if (reviewSort==='MostHelpful') {
-           reviewSort = 'LeastHelpful';
-           sortReviews();
-       } else {
-           reviewSort = 'MostHelpful';
-           sortReviews();
-       }
-   }
+    if (reviewSort === 'Latest' || reviewSort === 'Oldest') {
+        if (reviewSort === 'Latest') {
+            reviewSort = 'Oldest';
+            sortReviews();
+        } else {
+            reviewSort = 'Latest';
+            sortReviews();
+        }
+    } else {
+        if (reviewSort === 'MostHelpful') {
+            reviewSort = 'LeastHelpful';
+            sortReviews();
+        } else {
+            reviewSort = 'MostHelpful';
+            sortReviews();
+        }
+    }
 });
 
 function sortReviews() {
@@ -319,76 +320,77 @@ function sortReviews() {
         }
     });
 }
+
 function putReviews() {
     var star = '<img style="width: 17px" src="../../images/star-small.png" />';
     var star_dark = '<img style="width: 17px" src="../../images/star-small-dark.png" />';
     console.log(reviewNum);
     var i = num;
-    if(i === reviewNum) {
+    if (i === reviewNum) {
         review = '';
         return;
     }
-        var filmStar = '';
-        var j = 0;
-        for (; j < reviewData[i].score; j++) {
-            filmStar += star;
-        }
-        while (j < 10) {
-            filmStar += star_dark;
-            j++;
-        }
-        var helpfulnessArray = reviewData[i].helpfulness.split("/");
-        var like = helpfulnessArray[0].replace(/,/g, "");
-        var dislike = helpfulnessArray[1].replace(/,/g, "") - like;
-        var fullContentText = reviewData[i].text;
-        var smallContentText;
-        if (fullContentText.length > 700) {
-            smallContentText = reviewData[i].text.substr(0, 700) + '... ';
+    var filmStar = '';
+    var j = 0;
+    for (; j < reviewData[i].score; j++) {
+        filmStar += star;
+    }
+    while (j < 10) {
+        filmStar += star_dark;
+        j++;
+    }
+    var helpfulnessArray = reviewData[i].helpfulness.split("/");
+    var like = helpfulnessArray[0].replace(/,/g, "");
+    var dislike = helpfulnessArray[1].replace(/,/g, "") - like;
+    var fullContentText = reviewData[i].text;
+    var smallContentText;
+    if (fullContentText.length > 700) {
+        smallContentText = reviewData[i].text.substr(0, 700) + '... ';
 
-            review = '' +
-                '<div class="review_part">\n' +
-                '  <div class="review_title">\n' +
-                '    <span class="review_userName">' + reviewData[i].userName + '</span>\n' +
-                '    <span class="review_time">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' + reviewData[i].time + '</span>   \n' +
-                '    <div style="display:inline-block;position:absolute;top:13px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' + filmStar + '</div>\n' +
-                '  </div>\n' +
-                '  <span class="review_summary">' + reviewData[i].summary + '</span>\n' +
-                '  <div class="review_text" id="smallContent' + i + '" style="display:block">' + smallContentText + '(\n' +
-                '    <a href="javascript:" style="font-weight: bold" onclick="expend(' + i + ')" >unfold</a> )\n' +
-                '  </div>\n' +
-                '  <div class="review_text" id="fullContent' + i + '" style="display:none">' + fullContentText + '(\n' +
-                '    <a href="javascript:" style="font-weight: bold" onclick="expend(' + i + ')" >fold</a> )\n' +
-                '  </div>\n' +
-                '  <div class="review_footer">&nbsp;&nbsp;&nbsp;&nbsp;\n' +
-                '    <span class="glyphicon glyphicon-thumbs-up" style="color: green; margin-right: 5px"></span>   \n' +
-                '    <span style="font-size: 11px; color:#737373">' + like + '</span>&nbsp;&nbsp;&nbsp;&nbsp;\n' +
-                '    <span class="glyphicon glyphicon-thumbs-down" style="margin-left: 10px; margin-right: 5px"></span>\n' +
-                '    <span style="font-size: 11px; color:#737373">' + dislike + '</span>\n' +
-                '  </div>  \n' +
-                '</div>';
-        } else {
-            smallContentText = fullContentText;
+        review = '' +
+            '<div class="review_part">\n' +
+            '  <div class="review_title">\n' +
+            '    <span class="review_userName">' + reviewData[i].userName + '</span>\n' +
+            '    <span class="review_time">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' + reviewData[i].time + '</span>   \n' +
+            '    <div style="display:inline-block;position:absolute;top:13px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' + filmStar + '</div>\n' +
+            '  </div>\n' +
+            '  <span class="review_summary">' + reviewData[i].summary + '</span>\n' +
+            '  <div class="review_text" id="smallContent' + i + '" style="display:block">' + smallContentText + '(\n' +
+            '    <a href="javascript:" style="font-weight: bold" onclick="expend(' + i + ')" >unfold</a> )\n' +
+            '  </div>\n' +
+            '  <div class="review_text" id="fullContent' + i + '" style="display:none">' + fullContentText + '(\n' +
+            '    <a href="javascript:" style="font-weight: bold" onclick="expend(' + i + ')" >fold</a> )\n' +
+            '  </div>\n' +
+            '  <div class="review_footer">&nbsp;&nbsp;&nbsp;&nbsp;\n' +
+            '    <span class="glyphicon glyphicon-thumbs-up" style="color: green; margin-right: 5px"></span>   \n' +
+            '    <span style="font-size: 11px; color:#737373">' + like + '</span>&nbsp;&nbsp;&nbsp;&nbsp;\n' +
+            '    <span class="glyphicon glyphicon-thumbs-down" style="margin-left: 10px; margin-right: 5px"></span>\n' +
+            '    <span style="font-size: 11px; color:#737373">' + dislike + '</span>\n' +
+            '  </div>  \n' +
+            '</div>';
+    } else {
+        smallContentText = fullContentText;
 
-            review = '' +
-                '<div class="review_part">\n' +
-                '  <div class="review_title">\n' +
-                '    <span class="review_userName">' + reviewData[i].userName + '</span>\n' +
-                '    <span class="review_time">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' + reviewData[i].time + '</span>   \n' +
-                '    <div style="display:inline-block;position:absolute;top:13px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' + filmStar + '</div>\n' +
-                '  </div>\n' +
-                '  <span class="review_summary">' + reviewData[i].summary + '</span>\n' +
-                '  <div class="review_text" id="smallContent' + i + '" style="display:block">' + smallContentText + '\n' +
-                '  </div>\n' +
-                '  <div class="review_text" id="fullContent' + i + '" style="display:none">' + fullContentText + '\n' +
-                '  </div>\n' +
-                '  <div class="review_footer">&nbsp;&nbsp;&nbsp;&nbsp;\n' +
-                '    <span class="glyphicon glyphicon-thumbs-up" style="color: green; margin-right: 5px"></span>   \n' +
-                '    <span style="font-size: 11px; color:#737373">' + like + '</span>&nbsp;&nbsp;&nbsp;&nbsp;\n' +
-                '    <span class="glyphicon glyphicon-thumbs-down" style="margin-left: 10px; margin-right: 5px"></span>\n' +
-                '    <span style="font-size: 11px; color: #737373">' + dislike + '</span>\n' +
-                '  </div>  \n' +
-                '</div>';
-        }
+        review = '' +
+            '<div class="review_part">\n' +
+            '  <div class="review_title">\n' +
+            '    <span class="review_userName">' + reviewData[i].userName + '</span>\n' +
+            '    <span class="review_time">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' + reviewData[i].time + '</span>   \n' +
+            '    <div style="display:inline-block;position:absolute;top:13px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' + filmStar + '</div>\n' +
+            '  </div>\n' +
+            '  <span class="review_summary">' + reviewData[i].summary + '</span>\n' +
+            '  <div class="review_text" id="smallContent' + i + '" style="display:block">' + smallContentText + '\n' +
+            '  </div>\n' +
+            '  <div class="review_text" id="fullContent' + i + '" style="display:none">' + fullContentText + '\n' +
+            '  </div>\n' +
+            '  <div class="review_footer">&nbsp;&nbsp;&nbsp;&nbsp;\n' +
+            '    <span class="glyphicon glyphicon-thumbs-up" style="color: green; margin-right: 5px"></span>   \n' +
+            '    <span style="font-size: 11px; color:#737373">' + like + '</span>&nbsp;&nbsp;&nbsp;&nbsp;\n' +
+            '    <span class="glyphicon glyphicon-thumbs-down" style="margin-left: 10px; margin-right: 5px"></span>\n' +
+            '    <span style="font-size: 11px; color: #737373">' + dislike + '</span>\n' +
+            '  </div>  \n' +
+            '</div>';
+    }
 
     num += 1;
 
@@ -462,9 +464,9 @@ if (userid === 0) {
         // '<button type="button" class="add_button btn btn-primary btn-round" id="SignIn" style="margin: auto 9px;">Sign in</button>' +
         // 'and comment'+
         // '</span>';
-    '<button type="button" id="SignIn" style="margin-left: 25%;width: 50%;border: 0px;background-color: transparent;">' +
+        '<button type="button" id="SignIn" style="margin-left: 25%;width: 50%;border: 0px;background-color: transparent;">' +
         '<span class="svgIcon svgIcon--response svgIcon--29px"><svg class="svgIcon-use" width="29" height="29" viewBox="0 0 29 29"><path d="M21.27 20.058c1.89-1.826 2.754-4.17 2.754-6.674C24.024 8.21 19.67 4 14.1 4 8.53 4 4 8.21 4 13.384c0 5.175 4.53 9.385 10.1 9.385 1.007 0 2-.14 2.95-.41.285.25.592.49.918.7 1.306.87 2.716 1.31 4.19 1.31.276-.01.494-.14.6-.36a.625.625 0 0 0-.052-.65c-.61-.84-1.042-1.71-1.282-2.58a5.417 5.417 0 0 1-.154-.75zm-3.85 1.324l-.083-.28-.388.12a9.72 9.72 0 0 1-2.85.424c-4.96 0-8.99-3.706-8.99-8.262 0-4.556 4.03-8.263 8.99-8.263 4.95 0 8.77 3.71 8.77 8.27 0 2.25-.75 4.35-2.5 5.92l-.24.21v.32c0 .07 0 .19.02.37.03.29.1.6.19.92.19.7.49 1.4.89 2.08-.93-.14-1.83-.49-2.67-1.06-.34-.22-.88-.48-1.16-.74z"></path></svg></span>' +
-    '<span class="sign-in-words" style="font-size: 15px;">Sign in to write your comments...</span>' +
+        '<span class="sign-in-words" style="font-size: 15px;">Sign in to write your comments...</span>' +
         '</button>';
 } else {
     //展示添加评论界面
@@ -576,35 +578,35 @@ if (userid === 0) {
                         }
                         userStarBox.stars = j;
                         //TODO: 更新评分逻辑待完成
-                    // <%--let date = new Date();--%>
-                    //     <%--date = date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate();--%>
-                    //     <%--let review = {--%>
-                    //         <%--reviewID: null,--%>
-                    //     <%--time: date,--%>
-                    //     <%--helpfulness: null,--%>
-                    //     <%--summary: thisComment.summary,--%>
-                    //     <%--text: thisComment.text,--%>
-                    //     <%--imdb_filmID: imdb_filmID,--%>
-                    //     <%--userName: '<%=userAccount.getUserName()%>',--%>
-                    //     <%--userCountry: 'China',--%>
-                    //     <%--score: userStarBox.stars,--%>
-                    //     <%--userInfo_userID: '<%=userAccount.getUserID()%>'--%>
-                    //     <%--};--%>
-                    //     <%--$.ajax({--%>
-                    //         <%--type: 'post',--%>
-                    //     <%--url: '/user/addPersonalReview.action',--%>
-                    //     <%--contentType: 'application/json',--%>
-                    //     <%--data: JSON.stringify(review),--%>
-                    //     <%--success: function (data) {--%>
-                    //     <%--if (data.result === 'success') {--%>
-                    //     <%--alert('Comment Success!');--%>
-                    //     <%--window.location.reload(true);--%>
-                    //     <%--}--%>
-                    //     <%--else {--%>
-                    //     <%--alert('Comment Failed!');--%>
-                    //     <%--}--%>
-                    //     <%--}--%>
-                    //     <%--});--%>
+                        // <%--let date = new Date();--%>
+                        //     <%--date = date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate();--%>
+                        //     <%--let review = {--%>
+                        //         <%--reviewID: null,--%>
+                        //     <%--time: date,--%>
+                        //     <%--helpfulness: null,--%>
+                        //     <%--summary: thisComment.summary,--%>
+                        //     <%--text: thisComment.text,--%>
+                        //     <%--imdb_filmID: imdb_filmID,--%>
+                        //     <%--userName: '<%=userAccount.getUserName()%>',--%>
+                        //     <%--userCountry: 'China',--%>
+                        //     <%--score: userStarBox.stars,--%>
+                        //     <%--userInfo_userID: '<%=userAccount.getUserID()%>'--%>
+                        //     <%--};--%>
+                        //     <%--$.ajax({--%>
+                        //         <%--type: 'post',--%>
+                        //     <%--url: '/user/addPersonalReview.action',--%>
+                        //     <%--contentType: 'application/json',--%>
+                        //     <%--data: JSON.stringify(review),--%>
+                        //     <%--success: function (data) {--%>
+                        //     <%--if (data.result === 'success') {--%>
+                        //     <%--alert('Comment Success!');--%>
+                        //     <%--window.location.reload(true);--%>
+                        //     <%--}--%>
+                        //     <%--else {--%>
+                        //     <%--alert('Comment Failed!');--%>
+                        //     <%--}--%>
+                        //     <%--}--%>
+                        //     <%--});--%>
                     }
                 }
 

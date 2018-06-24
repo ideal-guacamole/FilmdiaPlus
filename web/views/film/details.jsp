@@ -123,11 +123,11 @@
     <!-- //Slider -->
 </div>
 <!-- //Header -->
-<div class="banner" style="height:100vh;min-height: 400px;background: url(../../images/bgDetail.jpg) no-repeat;">
+<div class="banner" id="movie-background" style="height:100vh;min-height: 400px;background: url('../../images/wallpaper/batman.jpg');">
     <div class="title-info">
-        <div class="film_poster"><a href=""><img id="poster" src=""></a></div>
+        <div class="film_poster"><a href=""><img id="poster" style="width: 20vw" class="poster-image" src=""></a></div>
         <div class="fast_info">
-            <h2 id="title" class="film_title"><span class="Year">(2012)</span></h2>
+            <h2 id="title" class="film_title"><span class="Year">Title</span></h2>
 
             <span id="summary" class="film_summary"></span>
             <br>

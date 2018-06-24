@@ -2,17 +2,16 @@
     position: absolute;
     /*background:rgba(0, 0, 0, .2);*/
     width: 1170px;
-    margin: 120px auto 0;
+    margin: 35vh auto 0;
     height: 300px;
     display: block;
     left: 0;
     right: 0;
+    z-index: 20;
 }
 
 .title-info .film_poster {
     float: left;
-    width: 182px;
-    height: 268px;
     position: relative;
     left: 20px;
     top: 20px;
@@ -25,10 +24,10 @@
 .fast_info {
     position: relative;
     float: left;
-    left: 60px;
+    left: 3vw;
     margin-top: 20px;
-    width: 600px;
-    height: 270px;
+    width: 40vw;
+    /*height: 270px;*/
     /*background: #123456;*/
     color: #fff;
 }
@@ -43,7 +42,7 @@ h2 {
     top: 20px;
     color: #fff;
     width: 600px;
-    font-size: 15px;
+    font-size: 1.5em;
 }
 
 .fast_info label {
@@ -58,12 +57,20 @@ h2 {
     margin-bottom: 15px;
 }
 
+.fast_info .Directors > label, span {
+    font-size: 1.5em;
+}
+
 .fast_info .Stars {
     position: relative;
     display: block;
     top: 75px;
     font-size: 13px;
     margin-bottom: 15px;
+}
+
+.fast_info .Stars > label, span {
+    font-size: 1.5em;
 }
 
 .fast_info .Tags {
@@ -73,15 +80,20 @@ h2 {
     top: 75px;
 }
 
+.fast_info .Tags > label, span {
+    font-size: 1.5em;
+}
+
 .add_fav {
     position: absolute;
     float: left;
-    width: 270px;
-    height: 250px;
+    width: 22vw;
+    /*height: 250px;*/
     top: 30px;
     right: 20px;
     background: rgba(255, 255, 255, .1);
     border-radius: 5px;
+    padding-bottom: 20px;
 }
 
 .add_fav .fav_content {
@@ -100,6 +112,7 @@ h2 {
 
 .add_fav .fav_content .rating_label {
     margin-top: 20px;
+    font-size: 1.2em;
 }
 
 .add_fav .fav_content .add_button {
@@ -146,9 +159,19 @@ h2 {
 #graphForStatistics {
     height: auto;
 }
-.sign-in-words:hover{
+
+.sign-in-words:hover {
     color: #428bca !important;
 }
-.layui-flow-more{
+
+.body {
     font-size: 20px !important;
+}
+
+.layui-flow-more {
+
+}
+
+.film_title {
+    font-size: 4em;
 }

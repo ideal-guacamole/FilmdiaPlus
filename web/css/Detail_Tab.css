@@ -410,9 +410,11 @@ h3 {
 .review_part {
     position: relative;
     /*width: 950px;*/
-    border-width: 2px 2px 1px 2px;
+    border-width: 2px;
     border-style: solid;
     border-color: #eee;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .review_part .review_title {
