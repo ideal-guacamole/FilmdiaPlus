@@ -46,7 +46,7 @@ h2 {
 }
 
 .fast_info label {
-    font-size: 13px;
+    font-size: 1.5em;
 }
 
 .fast_info .Directors {
@@ -80,10 +80,6 @@ h2 {
     top: 75px;
 }
 
-.fast_info .Tags > label, span {
-    font-size: 1.5em;
-}
-
 .add_fav {
     position: absolute;
     float: left;
@@ -98,7 +94,7 @@ h2 {
 
 .add_fav .fav_content {
     width: 230px;
-    height: 250px;
+    height: auto;
     margin: 0 auto;
 }
 
@@ -174,4 +170,34 @@ h2 {
 
 .film_title {
     font-size: 4em;
+}
+
+.tagline_part {
+    font-size: 0.8em;
+}
+.recommend-title{
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+#recommend {
+    width: 80vw;
+    min-width: 600px;
+    height:auto;
+    margin: 30px auto;
+    margin-top: 0;
+}
+
+.recommend-img{
+    display: inline;
+}
+
+.recommend-img > img {
+    width: 19%!important;
+}
+.heads-for-detail{
+    margin:30px auto;
+    font-size: 3em;
+    margin-bottom: 1%
 }

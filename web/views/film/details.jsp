@@ -103,7 +103,8 @@
                                 <ul>
                                     <li><img src="../../images/userCenter.png"/><a href="userCenter.jsp">User
                                         Center</a></li>
-                                    <li><img src="../../images/exit.png"/><a href="" onclick="signOut()">Sign Out</a></li>
+                                    <li><img src="../../images/exit.png"/><a href="" onclick="signOut()">Sign Out</a>
+                                    </li>
                                 </ul>
                             </div>
                         </ul>
@@ -123,7 +124,8 @@
     <!-- //Slider -->
 </div>
 <!-- //Header -->
-<div class="banner" id="movie-background" style="height:100vh;min-height: 400px;background: url('../../images/wallpaper/batman.jpg');">
+<div class="banner" id="movie-background"
+     style="height:100vh;min-height: 400px;background: url('../../images/wallpaper/batman.jpg');">
     <div class="title-info">
         <div class="film_poster"><a href=""><img id="poster" style="width: 20vw" class="poster-image" src=""></a></div>
         <div class="fast_info">
@@ -176,16 +178,16 @@
 
 <div class="tab_group" style="background: transparent;">
     <%--<div class="title cf" style="background: rgba(0,0,0,.1);">--%>
-        <%--<ul class="title-list fr cf ">--%>
-            <%--<li class="on">Technical Specs</li>--%>
-            <%--<li>Reviews</li>--%>
-            <%--<p></p>--%>
-        <%--</ul>--%>
+    <%--<ul class="title-list fr cf ">--%>
+    <%--<li class="on">Technical Specs</li>--%>
+    <%--<li>Reviews</li>--%>
+    <%--<p></p>--%>
+    <%--</ul>--%>
     <%--</div>--%>
     <div class="product-wrap" style="background: rgba(255,255,255,1);">
         <!--Specific-->
         <div id="spec" class="product showing">
-
+            <h1 class="heads-for-detail">ABOUT MOVIE</h1>
             <!-- base Info -->
             <div class="info_line1">
                 <span class="country_label">Country: </span><label id="country" class="Country"></label>
@@ -299,8 +301,41 @@
             <div style="font: 0px/0px sans-serif;clear: both;display: block"></div>
         </div>
 
+        <div class="product" id="recommend">
+            <h1 class="heads-for-detail" style="margin-top: 0">RECOMMEND FOR YOU</h1>
+            <%--<div class="recommend-title">Recommend For You--%>
+            <%--</div>--%>
+            <div class="recommend-wrapper">
+                <div class="recommend-img">
+                    <a href="details.jsp?filmID=1268&imdb_filmID=tt0055614">
+                        <img style="width:19%;display: inline-block" src="../../images/posters/B005BDZQKU.jpg">
+                    </a>
+                </div>
+                <div class="recommend-img">
+                    <a href="details.jsp?filmID=978&imdb_filmID=tt1615147">
+                        <img style="width:19%;display: inline-block" src="../../images/posters/B005FITIGO.jpg">
+                    </a>
+                </div>
+                <div class="recommend-img">
+                    <a href="details.jsp?filmID=378&imdb_filmID=tt1133985">
+                        <img style="width:19%;display: inline-block" src="../../images/posters/B005I64U34.jpg">
+                    </a>
+                </div>
+                <div class="recommend-img">
+                    <a href="details.jsp?filmID=353&imdb_filmID=tt0458339">
+                        <img style="width:19%;display: inline-block" src="../../images/posters/B005IZLPMY.jpg">
+                    </a>
+                </div>
+                <div class="recommend-img">
+                    <a href="details.jsp?filmID=1072&imdb_filmID=tt1599348">
+                        <img style="width:19%;display: inline-block" src="../../images/posters/B005LAIGSC.jpg">
+                    </a>
+                </div>
+            </div>
+        </div>
         <!--Reviews-->
         <div id="reviews" class="product">
+            <h1 class="heads-for-detail">REVIEWS</h1>
             <!--Write Reviews-->
             <div id="comment">
                 <form id="commentForm" action="" method="post" class="basic-grey">
@@ -331,17 +366,17 @@
 <script src="../../js/search.js"></script>
 
 <script>
-    layui.use('flow', function(){
+    layui.use('flow', function () {
         var flow = layui.flow;
 
         flow.load({
             elem: '#reviewBox' //流加载容器
-            ,scrollElem: '#reviewBox' //滚动条所在元素。
-            ,done: function(page, next){ //执行下一页的回调
-                setTimeout(function(){
+            , scrollElem: '#reviewBox' //滚动条所在元素。
+            , done: function (page, next) { //执行下一页的回调
+                setTimeout(function () {
                     var lis = [];
-                    if(reviewNum !== 0) {
-                        for(var i = 0; i < 10; i++){
+                    if (reviewNum !== 0) {
+                        for (var i = 0; i < 10; i++) {
                             putReviews();
                             lis.push(review);
                         }

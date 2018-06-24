@@ -220,6 +220,7 @@ img {
 #castTable {
     max-width: 650px;
     margin: 20px 0 0 0;
+    font-style: 1.4em;
 }
 
 #castTable > tbody > tr:hover > td,
@@ -293,8 +294,9 @@ h3 {
 .Details .detail_form {
     border: 2px solid #e7e7e7;
     margin-top: 20px;
-    height: 120px;
-    font-size: 13px;
+    height: auto;
+    font-size: 0.8em;
+    padding: 10px;
 }
 
 .Details .detail_form span {
@@ -360,7 +362,7 @@ h3 {
     border: 2px solid #e7e7e7;
     margin-top: 20px;
     height: 130px;
-    font-size: 13px;
+    font-size: 0.8em;
 }
 
 .BoxOffice .detail_form span {
@@ -380,7 +382,7 @@ h3 {
     /*height: 180px;*/
     border: 2px solid #e7e7e7;
     margin-top: 20px;
-    font-size: 13px;
+    font-size: 1.4em;
     padding: 1em;
 }
 
@@ -390,7 +392,7 @@ h3 {
 }
 
 .Storyline .storyline_form .keyword_part {
-
+    font-size: 0.8em;
 }
 
 .Storyline .storyline_form label {
