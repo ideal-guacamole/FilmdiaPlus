@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="../../css/bootstrap.min.css" type="text/css" media="all">
     <link rel="stylesheet" href="../../css/style.css" type="text/css" media="all">
     <link rel="stylesheet" href="../../css/user.css"/>
-    <link rel="stylesheet" href="../../css/statistic.css"/>
+    <link rel="stylesheet" href="../../css/film_pro/statistic.css"/>
     <!-- //Custom-Theme-Files -->
     <!-- Web-Fonts -->
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" type="text/css">
