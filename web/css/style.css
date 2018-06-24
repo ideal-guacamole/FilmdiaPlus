@@ -3022,6 +3022,6 @@ h2.typoh2 {
     left:0;
     top:0;
     background: inherit;
-    filter: blur(2px);
+    filter: blur(3px) brightness(.8);
     z-index: 2;
 }
