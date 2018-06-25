@@ -26,7 +26,7 @@
     } </script>
     <!-- //Meta-Tags -->
     <!-- Custom-Theme-Files -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css" type="text/css" media="all">
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
     <link rel="stylesheet" href="css/index.css" type="text/css">
     <!-- //Custom-Theme-Files -->
@@ -89,7 +89,7 @@
                         <ul class="nav navbar-nav ">
                             <li><a class="active" href="index.jsp">Home</a></li>
                             <li><a href="views/film/library.jsp">Library</a></li>
-                            <li><a href="#">Top Films</a></li>
+                            <li><a href="views/film/topfilms.jsp">Top Films</a></li>
                         </ul>
                         <jsp:include page="views/common/searchbar.jsp"></jsp:include>
                         <span style="position: absolute; top: 35%; right: -10%"><a href="views/film_pro/index_pro.jsp">FilmdiaPro</a></span>
@@ -432,245 +432,11 @@
         </div>
         <!-- End of the cinemainfo -->
 
-        <%--<h3 style="font-weight: bold" id="top">Top Films</h3>--%>
-
-        <%--<p class="ttt">Chart of the top 250 films on IMDb and Best Picture Oscar each year.</p>--%>
-
-        <%--<h4 class="text-center">--%>
-            <%--<span id="IMDb" title="IMDb Top 250 Chart">IMDb</span> /--%>
-            <%--<span id="Oscar" title="Oscar Best Picture Chart">Oscar</span>--%>
-        <%--</h4>--%>
-        <%--<div class="bs-docs-example">--%>
-            <%--<table id="toptable" class="table table-hover">--%>
-                <%--<colgroup>--%>
-                    <%--<col class="chartPoster">--%>
-                    <%--<col class="chartTitle">--%>
-                    <%--<col class="chartRating">--%>
-                    <%--<col class="chartAdd">--%>
-                <%--</colgroup>--%>
-                <%--<thead>--%>
-                <%--<tr>--%>
-                    <%--<th style="text-align: center">Title</th>--%>
-                    <%--<th style="text-align: center"></th>--%>
-                    <%--<th style="text-align: center">Rating</th>--%>
-                    <%--&lt;%&ndash;<th>Fav</th>&ndash;%&gt;--%>
-                <%--</tr>--%>
-                <%--</thead>--%>
-                <%--<tbody id="tablebody">--%>
-                <%--<script>--%>
-                    <%--function loadTable(page, imdb_oscar) {--%>
-                        <%--var table_body = document.getElementById('tablebody');--%>
-                        <%--var add = '';--%>
-                        <%--var url = 'views/details.jsp';--%>
-                        <%--var temp = '';--%>
-                        <%--var count = 0;  //count the number of movie shows in a page, max 10--%>
-                        <%--var start = page * 10;--%>
-                        <%--var end = start + 9;--%>
-
-                        <%--if (imdb_oscar === 0) {--%>
-                            <%--$.ajax({--%>
-                                <%--type: 'post',--%>
-                                <%--url: '/film/getFilmByType.action',--%>
-                                <%--data: {--%>
-                                    <%--filmType: 'Top250'--%>
-                                <%--},--%>
-                                <%--success: function (data) {--%>
-                                    <%--$.each(data, function (i, item) {--%>
-                                        <%--if (count < 10 && i >= start && i <= end) {--%>
-                                            <%--url = setQueryString(url, 'filmID', item.filmID);--%>
-                                            <%--url = setQueryString(url, 'imdb_filmID', item.imdb_filmID);--%>
-                                            <%--temp = '' +--%>
-                                                <%--'<tr style="cursor: pointer" onclick="location.href=\'' + url + '\';">' +--%>
-                                                <%--'<td style="text-align: center;" >' +--%>
-                                                <%--'<a href="' + url + '">' +--%>
-                                                <%--'<img style="width: 46px; height: 67px;" src=' + item.posterURL + '>' +--%>
-                                                <%--'</a>' +--%>
-                                                <%--'</td>' +--%>
-                                                <%--'<td>' +--%>
-                                                <%--(i + 1) + ". " +--%>
-                                                <%--'<a href="' + url + '">' + item.name + '</a>' +--%>
-                                                <%--'</td>' +--%>
-                                                <%--'<td style="text-align: center">' + item.score + '</td>' +--%>
-                                                <%--'</tr>';--%>
-                                            <%--add += temp;--%>
-                                            <%--count++;--%>
-                                        <%--}--%>
-                                    <%--});--%>
-                                    <%--table_body.innerHTML = add;--%>
-                                <%--}--%>
-                            <%--});--%>
-                        <%--} else {--%>
-                            <%--$.ajax({--%>
-                                <%--type: 'post',--%>
-                                <%--url: '/film/getFilmByType.action',--%>
-                                <%--data: {--%>
-                                    <%--filmType: 'Oscar'--%>
-                                <%--},--%>
-                                <%--success: function (data) {--%>
-                                    <%--$.each(data, function (i, item) {--%>
-                                        <%--if (count < 10 && i >= start && i <= end) {--%>
-                                            <%--url = setQueryString(url, 'filmID', item.filmID);--%>
-                                            <%--url = setQueryString(url, 'imdb_filmID', item.imdb_filmID);--%>
-                                            <%--temp = '' +--%>
-                                                <%--'<tr style="cursor: pointer" onclick="location.href=\'' + url + '\';">' +--%>
-                                                <%--'<td style="text-align: center;">' +--%>
-                                                <%--'<a href="' + url + '">' +--%>
-                                                <%--'<img style="width: 46px; height: 67px;" src=' + item.posterURL + '>' +--%>
-                                                <%--'</a>' +--%>
-                                                <%--'</td>' +--%>
-                                                <%--'<td>' +--%>
-                                                <%--(i + 1) + ". " +--%>
-                                                <%--'<a href="' + url + '">' + item.name + '</a>' +--%>
-                                                <%--'</td>' +--%>
-                                                <%--'<td style="text-align: center">' + item.score + '</td>' +--%>
-                                                <%--'</tr>';--%>
-                                            <%--add += temp;--%>
-                                            <%--count++;--%>
-                                        <%--}--%>
-                                    <%--});--%>
-                                    <%--table_body.innerHTML = add;--%>
-                                <%--}--%>
-                            <%--});--%>
-                        <%--}--%>
-
-                    <%--}--%>
-                <%--</script>--%>
-                <%--</tbody>--%>
-            <%--</table>--%>
-        <%--</div>--%>
-
-        <!--The pagination bar-->
-        <div id="example" style="text-align: center">
-            <ul id="pageLimit"></ul>
-        </div>
-        <script type="text/javascript" src="js/lib/bootstrap-paginator.js"></script>
-
-        <!--End of the pagination bar-->
-
     </div>
 </div>
-<!-- agileinfo -->
 
-<%--Load the table and pagination--%>
-<script>
-    $(window).load(function () {
-
-        // var IMDb_O = 0;
-        // var imdb = document.getElementById('IMDb');
-        // var oscar = document.getElementById('Oscar');
-        // loadTable(0, IMDb_O);
-        // $('#pageLimit').bootstrapPaginator({
-        //     currentPage: 1,//当前的请求页面。
-        //     totalPages: 9,//一共多少页。
-        //     size: "normal",//应该是页眉的大小。
-        //     bootstrapMajorVersion: 3,//bootstrap的版本要求。
-        //     alignment: "right",
-        //     numberOfPages: 10,//一页列出多少数据。
-        //     itemTexts: function (type, page, current) {
-        //         switch (type) {
-        //             case "first":
-        //                 return "First";
-        //             case "prev":
-        //                 return "Prev";
-        //             case "next":
-        //                 return "Next";
-        //             case "last":
-        //                 return "Last";
-        //             case "page":
-        //                 return page;
-        //         }
-        //     },
-        //     onPageClicked: function (event, originalEvent, type, page) {
-        //         loadTable(page - 1, IMDb_O);
-        //     }
-        // });
-        //
-        // imdb.onclick = function () {
-        //     imdb.style.color = '#3774ab';
-        //     oscar.style.color = 'gray';
-        //     IMDb_O = 0;
-        //     loadTable(0, IMDb_O);
-        //     // $("#paginate_imdb").paginate({
-        //     //     count: 25,
-        //     //     start: 1,
-        //     //     display: 15,
-        //     //     border: false,
-        //     //     text_color: '#79B5E3',
-        //     //     background_color: 'none',
-        //     //     text_hover_color: '#2573AF',
-        //     //     background_hover_color: 'none',
-        //     //     images: false,
-        //     //     mouse: 'press',
-        //     //     onChange: function (page_index) {
-        //     //         loadTable(page_index - 1, IMDb_O);
-        //     //         location.href = '#top';
-        //     //     }
-        //     // });
-        //     $('#pageLimit').bootstrapPaginator({
-        //         currentPage: 1,//当前的请求页面。
-        //         totalPages: 25,//一共多少页。
-        //         size: "normal",//应该是页眉的大小。
-        //         bootstrapMajorVersion: 3,//bootstrap的版本要求。
-        //         alignment: "right",
-        //         numberOfPages: 10,//一页列出多少数据。
-        //         itemTexts: function (type, page, current) {
-        //             switch (type) {
-        //                 case "first":
-        //                     return "First";
-        //                 case "prev":
-        //                     return "Prev";
-        //                 case "next":
-        //                     return "Next";
-        //                 case "last":
-        //                     return "Last";
-        //                 case "page":
-        //                     return page;
-        //             }
-        //         },
-        //         onPageClicked: function (event, originalEvent, type, page) {
-        //             loadTable(page - 1, IMDb_O);
-        //         }
-        //     });
-        // };
-        // oscar.onclick = function () {
-        //     oscar.style.color = '#3774ab';
-        //     imdb.style.color = 'gray';
-        //     IMDb_O = 1;
-        //     loadTable(0, IMDb_O);
-        //     $('#pageLimit').bootstrapPaginator({
-        //         currentPage: 1,//当前的请求页面。
-        //         totalPages: 9,//一共多少页。
-        //         size: "normal",//应该是页眉的大小。
-        //         bootstrapMajorVersion: 3,//bootstrap的版本要求。
-        //         alignment: "right",
-        //         numberOfPages: 10,//一页列出多少数据。
-        //         itemTexts: function (type, page, current) {
-        //             switch (type) {
-        //                 case "first":
-        //                     return "First";
-        //                 case "prev":
-        //                     return "Prev";
-        //                 case "next":
-        //                     return "Next";
-        //                 case "last":
-        //                     return "Last";
-        //                 case "page":
-        //                     return page;
-        //             }
-        //         },
-        //         onPageClicked: function (event, originalEvent, type, page) {
-        //             loadTable(page - 1, IMDb_O);
-        //         }
-        //     });
-        // }
-
-
-    });
-
-</script>
 
 <jsp:include page="views/common/footer.jsp"></jsp:include>
-
 <jsp:include page="views/common/loginbox.jsp"></jsp:include>
 
 <script type="text/javascript" src="js/index.js"></script>

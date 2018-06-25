@@ -23,7 +23,7 @@
     } </script>
     <!-- //Meta-Tags -->
     <!-- Custom-Theme-Files -->
-    <link rel="stylesheet" href="../../css/bootstrap.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="../../css/lib/bootstrap.min.css" type="text/css" media="all">
     <link rel="stylesheet" href="../../css/style.css" type="text/css" media="all">
     <link rel="stylesheet" href="../../css/user.css">
     <link rel="stylesheet" href="../../css/index.css" type="text/css">
