@@ -20,7 +20,6 @@
     <script type="application/x-javascript"> addEventListener("load", function () {
         setTimeout(hideURLbar, 0);
     }, false);
-
     function hideURLbar() {
         window.scrollTo(0, 1);
     } </script>
@@ -183,7 +182,6 @@
             <script>
                 var slider = document.getElementById('slider');
                 var posterArr = slider.getElementsByTagName('li');
-
                 posterArr[0].onclick = function () {
                     setUrl(900, 'tt5074352');
                 };
@@ -199,7 +197,6 @@
                 posterArr[4].onclick = function () {
                     setUrl(839, 'tt4857264')
                 };
-
                 function setUrl(filmID, imdbID) {
                     var url = 'views/details.jsp';
                     var ref = 'filmID';
@@ -210,7 +207,6 @@
                     url = setQueryString(url, ref, value);
                     location.href = url;
                 }
-
             </script>
         </div>
         <div class="clearfix"></div>
@@ -221,7 +217,7 @@
 <!-- agileinfo -->
 <div class="agileinfo">
     <div class="cinema_container">
-        <h3 style="font-weight: bold; margin-top: 30px">Cinema Info</h3>
+        <h3>Cinema Info</h3>
         <%--<p class="ttt">Movies playing and coming soon.</p>--%>
         <div class="latestinfo">
             <div class="title cf">
@@ -234,7 +230,7 @@
             </div>
             <div class="product-wrap">
                 <!--案例1-->
-                <div class="product showing"  id="thisweek">
+                <div class="product showing" id="thisweek">
                     <ul class="cf">
                         <li class="ml0">
                             <div class="slow-zoom vertical text-center">
@@ -246,6 +242,10 @@
 
                                     </div>
                                 </a>
+                            </div>
+                            <div class="legend-grd">
+                                <div id="thisweek_film1_name" class="alt"></div>
+                                <div id="thisweek_film1_score" class="legend-movie nota"></div>
                             </div>
                         </li>
                         <li class="ml0">
@@ -259,6 +259,10 @@
                                     </div>
                                 </a>
                             </div>
+                            <div class="legend-grd">
+                                <div id="thisweek_film2_name" class="alt"></div>
+                                <div id="thisweek_film2_score" class="legend-movie nota"></div>
+                            </div>
                         </li>
                         <li class="ml0">
                             <div class="slow-zoom vertical text-center">
@@ -270,6 +274,10 @@
 
                                     </div>
                                 </a>
+                            </div>
+                            <div class="legend-grd">
+                                <div id="thisweek_film3_name" class="alt"></div>
+                                <div id="thisweek_film3_score" class="legend-movie nota"></div>
                             </div>
                         </li>
                         <li class="ml0">
@@ -283,6 +291,10 @@
                                     </div>
                                 </a>
                             </div>
+                            <div class="legend-grd">
+                                <div id="thisweek_film4_name" class="alt"></div>
+                                <div id="thisweek_film4_score" class="legend-movie nota"></div>
+                            </div>
                         </li>
                         <li class="ml0">
                             <div class="slow-zoom vertical text-center">
@@ -294,6 +306,10 @@
 
                                     </div>
                                 </a>
+                            </div>
+                            <div class="legend-grd">
+                                <div id="thisweek_film5_name" class="alt"></div>
+                                <div id="thisweek_film5_score" class="legend-movie nota"></div>
                             </div>
                         </li>
                     </ul>
@@ -312,6 +328,10 @@
                                     </div>
                                 </a>
                             </div>
+                            <div class="legend-grd">
+                                <div id="latest_film1_name" class="alt"></div>
+                                <div id="latest_film1_score" class="legend-movie nota"></div>
+                            </div>
                         </li>
                         <li class="ml0">
                             <div class="slow-zoom vertical text-center">
@@ -323,6 +343,10 @@
 
                                     </div>
                                 </a>
+                            </div>
+                            <div class="legend-grd">
+                                <div id="latest_film2_name" class="alt"></div>
+                                <div id="latest_film2_score" class="legend-movie nota"></div>
                             </div>
                         </li>
                         <li class="ml0">
@@ -336,6 +360,10 @@
                                     </div>
                                 </a>
                             </div>
+                            <div class="legend-grd">
+                                <div id="latest_film3_name" class="alt"></div>
+                                <div id="latest_film3_score" class="legend-movie nota"></div>
+                            </div>
                         </li>
                         <li class="ml0">
                             <div class="slow-zoom vertical text-center">
@@ -348,6 +376,10 @@
                                     </div>
                                 </a>
                             </div>
+                            <div class="legend-grd">
+                                <div id="latest_film4_name" class="alt"></div>
+                                <div id="latest_film4_score" class="legend-movie nota"></div>
+                            </div>
                         </li>
                         <li class="ml0">
                             <div class="slow-zoom vertical text-center">
@@ -359,6 +391,10 @@
 
                                     </div>
                                 </a>
+                            </div>
+                            <div class="legend-grd">
+                                <div id="latest_film5_name" class="alt"></div>
+                                <div id="latest_film5_score" class="legend-movie nota"></div>
                             </div>
                         </li>
                     </ul>
@@ -377,6 +413,10 @@
                                     </div>
                                 </a>
                             </div>
+                            <div class="legend-grd">
+                                <div id="coming_film1_name" class="alt"></div>
+                                <div id="coming_film1_score" class="legend-movie nota"></div>
+                            </div>
                         </li>
                         <li class="ml0">
                             <div class="slow-zoom vertical text-center">
@@ -388,6 +428,10 @@
 
                                     </div>
                                 </a>
+                            </div>
+                            <div class="legend-grd">
+                                <div id="coming_film2_name" class="alt"></div>
+                                <div id="coming_film2_score" class="legend-movie nota"></div>
                             </div>
                         </li>
                         <li class="ml0">
@@ -401,6 +445,10 @@
                                     </div>
                                 </a>
                             </div>
+                            <div class="legend-grd">
+                                <div id="coming_film3_name" class="alt"></div>
+                                <div id="coming_film3_score" class="legend-movie nota"></div>
+                            </div>
                         </li>
                         <li class="ml0">
                             <div class="slow-zoom vertical text-center">
@@ -412,6 +460,10 @@
 
                                     </div>
                                 </a>
+                            </div>
+                            <div class="legend-grd">
+                                <div id="coming_film4_name" class="alt"></div>
+                                <div id="coming_film4_score" class="legend-movie nota"></div>
                             </div>
                         </li>
                         <li class="ml0">
@@ -425,6 +477,10 @@
                                     </div>
                                 </a>
                             </div>
+                            <div class="legend-grd">
+                                <div id="coming_film5_name" class="alt"></div>
+                                <div id="coming_film5_score" class="legend-movie nota"></div>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -437,106 +493,106 @@
         <%--<p class="ttt">Chart of the top 250 films on IMDb and Best Picture Oscar each year.</p>--%>
 
         <%--<h4 class="text-center">--%>
-            <%--<span id="IMDb" title="IMDb Top 250 Chart">IMDb</span> /--%>
-            <%--<span id="Oscar" title="Oscar Best Picture Chart">Oscar</span>--%>
+        <%--<span id="IMDb" title="IMDb Top 250 Chart">IMDb</span> /--%>
+        <%--<span id="Oscar" title="Oscar Best Picture Chart">Oscar</span>--%>
         <%--</h4>--%>
         <%--<div class="bs-docs-example">--%>
-            <%--<table id="toptable" class="table table-hover">--%>
-                <%--<colgroup>--%>
-                    <%--<col class="chartPoster">--%>
-                    <%--<col class="chartTitle">--%>
-                    <%--<col class="chartRating">--%>
-                    <%--<col class="chartAdd">--%>
-                <%--</colgroup>--%>
-                <%--<thead>--%>
-                <%--<tr>--%>
-                    <%--<th style="text-align: center">Title</th>--%>
-                    <%--<th style="text-align: center"></th>--%>
-                    <%--<th style="text-align: center">Rating</th>--%>
-                    <%--&lt;%&ndash;<th>Fav</th>&ndash;%&gt;--%>
-                <%--</tr>--%>
-                <%--</thead>--%>
-                <%--<tbody id="tablebody">--%>
-                <%--<script>--%>
-                    <%--function loadTable(page, imdb_oscar) {--%>
-                        <%--var table_body = document.getElementById('tablebody');--%>
-                        <%--var add = '';--%>
-                        <%--var url = 'views/details.jsp';--%>
-                        <%--var temp = '';--%>
-                        <%--var count = 0;  //count the number of movie shows in a page, max 10--%>
-                        <%--var start = page * 10;--%>
-                        <%--var end = start + 9;--%>
+        <%--<table id="toptable" class="table table-hover">--%>
+        <%--<colgroup>--%>
+        <%--<col class="chartPoster">--%>
+        <%--<col class="chartTitle">--%>
+        <%--<col class="chartRating">--%>
+        <%--<col class="chartAdd">--%>
+        <%--</colgroup>--%>
+        <%--<thead>--%>
+        <%--<tr>--%>
+        <%--<th style="text-align: center">Title</th>--%>
+        <%--<th style="text-align: center"></th>--%>
+        <%--<th style="text-align: center">Rating</th>--%>
+        <%--&lt;%&ndash;<th>Fav</th>&ndash;%&gt;--%>
+        <%--</tr>--%>
+        <%--</thead>--%>
+        <%--<tbody id="tablebody">--%>
+        <%--<script>--%>
+        <%--function loadTable(page, imdb_oscar) {--%>
+        <%--var table_body = document.getElementById('tablebody');--%>
+        <%--var add = '';--%>
+        <%--var url = 'views/details.jsp';--%>
+        <%--var temp = '';--%>
+        <%--var count = 0;  //count the number of movie shows in a page, max 10--%>
+        <%--var start = page * 10;--%>
+        <%--var end = start + 9;--%>
 
-                        <%--if (imdb_oscar === 0) {--%>
-                            <%--$.ajax({--%>
-                                <%--type: 'post',--%>
-                                <%--url: '/film/getFilmByType.action',--%>
-                                <%--data: {--%>
-                                    <%--filmType: 'Top250'--%>
-                                <%--},--%>
-                                <%--success: function (data) {--%>
-                                    <%--$.each(data, function (i, item) {--%>
-                                        <%--if (count < 10 && i >= start && i <= end) {--%>
-                                            <%--url = setQueryString(url, 'filmID', item.filmID);--%>
-                                            <%--url = setQueryString(url, 'imdb_filmID', item.imdb_filmID);--%>
-                                            <%--temp = '' +--%>
-                                                <%--'<tr style="cursor: pointer" onclick="location.href=\'' + url + '\';">' +--%>
-                                                <%--'<td style="text-align: center;" >' +--%>
-                                                <%--'<a href="' + url + '">' +--%>
-                                                <%--'<img style="width: 46px; height: 67px;" src=' + item.posterURL + '>' +--%>
-                                                <%--'</a>' +--%>
-                                                <%--'</td>' +--%>
-                                                <%--'<td>' +--%>
-                                                <%--(i + 1) + ". " +--%>
-                                                <%--'<a href="' + url + '">' + item.name + '</a>' +--%>
-                                                <%--'</td>' +--%>
-                                                <%--'<td style="text-align: center">' + item.score + '</td>' +--%>
-                                                <%--'</tr>';--%>
-                                            <%--add += temp;--%>
-                                            <%--count++;--%>
-                                        <%--}--%>
-                                    <%--});--%>
-                                    <%--table_body.innerHTML = add;--%>
-                                <%--}--%>
-                            <%--});--%>
-                        <%--} else {--%>
-                            <%--$.ajax({--%>
-                                <%--type: 'post',--%>
-                                <%--url: '/film/getFilmByType.action',--%>
-                                <%--data: {--%>
-                                    <%--filmType: 'Oscar'--%>
-                                <%--},--%>
-                                <%--success: function (data) {--%>
-                                    <%--$.each(data, function (i, item) {--%>
-                                        <%--if (count < 10 && i >= start && i <= end) {--%>
-                                            <%--url = setQueryString(url, 'filmID', item.filmID);--%>
-                                            <%--url = setQueryString(url, 'imdb_filmID', item.imdb_filmID);--%>
-                                            <%--temp = '' +--%>
-                                                <%--'<tr style="cursor: pointer" onclick="location.href=\'' + url + '\';">' +--%>
-                                                <%--'<td style="text-align: center;">' +--%>
-                                                <%--'<a href="' + url + '">' +--%>
-                                                <%--'<img style="width: 46px; height: 67px;" src=' + item.posterURL + '>' +--%>
-                                                <%--'</a>' +--%>
-                                                <%--'</td>' +--%>
-                                                <%--'<td>' +--%>
-                                                <%--(i + 1) + ". " +--%>
-                                                <%--'<a href="' + url + '">' + item.name + '</a>' +--%>
-                                                <%--'</td>' +--%>
-                                                <%--'<td style="text-align: center">' + item.score + '</td>' +--%>
-                                                <%--'</tr>';--%>
-                                            <%--add += temp;--%>
-                                            <%--count++;--%>
-                                        <%--}--%>
-                                    <%--});--%>
-                                    <%--table_body.innerHTML = add;--%>
-                                <%--}--%>
-                            <%--});--%>
-                        <%--}--%>
+        <%--if (imdb_oscar === 0) {--%>
+        <%--$.ajax({--%>
+        <%--type: 'post',--%>
+        <%--url: '/film/getFilmByType.action',--%>
+        <%--data: {--%>
+        <%--filmType: 'Top250'--%>
+        <%--},--%>
+        <%--success: function (data) {--%>
+        <%--$.each(data, function (i, item) {--%>
+        <%--if (count < 10 && i >= start && i <= end) {--%>
+        <%--url = setQueryString(url, 'filmID', item.filmID);--%>
+        <%--url = setQueryString(url, 'imdb_filmID', item.imdb_filmID);--%>
+        <%--temp = '' +--%>
+        <%--'<tr style="cursor: pointer" onclick="location.href=\'' + url + '\';">' +--%>
+        <%--'<td style="text-align: center;" >' +--%>
+        <%--'<a href="' + url + '">' +--%>
+        <%--'<img style="width: 46px; height: 67px;" src=' + item.posterURL + '>' +--%>
+        <%--'</a>' +--%>
+        <%--'</td>' +--%>
+        <%--'<td>' +--%>
+        <%--(i + 1) + ". " +--%>
+        <%--'<a href="' + url + '">' + item.name + '</a>' +--%>
+        <%--'</td>' +--%>
+        <%--'<td style="text-align: center">' + item.score + '</td>' +--%>
+        <%--'</tr>';--%>
+        <%--add += temp;--%>
+        <%--count++;--%>
+        <%--}--%>
+        <%--});--%>
+        <%--table_body.innerHTML = add;--%>
+        <%--}--%>
+        <%--});--%>
+        <%--} else {--%>
+        <%--$.ajax({--%>
+        <%--type: 'post',--%>
+        <%--url: '/film/getFilmByType.action',--%>
+        <%--data: {--%>
+        <%--filmType: 'Oscar'--%>
+        <%--},--%>
+        <%--success: function (data) {--%>
+        <%--$.each(data, function (i, item) {--%>
+        <%--if (count < 10 && i >= start && i <= end) {--%>
+        <%--url = setQueryString(url, 'filmID', item.filmID);--%>
+        <%--url = setQueryString(url, 'imdb_filmID', item.imdb_filmID);--%>
+        <%--temp = '' +--%>
+        <%--'<tr style="cursor: pointer" onclick="location.href=\'' + url + '\';">' +--%>
+        <%--'<td style="text-align: center;">' +--%>
+        <%--'<a href="' + url + '">' +--%>
+        <%--'<img style="width: 46px; height: 67px;" src=' + item.posterURL + '>' +--%>
+        <%--'</a>' +--%>
+        <%--'</td>' +--%>
+        <%--'<td>' +--%>
+        <%--(i + 1) + ". " +--%>
+        <%--'<a href="' + url + '">' + item.name + '</a>' +--%>
+        <%--'</td>' +--%>
+        <%--'<td style="text-align: center">' + item.score + '</td>' +--%>
+        <%--'</tr>';--%>
+        <%--add += temp;--%>
+        <%--count++;--%>
+        <%--}--%>
+        <%--});--%>
+        <%--table_body.innerHTML = add;--%>
+        <%--}--%>
+        <%--});--%>
+        <%--}--%>
 
-                    <%--}--%>
-                <%--</script>--%>
-                <%--</tbody>--%>
-            <%--</table>--%>
+        <%--}--%>
+        <%--</script>--%>
+        <%--</tbody>--%>
+        <%--</table>--%>
         <%--</div>--%>
 
         <!--The pagination bar-->
@@ -554,7 +610,6 @@
 <%--Load the table and pagination--%>
 <script>
     $(window).load(function () {
-
         // var IMDb_O = 0;
         // var imdb = document.getElementById('IMDb');
         // var oscar = document.getElementById('Oscar');
@@ -663,10 +718,7 @@
         //         }
         //     });
         // }
-
-
     });
-
 </script>
 
 <jsp:include page="views/common/footer.jsp"></jsp:include>
