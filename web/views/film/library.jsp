@@ -70,8 +70,8 @@
                     <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav ">
                             <li><a href="../../index.jsp">Home</a></li>
-                            <li><a class=" active" href="library.jsp">Library</a></li>
-                            <li><a href="#">Top Films</a></li>
+                            <li><a class="active" href="library.jsp">Library</a></li>
+                            <li><a href="topfilms.jsp">Top Films</a></li>
                         </ul>
 
                         <jsp:include page="../common/searchbar.jsp"></jsp:include>
