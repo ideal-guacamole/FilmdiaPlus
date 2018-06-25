@@ -89,7 +89,7 @@
                         <ul class="nav navbar-nav ">
                             <li><a class="active" href="index.jsp">Home</a></li>
                             <li><a href="views/film/library.jsp">Library</a></li>
-                            <li><a href="views/film/topfilms.jsp">Top Films</a></li>
+                            <li><a href="#">Top Films</a></li>
                         </ul>
                         <jsp:include page="views/common/searchbar.jsp"></jsp:include>
                         <span style="position: absolute; top: 35%; right: -10%"><a href="views/film_pro/index_pro.jsp">FilmdiaPro</a></span>
@@ -431,6 +431,121 @@
             </div>
         </div>
         <!-- End of the cinemainfo -->
+
+        <%--<h3 style="font-weight: bold" id="top">Top Films</h3>--%>
+
+        <%--<p class="ttt">Chart of the top 250 films on IMDb and Best Picture Oscar each year.</p>--%>
+
+        <%--<h4 class="text-center">--%>
+            <%--<span id="IMDb" title="IMDb Top 250 Chart">IMDb</span> /--%>
+            <%--<span id="Oscar" title="Oscar Best Picture Chart">Oscar</span>--%>
+        <%--</h4>--%>
+        <%--<div class="bs-docs-example">--%>
+            <%--<table id="toptable" class="table table-hover">--%>
+                <%--<colgroup>--%>
+                    <%--<col class="chartPoster">--%>
+                    <%--<col class="chartTitle">--%>
+                    <%--<col class="chartRating">--%>
+                    <%--<col class="chartAdd">--%>
+                <%--</colgroup>--%>
+                <%--<thead>--%>
+                <%--<tr>--%>
+                    <%--<th style="text-align: center">Title</th>--%>
+                    <%--<th style="text-align: center"></th>--%>
+                    <%--<th style="text-align: center">Rating</th>--%>
+                    <%--&lt;%&ndash;<th>Fav</th>&ndash;%&gt;--%>
+                <%--</tr>--%>
+                <%--</thead>--%>
+                <%--<tbody id="tablebody">--%>
+                <%--<script>--%>
+                    <%--function loadTable(page, imdb_oscar) {--%>
+                        <%--var table_body = document.getElementById('tablebody');--%>
+                        <%--var add = '';--%>
+                        <%--var url = 'views/details.jsp';--%>
+                        <%--var temp = '';--%>
+                        <%--var count = 0;  //count the number of movie shows in a page, max 10--%>
+                        <%--var start = page * 10;--%>
+                        <%--var end = start + 9;--%>
+
+                        <%--if (imdb_oscar === 0) {--%>
+                            <%--$.ajax({--%>
+                                <%--type: 'post',--%>
+                                <%--url: '/film/getFilmByType.action',--%>
+                                <%--data: {--%>
+                                    <%--filmType: 'Top250'--%>
+                                <%--},--%>
+                                <%--success: function (data) {--%>
+                                    <%--$.each(data, function (i, item) {--%>
+                                        <%--if (count < 10 && i >= start && i <= end) {--%>
+                                            <%--url = setQueryString(url, 'filmID', item.filmID);--%>
+                                            <%--url = setQueryString(url, 'imdb_filmID', item.imdb_filmID);--%>
+                                            <%--temp = '' +--%>
+                                                <%--'<tr style="cursor: pointer" onclick="location.href=\'' + url + '\';">' +--%>
+                                                <%--'<td style="text-align: center;" >' +--%>
+                                                <%--'<a href="' + url + '">' +--%>
+                                                <%--'<img style="width: 46px; height: 67px;" src=' + item.posterURL + '>' +--%>
+                                                <%--'</a>' +--%>
+                                                <%--'</td>' +--%>
+                                                <%--'<td>' +--%>
+                                                <%--(i + 1) + ". " +--%>
+                                                <%--'<a href="' + url + '">' + item.name + '</a>' +--%>
+                                                <%--'</td>' +--%>
+                                                <%--'<td style="text-align: center">' + item.score + '</td>' +--%>
+                                                <%--'</tr>';--%>
+                                            <%--add += temp;--%>
+                                            <%--count++;--%>
+                                        <%--}--%>
+                                    <%--});--%>
+                                    <%--table_body.innerHTML = add;--%>
+                                <%--}--%>
+                            <%--});--%>
+                        <%--} else {--%>
+                            <%--$.ajax({--%>
+                                <%--type: 'post',--%>
+                                <%--url: '/film/getFilmByType.action',--%>
+                                <%--data: {--%>
+                                    <%--filmType: 'Oscar'--%>
+                                <%--},--%>
+                                <%--success: function (data) {--%>
+                                    <%--$.each(data, function (i, item) {--%>
+                                        <%--if (count < 10 && i >= start && i <= end) {--%>
+                                            <%--url = setQueryString(url, 'filmID', item.filmID);--%>
+                                            <%--url = setQueryString(url, 'imdb_filmID', item.imdb_filmID);--%>
+                                            <%--temp = '' +--%>
+                                                <%--'<tr style="cursor: pointer" onclick="location.href=\'' + url + '\';">' +--%>
+                                                <%--'<td style="text-align: center;">' +--%>
+                                                <%--'<a href="' + url + '">' +--%>
+                                                <%--'<img style="width: 46px; height: 67px;" src=' + item.posterURL + '>' +--%>
+                                                <%--'</a>' +--%>
+                                                <%--'</td>' +--%>
+                                                <%--'<td>' +--%>
+                                                <%--(i + 1) + ". " +--%>
+                                                <%--'<a href="' + url + '">' + item.name + '</a>' +--%>
+                                                <%--'</td>' +--%>
+                                                <%--'<td style="text-align: center">' + item.score + '</td>' +--%>
+                                                <%--'</tr>';--%>
+                                            <%--add += temp;--%>
+                                            <%--count++;--%>
+                                        <%--}--%>
+                                    <%--});--%>
+                                    <%--table_body.innerHTML = add;--%>
+                                <%--}--%>
+                            <%--});--%>
+                        <%--}--%>
+
+                    <%--}--%>
+                <%--</script>--%>
+                <%--</tbody>--%>
+            <%--</table>--%>
+        <%--</div>--%>
+
+        <!--The pagination bar-->
+        <div id="example" style="text-align: center">
+            <ul id="pageLimit"></ul>
+        </div>
+        <script type="text/javascript" src="js/lib/bootstrap-paginator.js"></script>
+
+        <!--End of the pagination bar-->
 
     </div>
 </div>

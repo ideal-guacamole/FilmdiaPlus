@@ -26,7 +26,7 @@
     } </script>
     <!-- //Meta-Tags -->
     <!-- Custom-Theme-Files -->
-    <link rel="stylesheet" href="../../css/bootstrap.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="../../css/lib/bootstrap.min.css" type="text/css" media="all">
     <link rel="stylesheet" href="../../css/style.css" type="text/css" media="all">
     <link rel="stylesheet" href="../../css/user.css"/>
     <link rel="stylesheet" href="../../css/film_pro/predict.css"/>
@@ -265,7 +265,7 @@
 <script src="../../js/lib/jquery-1.11.1.min.js"></script>
 <link href="../../css/owl.carousel.css" rel="stylesheet" type="text/css" media="all">
 <script src="../../js/lib/owl.carousel.js"></script>
-<script src="../../js/predict.js"></script>
+<script src="../../js/film_pro/predict.js"></script>
 <script src="../../js/search_pro.js"></script>
 
 </body>

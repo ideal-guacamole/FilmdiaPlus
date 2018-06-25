@@ -1,36 +1,40 @@
 @media screen and (max-width: 1920px) {
-    .bann-info{
-        background-size:100% 100%;
+    .bann-info {
+        background-size: 100% 100%;
         background: url("../../images/bgPredict.jpg") no-repeat fixed;
         padding: 0 0 0;
-        margin:0px;
+        margin: 0px;
     }
 }
 
-.bann-info{
+.bann-info {
     background: url("../../images/bgPredict.jpg") center no-repeat;
-    background-size:cover;
+    background-size: cover;
     padding: 0 0 0;
+    height: 100vh;
+    width: 100vw
 }
 
-.bann-info h3{
+.bann-info h3 {
     padding-top: 10%;
     padding-left: 10%;
-    color: rgba(255,255,255,1);
+    color: rgba(255, 255, 255, 1);
     font-weight: bold;
     font: 25px Georgia, "Times New Roman", Times, serif;
 
 }
-.bann-info em{
+
+.bann-info em {
     font-size: 37px;
     font-weight: bold;
-    color: rgba(255,255,255,.7);
+    color: rgba(255, 255, 255, .7);
 }
+
 .bann-info .intro {
     padding-top: 1%;
     padding-left: 10%;
-    padding-bottom:6%;
 }
+
 .bann-info p {
 
     color: #d5d5d5;
@@ -39,6 +43,7 @@
     margin-top: 15px;
     display: block;
 }
+
 .bann-info ul {
     color: #d5d5d5;
     font: 16px Georgia, "Times New Roman", Times, serif;
@@ -46,21 +51,24 @@
     margin-left: 50px;
     font-weight: bold;
 }
+
 .bann-info .yellow {
     color: #ffeb8f;
 }
 
-
 .w3_content_agilleinfo_inner {
-    margin: 50px 0 0 0 ;
+    margin: 50px 0 0 0;
     padding: 1em 0;
 }
+
 .agile_featured_movies {
     padding: 0 2em;
 }
+
 .agileinfo_tabs {
 
 }
+
 .w3_agile_latest_movies {
     padding: 2em 1em;
     box-shadow: 0px 0px 1px #999;
@@ -68,12 +76,11 @@
     margin: 0 auto;
 }
 
-
 .item img {
     width: 100%;
     background: #ededf1;
     padding: 1em;
-    box-shadow:0px 2px 1px rgba(110, 110, 111, 0.12);
+    box-shadow: 0px 2px 1px rgba(110, 110, 111, 0.12);
     cursor: pointer;
 }
 
@@ -93,15 +100,15 @@
 }
 
 /*.w3l-movie-gride-agile img {*/
-    /*width: 182px;*/
-    /*height: 268px;*/
+/*width: 182px;*/
+/*height: 268px;*/
 /*}*/
 .w3l-movie-gride-agile img:hover {
     opacity: 0.5;
 }
 
 .w3l-movie-gride-agile.w3l-movie-gride-slider {
-    width:96%!important;
+    width: 96% !important;
     margin-right: 1%;
 }
 
@@ -124,7 +131,7 @@
     font-size: 1em;
 }
 
-.owl-carousel{
+.owl-carousel {
     display: none;
     position: relative;
     width: 100%;
@@ -146,6 +153,7 @@
     -moz-box-shadow: 0px 2px 1px rgba(110, 110, 111, 0.42);
     height: 1500px;
 }
+
 .movie_info .info_container {
     margin: 0px auto;
     padding-top: 30px;
@@ -156,7 +164,7 @@
     margin-left: 20px;
 }
 
-.movie_info .staff_info img{
+.movie_info .staff_info img {
     width: 131.5px;
     height: 201px;
 }
@@ -166,6 +174,7 @@
     width: 1100px;
     height: 261px;
 }
+
 .movie_info .staff_info .director_info .directorBox {
     margin: 10px 100px 10px 90px;
     display: inline;
@@ -182,7 +191,7 @@
     float: left;
 }
 
-h6{
+h6 {
     text-align: center;
     font-size: 13px;
     margin-top: 5px;
@@ -195,7 +204,7 @@ h6{
 }
 
 #predictChartBox {
-    position:absolute;
+    position: absolute;
     width: 50%;
     height: 300px;
     margin-top: 20px;
@@ -211,6 +220,7 @@ h6{
 .btn_group {
     float: left;
 }
+
 .btn_group button {
     display: block;
     width: 100px;
@@ -228,7 +238,13 @@ h6{
     margin: 10px 0 0 5px;
     font: 18px Georgia, "Times New Roman", Times, serif;
 }
+
 .result h2 {
     margin: 5px 0 0 13px;
     font: 25px Georgia, "Times New Roman", Times, serif;
+}
+
+.predict_item{
+    height: 100vh;
+    background-size: cover;
 }

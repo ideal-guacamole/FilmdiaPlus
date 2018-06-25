@@ -26,10 +26,11 @@
     } </script>
     <!-- //Meta-Tags -->
     <!-- Custom-Theme-Files -->
-    <link rel="stylesheet" href="../../css/bootstrap.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="../../css/lib/bootstrap.min.css" type="text/css" media="all">
     <link rel="stylesheet" href="../../css/style.css" type="text/css" media="all">
     <link rel="stylesheet" href="../../css/user.css"/>
     <link rel="stylesheet" href="../../css/film_pro/predict.css"/>
+    <link rel="stylesheet" href="../../css/film_pro/predict_scroll.css"/>
     <link rel="stylesheet" href="../../css/button.css" type="text/css" media="all">
 
     <!-- //Custom-Theme-Files -->
@@ -42,6 +43,151 @@
 <!-- Body -->
 <body>
 <!-- Header -->
+
+<div class="main">
+    <div class="sidebar-hover">
+        <p class="pagination">
+            <span class="page">01</span> / <span class="total-pages">08</span>
+        </p>
+    </div>
+    <div class="sidebar-real">
+        <div data-page="1" class="nav-elem nav-1 active"></div>
+        <div data-page="2" class="nav-elem nav-2"></div>
+        <div data-page="3" class="nav-elem nav-3"></div>
+        <div data-page="4" class="nav-elem nav-4"></div>
+        <div data-page="5" class="nav-elem nav-5"></div>
+        <div data-page="6" class="nav-elem nav-6"></div>
+        <div data-page="7" class="nav-elem nav-7"></div>
+        <div data-page="8" class="nav-elem nav-8"></div>
+    </div>
+    <div class="sections">
+        <div class="section section-1">
+            <div class="left-part"></div>
+            <div class="content">
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <h2 class="section-heading">Fancy heading #1</h2>
+                <p class="additional-text">Some cool info or hashtags #1</p>
+            </div>
+        </div>
+        <div class="section section-2">
+            <div class="left-part"></div>
+            <div class="content">
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <h2 class="section-heading">Jurassic World </h2>
+                <p class="additional-text">Fallen Kingdom</p>
+            </div>
+        </div>
+        <div class="section section-3">
+            <div class="left-part"></div>
+            <div class="content">
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <h2 class="section-heading">Damsel</h2>
+                <p class="additional-text">Some cool info or hashtags #3</p>
+            </div>
+        </div>
+        <div class="section section-4">
+            <div class="left-part"></div>
+            <div class="content">
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <h2 class="section-heading">The Catcher Was a Spy</h2>
+                <p class="additional-text">Some cool info or hashtags #4</p>
+            </div>
+        </div>
+        <div class="section section-5">
+            <div class="left-part"></div>
+            <div class="content">
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <h2 class="section-heading">Sicario</h2>
+                <p class="additional-text">Day of the Soldado</p>
+            </div>
+        </div>
+        <div class="section section-6">
+            <div class="left-part"></div>
+            <div class="content">
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <h2 class="section-heading">Fancy heading #6</h2>
+                <p class="additional-text">Some cool info or hashtags #6</p>
+            </div>
+        </div>
+        <div class="section section-7">
+            <div class="left-part"></div>
+            <div class="content">
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <h2 class="section-heading">Fancy heading #7</h2>
+                <p class="additional-text">Some cool info or hashtags #7</p>
+            </div>
+        </div>
+        <div class="section section-8">
+            <div class="left-part"></div>
+            <div class="content">
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <h2 class="section-heading"><a class="codepen-link" href="https://codepen.io/suez/public/"
+                                               target="_blank">Fancy heading #8</a></h2>
+                <p class="check-out additional-text">Check out my other <a href="https://codepen.io/suez/public/"
+                                                                           target="_blank">pens</a></p>
+            </div>
+        </div>
+    </div>
+    <h2 class="scroll-down">Scroll down</h2>
+</div>
+
+
 <div class="header">
     <!-- Top-Bar -->
     <jsp:include page="template/navbar.jsp"></jsp:include>
@@ -58,18 +204,19 @@
                     <i>directors, stars, genres, awards and trailer hits on Youtube of the film</i>.</p>
 
                 <p>Using <span class="yellow">scikit-learn</span>, a tool for <span class="yellow">machine learning in
-                    Python</span>, we apply different algorithms below to building a mathematical model with those
+                Python</span>, we apply different algorithms below to building a mathematical model with those
                     arguments. </p>
                 <p>
-                <ul>
-                    <li>Linear regression</li>
-                    <li>Lasso regression</li>
-                    <li>K-Nearest Neighbors</li>
-                    <li>Polynomial regression</li>
-                </ul>
+                    <ul>
+                        <li>Linear regression</li>
+                        <li>Lasso regression</li>
+                        <li>K-Nearest Neighbors</li>
+                        <li>Polynomial regression</li>
+                    </ul>
                 </p>
 
-                <p>The existing data will be divided into two parts for <span class="yellow">supervised learning</span>:
+                <p>The existing data will be divided into two parts for <span
+                        class="yellow">supervised learning</span>:
                     80% for training the model by pairing the input with expected output, and 20%
                     for testing the accuracy of the model and adjusting the parameters.
                     With this model, we are able to predict the box office of the movies opening this week
@@ -84,16 +231,16 @@
 
 <!--loginBox-->
 <jsp:include page="../common/loginbox.jsp"></jsp:include>
-<script>document.getElementById('nav_pred').className='active'</script>
+<script>document.getElementById('nav_pred').className = 'active'</script>
 <script src="../../js/ajax.js"></script>
 <script src="../../js/lib/echarts.js"></script>
 <script src="../../js/infographic.js"></script>
-<script src="../../js/lib/jquery-1.11.1.min.js"></script>
+<script src="../../js/lib/jquery-2.1.4.min.js"></script>
 <link href="../../css/owl.carousel.css" rel="stylesheet" type="text/css" media="all">
 <script src="../../js/lib/owl.carousel.js"></script>
-<script src="../../js/predict.js"></script>
+<script src="../../js/film_pro/predict.js"></script>
 <script src="../../js/search_pro.js"></script>
-
+<script src="../../js/film_pro/predict_ui.js"></script>
 </body>
 <!-- //Body -->
 </html>
