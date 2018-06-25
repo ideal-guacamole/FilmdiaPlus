@@ -20,7 +20,6 @@
     <script type="application/x-javascript"> addEventListener("load", function () {
         setTimeout(hideURLbar, 0);
     }, false);
-
     function hideURLbar() {
         window.scrollTo(0, 1);
     } </script>
@@ -183,7 +182,6 @@
             <script>
                 var slider = document.getElementById('slider');
                 var posterArr = slider.getElementsByTagName('li');
-
                 posterArr[0].onclick = function () {
                     setUrl(900, 'tt5074352');
                 };
@@ -199,7 +197,6 @@
                 posterArr[4].onclick = function () {
                     setUrl(839, 'tt4857264')
                 };
-
                 function setUrl(filmID, imdbID) {
                     var url = 'views/details.jsp';
                     var ref = 'filmID';
@@ -210,7 +207,6 @@
                     url = setQueryString(url, ref, value);
                     location.href = url;
                 }
-
             </script>
         </div>
         <div class="clearfix"></div>
@@ -615,7 +611,6 @@
 <%--Load the table and pagination--%>
 <script>
     $(window).load(function () {
-
         // var IMDb_O = 0;
         // var imdb = document.getElementById('IMDb');
         // var oscar = document.getElementById('Oscar');
@@ -724,10 +719,7 @@
         //         }
         //     });
         // }
-
-
     });
-
 </script>
 
 <jsp:include page="views/common/footer.jsp"></jsp:include>
