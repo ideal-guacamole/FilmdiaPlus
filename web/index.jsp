@@ -221,6 +221,7 @@
 <!-- agileinfo -->
 <div class="agileinfo">
     <div class="cinema_container">
+        <div class="div-spac"></div>
         <h3>Cinema Info</h3>
         <%--<p class="ttt">Movies playing and coming soon.</p>--%>
         <div class="latestinfo">

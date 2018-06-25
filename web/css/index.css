@@ -3,12 +3,19 @@
     padding: 2.5em 0;
     height: 1000px;
 }
-
+.div-spac {
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 31px auto 15px;
+    background-color: #073763;
+}
 .agileinfo h3{
     margin-bottom: 15px;
     font-size: 28px;
-    font-weight: bold;
-    margin-top: 30px;
+    font-weight: normal;
+    margin-top: 20px;
+    color: #0d0d0d;
 }
 
 .legend-grd {
@@ -98,12 +105,12 @@
     width: 100%;
     margin: 50px auto 100px;
     background: #fff;
-    box-shadow: 0 0 10px #ccc;
+    /*box-shadow: 0 0 10px #ccc;*/
 }
 
 .latestinfo .title {
     /*border-bottom: 3px solid #e7e7e7;*/
-    padding-bottom: 20px;
+    padding-bottom: 9px;
 }
 
 .latestinfo .title h2 {
@@ -118,23 +125,27 @@
 
 .latestinfo .title-list li {
     /*width: 21.5em;*/
-    width: 36.1em;
-    line-height: 20px;
+    width: 36.2em;
+    line-height: 60px;
     text-align: center;
     float: left;
     display: inline;
+    color: #fff;
+    font-weight: bold;
+    background-color: #073763;
 }
 
 .latestinfo .title-list li.on {
     color: #073763;
+    background-color: #fff;
     font-weight: bold;
 }
 
 .latestinfo .title-list p {
     position: absolute;
-    top: -11px;
+    /*top: -11px;*/
     left: 0px;
-    width: 34%;
+    width: 36.2em;
     height: 7px;
     border-top: 3px solid #073763;
     overflow: hidden;
