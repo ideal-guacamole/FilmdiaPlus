@@ -495,18 +495,15 @@
 
     </div>
 </div>
-<div class="audience_review">
-    <div id="review_bg1" class="audience_review_bg">
-        <div class="audience_review_content">
-            aaaa
-        </div>
-    </div>
-</div>
-<div class="audience_review">
-    <div id="review_bg2" class="audience_review_bg">
-        <div class="audience_review_content">
-            aaaa
-        </div>
+<div class="agileinfo">
+    <%--<div id="review_bg1" class="audience_review_bg">--%>
+    <%--<div class="audience_review_content">--%>
+    <%--aaaa--%>
+    <%--</div>--%>
+    <%--</div>--%>
+    <div class="cinema_container">
+        <div class="div-spac"></div>
+        <h3>Audience Reivews</h3>
     </div>
 </div>
 <jsp:include page="views/common/footer.jsp"></jsp:include>

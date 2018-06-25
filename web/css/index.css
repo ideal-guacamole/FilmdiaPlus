@@ -276,9 +276,6 @@
     background: rgba(0, 0, 0, 0.20) !important;
 }
 
-.audience_review {
-    height: 800px;
-}
 .audience_review_bg {
     position: relative;
     height: 100%;
