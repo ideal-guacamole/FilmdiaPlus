@@ -501,10 +501,169 @@
     <%--aaaa--%>
     <%--</div>--%>
     <%--</div>--%>
-    <div class="cinema_container">
+    <div class="review_container">
         <div class="div-spac"></div>
         <h3>Audience Reivews</h3>
+        <div class="box">
+            <div class="column">
+                <div class="item">
+                    <div class="review-hd">
+                        <a href="">
+                            <img src="https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_UY268_CR3,0,182,268_AL_.jpg"
+                                 alt="">
+                        </a>
+                    </div>
+                    <div class="review-bd">
+                        <h3>In one word: Spectacular.</h3>
+                        <div class="review-meta">
+                            <a href="https://www.douban.com/people/178674718/">ex_umbrellacorp</a> on
+                            <a href="https://movie.douban.com/subject/4896263/?from=reviews">Coco</a>
+                            <span>
+                                <img src="images/star-small.png" alt="">
+                                <img src="images/star-small.png" alt="">
+                                <img src="images/star-small.png" alt="">
+                                <img src="images/star-small.png" alt="">
+                                <img src="images/star-small.png" alt="">
+                                <img src="images/star-small.png" alt="">
+                                <img src="images/star-small.png" alt="">
+                                <img src="images/star-small.png" alt="">
+                                <img src="images/star-small.png" alt="">
+                            </span>
+
+                            <span class="allstar40"></span>
+                        </div>
+                        <div class="review-content">A Pixar's masterpiece, impeccably done in terms of research (about
+                            the Mexican culture), animation, script, musicalization, direction and production. A subtle
+                            yet charming and inspiring story; with a quality of animation worthy of an Academy Award; with an extremely
+                            powerful soundtrack; an excellent script; likable, well-developed and relatable characters;
+                            and extremely respectful of the cultural component in which the story is inspired. In short,
+                            one of the best landings of Pixar - perhaps repeating a bit its known formula, hence you can
+                            feel a "back to basics" in terms of the narrative, history and character development, but at
+                            the same time managing to stand out as a fresh and purposeful product that will undoubtedly
+                            give a lot to talk about.
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="review-hd">
+                        <a href="">
+                            <img src="https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_UY268_CR3,0,182,268_AL_.jpg"
+                                 alt="">
+                        </a>
+                    </div>
+                    <div class="review-bd">
+                        <h3>In one word: Spectacular.</h3>
+                        <div class="review-meta">
+                            <a href="https://www.douban.com/people/178674718/">ex_umbrellacorp</a> on
+                            <a href="https://movie.douban.com/subject/4896263/?from=reviews">Coco</a>
+                            <span>
+                                <img src="images/star-small.png" alt="">
+                                <img src="images/star-small.png" alt="">
+                                <img src="images/star-small.png" alt="">
+                                <img src="images/star-small.png" alt="">
+                                <img src="images/star-small.png" alt="">
+                                <img src="images/star-small.png" alt="">
+                                <img src="images/star-small.png" alt="">
+                                <img src="images/star-small.png" alt="">
+                                <img src="images/star-small.png" alt="">
+                            </span>
+
+                            <span class="allstar40"></span>
+                        </div>
+                        <div class="review-content">A Pixar's masterpiece, impeccably done in terms of research (about
+                            the Mexican culture), animation, script, musicalization, direction and production. A subtle
+                            yet charming and inspiring story; with a quality of animation worthy of an Academy Award; with an extremely
+                            powerful soundtrack; an excellent script; likable, well-developed and relatable characters;
+                            and extremely respectful of the cultural component in which the story is inspired. In short,
+                            one of the best landings of Pixar - perhaps repeating a bit its known formula, hence you can
+                            feel a "back to basics" in terms of the narrative, history and character development, but at
+                            the same time managing to stand out as a fresh and purposeful product that will undoubtedly
+                            give a lot to talk about.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="item">
+                    <div class="review-hd">
+                        <a href="">
+                            <img src="https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_UY268_CR3,0,182,268_AL_.jpg"
+                                 alt="">
+                        </a>
+                    </div>
+                    <div class="review-bd">
+                        <h3>In one word: Spectacular.</h3>
+                        <div class="review-meta">
+                            <a href="https://www.douban.com/people/178674718/">ex_umbrellacorp</a> on
+                            <a href="https://movie.douban.com/subject/4896263/?from=reviews">Coco</a>
+                            <span>
+                                <img src="images/star-small.png" alt="">
+                                <img src="images/star-small.png" alt="">
+                                <img src="images/star-small.png" alt="">
+                                <img src="images/star-small.png" alt="">
+                                <img src="images/star-small.png" alt="">
+                                <img src="images/star-small.png" alt="">
+                                <img src="images/star-small.png" alt="">
+                                <img src="images/star-small.png" alt="">
+                                <img src="images/star-small.png" alt="">
+                            </span>
+
+                            <span class="allstar40"></span>
+                        </div>
+                        <div class="review-content">A Pixar's masterpiece, impeccably done in terms of research (about
+                            the Mexican culture), animation, script, musicalization, direction and production. A subtle
+                            yet charming and inspiring story; with a quality of animation worthy of an Academy Award; with an extremely
+                            powerful soundtrack; an excellent script; likable, well-developed and relatable characters;
+                            and extremely respectful of the cultural component in which the story is inspired. In short,
+                            one of the best landings of Pixar - perhaps repeating a bit its known formula, hence you can
+                            feel a "back to basics" in terms of the narrative, history and character development, but at
+                            the same time managing to stand out as a fresh and purposeful product that will undoubtedly
+                            give a lot to talk about.
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="review-hd">
+                        <a href="">
+                            <img src="https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_UY268_CR3,0,182,268_AL_.jpg"
+                                 alt="">
+                        </a>
+                    </div>
+                    <div class="review-bd">
+                        <h3>In one word: Spectacular.</h3>
+                        <div class="review-meta">
+                            <a href="https://www.douban.com/people/178674718/">ex_umbrellacorp</a> on
+                            <a href="https://movie.douban.com/subject/4896263/?from=reviews">Coco</a>
+                            <span>
+                                <img src="images/star-small.png" alt="">
+                                <img src="images/star-small.png" alt="">
+                                <img src="images/star-small.png" alt="">
+                                <img src="images/star-small.png" alt="">
+                                <img src="images/star-small.png" alt="">
+                                <img src="images/star-small.png" alt="">
+                                <img src="images/star-small.png" alt="">
+                                <img src="images/star-small.png" alt="">
+                                <img src="images/star-small.png" alt="">
+                            </span>
+
+                            <span class="allstar40"></span>
+                        </div>
+                        <div class="review-content">A Pixar's masterpiece, impeccably done in terms of research (about
+                            the Mexican culture), animation, script, musicalization, direction and production. A subtle
+                            yet charming and inspiring story; with a quality of animation worthy of an Academy Award; with an extremely
+                            powerful soundtrack; an excellent script; likable, well-developed and relatable characters;
+                            and extremely respectful of the cultural component in which the story is inspired. In short,
+                            one of the best landings of Pixar - perhaps repeating a bit its known formula, hence you can
+                            feel a "back to basics" in terms of the narrative, history and character development, but at
+                            the same time managing to stand out as a fresh and purposeful product that will undoubtedly
+                            give a lot to talk about.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
 </div>
 <jsp:include page="views/common/footer.jsp"></jsp:include>
 <jsp:include page="views/common/loginbox.jsp"></jsp:include>
