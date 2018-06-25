@@ -45,6 +45,7 @@
 <!-- Header -->
 
 <div class="main">
+
     <div class="sidebar-hover">
         <p class="pagination">
             <span class="page">01</span> / <span class="total-pages">08</span>
@@ -72,8 +73,58 @@
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
-                <h2 class="section-heading">Fancy heading #1</h2>
-                <p class="additional-text">Some cool info or hashtags #1</p>
+                <%--<h2 class="section-heading"><em>Box Office</em>&nbsp;&nbsp;Prediction&nbsp;&nbsp;Algorithm</h2>--%>
+                <%--<p class="additional-text">Some cool info or hashtags #1</p>--%>
+                <div class="header" style="position: fixed">
+                    <!-- Top-Bar -->
+                    <nav class="navbar navbar-default" style="z-index: 300">
+
+                        <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav " style="float:left;padding-left:6.3em;position: fixed">
+                                <li><a href="index_pro.jsp" id="nav_home">Home</a></li>
+                                <li><a href="library.jsp" id="nav_lib">Library</a></li>
+                                <li><a href="statistic.jsp" id="nav_stat">Statistic</a></li>
+                                <li><a href="predict.jsp" id="nav_pred">Predict</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <!-- //Top-Bar -->
+                    <div class="banner">
+                        <div class="bann-info">
+                            <h3><em>Box Office</em>&nbsp;&nbsp;Prediction&nbsp;&nbsp;Algorithm</h3>
+                            <div class="intro">
+                                <p>To reasonably forecast the box office of the unpublished films,
+                                    we select 1997 movies from USA and Britain since 2009 as a sample
+                                    to analysis the relationship between some of their attributes and their final box
+                                    office.</p>
+
+                                <p>The attributes required are as follows:
+                                    <i>directors, stars, genres, awards and trailer hits on Youtube of the film</i>.</p>
+
+                                <p>Using <span class="yellow">scikit-learn</span>, a tool for <span class="yellow">machine learning in
+                Python</span>, we apply different algorithms below to building a mathematical model with those
+                                    arguments. </p>
+                                <p>
+                                <ul>
+                                    <li>Linear regression</li>
+                                    <li>Lasso regression</li>
+                                    <li>K-Nearest Neighbors</li>
+                                    <li>Polynomial regression</li>
+                                </ul>
+                                </p>
+
+                                <p>The existing data will be divided into two parts for <span
+                                        class="yellow">supervised learning</span>:
+                                    80% for training the model by pairing the input with expected output, and 20%
+                                    for testing the accuracy of the model and adjusting the parameters.
+                                    With this model, we are able to predict the box office of the movies opening this
+                                    week
+                                    or coming soon.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="section section-2">
@@ -184,48 +235,7 @@
             </div>
         </div>
     </div>
-    <h2 class="scroll-down">Scroll down</h2>
-</div>
-
-
-<div class="header">
-    <!-- Top-Bar -->
-    <jsp:include page="template/navbar.jsp"></jsp:include>
-    <!-- //Top-Bar -->
-    <div class="banner">
-        <div class="bann-info">
-            <h3><em>Box Office</em>&nbsp;&nbsp;Prediction&nbsp;&nbsp;Algorithm</h3>
-            <div class="intro">
-                <p>To reasonably forecast the box office of the unpublished films,
-                    we select 1997 movies from USA and Britain since 2009 as a sample
-                    to analysis the relationship between some of their attributes and their final box office.</p>
-
-                <p>The attributes required are as follows:
-                    <i>directors, stars, genres, awards and trailer hits on Youtube of the film</i>.</p>
-
-                <p>Using <span class="yellow">scikit-learn</span>, a tool for <span class="yellow">machine learning in
-                Python</span>, we apply different algorithms below to building a mathematical model with those
-                    arguments. </p>
-                <p>
-                    <ul>
-                        <li>Linear regression</li>
-                        <li>Lasso regression</li>
-                        <li>K-Nearest Neighbors</li>
-                        <li>Polynomial regression</li>
-                    </ul>
-                </p>
-
-                <p>The existing data will be divided into two parts for <span
-                        class="yellow">supervised learning</span>:
-                    80% for training the model by pairing the input with expected output, and 20%
-                    for testing the accuracy of the model and adjusting the parameters.
-                    With this model, we are able to predict the box office of the movies opening this week
-                    or coming soon.</p>
-            </div>
-
-        </div>
-    </div>
-    <!-- //Slider -->
+    <h2 class="scroll-down">Scroll Down</h2>
 </div>
 
 
@@ -236,7 +246,6 @@
 <script src="../../js/lib/echarts.js"></script>
 <script src="../../js/infographic.js"></script>
 <script src="../../js/lib/jquery-2.1.4.min.js"></script>
-<link href="../../css/owl.carousel.css" rel="stylesheet" type="text/css" media="all">
 <script src="../../js/lib/owl.carousel.js"></script>
 <script src="../../js/film_pro/predict.js"></script>
 <script src="../../js/search_pro.js"></script>
