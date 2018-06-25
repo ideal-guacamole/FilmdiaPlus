@@ -1,7 +1,7 @@
 /*public*/
 .agileinfo {
     padding: 2.5em 0;
-    height: 1000px;
+    height: 800px;
 }
 .div-spac {
     display: block;
@@ -38,7 +38,8 @@
 
 .alt {
     margin-bottom: 3px;
-    color: #f2be5c;
+    /*color: #f2be5c;*/
+    color: #073763;
     font-size: 14px;
     line-height: 20px;
     font-weight: 600;
@@ -273,4 +274,27 @@
 
 .slider-info {
     background: rgba(0, 0, 0, 0.20) !important;
+}
+
+.audience_review {
+    height: 800px;
+}
+.audience_review_bg {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    color: #fff;
+    /*background-color: #000;*/
+    background-size: cover;
+    /*background-position: 50%;*/
+    z-index: 0;
+}
+.audience_review_content {
+
+}
+#review_bg1 {
+    background-image: url("../images/p2279.jpg");
+}
+#review_bg2 {
+    background-image: url("../images/p2981.jpg");
 }

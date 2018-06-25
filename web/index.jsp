@@ -221,7 +221,8 @@
 <!-- agileinfo -->
 <div class="agileinfo">
     <div class="cinema_container">
-        <h3 style="font-weight: bold; margin-top: 30px">Cinema Info</h3>
+        <div class="div-spac"></div>
+        <h3>Cinema Info</h3>
         <%--<p class="ttt">Movies playing and coming soon.</p>--%>
         <div class="latestinfo">
             <div class="title cf">
@@ -234,7 +235,7 @@
             </div>
             <div class="product-wrap">
                 <!--案例1-->
-                <div class="product showing"  id="thisweek">
+                <div class="product showing" id="thisweek">
                     <ul class="cf">
                         <li class="ml0">
                             <div class="slow-zoom vertical text-center">
@@ -246,6 +247,10 @@
 
                                     </div>
                                 </a>
+                            </div>
+                            <div class="legend-grd">
+                                <div id="thisweek_film1_name" class="alt"></div>
+                                <div id="thisweek_film1_score" class="legend-movie nota"></div>
                             </div>
                         </li>
                         <li class="ml0">
@@ -259,6 +264,10 @@
                                     </div>
                                 </a>
                             </div>
+                            <div class="legend-grd">
+                                <div id="thisweek_film2_name" class="alt"></div>
+                                <div id="thisweek_film2_score" class="legend-movie nota"></div>
+                            </div>
                         </li>
                         <li class="ml0">
                             <div class="slow-zoom vertical text-center">
@@ -270,6 +279,10 @@
 
                                     </div>
                                 </a>
+                            </div>
+                            <div class="legend-grd">
+                                <div id="thisweek_film3_name" class="alt"></div>
+                                <div id="thisweek_film3_score" class="legend-movie nota"></div>
                             </div>
                         </li>
                         <li class="ml0">
@@ -283,6 +296,10 @@
                                     </div>
                                 </a>
                             </div>
+                            <div class="legend-grd">
+                                <div id="thisweek_film4_name" class="alt"></div>
+                                <div id="thisweek_film4_score" class="legend-movie nota"></div>
+                            </div>
                         </li>
                         <li class="ml0">
                             <div class="slow-zoom vertical text-center">
@@ -294,6 +311,10 @@
 
                                     </div>
                                 </a>
+                            </div>
+                            <div class="legend-grd">
+                                <div id="thisweek_film5_name" class="alt"></div>
+                                <div id="thisweek_film5_score" class="legend-movie nota"></div>
                             </div>
                         </li>
                     </ul>
@@ -312,6 +333,10 @@
                                     </div>
                                 </a>
                             </div>
+                            <div class="legend-grd">
+                                <div id="latest_film1_name" class="alt"></div>
+                                <div id="latest_film1_score" class="legend-movie nota"></div>
+                            </div>
                         </li>
                         <li class="ml0">
                             <div class="slow-zoom vertical text-center">
@@ -323,6 +348,10 @@
 
                                     </div>
                                 </a>
+                            </div>
+                            <div class="legend-grd">
+                                <div id="latest_film2_name" class="alt"></div>
+                                <div id="latest_film2_score" class="legend-movie nota"></div>
                             </div>
                         </li>
                         <li class="ml0">
@@ -336,6 +365,10 @@
                                     </div>
                                 </a>
                             </div>
+                            <div class="legend-grd">
+                                <div id="latest_film3_name" class="alt"></div>
+                                <div id="latest_film3_score" class="legend-movie nota"></div>
+                            </div>
                         </li>
                         <li class="ml0">
                             <div class="slow-zoom vertical text-center">
@@ -348,6 +381,10 @@
                                     </div>
                                 </a>
                             </div>
+                            <div class="legend-grd">
+                                <div id="latest_film4_name" class="alt"></div>
+                                <div id="latest_film4_score" class="legend-movie nota"></div>
+                            </div>
                         </li>
                         <li class="ml0">
                             <div class="slow-zoom vertical text-center">
@@ -359,6 +396,10 @@
 
                                     </div>
                                 </a>
+                            </div>
+                            <div class="legend-grd">
+                                <div id="latest_film5_name" class="alt"></div>
+                                <div id="latest_film5_score" class="legend-movie nota"></div>
                             </div>
                         </li>
                     </ul>
@@ -377,6 +418,10 @@
                                     </div>
                                 </a>
                             </div>
+                            <div class="legend-grd">
+                                <div id="coming_film1_name" class="alt"></div>
+                                <div id="coming_film1_score" class="legend-movie nota"></div>
+                            </div>
                         </li>
                         <li class="ml0">
                             <div class="slow-zoom vertical text-center">
@@ -388,6 +433,10 @@
 
                                     </div>
                                 </a>
+                            </div>
+                            <div class="legend-grd">
+                                <div id="coming_film2_name" class="alt"></div>
+                                <div id="coming_film2_score" class="legend-movie nota"></div>
                             </div>
                         </li>
                         <li class="ml0">
@@ -401,6 +450,10 @@
                                     </div>
                                 </a>
                             </div>
+                            <div class="legend-grd">
+                                <div id="coming_film3_name" class="alt"></div>
+                                <div id="coming_film3_score" class="legend-movie nota"></div>
+                            </div>
                         </li>
                         <li class="ml0">
                             <div class="slow-zoom vertical text-center">
@@ -412,6 +465,10 @@
 
                                     </div>
                                 </a>
+                            </div>
+                            <div class="legend-grd">
+                                <div id="coming_film4_name" class="alt"></div>
+                                <div id="coming_film4_score" class="legend-movie nota"></div>
                             </div>
                         </li>
                         <li class="ml0">
@@ -425,6 +482,10 @@
                                     </div>
                                 </a>
                             </div>
+                            <div class="legend-grd">
+                                <div id="coming_film5_name" class="alt"></div>
+                                <div id="coming_film5_score" class="legend-movie nota"></div>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -434,8 +495,20 @@
 
     </div>
 </div>
-
-
+<div class="audience_review">
+    <div id="review_bg1" class="audience_review_bg">
+        <div class="audience_review_content">
+            aaaa
+        </div>
+    </div>
+</div>
+<div class="audience_review">
+    <div id="review_bg2" class="audience_review_bg">
+        <div class="audience_review_content">
+            aaaa
+        </div>
+    </div>
+</div>
 <jsp:include page="views/common/footer.jsp"></jsp:include>
 <jsp:include page="views/common/loginbox.jsp"></jsp:include>
 
