@@ -50,6 +50,11 @@ public class FilmSearchHandler {
         return filmSearchService.getFilmByType(filmType);
     }
 
+    @RequestMapping("/getTopFilms")
+    public @ResponseBody List<Film> getTopFilms(int year, String factor, int n){
+        return filmSearchService.getTopFilms(year, factor, n);
+    }
+
     @RequestMapping("/getFilmName")
     public @ResponseBody String getFilmName(@RequestBody String imdb_filmID){
         return filmSearchService.getFilmName(imdb_filmID);

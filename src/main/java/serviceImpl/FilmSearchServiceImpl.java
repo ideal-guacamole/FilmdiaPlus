@@ -40,6 +40,11 @@ public class FilmSearchServiceImpl implements FilmSearchService{
     }
 
     @Override
+    public List<Film> getTopFilms(int year, String factor, int n) {
+        return filmDataDao.getTopFilms(year, factor, n);
+    }
+
+    @Override
     public String getFilmName(String imdb_filmID) {
         return filmDataDao.getFilmName(imdb_filmID);
     }

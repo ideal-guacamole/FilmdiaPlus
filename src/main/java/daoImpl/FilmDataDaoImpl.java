@@ -125,6 +125,31 @@ public class FilmDataDaoImpl implements FilmDataDao{
     }
 
     @Override
+    public List<Film> getTopFilms(int year, String factor, int n) {
+        Session session = getSession();
+        String hql;
+        if(factor.equals("box_office"))
+            hql = "from FilmDB f where Year(f.onTime) = :year order by f.worldwideGross desc";
+        else if (factor.equals("score"))
+            hql = "from FilmDB f where Year(f.onTime) = :year order by f.score desc";
+        else
+            return new ArrayList<>();
+        Query q = session.createQuery(hql);
+        q.setMaxResults(n);
+        q.setParameter("year",year);
+        List<FilmDB> filmDBList = new ArrayList<>();
+        filmDBList = q.getResultList();
+
+        session.close();
+
+        List<Film> filmList = new ArrayList<>();
+        for(FilmDB filmDB :filmDBList )
+            filmList.add(new Film(filmDB));
+
+        return filmList;
+    }
+
+    @Override
     public List<Film> getFilmByRestriction(int location, int number, Restriction restriction) {
         TransferTime time = processTheDate(restriction.getTime());
         LocalDate start = time.getStart();

@@ -572,6 +572,7 @@
 
     $(window).load(function () {
         getImdb_top10();
+        get2017score_top10();
     });
 
     function getImdb_top10() {
@@ -667,6 +668,107 @@
                     imdb_top10Box += tempreimdbBox;
                 }
                 imdb_top10.innerHTML = imdb_top10Box;
+            }
+        });
+
+    }
+
+    function get2017score_top10() {
+        $.ajax({
+            type: 'post',
+            url: '/film/getTopFilms.action',
+            data: {
+                year : 2017,
+                factor : "score",
+                n : 10
+            },
+            success: function (data) {
+                console.log(data);
+//                var item = data[0];
+//                imdb_top10.innerHTML = '';
+//                url = setQueryString(url, 'filmID', item.filmID);
+//                url = setQueryString(url, 'imdb_filmID', item.imdb_filmID);
+//                filmScore = item.score;
+//                if (filmScore === 0) {
+//                    filmScore = '';
+//                }
+//                imdb_top1Box = '' +
+//                    '<div class="col-md-4" style="width: 180px;height: 222px">' +
+//                    '<div class="content-grid-effect slow-zoom vertical">' +
+//                    '<a href="' + url + '" class="b-link-stripe b-animate-go  swipebox">' +
+//                    '<div class="img-box">' +
+//                    '<img src=' + item.posterURL + ' alt="image" class="img-responsive zoom-img">' +
+//                    '</div>' +
+//                    '<div class="info-box">' +
+//                    '<div class="caption_overlay text-center">' +
+//                    '<div class="primary" style="font-size: 12px">' +
+//                    '<a href="' + url + '">' + item.name + '<span style="color: orange">' + '&nbsp;' + filmScore + '</span>' + '</a>' +
+//                    '</div>' +
+//                    '</div>' +
+//                    '</div>' +
+//                    '</a>' +
+//                    '</div>' +
+//                    '</div>';
+//                imdb_top1.innerHTML = imdb_top1Box;
+//
+//
+//                var star = '<img style="width: 17px" src="../../images/star-small.png" />';
+//                var star_dark = '<img style="width: 17px" src="../../images/star-small-dark.png" />';
+//                var filmStar = '';
+//                var j = 0;
+//                for (; j < item.score - 1; j++) {
+//                    filmStar += star;
+//                }
+//                while (j < 10) {
+//                    filmStar += star_dark;
+//                    j++;
+//                }
+//
+//                imdb_top1_right.innerHTML = '' +
+//                    '<div class="" style="font-size: 15px;margin-top: 10px; margin-left: 10px; margin-right: 10px; margin-bottom: 10px">' +
+//                    '<span class="bli1r">Top 1</span>' +
+//
+//                    '<a style="color: white; margin-left: 5px" href="' + url + '">' + item.name + '</a>' +
+//                    '</div>' +
+//
+//                    '<div class="">' +
+//                    '<span style="color: orange;font-size: 15px;margin-left: 10px">' + '&nbsp;' + filmStar + '</span>' +
+//                    '<span style="color: orange;font-size: 15px;margin-left: 10px; margin-top: 5px">' + '&nbsp;' + filmScore + '</span>' +
+//                    '</div>' +
+//                    '<div class="" style="    max-width: 300px;font-size: 14px;margin-top: 30px; margin-left: 15px; margin-right: 10px; margin-bottom: 10px;color: darkgray">' +
+//                    '<p style="text-align: left">' + item.summary + '</p>' +
+//                    '</div>';
+//
+//                for (var i = 1; i < 10; i++) {
+//                    item = data[i];
+//                    imdb_top10.innerHTML = '';
+//                    url = setQueryString(url, 'filmID', item.filmID);
+//                    url = setQueryString(url, 'imdb_filmID', item.imdb_filmID);
+//                    filmScore = item.score;
+//                    if (filmScore === 0) {
+//                        filmScore = '';
+//                    }
+//                    tempreimdbBox = '' +
+//                        '<div class="col-md-4" style="width: 10%;height: 161px">' +
+//                        '<div class="content-grid-effect slow-zoom vertical">' +
+//                        '<a href="' + url + '" class="b-link-stripe b-animate-go  swipebox">' +
+//                        '<div class="img-box">' +
+//                        '<img src=' + item.posterURL + ' alt="image" class="img-responsive zoom-img">' +
+//                        '</div>' +
+//                        '<div class="info-box">' +
+//                        '<span style="background-color: orange;color: white;font-size: 15px">&nbsp;' + (i + 1) + '&nbsp;</span>' +
+//                        '<div class="caption_overlay text-center">' +
+//                        '<div class="primary" style="font-size: 12px">' +
+//                        '<a href="' + url + '">' + item.name + '<span style="color: orange">' + '&nbsp;' + filmScore + '</span>' + '</a>' +
+//                        '</div>' +
+//                        '</div>' +
+//                        '</div>' +
+//                        '</a>' +
+//                        '</div>' +
+//                        '</div>';
+//                    imdb_top10Box += tempreimdbBox;
+//                }
+//                imdb_top10.innerHTML = imdb_top10Box;
             }
         });
 

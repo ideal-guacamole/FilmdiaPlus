@@ -40,6 +40,15 @@ public interface FilmSearchService {
     public List<Film> getFilmByType(FilmType filmType);
 
     /**
+     * 根据条件查询电影库内上榜电影
+     * @param year 年份
+     * @param factor 排名要素
+     * @param n 取多少条
+     * @return
+     */
+    public List<Film> getTopFilms(int year, String factor, int n);
+
+    /**
      * 根据 imdb_filmID 拿取电影名字
      * @param imdb_filmID IMDB ID
      * @return 电影名

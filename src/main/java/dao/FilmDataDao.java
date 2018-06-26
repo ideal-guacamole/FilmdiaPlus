@@ -44,6 +44,15 @@ public interface FilmDataDao {
     public List<Film> getFilmByType(FilmType filmType);
 
     /**
+     * 根据条件查询电影库内上榜电影
+     * @param year 年份
+     * @param factor 排名要素
+     * @param n 取多少条
+     * @return
+     */
+    public List<Film> getTopFilms(int year, String factor, int n);
+
+    /**
      * 得到电影库的指定筛选条件的电影
      * @param location 起始位置
      * @param number 电影数量
