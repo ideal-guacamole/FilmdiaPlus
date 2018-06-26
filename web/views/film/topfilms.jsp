@@ -130,28 +130,7 @@
         <div class="section section-2">
             <div class="left-part"></div>
             <div class="content">
-
                 <div class="bg-part">
-                    <%--<div class="_1sV3Y">--%>
-                        <%--<div class="_31ZvR"><a href="https://movie.douban.com/subject/26387939/" target="_blank"--%>
-                                               <%--style="background-image: url(&quot;https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2457983084.jpg&quot;);"></a>--%>
-                        <%--</div>--%>
-                        <%--<div><h2><span class="bli1r">Top 1</span><a href="https://movie.douban.com/subject/26387939/"--%>
-                                                                    <%--target="_blank">摔跤吧！爸爸</a></h2>--%>
-                            <%--<div class="_2v86N">Dangal</div>--%>
-                            <%--<div class="l9yjH">--%>
-                                <%--<div class="react-rater is-disabled"><a class="is-active">★</a><a--%>
-                                        <%--class="is-active">★</a><a class="is-active">★</a><a class="is-active">★</a><a--%>
-                                        <%--class="is-active-half">★</a></div>--%>
-                                <%--<span class="_1tnY9">9.1</span><span><!-- react-text: 22475 -->538405--%>
-                                <%--<!-- /react-text --><!-- react-text: 22476 --> 人<!-- /react-text -->--%>
-                                <%--<!-- react-text: 22477 -->评价<!-- /react-text --></span></div>--%>
-                            <%--<div class="_3VvFG"><!-- react-text: 22479 -->--%>
-                                <%--　　多少理想主义者背负着别人的嘲讽往前走，而大他们十倍百倍的人一心想看他们笑话，多少人收到打击后一蹶不振，而只有他们十分之一百分之一的人可以触底反弹，这部电影他蒸馏你的热血，让你血气冲上大脑，然后水从眼里流出来，告诉你要成为这样的人。--%>
-                                <%--<!-- /react-text --><a href="https://www.douban.com/people/thenewhope/" target="_blank">新希望</a>--%>
-                            <%--</div>--%>
-                        <%--</div>--%>
-                    <%--</div>--%>
                     <div id="imdb_top1Box" style="margin-top: 10%;">
                         <div id="imdb_top1" style="margin-left: 600px"></div>
                         <div class="top1_right" id="imdb_top1_right">
@@ -167,16 +146,17 @@
         <div class="section section-3">
             <div class="left-part"></div>
             <div class="content">
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <h2 class="section-heading">Fancy heading #3</h2>
-                <p class="additional-text">Some cool info or hashtags #3</p>
+                <div class="bg-part">
+                    <div id="2017score_top1Box" style="margin-top: 10%;">
+                        <div id="2017score_top1" style="margin-left: 600px"></div>
+                        <div class="top1_right" id="2017score_top1_right">
+                        </div>
+                    </div>
+                    <div id="2017score_top10" style="margin-top: 35%">
+                    </div>
+                </div>
+                <h2 class="section-heading">2017 Score Top10</h2>
+                <p class="additional-text">films</p>
             </div>
         </div>
         <div class="section section-4">
@@ -566,7 +546,14 @@
     var imdb_top1_right = document.getElementById('imdb_top1_right');
     var imdb_top10Box = '';
     var imdb_top1Box = '';
-    var tempreimdbBox = '';
+
+    var _2017score_top10 = document.getElementById('2017score_top10');
+    var _2017score_top1 = document.getElementById('2017score_top1');
+    var _2017score_top1_right = document.getElementById('2017score_top1_right');
+    var _2017score_top10Box = '';
+    var _2017score_top1Box = '';
+
+    var tempreBox = '';
     var filmScore = null;
     var url = 'details.jsp';
 
@@ -583,6 +570,7 @@
                 filmType: 'Top250'
             },
             success: function (data) {
+                tempreBox = '';
                 var item = data[0];
                 imdb_top10.innerHTML = '';
                 url = setQueryString(url, 'filmID', item.filmID);
@@ -647,7 +635,7 @@
                     if (filmScore === 0) {
                         filmScore = '';
                     }
-                    tempreimdbBox = '' +
+                    tempreBox = '' +
                         '<div class="col-md-4" style="width: 10%;height: 161px">' +
                         '<div class="content-grid-effect slow-zoom vertical">' +
                         '<a href="' + url + '" class="b-link-stripe b-animate-go  swipebox">' +
@@ -665,7 +653,7 @@
                         '</a>' +
                         '</div>' +
                         '</div>';
-                    imdb_top10Box += tempreimdbBox;
+                    imdb_top10Box += tempreBox;
                 }
                 imdb_top10.innerHTML = imdb_top10Box;
             }
@@ -680,95 +668,95 @@
             data: {
                 year : 2017,
                 factor : "score",
-                n : 10
+                n : 12
             },
             success: function (data) {
-                console.log(data);
-//                var item = data[0];
-//                imdb_top10.innerHTML = '';
-//                url = setQueryString(url, 'filmID', item.filmID);
-//                url = setQueryString(url, 'imdb_filmID', item.imdb_filmID);
-//                filmScore = item.score;
-//                if (filmScore === 0) {
-//                    filmScore = '';
-//                }
-//                imdb_top1Box = '' +
-//                    '<div class="col-md-4" style="width: 180px;height: 222px">' +
-//                    '<div class="content-grid-effect slow-zoom vertical">' +
-//                    '<a href="' + url + '" class="b-link-stripe b-animate-go  swipebox">' +
-//                    '<div class="img-box">' +
-//                    '<img src=' + item.posterURL + ' alt="image" class="img-responsive zoom-img">' +
-//                    '</div>' +
-//                    '<div class="info-box">' +
-//                    '<div class="caption_overlay text-center">' +
-//                    '<div class="primary" style="font-size: 12px">' +
-//                    '<a href="' + url + '">' + item.name + '<span style="color: orange">' + '&nbsp;' + filmScore + '</span>' + '</a>' +
-//                    '</div>' +
-//                    '</div>' +
-//                    '</div>' +
-//                    '</a>' +
-//                    '</div>' +
-//                    '</div>';
-//                imdb_top1.innerHTML = imdb_top1Box;
-//
-//
-//                var star = '<img style="width: 17px" src="../../images/star-small.png" />';
-//                var star_dark = '<img style="width: 17px" src="../../images/star-small-dark.png" />';
-//                var filmStar = '';
-//                var j = 0;
-//                for (; j < item.score - 1; j++) {
-//                    filmStar += star;
-//                }
-//                while (j < 10) {
-//                    filmStar += star_dark;
-//                    j++;
-//                }
-//
-//                imdb_top1_right.innerHTML = '' +
-//                    '<div class="" style="font-size: 15px;margin-top: 10px; margin-left: 10px; margin-right: 10px; margin-bottom: 10px">' +
-//                    '<span class="bli1r">Top 1</span>' +
-//
-//                    '<a style="color: white; margin-left: 5px" href="' + url + '">' + item.name + '</a>' +
-//                    '</div>' +
-//
-//                    '<div class="">' +
-//                    '<span style="color: orange;font-size: 15px;margin-left: 10px">' + '&nbsp;' + filmStar + '</span>' +
-//                    '<span style="color: orange;font-size: 15px;margin-left: 10px; margin-top: 5px">' + '&nbsp;' + filmScore + '</span>' +
-//                    '</div>' +
-//                    '<div class="" style="    max-width: 300px;font-size: 14px;margin-top: 30px; margin-left: 15px; margin-right: 10px; margin-bottom: 10px;color: darkgray">' +
-//                    '<p style="text-align: left">' + item.summary + '</p>' +
-//                    '</div>';
-//
-//                for (var i = 1; i < 10; i++) {
-//                    item = data[i];
-//                    imdb_top10.innerHTML = '';
-//                    url = setQueryString(url, 'filmID', item.filmID);
-//                    url = setQueryString(url, 'imdb_filmID', item.imdb_filmID);
-//                    filmScore = item.score;
-//                    if (filmScore === 0) {
-//                        filmScore = '';
-//                    }
-//                    tempreimdbBox = '' +
-//                        '<div class="col-md-4" style="width: 10%;height: 161px">' +
-//                        '<div class="content-grid-effect slow-zoom vertical">' +
-//                        '<a href="' + url + '" class="b-link-stripe b-animate-go  swipebox">' +
-//                        '<div class="img-box">' +
-//                        '<img src=' + item.posterURL + ' alt="image" class="img-responsive zoom-img">' +
-//                        '</div>' +
-//                        '<div class="info-box">' +
-//                        '<span style="background-color: orange;color: white;font-size: 15px">&nbsp;' + (i + 1) + '&nbsp;</span>' +
-//                        '<div class="caption_overlay text-center">' +
-//                        '<div class="primary" style="font-size: 12px">' +
-//                        '<a href="' + url + '">' + item.name + '<span style="color: orange">' + '&nbsp;' + filmScore + '</span>' + '</a>' +
-//                        '</div>' +
-//                        '</div>' +
-//                        '</div>' +
-//                        '</a>' +
-//                        '</div>' +
-//                        '</div>';
-//                    imdb_top10Box += tempreimdbBox;
-//                }
-//                imdb_top10.innerHTML = imdb_top10Box;
+                tempreBox = '';
+                var item = data[2];
+                _2017score_top10.innerHTML = '';
+                url = setQueryString(url, 'filmID', item.filmID);
+                url = setQueryString(url, 'imdb_filmID', item.imdb_filmID);
+                filmScore = item.score;
+                if (filmScore === 0) {
+                    filmScore = '';
+                }
+                _2017score_top1Box = '' +
+                    '<div class="col-md-4" style="width: 180px;height: 222px">' +
+                    '<div class="content-grid-effect slow-zoom vertical">' +
+                    '<a href="' + url + '" class="b-link-stripe b-animate-go  swipebox">' +
+                    '<div class="img-box">' +
+                    '<img src=' + item.posterURL + ' alt="image" class="img-responsive zoom-img">' +
+                    '</div>' +
+                    '<div class="info-box">' +
+                    '<div class="caption_overlay text-center">' +
+                    '<div class="primary" style="font-size: 12px">' +
+                    '<a href="' + url + '">' + item.name + '<span style="color: orange">' + '&nbsp;' + filmScore + '</span>' + '</a>' +
+                    '</div>' +
+                    '</div>' +
+                    '</div>' +
+                    '</a>' +
+                    '</div>' +
+                    '</div>';
+                _2017score_top1.innerHTML = _2017score_top1Box;
+
+
+                var star = '<img style="width: 17px" src="../../images/star-small.png" />';
+                var star_dark = '<img style="width: 17px" src="../../images/star-small-dark.png" />';
+                var filmStar = '';
+                var j = 0;
+                for (; j < item.score - 1; j++) {
+                    filmStar += star;
+                }
+                while (j < 10) {
+                    filmStar += star_dark;
+                    j++;
+                }
+
+                _2017score_top1_right.innerHTML = '' +
+                    '<div class="" style="font-size: 15px;margin-top: 10px; margin-left: 10px; margin-right: 10px; margin-bottom: 10px">' +
+                    '<span class="bli1r">Top 1</span>' +
+
+                    '<a style="color: white; margin-left: 5px" href="' + url + '">' + item.name + '</a>' +
+                    '</div>' +
+
+                    '<div class="">' +
+                    '<span style="color: orange;font-size: 15px;margin-left: 10px">' + '&nbsp;' + filmStar + '</span>' +
+                    '<span style="color: orange;font-size: 15px;margin-left: 10px; margin-top: 5px">' + '&nbsp;' + filmScore + '</span>' +
+                    '</div>' +
+                    '<div class="" style="    max-width: 300px;font-size: 14px;margin-top: 30px; margin-left: 15px; margin-right: 10px; margin-bottom: 10px;color: darkgray">' +
+                    '<p style="text-align: left">' + item.summary + '</p>' +
+                    '</div>';
+
+                for (var i = 3; i < 12; i++) {
+                    item = data[i];
+                    _2017score_top10.innerHTML = '';
+                    url = setQueryString(url, 'filmID', item.filmID);
+                    url = setQueryString(url, 'imdb_filmID', item.imdb_filmID);
+                    filmScore = item.score;
+                    if (filmScore === 0) {
+                        filmScore = '';
+                    }
+                    tempreBox = '' +
+                        '<div class="col-md-4" style="width: 10%;height: 161px">' +
+                        '<div class="content-grid-effect slow-zoom vertical">' +
+                        '<a href="' + url + '" class="b-link-stripe b-animate-go  swipebox">' +
+                        '<div class="img-box">' +
+                        '<img src=' + item.posterURL + ' alt="image" class="img-responsive zoom-img">' +
+                        '</div>' +
+                        '<div class="info-box">' +
+                        '<span style="background-color: orange;color: white;font-size: 15px">&nbsp;' + (i + 1) + '&nbsp;</span>' +
+                        '<div class="caption_overlay text-center">' +
+                        '<div class="primary" style="font-size: 12px">' +
+                        '<a href="' + url + '">' + item.name + '<span style="color: orange">' + '&nbsp;' + filmScore + '</span>' + '</a>' +
+                        '</div>' +
+                        '</div>' +
+                        '</div>' +
+                        '</a>' +
+                        '</div>' +
+                        '</div>';
+                    _2017score_top10Box += tempreBox;
+                }
+                _2017score_top10.innerHTML = _2017score_top10Box;
             }
         });
 
