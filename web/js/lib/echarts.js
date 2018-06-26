@@ -8549,7 +8549,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	                var childRect = child.getBoundingRect();
 	                var transform = child.getLocalTransform(tmpMat);
 	                // TODO
-	                // The boundingRect cacluated by transforming original
+	                // The boundingRect calcuated by transforming original
 	                // rect may be bigger than the actual bundingRect when rotation
 	                // is used. (Consider a circle rotated aginst its center, where
 	                // the actual boundingRect should be the same as that not be

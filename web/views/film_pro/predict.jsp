@@ -11,7 +11,7 @@
 <html>
 <!-- Head -->
 <head>
-    <title>Predict · Filmdia</title>
+    <title>Predict · FilmdiaPro</title>
     <!-- Meta-Tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -26,14 +26,13 @@
     } </script>
     <!-- //Meta-Tags -->
     <!-- Custom-Theme-Files -->
-    <link rel="stylesheet" href="../../css/bootstrap.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="../../css/lib/bootstrap.min.css" type="text/css" media="all">
     <link rel="stylesheet" href="../../css/style.css" type="text/css" media="all">
     <link rel="stylesheet" href="../../css/user.css"/>
     <link rel="stylesheet" href="../../css/film_pro/predict.css"/>
+    <link rel="stylesheet" href="../../css/film_pro/predict_scroll.css"/>
     <link rel="stylesheet" href="../../css/button.css" type="text/css" media="all">
-    <script src="../../js/ajax.js"></script>
-    <script src="../../js/lib/echarts.js"></script>
-    <script src="../../js/infographic.js"></script>
+
     <!-- //Custom-Theme-Files -->
     <!-- Web-Fonts -->
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" type="text/css">
@@ -44,366 +43,213 @@
 <!-- Body -->
 <body>
 <!-- Header -->
-<div class="header">
-    <!-- Top-Bar -->
-    <div class="top-bar w3-1">
-        <div class="container">
-            <div class="header-nav w3-agileits-1">
-                <nav class="navbar navbar-default">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                                data-target="#bs-example-navbar-collapse-1">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <h1><a class="navbar-brand" href="index_pro.jsp"><img src="../../images/logo2.png"></a></h1>
-                    </div>
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav ">
-                            <li><a href="index_pro.jsp">Home</a></li>
-                            <li><a href="library.jsp">Library</a></li>
-                            <li><a href="statistic.jsp">Statistic</a></li>
-                            <li><a class=" active" href="predict.jsp">Predict</a></li>
-                        </ul>
 
-                        <jsp:include page="../common/searchbar.jsp"></jsp:include>
+<div class="main">
 
-                        <ul class="user-manage">
-                            <img id="userCenter" src="../../images/Center.png">
-                            <div id="userUnderBox">
-                                <div style="text-indent:0;text-align: center">Hello, <span>xxx</span>!</div>
+    <div class="sidebar-hover">
+        <p class="pagination">
+            <span class="page">01</span> / <span class="total-pages">08</span>
+        </p>
+    </div>
+    <div class="sidebar-real">
+        <div data-page="1" class="nav-elem nav-1 active"></div>
+        <div data-page="2" class="nav-elem nav-2"></div>
+        <div data-page="3" class="nav-elem nav-3"></div>
+        <div data-page="4" class="nav-elem nav-4"></div>
+        <div data-page="5" class="nav-elem nav-5"></div>
+        <div data-page="6" class="nav-elem nav-6"></div>
+        <div data-page="7" class="nav-elem nav-7"></div>
+        <div data-page="8" class="nav-elem nav-8"></div>
+    </div>
+    <div class="sections">
+        <div class="section section-1">
+            <div class="left-part"></div>
+            <div class="content">
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <%--<h2 class="section-heading"><em>Box Office</em>&nbsp;&nbsp;Prediction&nbsp;&nbsp;Algorithm</h2>--%>
+                <%--<p class="additional-text">Some cool info or hashtags #1</p>--%>
+                <div class="header" style="position: fixed">
+                    <!-- Top-Bar -->
+                    <nav class="navbar navbar-default" style="z-index: 300">
+
+                        <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav " style="float:left;padding-left:6.3em;position: fixed">
+                                <li><a href="index_pro.jsp" id="nav_home">Home</a></li>
+                                <li><a href="library.jsp" id="nav_lib">Library</a></li>
+                                <li><a href="statistic.jsp" id="nav_stat">Statistic</a></li>
+                                <li><a href="predict.jsp" id="nav_pred">Predict</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <!-- //Top-Bar -->
+                    <div class="banner">
+                        <div class="bann-info">
+                            <h3><em>Box Office</em>&nbsp;&nbsp;Prediction&nbsp;&nbsp;Algorithm</h3>
+                            <div class="intro">
+                                <p>To reasonably forecast the box office of the unpublished films,
+                                    we select 1997 movies from USA and Britain since 2009 as a sample
+                                    to analysis the relationship between some of their attributes and their final box
+                                    office.</p>
+
+                                <p>The attributes required are as follows:
+                                    <i>directors, stars, genres, awards and trailer hits on Youtube of the film</i>.</p>
+
+                                <p>Using <span class="yellow">scikit-learn</span>, a tool for <span class="yellow">machine learning in
+                Python</span>, we apply different algorithms below to building a mathematical model with those
+                                    arguments. </p>
+                                <p>
                                 <ul>
-                                    <li><img src="../../images/userCenter.png"/><a href="../film/userCenter.jsp">User
-                                        Center</a></li>
-                                    <li><img src="../../images/exit.png"/><a href="" onclick="signOut()">Sign Out</a></li>
+                                    <li>Linear regression</li>
+                                    <li>Lasso regression</li>
+                                    <li>K-Nearest Neighbors</li>
+                                    <li>Polynomial regression</li>
                                 </ul>
+                                </p>
+
+                                <p>The existing data will be divided into two parts for <span
+                                        class="yellow">supervised learning</span>:
+                                    80% for training the model by pairing the input with expected output, and 20%
+                                    for testing the accuracy of the model and adjusting the parameters.
+                                    With this model, we are able to predict the box office of the movies opening this
+                                    week
+                                    or coming soon.</p>
                             </div>
-                        </ul>
-                    </div><!-- /navbar-collapse -->
-                    <!-- search-scripts -->
-                    <script src="../../js/classie.js"></script>
-                    <script src="../../js/uisearch.js"></script>
-                    <script>
-                        new UISearch(document.getElementById('sb-search'));
-                    </script>
-                    <!-- //search-scripts -->
-                </nav>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section section-2">
+            <div class="left-part"></div>
+            <div class="content">
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <h2 class="section-heading">Jurassic World </h2>
+                <p class="additional-text">Fallen Kingdom</p>
+            </div>
+        </div>
+        <div class="section section-3">
+            <div class="left-part"></div>
+            <div class="content">
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <h2 class="section-heading">Damsel</h2>
+                <p class="additional-text">Some cool info or hashtags #3</p>
+            </div>
+        </div>
+        <div class="section section-4">
+            <div class="left-part"></div>
+            <div class="content">
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <h2 class="section-heading">The Catcher Was a Spy</h2>
+                <p class="additional-text">Some cool info or hashtags #4</p>
+            </div>
+        </div>
+        <div class="section section-5">
+            <div class="left-part"></div>
+            <div class="content">
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <h2 class="section-heading">Sicario</h2>
+                <p class="additional-text">Day of the Soldado</p>
+            </div>
+        </div>
+        <div class="section section-6">
+            <div class="left-part"></div>
+            <div class="content">
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <h2 class="section-heading">Fancy heading #6</h2>
+                <p class="additional-text">Some cool info or hashtags #6</p>
+            </div>
+        </div>
+        <div class="section section-7">
+            <div class="left-part"></div>
+            <div class="content">
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <h2 class="section-heading">Fancy heading #7</h2>
+                <p class="additional-text">Some cool info or hashtags #7</p>
+            </div>
+        </div>
+        <div class="section section-8">
+            <div class="left-part"></div>
+            <div class="content">
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <div class="bg-part"></div>
+                <h2 class="section-heading"><a class="codepen-link" href="https://codepen.io/suez/public/"
+                                               target="_blank">Fancy heading #8</a></h2>
+                <p class="check-out additional-text">Check out my other <a href="https://codepen.io/suez/public/"
+                                                                           target="_blank">pens</a></p>
             </div>
         </div>
     </div>
-    <!-- //Top-Bar -->
-    <div class="banner">
-        <div class="bann-info">
-            <h3><em>Box Office</em>&nbsp;&nbsp;Prediction&nbsp;&nbsp;Algorithm</h3>
-            <div class="intro">
-                <p>To reasonably forecast the box office of the unpublished films,
-                    we select 1997 movies from USA and Britain since 2009 as a sample
-                    <%--(because few of the films from other countries are box-office success and--%>
-                    <%--the film industry revenue of two countries hasn't changed much since 2009)--%>
-                    to analysis the relationship between some of their attributes and their final box office.</p>
-
-                <p>The attributes required are as follows:
-                    <u>directors, stars, genres, awards and trailer hits on Youtube of the film</u>.</p>
-
-                <p>Using <span class="yellow">scikit-learn</span>, a tool for <span class="yellow">machine learning in
-                    Python</span>, we apply different algorithms below to building a mathematical model with those
-                    arguments. </p>
-                <p>
-                <ul>
-                    <li>Linear regression</li>
-                    <li>Lasso regression</li>
-                    <li>K-Nearest Neighbors</li>
-                    <li>Polynomial regression</li>
-                </ul>
-                </p>
-
-                <p>The existing data will be divided into two parts for <span class="yellow">supervised learning</span>:
-                    80% for training the model by pairing the input with expected output, and 20%
-                    for testing the accuracy of the model and adjusting the parameters.
-                    With this model, we are able to predict the box office of the movies opening this week
-                    or coming soon.</p>
-            </div>
-
-        </div>
-    </div>
-    <!-- //Slider -->
+    <h2 class="scroll-down">Scroll Down</h2>
 </div>
 
-<div class="infoPane">
-    <!--/content-inner-section-->
-    <div class="w3_content_agilleinfo_inner">
-        <div class="agile_featured_movies">
-            <!--/agileinfo_tabs-->
-            <div class="agileinfo_tabs">
-
-                <!-- <h3 class="agile_w3_title"> Latest <span>Movies</span></h3> -->
-                <!--/movies-->
-                <div class="w3_agile_latest_movies">
-
-                    <div id="owl-demo" class="owl-carousel owl-theme">
-                        <div class="item">
-                            <div class="w3l-movie-gride-agile w3l-movie-gride-slider ">
-                                <img id="thisweek1_pic" src="../../images/posters/B005GSVFDW.jpg" class="img-responsive"
-                                     alt="IMAGE "/>
-                                <div class="mid-1 agileits_w3layouts_mid_1_home">
-                                    <div class="w3l-movie-text">
-                                        <h6 id="thisweek1_name">Storks</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="w3l-movie-gride-agile w3l-movie-gride-slider ">
-                                <img id="thisweek2_pic" src="../../images/posters/B005GSVFDW.jpg" class="img-responsive"
-                                     alt="IMAGE"/>
-                                <div class="mid-1 agileits_w3layouts_mid_1_home">
-                                    <div class="w3l-movie-text">
-                                        <h6 id="thisweek2_name">Hopeless</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="w3l-movie-gride-agile w3l-movie-gride-slider ">
-                                <img id="thisweek3_pic" src="../../images/posters/B005GSVFDW.jpg" class="img-responsive"
-                                     alt=" IMAGE"/>
-                                <div class="mid-1 agileits_w3layouts_mid_1_home">
-                                    <div class="w3l-movie-text">
-                                        <h6 id="thisweek3_name">Mechanic</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="w3l-movie-gride-agile w3l-movie-gride-slider ">
-                                <img id="thisweek4_pic" src="../../images/posters/B005GSVFDW.jpg" class="img-responsive"
-                                     alt=" "/>
-                                <div class="mid-1 agileits_w3layouts_mid_1_home">
-                                    <div class="w3l-movie-text">
-                                        <h6 id="thisweek4_name">Timeless</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="w3l-movie-gride-agile w3l-movie-gride-slider ">
-                                <img id="thisweek5_pic" src="../../images/posters/B005GSVFDW.jpg" class="img-responsive"
-                                     alt=" IMAGE"/>
-                                <div class="mid-1 agileits_w3layouts_mid_1_home">
-                                    <div class="w3l-movie-text">
-                                        <h6 id="thisweek5_name">Deadpool</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="w3l-movie-gride-agile w3l-movie-gride-slider ">
-                                <img id="coming1_pic" src="../../images/posters/B005GSVFDW.jpg" class="img-responsive"
-                                     alt="IMAGE "/>
-                                <div class="mid-1 agileits_w3layouts_mid_1_home">
-                                    <div class="w3l-movie-text">
-                                        <h6 id="coming1_name">Warcraft</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="w3l-movie-gride-agile w3l-movie-gride-slider ">
-                                <img id="coming2_pic" src="../../images/posters/B005GSVFDW.jpg" class="img-responsive"
-                                     alt="IMAGE "/>
-                                <div class="mid-1 agileits_w3layouts_mid_1_home">
-                                    <div class="w3l-movie-text">
-                                        <h6 id="coming2_name">Rambo 4</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="w3l-movie-gride-agile w3l-movie-gride-slider ">
-                                <img id="coming3_pic" src="../../images/posters/B005GSVFDW.jpg" class="img-responsive"
-                                     alt="IMAGE "/>
-                                <div class="mid-1 agileits_w3layouts_mid_1_home">
-                                    <div class="w3l-movie-text">
-                                        <h6 id="coming3_name">Rambo 4</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="w3l-movie-gride-agile w3l-movie-gride-slider ">
-                                <img id="coming4_pic" src="../../images/posters/B005GSVFDW.jpg" class="img-responsive"
-                                     alt="IMAGE "/>
-                                <div class="mid-1 agileits_w3layouts_mid_1_home">
-                                    <div class="w3l-movie-text">
-                                        <h6 id="coming4_name">Rambo 4</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="w3l-movie-gride-agile w3l-movie-gride-slider ">
-                                <img id="coming5_pic" src="../../images/posters/B005GSVFDW.jpg" class="img-responsive"
-                                     alt="IMAGE "/>
-                                <div class="mid-1 agileits_w3layouts_mid_1_home">
-                                    <div class="w3l-movie-text">
-                                        <h6 id="coming5_name">Rambo 4</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--//movies-->
-            </div>
-        </div>
-    </div>
-    <!--//content-inner-section-->
-
-    <div class="movie_info">
-        <div class="info_container">
-            <%--<div class="movie_poster"><img src="../images/posters/B005LAIIS0.jpg" alt=""></div>--%>
-
-            <div class="staff_info">
-                <div class="director_title"><h4>Director & Representatives Box Office:</h4></div>
-                <div class="director_info" id="director_info">
-
-                </div>
-
-                <div class="star_title"><h4>Stars & Representatives Box Office:</h4></div>
-                <div class="star_info" id="star_info">
-                    <%--<div class="director_info">--%>
-                    <%--<div class="directorBox">--%>
-                    <%--<img src="../images/posters/B005LAIHPE.jpg" alt="">--%>
-                    <%--<h6>Morgan Freeman</h6>--%>
-                    <%--</div>--%>
-                    <%--<div class="infobox">--%>
-                    <%--<div class="filmbox">--%>
-                    <%--<img src="../images/posters/B005LAIHPE.jpg" alt="">--%>
-                    <%--<h6>$20122016</h6>--%>
-                    <%--</div>--%>
-                    <%--</div>--%>
-                    <%--<div class="infobox">--%>
-                    <%--<div class="filmbox">--%>
-                    <%--<img src="../images/posters/B005LAIHPE.jpg" alt="">--%>
-                    <%--<h6>$20122016</h6>--%>
-                    <%--</div>--%>
-                    <%--</div>--%>
-                    <%--<div class="infobox">--%>
-                    <%--<div class="filmbox">--%>
-                    <%--<img src="../images/posters/B005LAIHPE.jpg" alt="">--%>
-                    <%--<h6>$20122016</h6>--%>
-                    <%--</div>--%>
-                    <%--</div>--%>
-                    <%--<div class="infobox">--%>
-                    <%--<div class="filmbox">--%>
-                    <%--<img src="../images/posters/B005LAIHPE.jpg" alt="">--%>
-                    <%--<h6>$20122016</h6>--%>
-                    <%--</div>--%>
-                    <%--</div>--%>
-                    <%--</div>--%>
-                    <%--<div class="director_info">--%>
-                    <%--<div class="directorBox">--%>
-                    <%--<img src="../images/posters/B005LAIHPE.jpg" alt="">--%>
-                    <%--<h6>Morgan Freeman</h6>--%>
-                    <%--</div>--%>
-                    <%--<div class="infobox">--%>
-                    <%--<div class="filmbox">--%>
-                    <%--<img src="../images/posters/B005LAIHPE.jpg" alt="">--%>
-                    <%--<h6>$20122016</h6>--%>
-                    <%--</div>--%>
-                    <%--</div>--%>
-                    <%--<div class="infobox">--%>
-                    <%--<div class="filmbox">--%>
-                    <%--<img src="../images/posters/B005LAIHPE.jpg" alt="">--%>
-                    <%--<h6>$20122016</h6>--%>
-                    <%--</div>--%>
-                    <%--</div>--%>
-                    <%--<div class="infobox">--%>
-                    <%--<div class="filmbox">--%>
-                    <%--<img src="../images/posters/B005LAIHPE.jpg" alt="">--%>
-                    <%--<h6>$20122016</h6>--%>
-                    <%--</div>--%>
-                    <%--</div>--%>
-                    <%--<div class="infobox">--%>
-                    <%--<div class="filmbox">--%>
-                    <%--<img src="../images/posters/B005LAIHPE.jpg" alt="">--%>
-                    <%--<h6>$20122016</h6>--%>
-                    <%--</div>--%>
-                    <%--</div>--%>
-                    <%--</div>--%>
-                    <%--<div class="director_info">--%>
-                    <%--<div class="directorBox">--%>
-                    <%--<img src="../images/posters/B005LAIHPE.jpg" alt="">--%>
-                    <%--<h6>Morgan Freeman</h6>--%>
-                    <%--</div>--%>
-                    <%--<div class="infobox">--%>
-                    <%--<div class="filmbox">--%>
-                    <%--<img src="../images/posters/B005LAIHPE.jpg" alt="">--%>
-                    <%--<h6>$20122016</h6>--%>
-                    <%--</div>--%>
-                    <%--</div>--%>
-                    <%--<div class="infobox">--%>
-                    <%--<div class="filmbox">--%>
-                    <%--<img src="../images/posters/B005LAIHPE.jpg" alt="">--%>
-                    <%--<h6>$20122016</h6>--%>
-                    <%--</div>--%>
-                    <%--</div>--%>
-                    <%--<div class="infobox">--%>
-                    <%--<div class="filmbox">--%>
-                    <%--<img src="../images/posters/B005LAIHPE.jpg" alt="">--%>
-                    <%--<h6>$20122016</h6>--%>
-                    <%--</div>--%>
-                    <%--</div>--%>
-                    <%--<div class="infobox">--%>
-                    <%--<div class="filmbox">--%>
-                    <%--<img src="../images/posters/B005LAIHPE.jpg" alt="">--%>
-                    <%--<h6>$20122016</h6>--%>
-                    <%--</div>--%>
-                    <%--</div>--%>
-                    <%--</div>--%>
-                </div>
-
-
-                <div id="predictChartBox">
-                </div>
-
-            </div>
-            <div class="algorithm">
-                <div class="btn_group">
-                    <button class="btn btn-primary btn-sm btn-round" id="linear">Linear</button>
-                    <button class="btn btn-primary btn-sm btn-round" id="lasso">Lasso</button>
-                    <button class="btn btn-primary btn-sm btn-round" id="k_nearest">K-Nearest</button>
-                    <button class="btn btn-primary btn-sm btn-round" id="poly">Polynomial</button>
-                </div>
-                <div class="result">
-                    <div class="range">
-                        <h4>Possible range:</h4>
-                        <h2><span id="min">$</span>~<span id="max">$</span></h2>
-                    </div>
-                    <div class="final">
-                        <h4>Possible result:</h4>
-                        <h2 id="precise">$</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<%--//infoPane--%>
 
 <!--loginBox-->
 <jsp:include page="../common/loginbox.jsp"></jsp:include>
-<jsp:include page="../common/footer.jsp"></jsp:include>
-<script src="../../js/lib/jquery-1.11.1.min.js"></script>
-<link href="../../css/owl.carousel.css" rel="stylesheet" type="text/css" media="all">
+<script>document.getElementById('nav_pred').className = 'active'</script>
+<script src="../../js/ajax.js"></script>
+<script src="../../js/lib/echarts.js"></script>
+<script src="../../js/infographic.js"></script>
+<script src="../../js/lib/jquery-2.1.4.min.js"></script>
 <script src="../../js/lib/owl.carousel.js"></script>
-<script src="../../js/predict.js"></script>
+<script src="../../js/film_pro/predict.js"></script>
 <script src="../../js/search_pro.js"></script>
-
+<script src="../../js/film_pro/predict_ui.js"></script>
 </body>
 <!-- //Body -->
 </html>
