@@ -51,7 +51,7 @@ $(document).ready(function() {
         if (paramPage) curPage = paramPage;
         navigating = true;
         var calculatedMargin = 0 - (curPage - 1) * 100;
-        $(".bg-part, .left-part").css("margin-top", calculatedMargin +"vh");
+        $(".bg-part, .left-part, .predictChartBox").css("margin-top", calculatedMargin +"vh");
         $(".scroll-down").addClass("removed");
         if (parseInt($(".nav-elem.active").attr("data-page")) === 1) {
             $(".scroll-down").removeClass("removed");

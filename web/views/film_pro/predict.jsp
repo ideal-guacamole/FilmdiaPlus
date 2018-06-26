@@ -28,7 +28,7 @@
     <!-- Custom-Theme-Files -->
     <link rel="stylesheet" href="../../css/lib/bootstrap.min.css" type="text/css" media="all">
     <link rel="stylesheet" href="../../css/style.css" type="text/css" media="all">
-    <link rel="stylesheet" href="../../css/user.css"/>
+    <%--<link rel="stylesheet" href="../../css/user.css"/>--%>
     <link rel="stylesheet" href="../../css/film_pro/predict.css"/>
     <link rel="stylesheet" href="../../css/film_pro/predict_scroll.css"/>
     <link rel="stylesheet" href="../../css/button.css" type="text/css" media="all">
@@ -140,6 +140,7 @@
                 <div class="bg-part"></div>
                 <h2 class="section-heading">Jurassic World </h2>
                 <p class="additional-text">Fallen Kingdom</p>
+                <div class="predictChartBox" name="tt4881806"></div>
             </div>
         </div>
         <div class="section section-3">
@@ -155,6 +156,7 @@
                 <div class="bg-part"></div>
                 <h2 class="section-heading">Damsel</h2>
                 <p class="additional-text">Some cool info or hashtags #3</p>
+                <div class="predictChartBox" name="tt5881528"></div>
             </div>
         </div>
         <div class="section section-4">
@@ -170,6 +172,8 @@
                 <div class="bg-part"></div>
                 <h2 class="section-heading">The Catcher Was a Spy</h2>
                 <p class="additional-text">Some cool info or hashtags #4</p>
+                <div class="predictChartBox" name="tt4602066"></div>
+
             </div>
         </div>
         <div class="section section-5">
@@ -185,6 +189,8 @@
                 <div class="bg-part"></div>
                 <h2 class="section-heading">Sicario</h2>
                 <p class="additional-text">Day of the Soldado</p>
+                <div class="predictChartBox" name="tt5052474"></div>
+
             </div>
         </div>
         <div class="section section-6">
@@ -198,8 +204,10 @@
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
-                <h2 class="section-heading">Fancy heading #6</h2>
+                <h2 class="section-heading">The king</h2>
                 <p class="additional-text">Some cool info or hashtags #6</p>
+                <div class="predictChartBox" name="tt6775942"></div>
+
             </div>
         </div>
         <div class="section section-7">
@@ -213,8 +221,10 @@
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
-                <h2 class="section-heading">Fancy heading #7</h2>
+                <h2 class="section-heading">Uncle Drew</h2>
                 <p class="additional-text">Some cool info or hashtags #7</p>
+                <div class="predictChartBox" name="tt7334528"></div>
+
             </div>
         </div>
         <div class="section section-8">
@@ -228,10 +238,11 @@
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
-                <h2 class="section-heading"><a class="codepen-link" href="https://codepen.io/suez/public/"
-                                               target="_blank">Fancy heading #8</a></h2>
-                <p class="check-out additional-text">Check out my other <a href="https://codepen.io/suez/public/"
-                                                                           target="_blank">pens</a></p>
+                <h2 class="section-heading"><a class="codepen-link" href="#"
+                                               target="_blank">Leave no trace</a></h2>
+                <p class="check-out additional-text">Check out my other <a href="#" target="_blank">pens</a></p>
+                <div class="predictChartBox" name="tt3892172"></div>
+
             </div>
         </div>
     </div>
@@ -240,15 +251,15 @@
 
 
 <!--loginBox-->
-<jsp:include page="../common/loginbox.jsp"></jsp:include>
+<%--<jsp:include page="../common/loginbox.jsp"></jsp:include>--%>
 <script>document.getElementById('nav_pred').className = 'active'</script>
 <script src="../../js/ajax.js"></script>
 <script src="../../js/lib/echarts.js"></script>
 <script src="../../js/infographic.js"></script>
 <script src="../../js/lib/jquery-2.1.4.min.js"></script>
 <script src="../../js/lib/owl.carousel.js"></script>
-<script src="../../js/film_pro/predict.js"></script>
-<script src="../../js/search_pro.js"></script>
+<script src="../../js/film_pro/predict_pro.js"></script>
+<%--<script src="../../js/search_pro.js"></script>--%>
 <script src="../../js/film_pro/predict_ui.js"></script>
 </body>
 <!-- //Body -->

@@ -1,8 +1,9 @@
 /*public*/
 .agileinfo {
     padding: 2em 0;
-    height: 800px;
+    height: 750px;
 }
+
 .div-spac {
     display: block;
     width: 70px;
@@ -10,12 +11,15 @@
     margin: 31px auto 15px;
     background-color: #073763;
 }
-.agileinfo h3{
-    margin-bottom: 15px;
-    font-size: 28px;
+
+.agileinfo h3, .reviewinfo h3, .recommendinfo h3 {
+    margin-bottom: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 23px;
     font-weight: normal;
     margin-top: 20px;
     color: #0d0d0d;
+    text-align: center;
 }
 
 .legend-grd {
@@ -45,6 +49,7 @@
     font-weight: 600;
     text-transform: uppercase;
 }
+
 .legend-movie.nota {
     margin-right: 6px;
     padding: 2px 5px 1px;
@@ -56,6 +61,7 @@
     font-size: 11px;
     font-weight: 400;
 }
+
 .legend-movie {
     display: inline-block;
     margin-top: 13px;
@@ -68,6 +74,7 @@
     letter-spacing: 0px;
     text-transform: none;
 }
+
 .fr {
     display: inline;
     float: left
@@ -101,10 +108,11 @@
     width: 100%;
     padding: 0;
 }
+
 /*main*/
 .latestinfo {
     width: 100%;
-    margin: 50px auto 100px;
+    margin: 40px auto 100px;
     background: #fff;
     /*box-shadow: 0 0 10px #ccc;*/
 }
@@ -112,6 +120,7 @@
 .latestinfo .title {
     /*border-bottom: 3px solid #e7e7e7;*/
     padding-bottom: 9px;
+    width: 100%;
 }
 
 .latestinfo .title h2 {
@@ -122,11 +131,12 @@
 .latestinfo .title-list {
     position: relative;
     top: 9px;
+    width: 100%;
 }
 
 .latestinfo .title-list li {
     /*width: 21.5em;*/
-    width: 36.2em;
+    width: 33.333%;
     line-height: 60px;
     text-align: center;
     float: left;
@@ -286,13 +296,18 @@
     /*background-position: 50%;*/
     z-index: 0;
 }
+.reviewinfo {
+    padding: 2em 0;
+    height: 690px;
+}
 .review_container {
     width: 90%;
     margin: 0 auto;
 }
+
 .box {
     margin-top: 50px;
-    height: 480px;
+    height: 520px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -321,26 +336,32 @@
     float: left;
     width: 88px;
 }
+
 .item .review-bd {
     /*padding-left: 83px;*/
 }
+
 .item .review-hd a:visited {
     color: #666699;
     text-decoration: none;
 }
+
 .item .review-hd a:link {
     color: #37a;
     text-decoration: none;
 }
+
 .item .review-hd a:visited {
     color: #669;
     text-decoration: none;
 }
+
 .item .review-hd img {
     width: 78px;
     margin-bottom: 5px;
     margin-right: 10px;
 }
+
 .review-bd h3 {
     text-align: left;
     margin: 0;
@@ -349,26 +370,70 @@
     font-size: 15px;
     font-weight: bold;
 }
+
 .review-bd .review-meta {
     color: #666;
     padding: 5px 0;
     font-size: 11px;
 }
-.review-bd .review-meta img{
+
+.review-bd .review-meta img {
     width: 12px;
     margin-bottom: 4px;
 }
+
 .review-bd .review-content {
     line-height: 20px;
 }
+
 .review-bd .review-content {
     line-height: 20px;
     font-size: 12.5px;
     margin: 0 5px;
 }
+
 #review_bg1 {
     background-image: url("../images/p2279.jpg");
 }
+
 #review_bg2 {
     background-image: url("../images/p2981.jpg");
+}
+.recommendinfo {
+    padding: 2em 0;
+    height: 790px;
+}
+.recommend_container {
+    width: 90%;
+    margin: 0 auto;
+}
+.recommend_col {
+    width: 25%;
+    float: left;
+    position: relative;
+}
+
+.grd.long {
+    width: auto;
+    height: auto;
+    box-shadow: inset 0 -3px 0 0 #ffc917;
+}
+
+.grd {
+    width: 98%;
+    height: 400px;
+    margin-top: 35px;
+    background-color: #2e2929;
+}
+
+.grd img {
+    vertical-align: middle;
+    display: inline-block;
+    filter: brightness(90%);
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+}
+.grd img:hover {
+    filter: brightness(105%) sepia(20%);
+
 }
