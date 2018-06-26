@@ -528,13 +528,15 @@
                                 <img src="images/star-small.png" alt="">
                                 <img src="images/star-small.png" alt="">
                                 <img src="images/star-small.png" alt="">
+                                <img src="images/star-small.png" alt="">
                             </span>
 
                             <span class="allstar40"></span>
                         </div>
                         <div class="review-content">A Pixar's masterpiece, impeccably done in terms of research (about
                             the Mexican culture), animation, script, musicalization, direction and production. A subtle
-                            yet charming and inspiring story; with a quality of animation worthy of an Academy Award; with an extremely
+                            yet charming and inspiring story; with a quality of animation worthy of an Academy Award;
+                            with an extremely
                             powerful soundtrack; an excellent script; likable, well-developed and relatable characters;
                             and extremely respectful of the cultural component in which the story is inspired. In short,
                             one of the best landings of Pixar - perhaps repeating a bit its known formula, hence you can
@@ -547,16 +549,17 @@
                 <div class="item">
                     <div class="review-hd">
                         <a href="">
-                            <img src="https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_UY268_CR3,0,182,268_AL_.jpg"
+                            <img src="https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_UX182_CR0,0,182,268_AL_.jpg"
                                  alt="">
                         </a>
                     </div>
                     <div class="review-bd">
-                        <h3>In one word: Spectacular.</h3>
+                        <h3>Blade Runner 2049 - A New-Age Sci-Fi Classic</h3>
                         <div class="review-meta">
-                            <a href="https://www.douban.com/people/178674718/">ex_umbrellacorp</a> on
-                            <a href="https://movie.douban.com/subject/4896263/?from=reviews">Coco</a>
+                            <a href="https://www.douban.com/people/178674718/">KJ Proulx</a> on
+                            <a href="https://movie.douban.com/subject/4896263/?from=reviews">Blade Runner 2049</a>
                             <span>
+                                <img src="images/star-small.png" alt="">
                                 <img src="images/star-small.png" alt="">
                                 <img src="images/star-small.png" alt="">
                                 <img src="images/star-small.png" alt="">
@@ -570,15 +573,14 @@
 
                             <span class="allstar40"></span>
                         </div>
-                        <div class="review-content">A Pixar's masterpiece, impeccably done in terms of research (about
-                            the Mexican culture), animation, script, musicalization, direction and production. A subtle
-                            yet charming and inspiring story; with a quality of animation worthy of an Academy Award; with an extremely
-                            powerful soundtrack; an excellent script; likable, well-developed and relatable characters;
-                            and extremely respectful of the cultural component in which the story is inspired. In short,
-                            one of the best landings of Pixar - perhaps repeating a bit its known formula, hence you can
-                            feel a "back to basics" in terms of the narrative, history and character development, but at
-                            the same time managing to stand out as a fresh and purposeful product that will undoubtedly
-                            give a lot to talk about.
+                        <div class="review-content">If not for anything else, Blade Runner 2049 benefits from some of
+                            the best cinematography I've laid my eyes on in years. From the addition of the seamlessly
+                            blended visual effects, to the mind- blowing scenery constructed by the entire art
+                            department, I have nothing but praise for this film. Whether or not you find yourself
+                            enjoying your experience, the visuals alone should have you applauding, due to their
+                            incredibly detailed nature. I personally found the overall film to be magnificent, but when
+                            certain scenes were dialogue-free and asking you to gasp at the imagery, that's exactly what
+                            I was doing, as I feel many audiences members will.
                         </div>
                     </div>
                 </div>
@@ -587,16 +589,17 @@
                 <div class="item">
                     <div class="review-hd">
                         <a href="">
-                            <img src="https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_UY268_CR3,0,182,268_AL_.jpg"
+                            <img src="https://m.media-amazon.com/images/M/MV5BMjE4NzgzNzEwMl5BMl5BanBnXkFtZTgwMTMzMDE0NjE@._V1_UX182_CR0,0,182,268_AL_.jpg"
                                  alt="">
                         </a>
                     </div>
                     <div class="review-bd">
-                        <h3>In one word: Spectacular.</h3>
+                        <h3>Infinitely deep, an experience I will not forget.</h3>
                         <div class="review-meta">
-                            <a href="https://www.douban.com/people/178674718/">ex_umbrellacorp</a> on
-                            <a href="https://movie.douban.com/subject/4896263/?from=reviews">Coco</a>
+                            <a href="https://www.douban.com/people/178674718/">Dominic Michael Tierno</a> on
+                            <a href="https://movie.douban.com/subject/4896263/?from=reviews">Room</a>
                             <span>
+                                <img src="images/star-small.png" alt="">
                                 <img src="images/star-small.png" alt="">
                                 <img src="images/star-small.png" alt="">
                                 <img src="images/star-small.png" alt="">
@@ -610,31 +613,31 @@
 
                             <span class="allstar40"></span>
                         </div>
-                        <div class="review-content">A Pixar's masterpiece, impeccably done in terms of research (about
-                            the Mexican culture), animation, script, musicalization, direction and production. A subtle
-                            yet charming and inspiring story; with a quality of animation worthy of an Academy Award; with an extremely
-                            powerful soundtrack; an excellent script; likable, well-developed and relatable characters;
-                            and extremely respectful of the cultural component in which the story is inspired. In short,
-                            one of the best landings of Pixar - perhaps repeating a bit its known formula, hence you can
-                            feel a "back to basics" in terms of the narrative, history and character development, but at
-                            the same time managing to stand out as a fresh and purposeful product that will undoubtedly
-                            give a lot to talk about.
+                        <div class="review-content">*Insert all 9 & 10 reviews here* I was in awe during the entire
+                            film. Lenny Abrahamson & the writing team made sure there was not one dull moment. The
+                            addition of "insignificant" characters and plot twists are later realized to be so
+                            significant and influential in keeping the film alive throughout its duration. It was the
+                            little things that made this story one of the best I've seen in a long time. I experienced
+                            an entire palette of emotions all at once and was left in a deep level of curiosity and
+                            reflection. Very few films have the power to continue to influence its audience after the
+                            credits. Room is endless in the most beautiful way.
                         </div>
                     </div>
                 </div>
                 <div class="item">
                     <div class="review-hd">
                         <a href="">
-                            <img src="https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_UY268_CR3,0,182,268_AL_.jpg"
+                            <img src="https://m.media-amazon.com/images/M/MV5BYzc5MTU4N2EtYTkyMi00NjdhLTg3NWEtMTY4OTEyMzJhZTAzXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX182_CR0,0,182,268_AL_.jpg"
                                  alt="">
                         </a>
                     </div>
                     <div class="review-bd">
-                        <h3>In one word: Spectacular.</h3>
+                        <h3>A masterfully orchestrated film</h3>
                         <div class="review-meta">
-                            <a href="https://www.douban.com/people/178674718/">ex_umbrellacorp</a> on
-                            <a href="https://movie.douban.com/subject/4896263/?from=reviews">Coco</a>
+                            <a href="https://www.douban.com/people/178674718/">alva3901</a> on
+                            <a href="https://movie.douban.com/subject/4896263/?from=reviews">Logan</a>
                             <span>
+                                <img src="images/star-small.png" alt="">
                                 <img src="images/star-small.png" alt="">
                                 <img src="images/star-small.png" alt="">
                                 <img src="images/star-small.png" alt="">
@@ -648,15 +651,15 @@
 
                             <span class="allstar40"></span>
                         </div>
-                        <div class="review-content">A Pixar's masterpiece, impeccably done in terms of research (about
-                            the Mexican culture), animation, script, musicalization, direction and production. A subtle
-                            yet charming and inspiring story; with a quality of animation worthy of an Academy Award; with an extremely
-                            powerful soundtrack; an excellent script; likable, well-developed and relatable characters;
-                            and extremely respectful of the cultural component in which the story is inspired. In short,
-                            one of the best landings of Pixar - perhaps repeating a bit its known formula, hence you can
-                            feel a "back to basics" in terms of the narrative, history and character development, but at
-                            the same time managing to stand out as a fresh and purposeful product that will undoubtedly
-                            give a lot to talk about.
+                        <div class="review-content">The final outing of Wolverine by Hugh Jackman is one unforgettable
+                            ride and one of the best comic-book movies in recent memory. Directed by James Mangold-who
+                            was also at the helm of "The Wolverine" (2013)- Logan creates a character-driven, violent
+                            and emotional film, which benefits from its rated-r rating. The acting, action and story of
+                            Logan are one-of-a-kinds in the superhero genre, as the cast, headed by Hugh Jackman,
+                            Patrick Stewart and newly- introduced Dafne Keen, play their characters to the fullest. It
+                            is unlike any other X-Men film, definitely the best in the series and deserves the praise
+                            it's getting.
+
                         </div>
                     </div>
                 </div>
