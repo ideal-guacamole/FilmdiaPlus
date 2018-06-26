@@ -140,7 +140,12 @@
                 <div class="bg-part"></div>
                 <h2 class="section-heading">Jurassic World </h2>
                 <p class="additional-text">Fallen Kingdom</p>
-                <div class="predictChartBox" name="tt4881806"></div>
+                <div class="chartWrapper">
+                    <div class="chartTitle">
+                        <h3>Youtube Trailer Click Times</h3>
+                    </div>
+                    <div class="predictChartBox" name="tt4881806"></div>
+                </div>
             </div>
         </div>
         <div class="section section-3">
@@ -156,7 +161,12 @@
                 <div class="bg-part"></div>
                 <h2 class="section-heading">Damsel</h2>
                 <p class="additional-text">Some cool info or hashtags #3</p>
-                <div class="predictChartBox" name="tt5881528"></div>
+                <div class="chartWrapper">
+                    <div class="chartTitle">
+                        <h3>Youtube Trailer Click Times</h3>
+                    </div>
+                    <div class="predictChartBox" name="tt5881528"></div>
+                </div>
             </div>
         </div>
         <div class="section section-4">
@@ -172,7 +182,12 @@
                 <div class="bg-part"></div>
                 <h2 class="section-heading">The Catcher Was a Spy</h2>
                 <p class="additional-text">Some cool info or hashtags #4</p>
-                <div class="predictChartBox" name="tt4602066"></div>
+                <div class="chartWrapper">
+                    <div class="chartTitle">
+                        <h3>Youtube Trailer Click Times</h3>
+                    </div>
+                    <div class="predictChartBox" name="tt4602066"></div>
+                </div>
 
             </div>
         </div>
@@ -189,7 +204,12 @@
                 <div class="bg-part"></div>
                 <h2 class="section-heading">Sicario</h2>
                 <p class="additional-text">Day of the Soldado</p>
-                <div class="predictChartBox" name="tt5052474"></div>
+                <div class="chartWrapper">
+                    <div class="chartTitle">
+                        <h3>Youtube Trailer Click Times</h3>
+                    </div>
+                    <div class="predictChartBox" name="tt5052474"></div>
+                </div>
 
             </div>
         </div>
@@ -206,8 +226,12 @@
                 <div class="bg-part"></div>
                 <h2 class="section-heading">The king</h2>
                 <p class="additional-text">Some cool info or hashtags #6</p>
-                <div class="predictChartBox" name="tt6775942"></div>
-
+                <div class="chartWrapper">
+                    <div class="chartTitle">
+                        <h3>Youtube Trailer Click Times</h3>
+                    </div>
+                    <div class="predictChartBox" name="tt6775942"></div>
+                </div>
             </div>
         </div>
         <div class="section section-7">
@@ -223,7 +247,12 @@
                 <div class="bg-part"></div>
                 <h2 class="section-heading">Uncle Drew</h2>
                 <p class="additional-text">Some cool info or hashtags #7</p>
-                <div class="predictChartBox" name="tt7334528"></div>
+                <div class="chartWrapper">
+                    <div class="chartTitle">
+                        <h3>Youtube Trailer Click Times</h3>
+                    </div>
+                    <div class="predictChartBox" name="tt7334528"></div>
+                </div>
 
             </div>
         </div>
@@ -241,7 +270,12 @@
                 <h2 class="section-heading"><a class="codepen-link" href="#"
                                                target="_blank">Leave no trace</a></h2>
                 <p class="check-out additional-text">Check out my other <a href="#" target="_blank">pens</a></p>
-                <div class="predictChartBox" name="tt3892172"></div>
+                <div class="chartWrapper">
+                    <div class="chartTitle">
+                        <h3>Youtube Trailer Click Times</h3>
+                    </div>
+                    <div class="predictChartBox" name="tt3892172"></div>
+                </div>
 
             </div>
         </div>

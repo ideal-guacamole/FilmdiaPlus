@@ -233,13 +233,13 @@ html, body {
     background-image: url("../../images/predict/sicario_L.jpg");
 }
 .nav-elem.nav-6 {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/blackwidow.jpg");
+    background-image: url("../../images/predict/TheKing_R.jpg");
 }
 .nav-elem.nav-7 {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/sections-4.jpg");
+    background-image: url("../../images/predict/UncleDrew_L.jpg");
 }
 .nav-elem.nav-8 {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/thor.jpg");
+    background-image: url("../../images/predict/NoTrace.jpg");
 }
 
 /* REAL SIDEBAR STYLES END */
@@ -285,22 +285,22 @@ html, body {
     background-image: url("../../images/predict/sicario_L.jpg");
 }
 .section.section-6 .left-part {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/blackwidow.jpg");
+    background-image: url("../../images/predict/TheKing_R.jpg");
 }
 .section.section-6 .bg-part {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/blackwidow.jpg");
+    background-image: url("../../images/predict/TheKing_R.jpg");
 }
 .section.section-7 .left-part {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/sections-4.jpg");
+    background-image: url("../../images/predict/UncleDrew_L.jpg");
 }
 .section.section-7 .bg-part {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/sections-4.jpg");
+    background-image: url("../../images/predict/UncleDrew_L.jpg");
 }
 .section.section-8 .left-part {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/thor.jpg");
+    background-image: url("../../images/predict/NoTrace.jpg");
 }
 .section.section-8 .bg-part {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/thor.jpg");
+    background-image: url("../../images/predict/NoTrace.jpg");
 }
 
 .left-part,

@@ -203,14 +203,7 @@ h6 {
     margin-top: 40px;
 }
 
-.predictChartBox {
-    position: absolute;
-    width: 50%;
-    height: 50%;
-    margin-top: 20px;
-    margin-left: 40px;
-    display: block;
-}
+
 
 .algorithm {
     margin-top: 20px;
@@ -247,4 +240,31 @@ h6 {
 .predict_item{
     height: 100vh;
     background-size: cover;
+}
+
+.chartWrapper{
+    width: 36.2rem;
+}
+
+.predictChartBox, .chartTitle{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    display: block;
+}
+.predictChartBox{
+    padding-top: 1rem;
+    background: rgba(0,0,0,0.5);
+}
+.chartTitle{
+    background: rgba(222, 201, 24, 0.7);
+    height: 4rem;
+}
+
+.chartTitle h3{
+    color:white;
+    padding:1rem;
+    font-size: 2rem;
 }
