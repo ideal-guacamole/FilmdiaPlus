@@ -22,7 +22,7 @@ function getAnalysis(imdbid, predictBox) {
             // console.log(clickData);
             var option = {
                 title: {
-                    text: 'Youtube Hits'
+                    text: ''
                 },
                 tooltip: {
                     trigger: 'axis',
