@@ -362,10 +362,10 @@ function putReviews() {
             '    <a href="javascript:" style="font-weight: bold" onclick="expend(' + i + ')" >fold</a> )\n' +
             '  </div>\n' +
             '  <div class="review_footer">&nbsp;&nbsp;&nbsp;&nbsp;\n' +
-            '    <span class="glyphicon glyphicon-thumbs-up" style="color: green; margin-right: 5px" onclick="clickUp('+i+')" ></span>   \n' +
-            '    <span style="font-size: 11px; color:#737373" id="up-num"'+i+'>' + like + '</span>&nbsp;&nbsp;&nbsp;&nbsp;\n' +
-            '    <span class="glyphicon glyphicon-thumbs-down" onclick="clickDown('+i+')" style="margin-left: 10px; margin-right: 5px"></span>\n' +
-            '    <span style="font-size: 11px; color:#737373"id="down-num"'+num+'>' + dislike + '</span>\n' +
+            '    <span class="glyphicon glyphicon-thumbs-up" style="color: green; margin-right: 5px" onclick="document.getElementById(\'up-num'+i+'\').innerhtml=parseInt(document.getElementById(\'up-num'+i+'\').innerHTML)+1;"></span>   \n' +
+            '    <span style="font-size: 11px; color:#737373" id="up-num'+i+'">' + like + '</span>&nbsp;&nbsp;&nbsp;&nbsp;\n' +
+            '    <span class="glyphicon glyphicon-thumbs-down" onclick="document.getElementById(\'down-num'+i+'\').innerhtml=parseInt(document.getElementById(\'down-num'+i+'\').innerHTML)+1;" style="margin-left: 10px; margin-right: 5px"></span>\n' +
+            '    <span style="font-size: 11px; color:#737373"id="down-num'+num+'">' + dislike + '</span>\n' +
             '  </div>  \n' +
             '</div>';
     } else {
@@ -384,12 +384,12 @@ function putReviews() {
             '  <div class="review_text" id="fullContent' + i + '" style="display:none">' + fullContentText + '\n' +
             '  </div>\n' +
             '  <div class="review_footer">&nbsp;&nbsp;&nbsp;&nbsp;\n' +
-            '    <span class="glyphicon glyphicon-thumbs-up" style="color: green; margin-right: 5px" onclick="clickUp('+i+')" ></span>   \n' +
-            '    <span style="font-size: 11px; color:#737373" id="up-num"'+i+'>' + like + '</span>&nbsp;&nbsp;&nbsp;&nbsp;\n' +
-            '    <span class="glyphicon glyphicon-thumbs-down" onclick="clickDown('+i+')" style="margin-left: 10px; margin-right: 5px"></span>\n' +
-            '    <span style="font-size: 11px; color:#737373"id="down-num"'+num+'>' + dislike + '</span>\n' +
+            '    <span class="glyphicon glyphicon-thumbs-up" style="color: green; margin-right: 5px" onclick="document.getElementById(\'up-num'+i+'\').innerhtml=parseInt(document.getElementById(\'up-num'+i+'\').innerHTML)+1;" ></span>   \n' +
+            '    <span style="font-size: 11px; color:#737373" id="up-num'+i+'">' + like + '</span>&nbsp;&nbsp;&nbsp;&nbsp;\n' +
+            '    <span class="glyphicon glyphicon-thumbs-down" onclick="document.getElementById(\'down-num'+i+'\').innerhtml=parseInt(document.getElementById(\'down-num'+i+'\').innerHTML)+1;" style="margin-left: 10px; margin-right: 5px"></span>\n' +
+            '    <span style="font-size: 11px; color:#737373"id="down-num'+num+'">' + dislike + '</span>\n' +
             '  </div>  \n' +
-            '</div>';
+            '</div>';;
     }
 
     num += 1;
@@ -484,16 +484,16 @@ if (userid === 0) {
                     <span>Score :</span>\
                 </label>\
                 <div id="starBox" style="height: 40px;display: inline-block;padding-top: 8px">\
-                    <img style="width:18px;" src="../images/star-small-dark.png" />\
-                    <img style="width:18px;" src="../images/star-small-dark.png" />\
-                    <img style="width:18px;" src="../images/star-small-dark.png" />\
-                    <img style="width:18px;" src="../images/star-small-dark.png" />\
-                    <img style="width:18px;" src="../images/star-small-dark.png" />\
-                    <img style="width:18px;" src="../images/star-small-dark.png" />\
-                    <img style="width:18px;" src="../images/star-small-dark.png" />\
-                    <img style="width:18px;" src="../images/star-small-dark.png" />\
-                    <img style="width:18px;" src="../images/star-small-dark.png" />\
-                    <img style="width:18px;" src="../images/star-small-dark.png" />\
+                    <img style="width:18px;" src="../../images/star-small-dark.png" />\
+                    <img style="width:18px;" src="../../images/star-small-dark.png" />\
+                    <img style="width:18px;" src="../../images/star-small-dark.png" />\
+                    <img style="width:18px;" src="../../images/star-small-dark.png" />\
+                    <img style="width:18px;" src="../../images/star-small-dark.png" />\
+                    <img style="width:18px;" src="../../images/star-small-dark.png" />\
+                    <img style="width:18px;" src="../../images/star-small-dark.png" />\
+                    <img style="width:18px;" src="../../images/star-small-dark.png" />\
+                    <img style="width:18px;" src="../../images/star-small-dark.png" />\
+                    <img style="width:18px;" src="../../images/star-small-dark.png" />\
                     </div>\
                     <label>\
                     <span>Summary :</span>\
@@ -567,10 +567,10 @@ if (userid === 0) {
                 //右上角的星星
                 var upstars = '';
                 for (var j = 0; j < thisComment.score; j++) {
-                    upstars += '<img style="width: 15px" src="../images/star-small.png" />';
+                    upstars += '<img style="width: 15px" src="../../images/star-small.png" />';
                 }
                 for (var j = 0; j < (10 - thisComment.score); j++) {
-                    upstars += '<img style="width: 15px" src="../images/star-small-dark.png" />';
+                    upstars += '<img style="width: 15px" src="../../images/star-small-dark.png" />';
                 }
                 document.getElementById('userScore').innerHTML = upstars;
                 for (var i = 0; i < userStars.length; i++) {
@@ -619,10 +619,10 @@ if (userid === 0) {
 
                 var stars = '';
                 for (var j = 0; j < thisComment.score; j++) {
-                    stars += '<img style="width: 18px" src="../images/star-small.png" />';
+                    stars += '<img style="width: 18px" src="../../images/star-small.png" />';
                 }
                 for (var j = 0; j < (10 - thisComment.score); j++) {
-                    stars += '<img style="width: 18px" src="../images/star-small-dark.png" />';
+                    stars += '<img style="width: 18px" src="../../images/star-small-dark.png" />';
                 }
                 var reviewDiv = '<form action="" method="post" class="basic-grey">\
                                 <h1>History Review\

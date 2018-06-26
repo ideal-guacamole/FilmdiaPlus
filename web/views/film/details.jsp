@@ -197,7 +197,7 @@
             <!-- base Info -->
             <!-- Cast -->
             <div id="castBox" class="Cast left">
-                <h3>Cast</h3>
+                <h3 class="detail-little-titles">Cast</h3>
                 <table class="table table-hover" id="castTable">
                     <colgroup>
                         <col class="Pic">
@@ -219,7 +219,7 @@
 
             <!-- Storyline -->
             <div class="Storyline left">
-                <h3>Storyline</h3>
+                <h3 class="detail-little-titles">Storyline</h3>
                 <div class="storyline_form">
                     <div class="storyline_part">
                         <p id="storyline">A naval war ship encounters an alien armada and faces the biggest
@@ -244,7 +244,7 @@
             <div class="right">
                 <!-- Details -->
                 <div class="Details">
-                    <h3>Details</h3>
+                    <h3 class="detail-little-titles">Details</h3>
                     <div class="detail_form">
                         <span>Language: <label id="detail_language" class="Language"></label></span>
                         <span>Release Date:
@@ -257,7 +257,7 @@
 
                 <%--Core Members--%>
                 <div class="CoreMembers">
-                    <h3>Core Members</h3>
+                    <h3 class="detail-little-titles">Core Members</h3>
                     <div class="detail_form">
                         <div class="coresgroup">
                             <div class="cores">
@@ -287,7 +287,7 @@
 
                 <%--Box office--%>
                 <div class="BoxOffice">
-                    <h3>Box Office</h3>
+                    <h3 class="detail-little-titles">Box Office</h3>
                     <div class="detail_form">
                         <span>Worldwide Gross: <label id="box_worldGross"></label></span>
                         <span>Gross(USA): <label id="box_gross"></label></span>
@@ -358,7 +358,7 @@
     </div>
 </div>
 
-<script src="../../js/details.js"></script>
+<script src="../../js/details/details.js"></script>
 
 <!--loginBox-->
 <jsp:include page="../common/loginbox.jsp"></jsp:include>

@@ -143,7 +143,7 @@ h2 {
 }
 
 .half_graphs {
-    width: 45% !important;
+    width: 50% !important;
     height: 50vh !important;
     min-height: 300px;
     max-height: 500px;
@@ -200,4 +200,7 @@ h2 {
     margin:30px auto;
     font-size: 3em;
     margin-bottom: 1%
+}
+.detail-little-titles{
+    font-size: 2em;
 }

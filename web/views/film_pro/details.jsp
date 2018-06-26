@@ -68,7 +68,7 @@
 </head>
 <!-- //Head -->
 <!-- Body -->
-<body style="background: url(../../images/bgDetail.jpg) no-repeat fixed">
+<body style="">
 <!-- Header -->
 <div class="header">
     <!-- Top-Bar -->
@@ -103,7 +103,8 @@
                                 <ul>
                                     <li><img src="../../images/userCenter.png"/><a href="userCenter.jsp">User
                                         Center</a></li>
-                                    <li><img src="../../images/exit.png"/><a href="" onclick="signOut()">Sign Out</a></li>
+                                    <li><img src="../../images/exit.png"/><a href="" onclick="signOut()">Sign Out</a>
+                                    </li>
                                 </ul>
                             </div>
                         </ul>
@@ -123,11 +124,12 @@
     <!-- //Slider -->
 </div>
 <!-- //Header -->
-<div class="banner">
+<div class="banner" id="movie-background"
+     style="height:100vh;min-height: 400px;background: url('../../images/wallpaper/batman.jpg');">
     <div class="title-info">
-        <div class="film_poster"><a href=""><img id="poster" src=""></a></div>
+        <div class="film_poster"><a href=""><img id="poster" style="width: 20vw" class="poster-image" src=""></a></div>
         <div class="fast_info">
-            <h2 id="title" class="film_title"><span class="Year">(2012)</span></h2>
+            <h2 id="title" class="film_title"><span class="Year">Title</span></h2>
 
             <span id="summary" class="film_summary"></span>
             <br>
@@ -175,18 +177,17 @@
 </div>
 
 <div class="tab_group" style="background: transparent;">
-    <div class="title cf" style="background: rgba(0,0,0,.1);">
-        <ul class="title-list fr cf ">
-            <li class="on">Technical Specs</li>
-            <li>Reviews</li>
-            <li id="graphPart">Graphs</li>
-            <p></p>
-        </ul>
-    </div>
+    <%--<div class="title cf" style="background: rgba(0,0,0,.1);">--%>
+    <%--<ul class="title-list fr cf ">--%>
+    <%--<li class="on">Technical Specs</li>--%>
+    <%--<li>Reviews</li>--%>
+    <%--<p></p>--%>
+    <%--</ul>--%>
+    <%--</div>--%>
     <div class="product-wrap" style="background: rgba(255,255,255,1);">
         <!--Specific-->
         <div id="spec" class="product showing">
-
+            <h1 class="heads-for-detail">ABOUT MOVIE</h1>
             <!-- base Info -->
             <div class="info_line1">
                 <span class="country_label">Country: </span><label id="country" class="Country"></label>
@@ -196,7 +197,7 @@
             <!-- base Info -->
             <!-- Cast -->
             <div id="castBox" class="Cast left">
-                <h3>Cast</h3>
+                <h3 class="detail-little-titles">Cast</h3>
                 <table class="table table-hover" id="castTable">
                     <colgroup>
                         <col class="Pic">
@@ -218,7 +219,7 @@
 
             <!-- Storyline -->
             <div class="Storyline left">
-                <h3>Storyline</h3>
+                <h3 class="detail-little-titles">Storyline</h3>
                 <div class="storyline_form">
                     <div class="storyline_part">
                         <p id="storyline">A naval war ship encounters an alien armada and faces the biggest
@@ -243,7 +244,7 @@
             <div class="right">
                 <!-- Details -->
                 <div class="Details">
-                    <h3>Details</h3>
+                    <h3 class="detail-little-titles">Details</h3>
                     <div class="detail_form">
                         <span>Language: <label id="detail_language" class="Language"></label></span>
                         <span>Release Date:
@@ -256,7 +257,7 @@
 
                 <%--Core Members--%>
                 <div class="CoreMembers">
-                    <h3>Core Members</h3>
+                    <h3 class="detail-little-titles">Core Members</h3>
                     <div class="detail_form">
                         <div class="coresgroup">
                             <div class="cores">
@@ -286,7 +287,7 @@
 
                 <%--Box office--%>
                 <div class="BoxOffice">
-                    <h3>Box Office</h3>
+                    <h3 class="detail-little-titles">Box Office</h3>
                     <div class="detail_form">
                         <span>Worldwide Gross: <label id="box_worldGross"></label></span>
                         <span>Gross(USA): <label id="box_gross"></label></span>
@@ -300,46 +301,27 @@
             <div style="font: 0px/0px sans-serif;clear: both;display: block"></div>
         </div>
 
-        <!--Reviews-->
-        <div id="reviews" class="product">
-            <!--Write Reviews-->
-            <div id="comment">
-                <form id="commentForm" action="" method="post" class="basic-grey">
-                </form>
-                <div style="font: 0px/0px sans-serif;clear: both;display: block"></div>
-            </div>
-
-            <ul id="sort_option">
-                <li class="selected_sort" id="helpfulness_btn"><a href="#">Helpfulness</a></li>
-                <li id="release_btn"><a href="#">Release Date</a></li>
-                <span id="order_btn" class="glyphicon glyphicon-sort"
-                      style="color: #37a; margin-left:15px; font-size: 12px; cursor: pointer"></span>
-            </ul>
-            <div id="reviewBox" class="reviews">
-
-            </div>
-            <div style="font: 0px/0px sans-serif;clear: both;display: block"></div>
-        </div>
-
         <!--Graphs-->
         <div id="graphForStatistics" class="product">
-            <h2 style="color: #40BFDE;margin-left: 5%;margin-top: 5%">General Statistics</h2>
-            <div id="radarBox" class="half_graphs" style="margin-left: 5% !important;">
+            <h1 class="heads-for-detail">STATISTICS</h1>
+            <h2 class="detail-little-titles" style="color: #000;">General Statistics</h2>
+            <div id="radarBox" class="half_graphs" style="">
             </div>
             <div id="commentWordsBox" class="half_graphs">
             </div>
-            <h2 style="color: #40BFDE;margin-left: 5%;margin-top: 5%">Review Statistics</h2>
+            <h2 style="color: #000;" class="detail-little-titles">Review Statistics</h2>
             <div id="mapBox" class=""
-                 style="float: left;width: 45%;margin-left: 5%;height:60vh;min-height:400px;max-height: 800px">
+                 style="float: left;width: 50%;height:60vh;min-height:400px;max-height: 800px">
             </div>
             <%--<div style="float: left;width: 45%;height: 60vh;min-height:200px;max-height: 800px">--%>
-            <div id="reviewFluctuationBox" class="" style="float:left;width: 45%;height: 60vh;min-height:200px;max-height: 800px">
+            <div id="reviewFluctuationBox" class=""
+                 style="float:left;width: 50%;height: 60vh;min-height:200px;max-height: 800px">
             </div>
             <%--<div id="descriptionLengthBox" class="" style="height: 30vh;min-height:200px;max-height: 400px">--%>
             <%--</div>--%>
             <%--</div>--%>
-            <h2 style="color: #40BFDE;margin-left: 5%;margin-top: 5%">Score Statistics</h2>
-            <div id="scoreNumBox" class="half_graphs" style="margin-left: 5% !important; margin-bottom: 8%!important;">
+            <h2 class="detail-little-titles" style="color: #000;margin-top: 5%">Score Statistics</h2>
+            <div id="scoreNumBox" class="half_graphs detail-little-titles" style=" margin-bottom: 8%!important;">
             </div>
             <div id="scoreFluctuationBox" class="half_graphs" style="margin-bottom: 8%!important;">
             </div>
@@ -357,23 +339,23 @@
         </div>
 
         <%--Script for Graphs--%>
+
+        <script src="../../js/details/details_pro.js"></script>
         <script>
             //加载统计图
             var imdb_filmID = getQueryString('imdb_filmID');
-            var graphPart = document.getElementById('graphPart');
             var graph = document.getElementById('graphForStatistics');
 
-            graphPart.onmouseover = function () {
-                if (!graph.isEnter) {
-                    graph.isEnter = true;
-                    makeRadar();
-                    makeReviewMap();
-                    makeScoreNum();
-                    makeScoreFluctuation();
-                    makeReviewFluctuationByDay();
-                    makeCommentWords();
-                }
-            };
+            if (!graph.isEnter) {
+                graph.isEnter = true;
+                makeRadar();
+                makeReviewMap();
+                makeScoreNum();
+                makeScoreFluctuation();
+                makeReviewFluctuationByDay();
+                makeCommentWords();
+            }
+            ;
             var loadingReadyArr = [false, false, false, false, false, false];
             graph.onscroll = function () {
                 var oScroll = graph.scrollTop;
@@ -1086,46 +1068,15 @@
             //            }
 
         </script>
-
         <%--<div style="font: 0px/0px sans-serif;clear: both;display: block"></div>--%>
     </div>
 </div>
 
-<script src="../../js/details.js"></script>
 
 <!--loginBox-->
 <jsp:include page="../common/loginbox.jsp"></jsp:include>
 
 <script src="../../js/search.js"></script>
-
-<script>
-    layui.use('flow', function(){
-        var flow = layui.flow;
-
-        flow.load({
-            elem: '#reviewBox' //流加载容器
-            ,scrollElem: '#reviewBox' //滚动条所在元素。
-            ,done: function(page, next){ //执行下一页的回调
-
-                setTimeout(function(){
-                    var lis = [];
-                    if(reviewNum !== 0) {
-                        for(var i = 0; i < 10; i++){
-                            putReviews();
-                            lis.push(review);
-                        }
-                    }
-
-                    //执行下一页渲染，第二参数为：满足“加载更多”的条件，即后面仍有分页
-                    //pages为Ajax返回的总页数，只有当前页小于总页数的情况下，才会继续出现加载更多
-                    next(lis.join(''), page < reviewNum / 10);
-                }, 500);
-            }
-        });
-
-    });
-</script>
-
 <!-- footer -->
 <%--<jsp:include page="common/footer.jsp"></jsp:include>--%>
 </body>
