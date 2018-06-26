@@ -325,6 +325,7 @@
 .column .item {
     height: 220px;
     width: 49%;
+
     /*background-color: #F8F6DE;*/
     overflow: hidden;
     /*box-shadow: -4px -4px 10px #285e8e;*/
@@ -334,6 +335,7 @@
     transition: all 350ms ease-out;
 }
 .column .item:hover {
+    cursor: pointer;
     box-shadow: 5px 5px 16px #737383;
 }
 .item .review-hd {
@@ -448,5 +450,5 @@
 }
 .grd img:hover {
     filter: brightness(105%) sepia(20%);
-
+    cursor: pointer;
 }

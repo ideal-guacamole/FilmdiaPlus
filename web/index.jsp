@@ -201,7 +201,7 @@
                 };
 
                 function setUrl(filmID, imdbID) {
-                    var url = 'views/details.jsp';
+                    var url = 'views/film/details.jsp';
                     var ref = 'filmID';
                     var value = filmID;
                     url = setQueryString(url, ref, value);
@@ -499,7 +499,7 @@
     <div class="review_container">
         <div class="div-spac"></div>
         <h3>AUDIENCE REVIEWS</h3>
-        <div class="box">
+        <div id="review_box" class="box">
             <div class="column">
                 <div class="item">
                     <div class="review-hd">
@@ -511,8 +511,8 @@
                     <div class="review-bd">
                         <h3>In one word: Spectacular.</h3>
                         <div class="review-meta">
-                            <a href="https://www.douban.com/people/178674718/">ex_umbrellacorp</a> on
-                            <a href="https://movie.douban.com/subject/4896263/?from=reviews">Coco</a>
+                            <a href="#">ex_umbrellacorp</a> on
+                            <a href="#">Coco</a>
                             <span>
                                 <img src="images/star-small.png" alt="">
                                 <img src="images/star-small.png" alt="">
@@ -551,8 +551,8 @@
                     <div class="review-bd">
                         <h3>Blade Runner 2049 - A New-Age Sci-Fi Classic</h3>
                         <div class="review-meta">
-                            <a href="https://www.douban.com/people/178674718/">KJ Proulx</a> on
-                            <a href="https://movie.douban.com/subject/4896263/?from=reviews">Blade Runner 2049</a>
+                            <a href="#">KJ Proulx</a> on
+                            <a href="#">Blade Runner 2049</a>
                             <span>
                                 <img src="images/star-small.png" alt="">
                                 <img src="images/star-small.png" alt="">
@@ -591,8 +591,8 @@
                     <div class="review-bd">
                         <h3>Infinitely deep, an experience I will not forget.</h3>
                         <div class="review-meta">
-                            <a href="https://www.douban.com/people/178674718/">Dominic Michael Tierno</a> on
-                            <a href="https://movie.douban.com/subject/4896263/?from=reviews">Room</a>
+                            <a href="#">Dominic Michael Tierno</a> on
+                            <a href="#">Room</a>
                             <span>
                                 <img src="images/star-small.png" alt="">
                                 <img src="images/star-small.png" alt="">
@@ -629,8 +629,8 @@
                     <div class="review-bd">
                         <h3>A masterfully orchestrated film</h3>
                         <div class="review-meta">
-                            <a href="https://www.douban.com/people/178674718/">alva3901</a> on
-                            <a href="https://movie.douban.com/subject/4896263/?from=reviews">Logan</a>
+                            <a href="#">alva3901</a> on
+                            <a href="#">Logan</a>
                             <span>
                                 <img src="images/star-small.png" alt="">
                                 <img src="images/star-small.png" alt="">
@@ -660,26 +660,50 @@
                 </div>
             </div>
         </div>
+        <script>
+            var review_box = document.getElementById('review_box');
+            var review_items = review_box.getElementsByClassName('item');
+            review_items[0].onclick = function () {
+                //coco
+                setUrl(100, 'tt2380307');
+
+            }
+            review_items[1].onclick = function () {
+                //blade runner
+                setUrl(233, 'tt1856101');
+            }
+            review_items[2].onclick = function () {
+                //room
+                setUrl(472, 'tt3170832');
+            }
+            review_items[3].onclick = function () {
+                setUrl(363, 'tt3315342');
+
+                // setUrl(368, 'tt0816692'); //interstellar
+            }
+        </script>
     </div>
 </div>
 <div class="recommendinfo">
-    <div class="recommend_container">
+    <div id="recommend_container" class="recommend_container">
         <div class="div-spac"></div>
         <h3>RECOMMENDED FOR YOU</h3>
         <div class="recommend_row">
             <div class="recommend_col">
                 <div class="grd long">
-                    <img src="https://m.media-amazon.com/images/M/MV5BN2YyZjQ0NTEtNzU5MS00NGZkLTg0MTEtYzJmMWY3MWRhZjM2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SY1000_CR0,0,674,1000_AL_.jpg" alt="">
+                    <img src="https://m.media-amazon.com/images/M/MV5BNjE5MzYwMzYxMF5BMl5BanBnXkFtZTcwOTk4MTk0OQ@@._V1_SY1000_CR0,0,675,1000_AL_.jpg"
+                         alt="">
                 </div>
                 <div class="legend-grd">
-                    <div class="alt">DUNKIRK</div>
-                    <div>&nbsp;We Shall Never Surrender. </div>
+                    <div class="alt">GRAVITY</div>
+                    <div>&nbsp;Don't Let Go</div>
                     <div class="legend-movie nota">8.9</div>
                 </div>
             </div>
             <div class="recommend_col">
                 <div class="grd long">
-                    <img src="https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg" alt="">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg"
+                         alt="">
                 </div>
                 <div class="legend-grd">
                     <div class="alt">THE DARK KNIGHT</div>
@@ -689,7 +713,8 @@
             </div>
             <div class="recommend_col">
                 <div class="grd long">
-                    <img src="https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg" alt="">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg"
+                         alt="">
                 </div>
                 <div class="legend-grd">
                     <div class="alt">INCEPTION</div>
@@ -699,7 +724,8 @@
             </div>
             <div class="recommend_col">
                 <div class="grd long">
-                    <img src="https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SY1000_SX675_AL_.jpg" alt="">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SY1000_SX675_AL_.jpg"
+                         alt="">
                 </div>
                 <div class="legend-grd">
                     <div class="alt">INTERSTELLAR</div>
@@ -709,6 +735,26 @@
             </div>
         </div>
     </div>
+    <script>
+        var recommend_container = document.getElementById('recommend_container');
+        var recommend_items = recommend_container.getElementsByClassName('long');
+        recommend_items[0].onclick = function () {
+            //gravity
+            setUrl(1105, 'tt1454468');
+        }
+        recommend_items[1].onclick = function () {
+            //the dark knight
+            setUrl(370, 'tt0468569');
+        }
+        recommend_items[2].onclick = function () {
+            //inception
+            setUrl(399, 'tt1375666');
+        }
+        recommend_items[3].onclick = function () {
+            //interstellar
+            setUrl(368, 'tt0816692');
+        }
+    </script>
 </div>
 <jsp:include page="views/common/footer.jsp"></jsp:include>
 <jsp:include page="views/common/loginbox.jsp"></jsp:include>
