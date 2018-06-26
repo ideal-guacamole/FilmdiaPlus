@@ -1,0 +1,61 @@
+@media screen and (max-width: 1920px) {
+    .bann-info {
+        background-size: 100% 100%;
+        background: url("../../images/bdIndexPro2.jpg") no-repeat fixed;
+        padding: 0 0 0;
+        margin: 0px;
+    }
+}
+
+.bann-info {
+    background: url("../../images/bdIndexPro2.jpg") center no-repeat;
+    background-size: cover;
+    padding: 0 0 0;
+    height: 100vh;
+    width: 100vw
+}
+
+.bann-info h3 {
+    /*margin: 30px auto;*/
+    text-align: center;
+    color: rgba(255, 255, 255, .95);
+    padding-top: 250px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 41px;
+    text-shadow: 0 10px 10px #212121;
+}
+
+.bann-info em {
+    font-size: 37px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, .7);
+}
+
+.bann-info .intro {
+    margin: 50px auto;
+}
+
+.bann-info p {
+    /*color: #d5d5d5;*/
+    color: rgba(255,255,255,.95);
+    width: 530px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    margin: 25px auto;
+    display: block;
+    text-align: center;
+    text-shadow: 0 10px 10px #212121;
+    line-height: 40px;
+}
+
+.bann-info ul {
+    color: #d5d5d5;
+    font: 16px Georgia, "Times New Roman", Times, serif;
+    display: block;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.bann-info .yellow {
+    color: #ffeb8f;
+}
