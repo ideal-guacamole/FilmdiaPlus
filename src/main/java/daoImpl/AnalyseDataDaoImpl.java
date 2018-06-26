@@ -84,7 +84,7 @@ public class AnalyseDataDaoImpl implements AnalyseDataDao{
                 updateFilm.getPredictGross_linear(),updateFilm.getPredictGross_linear_test(),updateFilm.getPredictGross_lasso(),updateFilm.getPredictGross_lasso_test(),
                 updateFilm.getPredictGross_knn(),updateFilm.getPredictGross_knn_test(),updateFilm.getPredictGross_poly(),updateFilm.getPredictGross_poly_test());
 
-        session.close();
+//        session.close();
         return analysis;
     }
 
