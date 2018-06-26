@@ -147,6 +147,22 @@
             <div class="left-part"></div>
             <div class="content">
                 <div class="bg-part">
+                    <div id="2017boxoffice_top1Box" style="margin-top: 10%;">
+                        <div id="2017boxoffice_top1" style="margin-left: 600px"></div>
+                        <div class="top1_right" id="2017boxoffice_top1_right">
+                        </div>
+                    </div>
+                    <div id="2017boxoffice_top10" style="margin-top: 35%">
+                    </div>
+                </div>
+                <h2 class="section-heading">2017 Box Office TOP10</h2>
+                <p class="additional-text">films</p>
+            </div>
+        </div>
+        <div class="section section-4">
+            <div class="left-part"></div>
+            <div class="content">
+                <div class="bg-part">
                     <div id="2017score_top1Box" style="margin-top: 10%;">
                         <div id="2017score_top1" style="margin-left: 600px"></div>
                         <div class="top1_right" id="2017score_top1_right">
@@ -157,21 +173,6 @@
                 </div>
                 <h2 class="section-heading">2017 Score Top10</h2>
                 <p class="additional-text">films</p>
-            </div>
-        </div>
-        <div class="section section-4">
-            <div class="left-part"></div>
-            <div class="content">
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <h2 class="section-heading">Fancy heading #4</h2>
-                <p class="additional-text">Some cool info or hashtags #4</p>
             </div>
         </div>
         <div class="section section-5">
@@ -547,6 +548,12 @@
     var imdb_top10Box = '';
     var imdb_top1Box = '';
 
+    var _2017boxoffice_top10 = document.getElementById('2017boxoffice_top10');
+    var _2017boxoffice_top1 = document.getElementById('2017boxoffice_top1');
+    var _2017boxoffice_top1_right = document.getElementById('2017boxoffice_top1_right');
+    var _2017boxoffice_top10Box = '';
+    var _2017boxoffice_top1Box = '';
+
     var _2017score_top10 = document.getElementById('2017score_top10');
     var _2017score_top1 = document.getElementById('2017score_top1');
     var _2017score_top1_right = document.getElementById('2017score_top1_right');
@@ -559,6 +566,7 @@
 
     $(window).load(function () {
         getImdb_top10();
+        get2017boxoffice_top10();
         get2017score_top10();
     });
 
@@ -656,6 +664,107 @@
                     imdb_top10Box += tempreBox;
                 }
                 imdb_top10.innerHTML = imdb_top10Box;
+            }
+        });
+
+    }
+
+    function get2017boxoffice_top10() {
+        $.ajax({
+            type: 'post',
+            url: '/film/getTopFilms.action',
+            data: {
+                year : 2017,
+                factor : "box_office",
+                n : 10
+            },
+            success: function (data) {
+                tempreBox = '';
+                var item = data[0];
+                _2017boxoffice_top10.innerHTML = '';
+                url = setQueryString(url, 'filmID', item.filmID);
+                url = setQueryString(url, 'imdb_filmID', item.imdb_filmID);
+                filmScore = item.score;
+                if (filmScore === 0) {
+                    filmScore = '';
+                }
+                _2017boxoffice_top1Box = '' +
+                    '<div class="col-md-4" style="width: 180px;height: 222px">' +
+                    '<div class="content-grid-effect slow-zoom vertical">' +
+                    '<a href="' + url + '" class="b-link-stripe b-animate-go  swipebox">' +
+                    '<div class="img-box">' +
+                    '<img src=' + item.posterURL + ' alt="image" class="img-responsive zoom-img">' +
+                    '</div>' +
+                    '<div class="info-box">' +
+                    '<div class="caption_overlay text-center">' +
+                    '<div class="primary" style="font-size: 12px">' +
+                    '<a href="' + url + '">' + item.name + '<span style="color: orange">' + '&nbsp;' + filmScore + '</span>' + '</a>' +
+                    '</div>' +
+                    '</div>' +
+                    '</div>' +
+                    '</a>' +
+                    '</div>' +
+                    '</div>';
+                _2017boxoffice_top1.innerHTML = _2017boxoffice_top1Box;
+
+
+                var star = '<img style="width: 17px" src="../../images/star-small.png" />';
+                var star_dark = '<img style="width: 17px" src="../../images/star-small-dark.png" />';
+                var filmStar = '';
+                var j = 0;
+                for (; j < item.score - 1; j++) {
+                    filmStar += star;
+                }
+                while (j < 10) {
+                    filmStar += star_dark;
+                    j++;
+                }
+
+                _2017boxoffice_top1_right.innerHTML = '' +
+                    '<div class="" style="font-size: 15px;margin-top: 10px; margin-left: 10px; margin-right: 10px; margin-bottom: 10px">' +
+                    '<span class="bli1r">Top 1</span>' +
+
+                    '<a style="color: white; margin-left: 5px" href="' + url + '">' + item.name + '</a>' +
+                    '</div>' +
+
+                    '<div class="">' +
+                    '<span style="color: orange;font-size: 15px;margin-left: 10px">' + '&nbsp;' + filmStar + '</span>' +
+                    '<span style="color: orange;font-size: 15px;margin-left: 10px; margin-top: 5px">' + '&nbsp;' + filmScore + '</span>' +
+                    '</div>' +
+                    '<div class="" style="    max-width: 300px;font-size: 14px;margin-top: 30px; margin-left: 15px; margin-right: 10px; margin-bottom: 10px;color: darkgray">' +
+                    '<p style="text-align: left">' + item.summary + '</p>' +
+                    '</div>';
+
+                for (var i = 1; i < 10; i++) {
+                    item = data[i];
+                    _2017boxoffice_top10.innerHTML = '';
+                    url = setQueryString(url, 'filmID', item.filmID);
+                    url = setQueryString(url, 'imdb_filmID', item.imdb_filmID);
+                    filmScore = item.score;
+                    if (filmScore === 0) {
+                        filmScore = '';
+                    }
+                    tempreBox = '' +
+                        '<div class="col-md-4" style="width: 10%;height: 161px">' +
+                        '<div class="content-grid-effect slow-zoom vertical">' +
+                        '<a href="' + url + '" class="b-link-stripe b-animate-go  swipebox">' +
+                        '<div class="img-box">' +
+                        '<img src=' + item.posterURL + ' alt="image" class="img-responsive zoom-img">' +
+                        '</div>' +
+                        '<div class="info-box">' +
+                        '<span style="background-color: orange;color: white;font-size: 15px">&nbsp;' + (i + 1) + '&nbsp;</span>' +
+                        '<div class="caption_overlay text-center">' +
+                        '<div class="primary" style="font-size: 12px">' +
+                        '<a href="' + url + '">' + item.name + '<span style="color: orange">' + '&nbsp;' + filmScore + '</span>' + '</a>' +
+                        '</div>' +
+                        '</div>' +
+                        '</div>' +
+                        '</a>' +
+                        '</div>' +
+                        '</div>';
+                    _2017boxoffice_top10Box += tempreBox;
+                }
+                _2017boxoffice_top10.innerHTML = _2017boxoffice_top10Box;
             }
         });
 
