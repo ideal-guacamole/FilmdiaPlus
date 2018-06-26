@@ -120,6 +120,7 @@
 .latestinfo .title {
     /*border-bottom: 3px solid #e7e7e7;*/
     padding-bottom: 9px;
+    width: 100%;
 }
 
 .latestinfo .title h2 {
@@ -130,11 +131,12 @@
 .latestinfo .title-list {
     position: relative;
     top: 9px;
+    width: 100%;
 }
 
 .latestinfo .title-list li {
     /*width: 21.5em;*/
-    width: 36.2em;
+    width: 33.333%;
     line-height: 60px;
     text-align: center;
     float: left;
