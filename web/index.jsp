@@ -222,7 +222,7 @@
 <div class="agileinfo">
     <div class="cinema_container">
         <div class="div-spac"></div>
-        <h3>Cinema Info</h3>
+        <h3>CINEMA INFO</h3>
         <%--<p class="ttt">Movies playing and coming soon.</p>--%>
         <div class="latestinfo">
             <div class="title cf">
@@ -495,15 +495,10 @@
 
     </div>
 </div>
-<div class="agileinfo">
-    <%--<div id="review_bg1" class="audience_review_bg">--%>
-    <%--<div class="audience_review_content">--%>
-    <%--aaaa--%>
-    <%--</div>--%>
-    <%--</div>--%>
+<div class="reviewinfo">
     <div class="review_container">
         <div class="div-spac"></div>
-        <h3>Audience Reivews</h3>
+        <h3>AUDIENCE REVIEWS</h3>
         <div class="box">
             <div class="column">
                 <div class="item">
@@ -666,7 +661,54 @@
             </div>
         </div>
     </div>
-
+</div>
+<div class="recommendinfo">
+    <div class="recommend_container">
+        <div class="div-spac"></div>
+        <h3>RECOMMENDED FOR YOU</h3>
+        <div class="recommend_row">
+            <div class="recommend_col">
+                <div class="grd long">
+                    <img src="https://m.media-amazon.com/images/M/MV5BN2YyZjQ0NTEtNzU5MS00NGZkLTg0MTEtYzJmMWY3MWRhZjM2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SY1000_CR0,0,674,1000_AL_.jpg" alt="">
+                </div>
+                <div class="legend-grd">
+                    <div class="alt">DUNKIRK</div>
+                    <div>&nbsp;We Shall Never Surrender. </div>
+                    <div class="legend-movie nota">8.9</div>
+                </div>
+            </div>
+            <div class="recommend_col">
+                <div class="grd long">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg" alt="">
+                </div>
+                <div class="legend-grd">
+                    <div class="alt">THE DARK KNIGHT</div>
+                    <div>&nbsp;Welcome to a world without rules.</div>
+                    <div class="legend-movie nota">8.9</div>
+                </div>
+            </div>
+            <div class="recommend_col">
+                <div class="grd long">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg" alt="">
+                </div>
+                <div class="legend-grd">
+                    <div class="alt">INCEPTION</div>
+                    <div>&nbsp; Your mind is the scene of the crime</div>
+                    <div class="legend-movie nota">8.9</div>
+                </div>
+            </div>
+            <div class="recommend_col">
+                <div class="grd long">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SY1000_SX675_AL_.jpg" alt="">
+                </div>
+                <div class="legend-grd">
+                    <div class="alt">INTERSTELLAR</div>
+                    <div>&nbsp; Go further.</div>
+                    <div class="legend-movie nota">8.9</div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <jsp:include page="views/common/footer.jsp"></jsp:include>
 <jsp:include page="views/common/loginbox.jsp"></jsp:include>
