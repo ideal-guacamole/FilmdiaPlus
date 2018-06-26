@@ -57,9 +57,9 @@
         <div data-page="3" class="nav-elem nav-3"></div>
         <div data-page="4" class="nav-elem nav-4"></div>
         <div data-page="5" class="nav-elem nav-5"></div>
-        <div data-page="6" class="nav-elem nav-6"></div>
-        <div data-page="7" class="nav-elem nav-7"></div>
-        <div data-page="8" class="nav-elem nav-8"></div>
+        <%--<div data-page="6" class="nav-elem nav-6"></div>--%>
+        <%--<div data-page="7" class="nav-elem nav-7"></div>--%>
+        <%--<div data-page="8" class="nav-elem nav-8"></div>--%>
     </div>
     <div class="sections">
         <div class="section section-1"
@@ -178,65 +178,66 @@
         <div class="section section-5">
             <div class="left-part"></div>
             <div class="content">
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <h2 class="section-heading">Fancy heading #5</h2>
-                <p class="additional-text">Some cool info or hashtags #5</p>
+                <div class="bg-part">
+                    <div id="oscar_top1Box" style="margin-top: 10%;">
+                        <div id="oscar_top1" style="margin-left: 600px"></div>
+                        <div class="top1_right" id="oscar_top1_right">
+                        </div>
+                    </div>
+                    <div id="oscar_top10" style="margin-top: 35%">
+                    </div>
+                </div>
+                <h2 class="section-heading">Oscar Last 10 Years</h2>
+                <p class="additional-text">films</p>
             </div>
         </div>
-        <div class="section section-6">
-            <div class="left-part"></div>
-            <div class="content">
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <h2 class="section-heading">Fancy heading #6</h2>
-                <p class="additional-text">Some cool info or hashtags #6</p>
-            </div>
-        </div>
-        <div class="section section-7">
-            <div class="left-part"></div>
-            <div class="content">
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <h2 class="section-heading">Fancy heading #7</h2>
-                <p class="additional-text">Some cool info or hashtags #7</p>
-            </div>
-        </div>
-        <div class="section section-8">
-            <div class="left-part"></div>
-            <div class="content">
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <div class="bg-part"></div>
-                <h2 class="section-heading"><a class="codepen-link" href="https://codepen.io/suez/public/"
-                                               target="_blank">Fancy heading #8</a></h2>
-                <p class="check-out additional-text">Check out my other <a href="https://codepen.io/suez/public/"
-                                                                           target="_blank">pens</a></p>
-            </div>
-        </div>
+        <%--<div class="section section-6">--%>
+            <%--<div class="left-part"></div>--%>
+            <%--<div class="content">--%>
+                <%--<div class="bg-part"></div>--%>
+                <%--<div class="bg-part"></div>--%>
+                <%--<div class="bg-part"></div>--%>
+                <%--<div class="bg-part"></div>--%>
+                <%--<div class="bg-part"></div>--%>
+                <%--<div class="bg-part"></div>--%>
+                <%--<div class="bg-part"></div>--%>
+                <%--<div class="bg-part"></div>--%>
+                <%--<h2 class="section-heading">Fancy heading #6</h2>--%>
+                <%--<p class="additional-text">Some cool info or hashtags #6</p>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+        <%--<div class="section section-7">--%>
+            <%--<div class="left-part"></div>--%>
+            <%--<div class="content">--%>
+                <%--<div class="bg-part"></div>--%>
+                <%--<div class="bg-part"></div>--%>
+                <%--<div class="bg-part"></div>--%>
+                <%--<div class="bg-part"></div>--%>
+                <%--<div class="bg-part"></div>--%>
+                <%--<div class="bg-part"></div>--%>
+                <%--<div class="bg-part"></div>--%>
+                <%--<div class="bg-part"></div>--%>
+                <%--<h2 class="section-heading">Fancy heading #7</h2>--%>
+                <%--<p class="additional-text">Some cool info or hashtags #7</p>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+        <%--<div class="section section-8">--%>
+            <%--<div class="left-part"></div>--%>
+            <%--<div class="content">--%>
+                <%--<div class="bg-part"></div>--%>
+                <%--<div class="bg-part"></div>--%>
+                <%--<div class="bg-part"></div>--%>
+                <%--<div class="bg-part"></div>--%>
+                <%--<div class="bg-part"></div>--%>
+                <%--<div class="bg-part"></div>--%>
+                <%--<div class="bg-part"></div>--%>
+                <%--<div class="bg-part"></div>--%>
+                <%--<h2 class="section-heading"><a class="codepen-link" href="https://codepen.io/suez/public/"--%>
+                                               <%--target="_blank">Fancy heading #8</a></h2>--%>
+                <%--<p class="check-out additional-text">Check out my other <a href="https://codepen.io/suez/public/"--%>
+                                                                           <%--target="_blank">pens</a></p>--%>
+            <%--</div>--%>
+        <%--</div>--%>
     </div>
     <h2 class="scroll-down"></h2>
 </div>
@@ -560,6 +561,12 @@
     var _2017score_top10Box = '';
     var _2017score_top1Box = '';
 
+    var oscar_top10 = document.getElementById('oscar_top10');
+    var oscar_top1 = document.getElementById('oscar_top1');
+    var oscar_top1_right = document.getElementById('oscar_top1_right');
+    var oscar_top10Box = '';
+    var oscar_top1Box = '';
+
     var tempreBox = '';
     var filmScore = null;
     var url = 'details.jsp';
@@ -568,6 +575,7 @@
         getImdb_top10();
         get2017boxoffice_top10();
         get2017score_top10();
+        getOscar_top10();
     });
 
     function getImdb_top10() {
@@ -866,6 +874,105 @@
                     _2017score_top10Box += tempreBox;
                 }
                 _2017score_top10.innerHTML = _2017score_top10Box;
+            }
+        });
+
+    }
+
+    function getOscar_top10() {
+        $.ajax({
+            type: 'post',
+            url: '/film/getFilmByType.action',
+            data: {
+                filmType: 'Oscar'
+            },
+            success: function (data) {
+                tempreBox = '';
+                var item = data[0];
+                oscar_top10.innerHTML = '';
+                url = setQueryString(url, 'filmID', item.filmID);
+                url = setQueryString(url, 'imdb_filmID', item.imdb_filmID);
+                filmScore = item.score;
+                if (filmScore === 0) {
+                    filmScore = '';
+                }
+                oscar_top1Box = '' +
+                    '<div class="col-md-4" style="width: 180px;height: 222px">' +
+                    '<div class="content-grid-effect slow-zoom vertical">' +
+                    '<a href="' + url + '" class="b-link-stripe b-animate-go  swipebox">' +
+                    '<div class="img-box">' +
+                    '<img src=' + item.posterURL + ' alt="image" class="img-responsive zoom-img">' +
+                    '</div>' +
+                    '<div class="info-box">' +
+                    '<div class="caption_overlay text-center">' +
+                    '<div class="primary" style="font-size: 12px">' +
+                    '<a href="' + url + '">' + item.name + '<span style="color: orange">' + '&nbsp;' + filmScore + '</span>' + '</a>' +
+                    '</div>' +
+                    '</div>' +
+                    '</div>' +
+                    '</a>' +
+                    '</div>' +
+                    '</div>';
+                oscar_top1.innerHTML = oscar_top1Box;
+
+
+                var star = '<img style="width: 17px" src="../../images/star-small.png" />';
+                var star_dark = '<img style="width: 17px" src="../../images/star-small-dark.png" />';
+                var filmStar = '';
+                var j = 0;
+                for (; j < item.score - 1; j++) {
+                    filmStar += star;
+                }
+                while (j < 10) {
+                    filmStar += star_dark;
+                    j++;
+                }
+
+                oscar_top1_right.innerHTML = '' +
+                    '<div class="" style="font-size: 15px;margin-top: 10px; margin-left: 10px; margin-right: 10px; margin-bottom: 10px">' +
+                    '<span class="bli1r">Top 1</span>' +
+
+                    '<a style="color: white; margin-left: 5px" href="' + url + '">' + item.name + '</a>' +
+                    '</div>' +
+
+                    '<div class="">' +
+                    '<span style="color: orange;font-size: 15px;margin-left: 10px">' + '&nbsp;' + filmStar + '</span>' +
+                    '<span style="color: orange;font-size: 15px;margin-left: 10px; margin-top: 5px">' + '&nbsp;' + filmScore + '</span>' +
+                    '</div>' +
+                    '<div class="" style="    max-width: 300px;font-size: 14px;margin-top: 30px; margin-left: 15px; margin-right: 10px; margin-bottom: 10px;color: darkgray">' +
+                    '<p style="text-align: left">' + item.summary + '</p>' +
+                    '</div>';
+
+                for (var i = 1; i < 10; i++) {
+                    item = data[i];
+                    oscar_top10.innerHTML = '';
+                    url = setQueryString(url, 'filmID', item.filmID);
+                    url = setQueryString(url, 'imdb_filmID', item.imdb_filmID);
+                    filmScore = item.score;
+                    if (filmScore === 0) {
+                        filmScore = '';
+                    }
+                    tempreBox = '' +
+                        '<div class="col-md-4" style="width: 10%;height: 161px">' +
+                        '<div class="content-grid-effect slow-zoom vertical">' +
+                        '<a href="' + url + '" class="b-link-stripe b-animate-go  swipebox">' +
+                        '<div class="img-box">' +
+                        '<img src=' + item.posterURL + ' alt="image" class="img-responsive zoom-img">' +
+                        '</div>' +
+                        '<div class="info-box">' +
+                        '<span style="background-color: orange;color: white;font-size: 15px">&nbsp;' + (i + 1) + '&nbsp;</span>' +
+                        '<div class="caption_overlay text-center">' +
+                        '<div class="primary" style="font-size: 12px">' +
+                        '<a href="' + url + '">' + item.name + '<span style="color: orange">' + '&nbsp;' + filmScore + '</span>' + '</a>' +
+                        '</div>' +
+                        '</div>' +
+                        '</div>' +
+                        '</a>' +
+                        '</div>' +
+                        '</div>';
+                    oscar_top10Box += tempreBox;
+                }
+                oscar_top10.innerHTML = oscar_top10Box;
             }
         });
 

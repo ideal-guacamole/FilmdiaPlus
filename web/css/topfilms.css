@@ -231,7 +231,7 @@ html, body {
     background-image: url("../images/Coco_bg.jpg");
 }
 .nav-elem.nav-5 {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/captainamerica.jpg");
+    background-image: url("../images/shapeofwater.jpg");
 }
 .nav-elem.nav-6 {
     background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/blackwidow.jpg");
@@ -283,10 +283,10 @@ html, body {
     background-image: url("../images/Coco_bg.jpg");
 }
 .section.section-5 .left-part {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/captainamerica.jpg");
+    background-image: url("../images/shapeofwater.jpg");
 }
 .section.section-5 .bg-part {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/captainamerica.jpg");
+    background-image: url("../images/shapeofwater.jpg");
 }
 .section.section-6 .left-part {
     background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/blackwidow.jpg");
