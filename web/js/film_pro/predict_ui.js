@@ -20,9 +20,9 @@ $(document).ready(function() {
     Sets random transition-delay for blocks between 0.4 and 1.2 seconds on every call
     */
     function randomDelay() {
-        $(".left-part").css("transition-delay", (Math.floor(Math.random() * 9) + 4)/10 + "s");
+        $(".left-part").css("transition-delay", (Math.floor(Math.random() * 9) + 2)/10 + "s");
         for (var i = 1; i <= pages; i++) {
-            $(".bg-part:nth-child("+i+")").css("transition-delay", (Math.floor(Math.random() * 9) + 4)/10 + "s");
+            $(".bg-part:nth-child("+i+")").css("transition-delay", (Math.floor(Math.random() * 9) + 2)/10 + "s");
         }
     }
 
@@ -44,6 +44,9 @@ $(document).ready(function() {
             $textStuff.show();
             $textStuff.css("top");
             $textStuff.removeClass("not-visible");
+            if (curPage!==1){
+                initChart(curPage-2);
+            }
         }, time + 10);
     }
 

@@ -32,7 +32,15 @@
     <link rel="stylesheet" href="../../css/film_pro/predict.css"/>
     <link rel="stylesheet" href="../../css/film_pro/predict_scroll.css"/>
     <link rel="stylesheet" href="../../css/button.css" type="text/css" media="all">
-
+    <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>
+    <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-gl/echarts-gl.min.js"></script>
+    <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-stat/ecStat.min.js"></script>
+    <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/dataTool.min.js"></script>
+    <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/china.js"></script>
+    <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/world.js"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=ZUONbpqGBsYGXNIYHicvbAbM"></script>
+    <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/bmap.min.js"></script>
+    <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/simplex.js"></script>
     <!-- //Custom-Theme-Files -->
     <!-- Web-Fonts -->
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" type="text/css">
@@ -144,7 +152,9 @@
                     <div class="chartTitle">
                         <h3>Youtube Trailer Click Times</h3>
                     </div>
-                    <div class="predictChartBox" name="tt4881806"></div>
+                    <div class="pre_wrapper">
+                        <div class="predictChartBox" name="tt4881806"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -165,7 +175,9 @@
                     <div class="chartTitle">
                         <h3>Youtube Trailer Click Times</h3>
                     </div>
-                    <div class="predictChartBox" name="tt5881528"></div>
+                    <div class="pre_wrapper">
+                        <div class="predictChartBox" name="tt5881528"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -186,7 +198,9 @@
                     <div class="chartTitle">
                         <h3>Youtube Trailer Click Times</h3>
                     </div>
-                    <div class="predictChartBox" name="tt4602066"></div>
+                    <div class="pre_wrapper">
+                        <div class="predictChartBox" name="tt4602066"></div>
+                    </div>
                 </div>
 
             </div>
@@ -208,7 +222,9 @@
                     <div class="chartTitle">
                         <h3>Youtube Trailer Click Times</h3>
                     </div>
-                    <div class="predictChartBox" name="tt5052474"></div>
+                    <div class="pre_wrapper">
+                        <div class="predictChartBox" name="tt5052474"></div>
+                    </div>
                 </div>
 
             </div>
@@ -230,7 +246,9 @@
                     <div class="chartTitle">
                         <h3>Youtube Trailer Click Times</h3>
                     </div>
-                    <div class="predictChartBox" name="tt6775942"></div>
+                    <div class="pre_wrapper">
+                        <div class="predictChartBox" name="tt6775942"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -251,7 +269,9 @@
                     <div class="chartTitle">
                         <h3>Youtube Trailer Click Times</h3>
                     </div>
-                    <div class="predictChartBox" name="tt7334528"></div>
+                    <div class="pre_wrapper">
+                        <div class="predictChartBox" name="tt7334528"></div>
+                    </div>
                 </div>
 
             </div>
@@ -274,7 +294,9 @@
                     <div class="chartTitle">
                         <h3>Youtube Trailer Click Times</h3>
                     </div>
-                    <div class="predictChartBox" name="tt3892172"></div>
+                    <div class="pre_wrapper">
+                        <div class="predictChartBox" name="tt3892172"></div>
+                    </div>
                 </div>
 
             </div>
@@ -288,10 +310,7 @@
 <%--<jsp:include page="../common/loginbox.jsp"></jsp:include>--%>
 <script>document.getElementById('nav_pred').className = 'active'</script>
 <script src="../../js/ajax.js"></script>
-<script src="../../js/lib/echarts.js"></script>
-<script src="../../js/infographic.js"></script>
 <script src="../../js/lib/jquery-2.1.4.min.js"></script>
-<script src="../../js/lib/owl.carousel.js"></script>
 <script src="../../js/film_pro/predict_pro.js"></script>
 <%--<script src="../../js/search_pro.js"></script>--%>
 <script src="../../js/film_pro/predict_ui.js"></script>

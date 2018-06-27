@@ -246,25 +246,31 @@ h6 {
     width: 36.2rem;
 }
 
-.predictChartBox, .chartTitle{
+.pre_wrapper, .chartTitle{
     position: absolute;
-    width: 50%;
-    height: 50%;
+    width: 40%;
     margin-top: 2rem;
     margin-left: 2rem;
     display: block;
 }
 .predictChartBox{
-    padding-top: 1rem;
-    background: rgba(0,0,0,0.5);
+    width: 55rem;
+    height: 35rem;
+}
+.pre_wrapper{
+    margin-top: 6rem;
+    background: rgba(255,188,188,0.7);
+    padding-left: 0.5em;
 }
 .chartTitle{
-    background: rgba(222, 201, 24, 0.7);
-    height: 4rem;
+    background: rgba(0, 0, 24, 0.7);
+    height: 6rem;
+    font-size: 2rem;
 }
 
 .chartTitle h3{
     color:white;
-    padding:1rem;
-    font-size: 2rem;
+    padding:1.5rem;
+    font-size: 2.5rem;
+    font-family: ptsans-regular;
 }

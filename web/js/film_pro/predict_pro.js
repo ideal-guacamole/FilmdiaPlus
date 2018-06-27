@@ -9,7 +9,7 @@ function getAnalysis(imdbid, predictBox) {
         success: function (data) {
             analysis = data;
             // console.log(data);
-            var predictChart = echarts.init(predictBox, 'infographic');
+            var predictChart = echarts.init(predictBox);
             var dateData = [];
             var clickData = [];
             for (var key in data.youtubeClickTimes) {
@@ -21,9 +21,6 @@ function getAnalysis(imdbid, predictBox) {
             // console.log(dateData);
             // console.log(clickData);
             var option = {
-                title: {
-                    text: ''
-                },
                 tooltip: {
                     trigger: 'axis',
                     formatter: "Date: {b}<br/> Click Number: {c}"
@@ -31,6 +28,7 @@ function getAnalysis(imdbid, predictBox) {
                 xAxis: {
                     type: 'category',
                     name: 'Date',
+                    boundryGap:false,
                     axisTick: {
                         alignWithLabel: true
                     },
@@ -38,12 +36,22 @@ function getAnalysis(imdbid, predictBox) {
                 },
                 yAxis: {
                     type: 'value',
-                    name: 'Youtube Click Number',
-                    scale: true
+                    name: 'Clicks',
+                    scale: true,
+                    axisTick:{
+                        show:false
+                    },
+                    axisLabel:{
+                        formatter:function (value,index) {
+                            var trans = (value/1000000).toFixed(2);
+                            return trans+'M';
+                        }
+                    }
                 },
                 series: {
                     type: 'line',
                     name: 'Click Number',
+                    areaStyle:{},
                     // symbolSize: 6,
                     data: clickData
                 }
@@ -53,8 +61,11 @@ function getAnalysis(imdbid, predictBox) {
     });
 }
 
-var predict_boxs = document.getElementsByClassName('predictChartBox');
-for (var i = 0; i < predict_boxs.length; i++) {
-    console.log(predict_boxs[i].getAttribute('name'));
-    getAnalysis(predict_boxs[i].getAttribute('name'), predict_boxs[i]);
+function initChart(i) {
+    getAnalysis(predict_boxs[i].getAttribute('name'),predict_boxs[i]);
 }
+var predict_boxs = document.getElementsByClassName('predictChartBox');
+// for (var i = 0; i < predict_boxs.length; i++) {
+//     console.log(predict_boxs[i].getAttribute('name'));
+//     getAnalysis(predict_boxs[i].getAttribute('name'), predict_boxs[i]);
+// }
