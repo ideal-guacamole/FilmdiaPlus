@@ -439,16 +439,19 @@
     height: 400px;
     margin-top: 35px;
     background-color: #2e2929;
+    overflow: hidden;
 }
 
 .grd img {
     vertical-align: middle;
     display: inline-block;
     filter: brightness(90%);
+    /*transform: scale(1, 1);*/
     -webkit-transition: all 350ms ease;
     transition: all 350ms ease;
 }
 .grd img:hover {
     filter: brightness(105%) sepia(20%);
+    /*transform: scale(1.5,1.5);*/
     cursor: pointer;
 }

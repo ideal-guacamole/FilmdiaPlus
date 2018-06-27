@@ -262,6 +262,7 @@ h6 {
 
 .pre_wrapper{
     margin-top: 36rem;
+    /*background: rgba(55,188,188,0.7);*/
     background: rgba(255,188,188,0.7);
     padding-left: 0.5em;
 }
