@@ -162,7 +162,7 @@
                 </div>
 
                 <div class="film_Box" style="margin-top: 10%;">
-                    <div id="film_01" style="margin-left: 600px">
+                    <div style="margin-left: 600px">
                         <div class="col-md-4" style="width: 180px;height: 222px">
                             <div class=" slow-zoom vertical">
                                 <a href="" class="b-link-stripe b-animate-go  swipebox">
@@ -180,7 +180,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="film_right" id="film_right_01">
+                    <div class="film_right">
                         <div class=""
                              style="font-size: 15px;margin:10px">
 
@@ -197,12 +197,10 @@
                                 and Claire mount a campaign to rescue the remaining dinosaurs from this extinction-level
                                 event. </p>
                         </div>
-                        ;
+                    </div>
                     </div>
                 </div>
 
-                <div class="film"></div>
-            </div>
         </div>
         <div class="section section-3">
             <div class="left-part"></div>
@@ -225,6 +223,44 @@
                         <div class="predictChartBox" name="tt5881528"></div>
                     </div>
                 </div>
+                <div class="film_Box" style="margin-top: 10%;">
+                    <div style="margin-left: 600px">
+                        <div class="col-md-4" style="width: 180px;height: 222px">
+                            <div class=" slow-zoom vertical">
+                                <a href="" class="b-link-stripe b-animate-go  swipebox">
+                                    <div class="img-box">
+                                        <img src="https://m.media-amazon.com/images/M/MV5BNzIxMjYwNDEwN15BMl5BanBnXkFtZTgwMzk5MDI3NTM@._V1_.jpg"
+                                             alt="image" class="img-responsive zoom-img">
+                                    </div>
+                                    <div class="info-box">
+                                        <div class="caption_overlay text-center">
+                                            <div class="primary" style="font-size: 12px">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film_right">
+                        <div class=""
+                             style="font-size: 15px;margin:10px">
+
+                            <a style="color: white; margin-left: 5px" href="">Jurassic World: Fallen Kingdom</a>
+                        </div>
+
+                        <div class=""
+                             style=" max-width: 300px;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
+                            <div style="margin-top:-1rem;margin-bottom: 1rem ">
+                                <span class="bli1r">Action</span><span class="bli1r">Adventure</span><span
+                                    class="bli1r">Sci-Fi</span>
+                            </div>
+                            <p style="text-align: left"> When the island's dormant volcano begins roaring to life, Owen
+                                and Claire mount a campaign to rescue the remaining dinosaurs from this extinction-level
+                                event. </p>
+                        </div>
+                    </div>
+                    </div>
             </div>
         </div>
         <div class="section section-4">
@@ -248,7 +284,44 @@
                         <div class="predictChartBox" name="tt4602066"></div>
                     </div>
                 </div>
+                <div class="film_Box" style="margin-top: 10%;">
+                    <div style="margin-left: 600px">
+                        <div class="col-md-4" style="width: 180px;height: 222px">
+                            <div class=" slow-zoom vertical">
+                                <a href="" class="b-link-stripe b-animate-go  swipebox">
+                                    <div class="img-box">
+                                        <img src="https://m.media-amazon.com/images/M/MV5BNzIxMjYwNDEwN15BMl5BanBnXkFtZTgwMzk5MDI3NTM@._V1_.jpg"
+                                             alt="image" class="img-responsive zoom-img">
+                                    </div>
+                                    <div class="info-box">
+                                        <div class="caption_overlay text-center">
+                                            <div class="primary" style="font-size: 12px">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film_right">
+                        <div class=""
+                             style="font-size: 15px;margin:10px">
 
+                            <a style="color: white; margin-left: 5px" href="">Jurassic World: Fallen Kingdom</a>
+                        </div>
+
+                        <div class=""
+                             style=" max-width: 300px;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
+                            <div style="margin-top:-1rem;margin-bottom: 1rem ">
+                                <span class="bli1r">Action</span><span class="bli1r">Adventure</span><span
+                                    class="bli1r">Sci-Fi</span>
+                            </div>
+                            <p style="text-align: left"> When the island's dormant volcano begins roaring to life, Owen
+                                and Claire mount a campaign to rescue the remaining dinosaurs from this extinction-level
+                                event. </p>
+                        </div>
+                    </div>
+                    </div>
             </div>
         </div>
         <div class="section section-5">
@@ -272,7 +345,44 @@
                         <div class="predictChartBox" name="tt5052474"></div>
                     </div>
                 </div>
+                <div class="film_Box" style="margin-top: 10%;">
+                    <div style="margin-left: 600px">
+                        <div class="col-md-4" style="width: 180px;height: 222px">
+                            <div class=" slow-zoom vertical">
+                                <a href="" class="b-link-stripe b-animate-go  swipebox">
+                                    <div class="img-box">
+                                        <img src="https://m.media-amazon.com/images/M/MV5BNzIxMjYwNDEwN15BMl5BanBnXkFtZTgwMzk5MDI3NTM@._V1_.jpg"
+                                             alt="image" class="img-responsive zoom-img">
+                                    </div>
+                                    <div class="info-box">
+                                        <div class="caption_overlay text-center">
+                                            <div class="primary" style="font-size: 12px">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film_right">
+                        <div class=""
+                             style="font-size: 15px;margin:10px">
 
+                            <a style="color: white; margin-left: 5px" href="">Jurassic World: Fallen Kingdom</a>
+                        </div>
+
+                        <div class=""
+                             style=" max-width: 300px;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
+                            <div style="margin-top:-1rem;margin-bottom: 1rem ">
+                                <span class="bli1r">Action</span><span class="bli1r">Adventure</span><span
+                                    class="bli1r">Sci-Fi</span>
+                            </div>
+                            <p style="text-align: left"> When the island's dormant volcano begins roaring to life, Owen
+                                and Claire mount a campaign to rescue the remaining dinosaurs from this extinction-level
+                                event. </p>
+                        </div>
+                    </div>
+                    </div>
             </div>
         </div>
         <div class="section section-6">
@@ -296,6 +406,44 @@
                         <div class="predictChartBox" name="tt6775942"></div>
                     </div>
                 </div>
+                <div class="film_Box" style="margin-top: 10%;">
+                    <div style="margin-left: 600px">
+                        <div class="col-md-4" style="width: 180px;height: 222px">
+                            <div class=" slow-zoom vertical">
+                                <a href="" class="b-link-stripe b-animate-go  swipebox">
+                                    <div class="img-box">
+                                        <img src="https://m.media-amazon.com/images/M/MV5BNzIxMjYwNDEwN15BMl5BanBnXkFtZTgwMzk5MDI3NTM@._V1_.jpg"
+                                             alt="image" class="img-responsive zoom-img">
+                                    </div>
+                                    <div class="info-box">
+                                        <div class="caption_overlay text-center">
+                                            <div class="primary" style="font-size: 12px">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film_right">
+                        <div class=""
+                             style="font-size: 15px;margin:10px">
+
+                            <a style="color: white; margin-left: 5px" href="">Jurassic World: Fallen Kingdom</a>
+                        </div>
+
+                        <div class=""
+                             style=" max-width: 300px;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
+                            <div style="margin-top:-1rem;margin-bottom: 1rem ">
+                                <span class="bli1r">Action</span><span class="bli1r">Adventure</span><span
+                                    class="bli1r">Sci-Fi</span>
+                            </div>
+                            <p style="text-align: left"> When the island's dormant volcano begins roaring to life, Owen
+                                and Claire mount a campaign to rescue the remaining dinosaurs from this extinction-level
+                                event. </p>
+                        </div>
+                    </div>
+                    </div>
             </div>
         </div>
         <div class="section section-7">
@@ -319,7 +467,44 @@
                         <div class="predictChartBox" name="tt7334528"></div>
                     </div>
                 </div>
+                <div class="film_Box" style="margin-top: 10%;">
+                    <div style="margin-left: 600px">
+                        <div class="col-md-4" style="width: 180px;height: 222px">
+                            <div class=" slow-zoom vertical">
+                                <a href="" class="b-link-stripe b-animate-go  swipebox">
+                                    <div class="img-box">
+                                        <img src="https://m.media-amazon.com/images/M/MV5BNzIxMjYwNDEwN15BMl5BanBnXkFtZTgwMzk5MDI3NTM@._V1_.jpg"
+                                             alt="image" class="img-responsive zoom-img">
+                                    </div>
+                                    <div class="info-box">
+                                        <div class="caption_overlay text-center">
+                                            <div class="primary" style="font-size: 12px">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film_right">
+                        <div class=""
+                             style="font-size: 15px;margin:10px">
 
+                            <a style="color: white; margin-left: 5px" href="">Jurassic World: Fallen Kingdom</a>
+                        </div>
+
+                        <div class=""
+                             style=" max-width: 300px;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
+                            <div style="margin-top:-1rem;margin-bottom: 1rem ">
+                                <span class="bli1r">Action</span><span class="bli1r">Adventure</span><span
+                                    class="bli1r">Sci-Fi</span>
+                            </div>
+                            <p style="text-align: left"> When the island's dormant volcano begins roaring to life, Owen
+                                and Claire mount a campaign to rescue the remaining dinosaurs from this extinction-level
+                                event. </p>
+                        </div>
+                    </div>
+                    </div>
             </div>
         </div>
         <div class="section section-8">
@@ -344,8 +529,45 @@
                         <div class="predictChartBox" name="tt3892172"></div>
                     </div>
                 </div>
+                <div class="film_Box" style="margin-top: 10%;">
+                    <div style="margin-left: 600px">
+                        <div class="col-md-4" style="width: 180px;height: 222px">
+                            <div class=" slow-zoom vertical">
+                                <a href="" class="b-link-stripe b-animate-go  swipebox">
+                                    <div class="img-box">
+                                        <img src="https://m.media-amazon.com/images/M/MV5BNzIxMjYwNDEwN15BMl5BanBnXkFtZTgwMzk5MDI3NTM@._V1_.jpg"
+                                             alt="image" class="img-responsive zoom-img">
+                                    </div>
+                                    <div class="info-box">
+                                        <div class="caption_overlay text-center">
+                                            <div class="primary" style="font-size: 12px">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film_right">
+                        <div class=""
+                             style="font-size: 15px;margin:10px">
 
-            </div>
+                            <a style="color: white; margin-left: 5px" href="">Jurassic World: Fallen Kingdom</a>
+                        </div>
+
+                        <div class=""
+                             style=" max-width: 300px;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
+                            <div style="margin-top:-1rem;margin-bottom: 1rem ">
+                                <span class="bli1r">Action</span><span class="bli1r">Adventure</span><span
+                                    class="bli1r">Sci-Fi</span>
+                            </div>
+                            <p style="text-align: left"> When the island's dormant volcano begins roaring to life, Owen
+                                and Claire mount a campaign to rescue the remaining dinosaurs from this extinction-level
+                                event. </p>
+                        </div>
+
+                    </div>
+                </div></div>
         </div>
     </div>
     <h2 class="scroll-down">Scroll Down</h2>
