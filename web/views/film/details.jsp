@@ -85,34 +85,34 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <h1><a class="navbar-brand" href="index.jsp"><img src="images/logo2.png"></a></h1>
+                        <h1><a class="navbar-brand" href="../../index.jsp"><img src="../../images/logo2.png"></a></h1>
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav ">
-                            <li><a class="active" href="index.jsp">Home</a></li>
-                            <li><a href="views/film/library.jsp">Library</a></li>
-                            <li><a href="views/film/topfilms.jsp">Top Films</a></li>
+                            <li><a class="active" href="../../index.jsp">Home</a></li>
+                            <li><a href="../../views/film/library.jsp">Library</a></li>
+                            <li><a href="../../views/film/topfilms.jsp">Top Films</a></li>
                         </ul>
                         <jsp:include page="../common/searchbar.jsp"></jsp:include>
-                        <span style="position: absolute; top: 35%; right: -10%"><a href="views/film_pro/index_pro.jsp">FilmdiaPro</a></span>
+                        <span style="position: absolute; top: 35%; right: -10%"><a href="../../views/film_pro/index_pro.jsp">FilmdiaPro</a></span>
 
                         <ul class="user-manage">
-                            <img id="userCenter" src="images/Center.png">
+                            <img id="userCenter" src="../../images/Center.png">
                             <div id="userUnderBox">
                                 <div style="text-indent:0;text-align: center">Hello, <span>xxx</span>!</div>
                                 <ul>
-                                    <li><img src="images/userCenter.png"/><a href="views/film/userCenter.jsp">User
+                                    <li><img src="../../images/userCenter.png"/><a href="../../views/film/userCenter.jsp">User
                                         Center</a></li>
-                                    <li><img src="images/exit.png"/><a href="" onclick="signOut()">Sign Out</a>
+                                    <li><img src="../../images/exit.png"/><a href="" onclick="signOut()">Sign Out</a>
                                     </li>
                                 </ul>
                             </div>
                         </ul>
                     </div><!-- /navbar-collapse -->
                     <!-- search-scripts -->
-                    <script src="js/classie.js"></script>
-                    <script src="js/uisearch.js"></script>
+                    <script src="../../js/classie.js"></script>
+                    <script src="../../js/uisearch.js"></script>
                     <script>
                         new UISearch(document.getElementById('sb-search'));
                     </script>
