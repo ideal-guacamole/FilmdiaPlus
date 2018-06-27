@@ -2,7 +2,7 @@
     position: absolute;
     /*background:rgba(0, 0, 0, .2);*/
     width: 90vw;
-    margin: 35vh auto 0;
+    margin: 30vh auto 0;
     height: 300px;
     display: block;
     left: 0;
@@ -14,7 +14,7 @@
     float: left;
     position: relative;
     left: 20px;
-    top: 20px;
+    /*top: 20px;*/
 }
 
 .title-info .film_poster img {
@@ -25,7 +25,7 @@
     position: relative;
     float: left;
     left: 3vw;
-    margin-top: 20px;
+    /*margin-top: 20px;*/
     width: 40vw;
     /*height: 270px;*/
     /*background: #123456;*/
@@ -39,45 +39,45 @@ h2 {
 
 .film_summary {
     position: relative;
-    top: 20px;
+    top: 10px;
     color: #fff;
     width: 600px;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 .fast_info label {
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 .fast_info .Directors {
     position: relative;
     display: block;
-    top: 75px;
+    top: 25px;
     font-size: 13px;
     margin-bottom: 15px;
 }
 
 .fast_info .Directors > label, span {
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 .fast_info .Stars {
     position: relative;
     display: block;
-    top: 75px;
+    top: 15px;
     font-size: 13px;
     margin-bottom: 15px;
 }
 
 .fast_info .Stars > label, span {
-    font-size: 1.5em;
+    font-size: 1.1em;
 }
 
 .fast_info .Tags {
     position: relative;
     display: block;
     font-size: 13px;
-    top: 75px;
+    top: 5px;
 }
 
 .add_fav {
@@ -85,7 +85,7 @@ h2 {
     float: left;
     width: 22vw;
     /*height: 250px;*/
-    top: 30px;
+    top: 0;
     right: 20px;
     background: rgba(255, 255, 255, .1);
     border-radius: 5px;
@@ -169,7 +169,7 @@ h2 {
 }
 
 .film_title {
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .tagline_part {
