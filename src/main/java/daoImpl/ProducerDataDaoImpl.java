@@ -39,7 +39,7 @@ public class ProducerDataDaoImpl implements ProducerDataDao {
             producerList.add(new Producer(producerDB));
         }
 
-//        session.close();
+        session.close();
         return producerList;
     }
 }

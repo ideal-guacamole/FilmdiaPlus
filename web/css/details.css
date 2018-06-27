@@ -199,7 +199,8 @@ h2 {
 .heads-for-detail{
     margin:30px auto;
     font-size: 3em;
-    margin-bottom: 1%
+    margin-bottom: 1%;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .detail-little-titles{
     font-size: 2em;
