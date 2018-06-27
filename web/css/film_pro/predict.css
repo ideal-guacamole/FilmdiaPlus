@@ -254,8 +254,8 @@ h6 {
     display: block;
 }
 .predictChartBox{
-    width: 55rem;
-    height: 35rem;
+    width:100%;
+    
 }
 .pre_wrapper{
     margin-top: 6rem;
