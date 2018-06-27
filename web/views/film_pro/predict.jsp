@@ -35,12 +35,16 @@
     <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>
     <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-gl/echarts-gl.min.js"></script>
     <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-stat/ecStat.min.js"></script>
-    <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/dataTool.min.js"></script>
+    <script type="text/javascript"
+            src="http://echarts.baidu.com/gallery/vendors/echarts/extension/dataTool.min.js"></script>
     <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/china.js"></script>
     <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/world.js"></script>
     <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=ZUONbpqGBsYGXNIYHicvbAbM"></script>
-    <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/bmap.min.js"></script>
+    <script type="text/javascript"
+            src="http://echarts.baidu.com/gallery/vendors/echarts/extension/bmap.min.js"></script>
     <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/simplex.js"></script>
+    <script src="../../js/mylib.js"></script>
+
     <!-- //Custom-Theme-Files -->
     <!-- Web-Fonts -->
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" type="text/css">
@@ -156,6 +160,48 @@
                         <div class="predictChartBox" name="tt4881806"></div>
                     </div>
                 </div>
+
+                <div class="film_Box" style="margin-top: 10%;">
+                    <div id="film_01" style="margin-left: 600px">
+                        <div class="col-md-4" style="width: 180px;height: 222px">
+                            <div class=" slow-zoom vertical">
+                                <a href="" class="b-link-stripe b-animate-go  swipebox">
+                                    <div class="img-box">
+                                        <img src="https://m.media-amazon.com/images/M/MV5BNzIxMjYwNDEwN15BMl5BanBnXkFtZTgwMzk5MDI3NTM@._V1_.jpg"
+                                             alt="image" class="img-responsive zoom-img">
+                                    </div>
+                                    <div class="info-box">
+                                        <div class="caption_overlay text-center">
+                                            <div class="primary" style="font-size: 12px">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film_right" id="film_right_01">
+                        <div class=""
+                             style="font-size: 15px;margin:10px">
+
+                            <a style="color: white; margin-left: 5px" href="">Jurassic World: Fallen Kingdom</a>
+                        </div>
+
+                        <div class=""
+                             style=" max-width: 300px;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
+                            <div style="margin-top:-1rem;margin-bottom: 1rem ">
+                                <span class="bli1r">Action</span><span class="bli1r">Adventure</span><span
+                                    class="bli1r">Sci-Fi</span>
+                            </div>
+                            <p style="text-align: left"> When the island's dormant volcano begins roaring to life, Owen
+                                and Claire mount a campaign to rescue the remaining dinosaurs from this extinction-level
+                                event. </p>
+                        </div>
+                        ;
+                    </div>
+                </div>
+
+                <div class="film"></div>
             </div>
         </div>
         <div class="section section-3">
@@ -288,7 +334,7 @@
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
                 <%--<h2 class="section-heading"><a class="codepen-link" href="#"--%>
-                                               <%--target="_blank">Leave no trace</a></h2>--%>
+                <%--target="_blank">Leave no trace</a></h2>--%>
                 <%--<p class="check-out additional-text">Check out my other <a href="#" target="_blank">pens</a></p>--%>
                 <div class="chartWrapper">
                     <div class="chartTitle">
@@ -314,6 +360,8 @@
 <script src="../../js/film_pro/predict_pro.js"></script>
 <%--<script src="../../js/search_pro.js"></script>--%>
 <script src="../../js/film_pro/predict_ui.js"></script>
+
+
 </body>
 <!-- //Body -->
 </html>
