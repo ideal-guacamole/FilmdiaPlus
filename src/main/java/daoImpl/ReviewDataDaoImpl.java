@@ -31,7 +31,7 @@ public class ReviewDataDaoImpl implements ReviewDataDao {
         q.setMaxResults(500);
         List<Review> reviewList = q.getResultList();
 //        System.out.println("username:"+reviewList.get(0).getUserName());
-//        session.close();
+        session.close();
         return reviewList;
     }
 
@@ -46,7 +46,7 @@ public class ReviewDataDaoImpl implements ReviewDataDao {
 //        q = session.createQuery("from Review r where r.imdb_filmID = :id and r.userInfo_userID != null ");
 //        q.setParameter("id",imdb_filmID);
 //        List<Review> userReviewList = q.getResultList();
-//        session.close();
+        session.close();
 //        reviewList.addAll(userReviewList);
         return reviewList;
     }
@@ -57,7 +57,7 @@ public class ReviewDataDaoImpl implements ReviewDataDao {
         Query q = session.createQuery("select count(*) from Review r where r.imdb_filmID = :id");
         q.setParameter("id",imdb_filmID);
         long number = (long)q.getSingleResult();
-//        session.close();
+        session.close();
         return number;
     }
 }
