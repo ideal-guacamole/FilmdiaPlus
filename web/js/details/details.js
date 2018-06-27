@@ -309,14 +309,15 @@ function sortReviews() {
         url: '/review/getSortedReviews.action',
         data: {
             imdb_filmID: imdb_filmID,
-            reviewSort: reviewSort,
+            reviewSort: reviewSort
         },
         success: function (data) {
             reviewBox.innerHTML = '';
             review = '';
-            putReviews(data);
             reviewNum = data.length;
-            console.log(data);
+            reviewData = data;
+            num = 0;
+            loadReviews();
         }
     });
 }
