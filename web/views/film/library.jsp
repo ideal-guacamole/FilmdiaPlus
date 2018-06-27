@@ -120,9 +120,10 @@
                     <td><span class="genreLabel">Thriller</span></td>
                     <td><span class="genreLabel">Adventure</span></td>
                     <td><span class="genreLabel">Sport</span></td>
+                    <td><span class="genreLabel">Mystery</span></td>
                 </tr>
                 <tr>
-                    <td><span class="genreLabel">Mystery</span></td>
+
                     <td><span class="genreLabel">Action</span></td>
                     <td><span class="genreLabel">Documentary</span></td>
                     <td><span class="genreLabel">Musical</span></td>
@@ -154,9 +155,10 @@
                     <td><span class="yearLabel">2007</span></td>
                     <td><span class="yearLabel">2006</span></td>
                     <td><span class="yearLabel">2005</span></td>
+                    <td><span class="yearLabel">2004</span></td>
                 </tr>
                 <tr>
-                    <td><span class="yearLabel">2004</span></td>
+
                     <td><span class="yearLabel">2003</span></td>
                     <td><span class="yearLabel">2002</span></td>
                     <td><span class="yearLabel">2001</span></td>
@@ -173,15 +175,28 @@
 
         </div>
         <div title="Country" id="countryBox" class="filterBox">
-            <span class="countryLabel">USA</span>
-            <span class="countryLabel">China</span>
-            <span class="countryLabel">UK</span>
-            <span class="countryLabel">Japan</span>
-            <span class="countryLabel">France</span>
-            <span class="countryLabel">Canada</span>
-            <span class="countryLabel">Australia</span>
-            <span class="countryLabel">India</span>
-            <span class="countryLabel">Others</span>
+            <table>
+                <tr>
+                    <td><span class="countryLabel">USA</span></td>
+                    <td><span class="countryLabel">China</span></td>
+                    <td><span class="countryLabel">UK</span></td>
+                    <td><span class="countryLabel">Japan</span></td>
+                    <td><span class="countryLabel">France</span></td>
+                    <td><span class="countryLabel">Canada</span></td>
+                    <td><span class="countryLabel">Australia</span></td>
+                    <td><span class="countryLabel">India</span></td>
+                    <td><span class="countryLabel">Others</span></td>
+                </tr>
+            </table>
+
+            <%--<span class="countryLabel">China</span>--%>
+            <%--<span class="countryLabel">UK</span>--%>
+            <%--<span class="countryLabel">Japan</span>--%>
+            <%--<span class="countryLabel">France</span>--%>
+            <%--<span class="countryLabel">Canada</span>--%>
+            <%--<span class="countryLabel">Australia</span>--%>
+            <%--<span class="countryLabel">India</span>--%>
+            <%--<span class="countryLabel">Others</span>--%>
         </div>
         <div title="Sort" id="sortBox" class="filterBox">
             <span class="sortLabel">Descend</span>

@@ -150,7 +150,11 @@
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
-                <%--<h2 class="section-heading">Jurassic World </h2>--%>
+                <div class="section-heading">
+
+                    <h2>Predicted Gross In USA </h2>
+                    <h2 class="value" style="color:orange; text-align:right;font-size:6rem;font-famliy:pfd-medium">$988M </h2>
+                </div>
                 <%--<p class="additional-text">Fallen Kingdom</p>--%>
                 <div class="chartWrapper">
                     <div class="chartTitle">
@@ -213,8 +217,11 @@
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
-                <%--<h2 class="section-heading">Damsel</h2>--%>
-                <%--<p class="additional-text">Some cool info or hashtags #3</p>--%>
+                <div class="section-heading">
+
+                    <h2>Predicted Gross In USA </h2>
+                    <h2 class="value" style="color:orange; text-align:right;font-size:6rem;font-famliy:pfd-medium">$56M </h2>
+                </div>
                 <div class="chartWrapper">
                     <div class="chartTitle">
                         <h3>Youtube Trailer Click Times</h3>
@@ -275,8 +282,11 @@
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
-                <%--<h2 class="section-heading">The Catcher Was a Spy</h2>--%>
-                <%--<p class="additional-text">Some cool info or hashtags #4</p>--%>
+                <div class="section-heading">
+
+                    <h2>Predicted Gross In USA </h2>
+                    <h2 class="value" style="color:orange; text-align:right;font-size:6rem;font-famliy:pfd-medium">$59M </h2>
+                </div>
                 <div class="chartWrapper">
                     <div class="chartTitle">
                         <h3>Youtube Trailer Click Times</h3>
@@ -335,8 +345,11 @@
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
-                <%--<h2 class="section-heading">Sicario</h2>--%>
-                <%--<p class="additional-text">Day of the Soldado</p>--%>
+                <div class="section-heading">
+
+                    <h2>Predicted Gross In USA </h2>
+                    <h2 class="value" style="color:orange; text-align:right;font-size:6rem;font-famliy:pfd-medium">$145M </h2>
+                </div>
                 <div class="chartWrapper">
                     <div class="chartTitle">
                         <h3>Youtube Trailer Click Times</h3>
@@ -396,8 +409,11 @@
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
-                <%--<h2 class="section-heading">The king</h2>--%>
-                <%--<p class="additional-text">Some cool info or hashtags #6</p>--%>
+                <div class="section-heading">
+
+                    <h2>Predicted Gross In USA </h2>
+                    <h2 class="value" style="color:orange; text-align:right;font-size:6rem;font-famliy:pfd-medium">$51M </h2>
+                </div>
                 <div class="chartWrapper">
                     <div class="chartTitle">
                         <h3>Youtube Trailer Click Times</h3>
@@ -457,8 +473,11 @@
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
-                <%--<h2 class="section-heading">Uncle Drew</h2>--%>
-                <%--<p class="additional-text">Some cool info or hashtags #7</p>--%>
+                <div class="section-heading">
+
+                    <h2>Predicted Gross In USA </h2>
+                    <h2 class="value" style="color:orange; text-align:right;font-size:6rem;font-famliy:pfd-medium">$113M </h2>
+                </div>
                 <div class="chartWrapper">
                     <div class="chartTitle">
                         <h3>Youtube Trailer Click Times</h3>
@@ -517,9 +536,11 @@
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
-                <h2 class="section-heading"><a class="codepen-link" href="#"
-                target="_blank">Predicted gross in USA</a></h2>
-                <p class="check-out additional-text">200M</p>
+                <div class="section-heading">
+
+                    <h2>Predicted Gross In USA </h2>
+                    <h2 class="value" style="color:orange; text-align:right;font-size:6rem;font-famliy:pfd-medium">$73M </h2>
+                </div>
                 <div class="chartWrapper">
                     <div class="chartTitle">
                         <h3>Youtube Trailer Click Times</h3>
