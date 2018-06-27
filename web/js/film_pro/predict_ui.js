@@ -42,11 +42,12 @@ $(document).ready(function() {
         }, 410);
         setTimeout(function() {
             $textStuff.show();
-            $textStuff.css("top");
-            $textStuff.removeClass("not-visible");
             if (curPage!==1){
                 initChart(curPage-2);
             }
+            $textStuff.css("top");
+            $textStuff.removeClass("not-visible");
+
         }, time + 10);
     }
 
