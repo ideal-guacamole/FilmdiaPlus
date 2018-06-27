@@ -1,7 +1,7 @@
 #filterPane{
     width: 100%;
     /*background: url("images/moscow.jpg") top center no-repeat;*/
-    background: url("../images/librartFilterBg.jpg") center no-repeat;
+    background: url("../images/libraryFilterBg2.jpg");
     background-size: cover;
     /*position: fixed;*/
     color: white;
@@ -14,7 +14,7 @@
     width: 73%;
     margin: 0 auto;
     /*height: 80px;*/
-    border-bottom: 1px solid #f1f1f1;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
     /*border-bottom: 1px solid #f1f1f1;*/
     word-spacing: 10px;
     padding-left: 100px;
