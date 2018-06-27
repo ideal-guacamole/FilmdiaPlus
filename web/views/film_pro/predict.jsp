@@ -146,8 +146,8 @@
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
-                <h2 class="section-heading">Jurassic World </h2>
-                <p class="additional-text">Fallen Kingdom</p>
+                <%--<h2 class="section-heading">Jurassic World </h2>--%>
+                <%--<p class="additional-text">Fallen Kingdom</p>--%>
                 <div class="chartWrapper">
                     <div class="chartTitle">
                         <h3>Youtube Trailer Click Times</h3>
@@ -169,8 +169,8 @@
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
-                <h2 class="section-heading">Damsel</h2>
-                <p class="additional-text">Some cool info or hashtags #3</p>
+                <%--<h2 class="section-heading">Damsel</h2>--%>
+                <%--<p class="additional-text">Some cool info or hashtags #3</p>--%>
                 <div class="chartWrapper">
                     <div class="chartTitle">
                         <h3>Youtube Trailer Click Times</h3>
@@ -192,8 +192,8 @@
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
-                <h2 class="section-heading">The Catcher Was a Spy</h2>
-                <p class="additional-text">Some cool info or hashtags #4</p>
+                <%--<h2 class="section-heading">The Catcher Was a Spy</h2>--%>
+                <%--<p class="additional-text">Some cool info or hashtags #4</p>--%>
                 <div class="chartWrapper">
                     <div class="chartTitle">
                         <h3>Youtube Trailer Click Times</h3>
@@ -216,8 +216,8 @@
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
-                <h2 class="section-heading">Sicario</h2>
-                <p class="additional-text">Day of the Soldado</p>
+                <%--<h2 class="section-heading">Sicario</h2>--%>
+                <%--<p class="additional-text">Day of the Soldado</p>--%>
                 <div class="chartWrapper">
                     <div class="chartTitle">
                         <h3>Youtube Trailer Click Times</h3>
@@ -240,8 +240,8 @@
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
-                <h2 class="section-heading">The king</h2>
-                <p class="additional-text">Some cool info or hashtags #6</p>
+                <%--<h2 class="section-heading">The king</h2>--%>
+                <%--<p class="additional-text">Some cool info or hashtags #6</p>--%>
                 <div class="chartWrapper">
                     <div class="chartTitle">
                         <h3>Youtube Trailer Click Times</h3>
@@ -263,8 +263,8 @@
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
-                <h2 class="section-heading">Uncle Drew</h2>
-                <p class="additional-text">Some cool info or hashtags #7</p>
+                <%--<h2 class="section-heading">Uncle Drew</h2>--%>
+                <%--<p class="additional-text">Some cool info or hashtags #7</p>--%>
                 <div class="chartWrapper">
                     <div class="chartTitle">
                         <h3>Youtube Trailer Click Times</h3>
@@ -287,9 +287,9 @@
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
-                <h2 class="section-heading"><a class="codepen-link" href="#"
-                                               target="_blank">Leave no trace</a></h2>
-                <p class="check-out additional-text">Check out my other <a href="#" target="_blank">pens</a></p>
+                <%--<h2 class="section-heading"><a class="codepen-link" href="#"--%>
+                                               <%--target="_blank">Leave no trace</a></h2>--%>
+                <%--<p class="check-out additional-text">Check out my other <a href="#" target="_blank">pens</a></p>--%>
                 <div class="chartWrapper">
                     <div class="chartTitle">
                         <h3>Youtube Trailer Click Times</h3>

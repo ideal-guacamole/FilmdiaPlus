@@ -50,10 +50,21 @@ function initChart(i) {
             },
             axisLabel:{
                 formatter:function (value,index) {
-                    var trans = (value/1000000).toFixed(2);
+                    var divided = value/1000000;
+                    var trans = '';
+                    if (divided<1){
+                        trans+=divided.toFixed(2);
+                    }
+                    else {
+                        trans+=divided.toFixed(1);
+                    }
                     return trans+'M';
                 }
             }
+        },
+        legend:{
+            padding:[1,5,1,5],
+            bottom:'4%',
         },
         series: {
             type: 'line',
