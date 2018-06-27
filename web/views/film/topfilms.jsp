@@ -121,7 +121,10 @@
                 <!-- //Top-Bar -->
             </div>
 
-            <div class="left-part" style="z-index: 8"></div>
+
+            <div class="left-part" style="z-index: 8">
+                <div class="title_center">MOVIES OF THE YEAR</div>
+            </div>
             <div class="content" style="z-index: 5;background: rgba(0, 0, 0, 0.4);">
                 <div class="bg-part">
                 </div>
