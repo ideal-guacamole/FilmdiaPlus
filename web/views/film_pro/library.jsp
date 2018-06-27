@@ -73,9 +73,9 @@
                     <td><span class="genreLabel">Thriller</span></td>
                     <td><span class="genreLabel">Adventure</span></td>
                     <td><span class="genreLabel">Sport</span></td>
+                    <td><span class="genreLabel">Mystery</span></td>
                 </tr>
                 <tr>
-                    <td><span class="genreLabel">Mystery</span></td>
                     <td><span class="genreLabel">Action</span></td>
                     <td><span class="genreLabel">Documentary</span></td>
                     <td><span class="genreLabel">Musical</span></td>
@@ -107,9 +107,9 @@
                     <td><span class="yearLabel">2007</span></td>
                     <td><span class="yearLabel">2006</span></td>
                     <td><span class="yearLabel">2005</span></td>
+                    <td><span class="yearLabel">2004</span></td>
                 </tr>
                 <tr>
-                    <td><span class="yearLabel">2004</span></td>
                     <td><span class="yearLabel">2003</span></td>
                     <td><span class="yearLabel">2002</span></td>
                     <td><span class="yearLabel">2001</span></td>
