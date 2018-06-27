@@ -198,8 +198,8 @@
                                 event. </p>
                         </div>
                     </div>
-                    </div>
                 </div>
+            </div>
 
         </div>
         <div class="section section-3">
@@ -229,7 +229,7 @@
                             <div class=" slow-zoom vertical">
                                 <a href="" class="b-link-stripe b-animate-go  swipebox">
                                     <div class="img-box">
-                                        <img src="https://m.media-amazon.com/images/M/MV5BNzIxMjYwNDEwN15BMl5BanBnXkFtZTgwMzk5MDI3NTM@._V1_.jpg"
+                                        <img src="https://m.media-amazon.com/images/M/MV5BMjAxNjY2NjY2OV5BMl5BanBnXkFtZTgwMzM2NzY1NTM@._V1_SY1000_CR0,0,674,1000_AL_.jpg"
                                              alt="image" class="img-responsive zoom-img">
                                     </div>
                                     <div class="info-box">
@@ -246,21 +246,22 @@
                         <div class=""
                              style="font-size: 15px;margin:10px">
 
-                            <a style="color: white; margin-left: 5px" href="">Jurassic World: Fallen Kingdom</a>
+                            <a style="color: white; margin-left: 5px" href="">Damsel</a>
                         </div>
 
                         <div class=""
                              style=" max-width: 300px;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
                             <div style="margin-top:-1rem;margin-bottom: 1rem ">
-                                <span class="bli1r">Action</span><span class="bli1r">Adventure</span><span
-                                    class="bli1r">Sci-Fi</span>
+                                <span class="bli1r">Drama</span><span class="bli1r">Comedy</span><span
+                                    class="bli1r">Western</span>
                             </div>
-                            <p style="text-align: left"> When the island's dormant volcano begins roaring to life, Owen
-                                and Claire mount a campaign to rescue the remaining dinosaurs from this extinction-level
-                                event. </p>
+                            <p style="text-align: left">It's the Wild West, circa 1870. Samuel Alabaster, an affluent
+                                pioneer, ventures across the American frontier to marry the love of his life, Penelope.
+                                As his group traverses the west, the once-simple journey grows treacherous, blurring the
+                                lines between hero, villain and damsel.</p>
                         </div>
                     </div>
-                    </div>
+                </div>
             </div>
         </div>
         <div class="section section-4">
@@ -290,7 +291,7 @@
                             <div class=" slow-zoom vertical">
                                 <a href="" class="b-link-stripe b-animate-go  swipebox">
                                     <div class="img-box">
-                                        <img src="https://m.media-amazon.com/images/M/MV5BNzIxMjYwNDEwN15BMl5BanBnXkFtZTgwMzk5MDI3NTM@._V1_.jpg"
+                                        <img src="https://m.media-amazon.com/images/M/MV5BODhlNDc0ZTQtN2FiOS00OGRiLWE2YmYtZmI2ZmU1NzM5MmJlXkEyXkFqcGdeQXVyODY3Nzc0OTk@._V1_SY1000_SX675_AL_.jpg"
                                              alt="image" class="img-responsive zoom-img">
                                     </div>
                                     <div class="info-box">
@@ -307,21 +308,20 @@
                         <div class=""
                              style="font-size: 15px;margin:10px">
 
-                            <a style="color: white; margin-left: 5px" href="">Jurassic World: Fallen Kingdom</a>
+                            <a style="color: white; margin-left: 5px" href="">The Catcher Was a Spy</a>
                         </div>
 
                         <div class=""
                              style=" max-width: 300px;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
                             <div style="margin-top:-1rem;margin-bottom: 1rem ">
-                                <span class="bli1r">Action</span><span class="bli1r">Adventure</span><span
-                                    class="bli1r">Sci-Fi</span>
+                                <span class="bli1r">Biography</span><span class="bli1r">Drama</span><span
+                                    class="bli1r">War</span>
                             </div>
-                            <p style="text-align: left"> When the island's dormant volcano begins roaring to life, Owen
-                                and Claire mount a campaign to rescue the remaining dinosaurs from this extinction-level
-                                event. </p>
+                            <p style="text-align: left"> A major league baseball player, Moe Berg, lives a double life
+                                working for the Office of Strategic Services.</p>
                         </div>
                     </div>
-                    </div>
+                </div>
             </div>
         </div>
         <div class="section section-5">
@@ -351,7 +351,7 @@
                             <div class=" slow-zoom vertical">
                                 <a href="" class="b-link-stripe b-animate-go  swipebox">
                                     <div class="img-box">
-                                        <img src="https://m.media-amazon.com/images/M/MV5BNzIxMjYwNDEwN15BMl5BanBnXkFtZTgwMzk5MDI3NTM@._V1_.jpg"
+                                        <img src="https://m.media-amazon.com/images/M/MV5BMjgyOWRhMDctZTZlNC00M2I1LWI0NDQtYzlmODdmYjY2MThiXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_SY1000_SX675_AL_.jpg"
                                              alt="image" class="img-responsive zoom-img">
                                     </div>
                                     <div class="info-box">
@@ -368,21 +368,21 @@
                         <div class=""
                              style="font-size: 15px;margin:10px">
 
-                            <a style="color: white; margin-left: 5px" href="">Jurassic World: Fallen Kingdom</a>
+                            <a style="color: white; margin-left: 5px" href="">Sicario 2: Soldado</a>
                         </div>
 
                         <div class=""
                              style=" max-width: 300px;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
                             <div style="margin-top:-1rem;margin-bottom: 1rem ">
-                                <span class="bli1r">Action</span><span class="bli1r">Adventure</span><span
-                                    class="bli1r">Sci-Fi</span>
+                                <span class="bli1r">Action</span><span class="bli1r">Crime</span><span
+                                    class="bli1r">Thriller</span>
                             </div>
-                            <p style="text-align: left"> When the island's dormant volcano begins roaring to life, Owen
-                                and Claire mount a campaign to rescue the remaining dinosaurs from this extinction-level
-                                event. </p>
+                            <p style="text-align: left"> The drug war on the US-Mexico border has escalated as the
+                                cartels have begun trafficking terrorists across the US border. To fight the war,
+                                federal agent Matt Graver re-teams with the mercurial Alejandro.</p>
                         </div>
                     </div>
-                    </div>
+                </div>
             </div>
         </div>
         <div class="section section-6">
@@ -412,7 +412,7 @@
                             <div class=" slow-zoom vertical">
                                 <a href="" class="b-link-stripe b-animate-go  swipebox">
                                     <div class="img-box">
-                                        <img src="https://m.media-amazon.com/images/M/MV5BNzIxMjYwNDEwN15BMl5BanBnXkFtZTgwMzk5MDI3NTM@._V1_.jpg"
+                                        <img src="http://wx2.sinaimg.cn/mw690/6ae72ecely1fsolq44zpqj20iq0rstm4.jpg"
                                              alt="image" class="img-responsive zoom-img">
                                     </div>
                                     <div class="info-box">
@@ -429,21 +429,21 @@
                         <div class=""
                              style="font-size: 15px;margin:10px">
 
-                            <a style="color: white; margin-left: 5px" href="">Jurassic World: Fallen Kingdom</a>
+                            <a style="color: white; margin-left: 5px" href="">The King</a>
                         </div>
 
                         <div class=""
                              style=" max-width: 300px;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
                             <div style="margin-top:-1rem;margin-bottom: 1rem ">
-                                <span class="bli1r">Action</span><span class="bli1r">Adventure</span><span
-                                    class="bli1r">Sci-Fi</span>
+                                <span class="bli1r">Documentary</span>
                             </div>
-                            <p style="text-align: left"> When the island's dormant volcano begins roaring to life, Owen
-                                and Claire mount a campaign to rescue the remaining dinosaurs from this extinction-level
-                                event. </p>
+                            <p style="text-align: left">Forty years after the death of Elvis Presley, a musical road
+                                trip across America in his 1963 Rolls Royce explores how a country boy lost his
+                                authenticity and became a king while his country lost her democracy and became an
+                                empire.</p>
                         </div>
                     </div>
-                    </div>
+                </div>
             </div>
         </div>
         <div class="section section-7">
@@ -473,7 +473,7 @@
                             <div class=" slow-zoom vertical">
                                 <a href="" class="b-link-stripe b-animate-go  swipebox">
                                     <div class="img-box">
-                                        <img src="https://m.media-amazon.com/images/M/MV5BNzIxMjYwNDEwN15BMl5BanBnXkFtZTgwMzk5MDI3NTM@._V1_.jpg"
+                                        <img src="http://wx1.sinaimg.cn/mw690/6ae72ecely1fsolll9w2ij20i00qpto2.jpg"
                                              alt="image" class="img-responsive zoom-img">
                                     </div>
                                     <div class="info-box">
@@ -490,21 +490,20 @@
                         <div class=""
                              style="font-size: 15px;margin:10px">
 
-                            <a style="color: white; margin-left: 5px" href="">Jurassic World: Fallen Kingdom</a>
+                            <a style="color: white; margin-left: 5px" href="">Uncle Drew</a>
                         </div>
 
                         <div class=""
                              style=" max-width: 300px;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
                             <div style="margin-top:-1rem;margin-bottom: 1rem ">
-                                <span class="bli1r">Action</span><span class="bli1r">Adventure</span><span
-                                    class="bli1r">Sci-Fi</span>
+                                <span class="bli1r">Comedy</span>
                             </div>
-                            <p style="text-align: left"> When the island's dormant volcano begins roaring to life, Owen
-                                and Claire mount a campaign to rescue the remaining dinosaurs from this extinction-level
-                                event. </p>
+                            <p style="text-align: left"> After draining his life savings to enter a team in the Rucker
+                                Classic street ball tournament in Harlem, Dax (Lil Rel Howery) is dealt a series of
+                                unfortunate setbacks, including losing his ...</p>
                         </div>
                     </div>
-                    </div>
+                </div>
             </div>
         </div>
         <div class="section section-8">
@@ -518,9 +517,9 @@
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
-                <%--<h2 class="section-heading"><a class="codepen-link" href="#"--%>
-                <%--target="_blank">Leave no trace</a></h2>--%>
-                <%--<p class="check-out additional-text">Check out my other <a href="#" target="_blank">pens</a></p>--%>
+                <h2 class="section-heading"><a class="codepen-link" href="#"
+                target="_blank">Predicted gross in USA</a></h2>
+                <p class="check-out additional-text">200M</p>
                 <div class="chartWrapper">
                     <div class="chartTitle">
                         <h3>Youtube Trailer Click Times</h3>
@@ -535,7 +534,7 @@
                             <div class=" slow-zoom vertical">
                                 <a href="" class="b-link-stripe b-animate-go  swipebox">
                                     <div class="img-box">
-                                        <img src="https://m.media-amazon.com/images/M/MV5BNzIxMjYwNDEwN15BMl5BanBnXkFtZTgwMzk5MDI3NTM@._V1_.jpg"
+                                        <img src="https://m.media-amazon.com/images/M/MV5BMjE3OTI1MTU0OV5BMl5BanBnXkFtZTgwNTg1MzkzNTM@._V1_SY1000_CR0,0,674,1000_AL_.jpg"
                                              alt="image" class="img-responsive zoom-img">
                                     </div>
                                     <div class="info-box">
@@ -552,22 +551,22 @@
                         <div class=""
                              style="font-size: 15px;margin:10px">
 
-                            <a style="color: white; margin-left: 5px" href="">Jurassic World: Fallen Kingdom</a>
+                            <a style="color: white; margin-left: 5px" href="">Leave no trace</a>
                         </div>
 
                         <div class=""
                              style=" max-width: 300px;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
                             <div style="margin-top:-1rem;margin-bottom: 1rem ">
-                                <span class="bli1r">Action</span><span class="bli1r">Adventure</span><span
-                                    class="bli1r">Sci-Fi</span>
+                                <span class="bli1r">Drama</span>
                             </div>
-                            <p style="text-align: left"> When the island's dormant volcano begins roaring to life, Owen
-                                and Claire mount a campaign to rescue the remaining dinosaurs from this extinction-level
-                                event. </p>
+                            <p style="text-align: left"> A father and his thirteen year-old daughter are living in an
+                                ideal existence in a vast urban park in Portland, Oregon, when a small mistake derails
+                                their lives forever.</p>
                         </div>
 
                     </div>
-                </div></div>
+                </div>
+            </div>
         </div>
     </div>
     <h2 class="scroll-down">Scroll Down</h2>
