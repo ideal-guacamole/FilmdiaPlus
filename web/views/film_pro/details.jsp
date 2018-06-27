@@ -76,7 +76,7 @@
 
 <!-- //Header -->
 <div class="banner" id="movie-background"
-     style="height:75vh;min-height: 400px;background: url('../../images/wallpaper/batman.jpg');">
+     style="">
     <div class="title-info">
         <div class="film_poster"><a href=""><img id="poster" style="width: 15vw" class="poster-image" src=""></a></div>
         <div class="fast_info">
@@ -255,12 +255,12 @@
         <!--Graphs-->
         <div id="graphForStatistics" class="product">
             <h1 class="heads-for-detail">STATISTICS</h1>
-            <h2 class="detail-little-titles" style="color: #000;">General Statistics</h2>
+            <h2 class="detail-little-titles" style="color: #428bca;">General Statistics</h2>
             <div id="radarBox" class="half_graphs" style="">
             </div>
             <div id="commentWordsBox" class="half_graphs">
             </div>
-            <h2 style="color: #000;" class="detail-little-titles">Review Statistics</h2>
+            <h2 class="detail-little-titles" style="color: #428bca;">Review Statistics</h2>
             <div id="mapBox" class=""
                  style="float: left;width: 50%;height:60vh;min-height:400px;max-height: 800px">
             </div>
@@ -271,7 +271,7 @@
             <%--<div id="descriptionLengthBox" class="" style="height: 30vh;min-height:200px;max-height: 400px">--%>
             <%--</div>--%>
             <%--</div>--%>
-            <h2 class="detail-little-titles" style="color: #000;margin-top: 5%">Score Statistics</h2>
+            <h2 class="detail-little-titles" style="color: #428bca;margin-top: 5%">Score Statistics</h2>
             <div id="scoreNumBox" class="half_graphs detail-little-titles" style=" margin-bottom: 8%!important;">
             </div>
             <div id="scoreFluctuationBox" class="half_graphs" style="margin-bottom: 8%!important;">
@@ -341,6 +341,10 @@
             function makeRadar() {
                 var radarBox = document.getElementById('radarBox');
                 var film = getFilm();
+                if (film == null) {
+
+                    return;
+                }
                 var reviewNum = 0;
                 $.ajax({
                     type: 'post',
@@ -1027,7 +1031,7 @@
 <!--loginBox-->
 <jsp:include page="../common/loginbox.jsp"></jsp:include>
 
-<script src="../../js/search.js"></script>
+<script src="../../js/details/searchdetail_pro.js"></script>
 <!-- footer -->
 <%--<jsp:include page="common/footer.jsp"></jsp:include>--%>
 </body>
