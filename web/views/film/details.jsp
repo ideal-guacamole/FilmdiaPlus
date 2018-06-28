@@ -85,34 +85,34 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <h1><a class="navbar-brand" href="index.jsp"><img src="images/logo2.png"></a></h1>
+                        <h1><a class="navbar-brand" href="../../index.jsp"><img src="../../images/logo2.png"></a></h1>
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav ">
-                            <li><a class="active" href="index.jsp">Home</a></li>
-                            <li><a href="views/film/library.jsp">Library</a></li>
-                            <li><a href="views/film/topfilms.jsp">Top Films</a></li>
+                            <li><a class="active" href="../../index.jsp">Home</a></li>
+                            <li><a href="../../views/film/library.jsp">Library</a></li>
+                            <li><a href="../../views/film/topfilms.jsp">Top Films</a></li>
                         </ul>
                         <jsp:include page="../common/searchbar.jsp"></jsp:include>
-                        <span style="position: absolute; top: 35%; right: -10%"><a href="views/film_pro/index_pro.jsp">FilmdiaPro</a></span>
+                        <span style="position: absolute; top: 35%; right: -10%"><a href="../../views/film_pro/index_pro.jsp">FilmdiaPro</a></span>
 
                         <ul class="user-manage">
-                            <img id="userCenter" src="images/Center.png">
+                            <img id="userCenter" src="../../images/Center.png">
                             <div id="userUnderBox">
                                 <div style="text-indent:0;text-align: center">Hello, <span>xxx</span>!</div>
                                 <ul>
-                                    <li><img src="images/userCenter.png"/><a href="views/film/userCenter.jsp">User
+                                    <li><img src="../../images/userCenter.png"/><a href="../../views/film/userCenter.jsp">User
                                         Center</a></li>
-                                    <li><img src="images/exit.png"/><a href="" onclick="signOut()">Sign Out</a>
+                                    <li><img src="../../images/exit.png"/><a href="" onclick="signOut()">Sign Out</a>
                                     </li>
                                 </ul>
                             </div>
                         </ul>
                     </div><!-- /navbar-collapse -->
                     <!-- search-scripts -->
-                    <script src="js/classie.js"></script>
-                    <script src="js/uisearch.js"></script>
+                    <script src="../../js/classie.js"></script>
+                    <script src="../../js/uisearch.js"></script>
                     <script>
                         new UISearch(document.getElementById('sb-search'));
                     </script>
@@ -126,7 +126,7 @@
 </div>
 <!-- //Header -->
 <div class="banner" id="movie-background"
-     style="height:75vh;min-height: 400px;background: url('../../images/wallpaper/batman.jpg');">
+     style="">
     <div class="title-info">
         <div class="film_poster"><a href=""><img id="poster" style="width: 15vw" class="poster-image" src=""></a></div>
         <div class="fast_info">
@@ -309,27 +309,27 @@
             <div class="recommend-wrapper">
                 <div class="recommend-img">
                     <a href="details.jsp?filmID=1268&imdb_filmID=tt0055614">
-                        <img style="width:19%;display: inline-block" src="../../images/posters/B005BDZQKU.jpg">
+                        <img style="display: inline-block" src="../../images/posters/B005BDZQKU.jpg">
                     </a>
                 </div>
                 <div class="recommend-img">
                     <a href="details.jsp?filmID=978&imdb_filmID=tt1615147">
-                        <img style="width:19%;display: inline-block" src="../../images/posters/B005FITIGO.jpg">
+                        <img style="display: inline-block" src="../../images/posters/B005FITIGO.jpg">
                     </a>
                 </div>
                 <div class="recommend-img">
                     <a href="details.jsp?filmID=378&imdb_filmID=tt1133985">
-                        <img style="width:19%;display: inline-block" src="../../images/posters/B005I64U34.jpg">
+                        <img style="display: inline-block" src="../../images/posters/B005I64U34.jpg">
                     </a>
                 </div>
                 <div class="recommend-img">
                     <a href="details.jsp?filmID=353&imdb_filmID=tt0458339">
-                        <img style="width:19%;display: inline-block" src="../../images/posters/B005IZLPMY.jpg">
+                        <img style="display: inline-block" src="../../images/posters/B005IZLPMY.jpg">
                     </a>
                 </div>
                 <div class="recommend-img">
                     <a href="details.jsp?filmID=1072&imdb_filmID=tt1599348">
-                        <img style="width:19%;display: inline-block" src="../../images/posters/B005LAIGSC.jpg">
+                        <img style="display: inline-block" src="../../images/posters/B005LAIGSC.jpg">
                     </a>
                 </div>
             </div>
@@ -364,7 +364,7 @@
 <!--loginBox-->
 <jsp:include page="../common/loginbox.jsp"></jsp:include>
 
-<script src="../../js/search.js"></script>
+<script src="../../js/details/searchdetail.js"></script>
 
 <script>
     loadReviews();

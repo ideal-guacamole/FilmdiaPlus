@@ -12,7 +12,8 @@
     color: #ffdb79;
 }
 .bann-info{
-    background: url("../images/statistic.jpeg") center no-repeat;
+    background: url("../../images/back2.jpg") no-repeat;
+    background-size: cover;
     padding: 0 0 0;
 }
 .bann-info h1:first-of-type{

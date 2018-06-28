@@ -37,6 +37,17 @@ var star3_name = document.getElementById('star3_name');
 
 
 var filmID = getQueryString('filmID');
+if (filmID == 900) {
+    $("#movie-background").css("background-image", "url('../../images/wallpaper/Dangal.jpg')")
+} else if (filmID == 359) {
+    $("#movie-background").css("background-image", "url('../../images/wallpaper/CMBYN.jpg')")
+} else if (filmID == 1) {
+    $("#movie-background").css("background-image", "url('../../images/wallpaper/AmericanMade.jpg')")
+} else if (filmID == 7183) {
+    $("#movie-background").css("background-image", "url('../../images/wallpaper/dag2.jpg')")
+} else if (filmID == 353) {
+    $("#movie-background").css("background-image", "url('../../images/wallpaper/CaptainAmerica.jpg')")
+}
 var imdb_filmID = getQueryString('imdb_filmID');
 var name = getQueryString('name');
 var film = null;

@@ -49,7 +49,7 @@
 <!-- Header -->
 <div class="header">
     <jsp:include page="template/navbar.jsp"></jsp:include>
-    <div class="banner">
+    <div class="banner statistic-background">
         <div id="banner" class="bann-info">
             <h1><em>32254</em> films from <em>123</em> countries,</h1>
             <h1>across <em>104</em> years,</h1>
