@@ -443,7 +443,8 @@ var add_fav = document.getElementById('add_fav');
 
 function addFav(userid) {
     if (userid === 0) {
-        alert('Please sign in first.');
+        layer.msg('Please sign in first!', {icon: 5}, function () {
+        });
         return;
     }
     favorite.userID = userid;
@@ -454,11 +455,14 @@ function addFav(userid) {
         data: JSON.stringify(favorite),
         success: function (data) {
             if (data.result === 'success') {
-                alert('Successfully added!\nYou can check it in User Center.');
                 add_fav.setAttribute("disabled", "true");
                 add_fav.innerHTML = "Added to Favorite";
+                layer.msg('Successfully added!', {icon: 6}, function () {
+                    window.location.reload(true);
+                });
             } else {
-                alert('You have already added it!');
+                layer.msg('You have already added it!', {icon: 5}, function () {
+                });
             }
 
         }
@@ -536,10 +540,10 @@ if (userid === 0) {
         stars[i].onclick = function () {
             var j = 0;
             for (; j < this.index; j++) {
-                stars[j].src = '../images/star-small.png';
+                stars[j].src = '../../images/star-small.png';
             }
             for (var k = 0; k < (10 - this.index); k++) {
-                stars[j + k].src = '../images/star-small-dark.png';
+                stars[j + k].src = '../../images/star-small-dark.png';
             }
             starBox.stars = j;
         }
