@@ -2,7 +2,7 @@
     position: absolute;
     /*background:rgba(0, 0, 0, .2);*/
     width: 90vw;
-    margin: 30vh auto 0;
+    margin: 25vh auto 0;
     height: 300px;
     display: block;
     left: 0;
@@ -175,7 +175,8 @@ h2 {
 .tagline_part {
     font-size: 0.8em;
 }
-.recommend-title{
+
+.recommend-title {
     font-size: 3em;
     text-align: center;
     margin-bottom: 1%;
@@ -184,24 +185,45 @@ h2 {
 #recommend {
     width: 80vw;
     min-width: 600px;
-    height:auto;
+    height: auto;
     margin: 30px auto;
     margin-top: 0;
 }
 
-.recommend-img{
+.recommend-img {
     display: inline;
+    overflow: hidden;
+    width: 20% !important;
+    float: left;
 }
 
-.recommend-img > img {
-    width: 19%!important;
+.recommend-img img {
+
+    transition: all 2s ease-in;
+    -webkit-transition: all 2s ease-in;
+    transform: scale(1, 1);
 }
-.heads-for-detail{
-    margin:30px auto;
+
+.recommend-img img:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.recommend-wrapper {
+    /*width: 19% !important;*/
+
+}
+
+.heads-for-detail {
+    margin: 30px auto;
     font-size: 3em;
     margin-bottom: 1%;
     font-family: 'Source Sans Pro', sans-serif;
 }
-.detail-little-titles{
+
+.detail-little-titles {
     font-size: 2em;
+}
+
+.container {
+    width: 80%;
 }

@@ -126,7 +126,7 @@
 </div>
 <!-- //Header -->
 <div class="banner" id="movie-background"
-     style="height:75vh;min-height: 400px;background: url('../../images/wallpaper/batman.jpg');">
+     style="">
     <div class="title-info">
         <div class="film_poster"><a href=""><img id="poster" style="width: 15vw" class="poster-image" src=""></a></div>
         <div class="fast_info">
@@ -309,27 +309,27 @@
             <div class="recommend-wrapper">
                 <div class="recommend-img">
                     <a href="details.jsp?filmID=1268&imdb_filmID=tt0055614">
-                        <img style="width:19%;display: inline-block" src="../../images/posters/B005BDZQKU.jpg">
+                        <img style="display: inline-block" src="../../images/posters/B005BDZQKU.jpg">
                     </a>
                 </div>
                 <div class="recommend-img">
                     <a href="details.jsp?filmID=978&imdb_filmID=tt1615147">
-                        <img style="width:19%;display: inline-block" src="../../images/posters/B005FITIGO.jpg">
+                        <img style="display: inline-block" src="../../images/posters/B005FITIGO.jpg">
                     </a>
                 </div>
                 <div class="recommend-img">
                     <a href="details.jsp?filmID=378&imdb_filmID=tt1133985">
-                        <img style="width:19%;display: inline-block" src="../../images/posters/B005I64U34.jpg">
+                        <img style="display: inline-block" src="../../images/posters/B005I64U34.jpg">
                     </a>
                 </div>
                 <div class="recommend-img">
                     <a href="details.jsp?filmID=353&imdb_filmID=tt0458339">
-                        <img style="width:19%;display: inline-block" src="../../images/posters/B005IZLPMY.jpg">
+                        <img style="display: inline-block" src="../../images/posters/B005IZLPMY.jpg">
                     </a>
                 </div>
                 <div class="recommend-img">
                     <a href="details.jsp?filmID=1072&imdb_filmID=tt1599348">
-                        <img style="width:19%;display: inline-block" src="../../images/posters/B005LAIGSC.jpg">
+                        <img style="display: inline-block" src="../../images/posters/B005LAIGSC.jpg">
                     </a>
                 </div>
             </div>
@@ -364,7 +364,7 @@
 <!--loginBox-->
 <jsp:include page="../common/loginbox.jsp"></jsp:include>
 
-<script src="../../js/search.js"></script>
+<script src="../../js/details/searchdetail.js"></script>
 
 <script>
     loadReviews();
