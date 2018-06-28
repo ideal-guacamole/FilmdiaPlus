@@ -72,13 +72,13 @@
     top: 0;
     /*visibility: hidden;*/
     background: rgba(0,0,0,0.8);
-    transition: width 0.5s;
+    transition: 0.5s;
     left: 30px;
     list-style: none;
     z-index: 99;
     /*width: 300px;*/
-    width: 0px;
-    height: 450px;
+    width: 70px;
+    height: 0px;
 }
 .index:hover{
     width: 300px;
