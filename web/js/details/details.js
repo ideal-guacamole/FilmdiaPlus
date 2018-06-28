@@ -37,6 +37,17 @@ var star3_name = document.getElementById('star3_name');
 
 
 var filmID = getQueryString('filmID');
+if (filmID == 900) {
+    $("#movie-background").css("background-image", "url('../../images/wallpaper/Dangal.jpg')")
+} else if (filmID == 359) {
+    $("#movie-background").css("background-image", "url('../../images/wallpaper/CMBYN.jpg')")
+} else if (filmID == 1) {
+    $("#movie-background").css("background-image", "url('../../images/wallpaper/AmericanMade.jpg')")
+} else if (filmID == 7183) {
+    $("#movie-background").css("background-image", "url('../../images/wallpaper/dag2.jpg')")
+} else if (filmID == 353) {
+    $("#movie-background").css("background-image", "url('../../images/wallpaper/CaptainAmerica.jpg')")
+}
 var imdb_filmID = getQueryString('imdb_filmID');
 var name = getQueryString('name');
 var film = null;
@@ -363,10 +374,10 @@ function putReviews() {
             '    <a href="javascript:" style="font-weight: bold" onclick="expend(' + i + ')" >fold</a> )\n' +
             '  </div>\n' +
             '  <div class="review_footer">&nbsp;&nbsp;&nbsp;&nbsp;\n' +
-            '    <span class="glyphicon glyphicon-thumbs-up" style="color: green; margin-right: 5px" onclick="document.getElementById(\'up-num'+i+'\').innerhtml=parseInt(document.getElementById(\'up-num'+i+'\').innerHTML)+1;"></span>   \n' +
-            '    <span style="font-size: 11px; color:#737373" id="up-num'+i+'">' + like + '</span>&nbsp;&nbsp;&nbsp;&nbsp;\n' +
-            '    <span class="glyphicon glyphicon-thumbs-down" onclick="document.getElementById(\'down-num'+i+'\').innerhtml=parseInt(document.getElementById(\'down-num'+i+'\').innerHTML)+1;" style="margin-left: 10px; margin-right: 5px"></span>\n' +
-            '    <span style="font-size: 11px; color:#737373"id="down-num'+num+'">' + dislike + '</span>\n' +
+            '    <span class="glyphicon glyphicon-thumbs-up" style="color: green; margin-right: 5px" onclick="document.getElementById(\'up-num' + i + '\').innerHTML=parseInt(document.getElementById(\'up-num' + i + '\').innerHTML)+1;"></span>   \n' +
+            '    <span style="font-size: 11px; color:#737373" id="up-num' + i + '">' + like + '</span>&nbsp;&nbsp;&nbsp;&nbsp;\n' +
+            '    <span class="glyphicon glyphicon-thumbs-down" onclick="document.getElementById(\'down-num' + i + '\').innerHTML=parseInt(document.getElementById(\'down-num' + i + '\').innerHTML)-1;" style="margin-left: 10px; margin-right: 5px"></span>\n' +
+            '    <span style="font-size: 11px; color:#737373"id="down-num' + num + '">' + dislike + '</span>\n' +
             '  </div>  \n' +
             '</div>';
     } else {
@@ -385,12 +396,13 @@ function putReviews() {
             '  <div class="review_text" id="fullContent' + i + '" style="display:none">' + fullContentText + '\n' +
             '  </div>\n' +
             '  <div class="review_footer">&nbsp;&nbsp;&nbsp;&nbsp;\n' +
-            '    <span class="glyphicon glyphicon-thumbs-up" style="color: green; margin-right: 5px" onclick="document.getElementById(\'up-num'+i+'\').innerhtml=parseInt(document.getElementById(\'up-num'+i+'\').innerHTML)+1;" ></span>   \n' +
-            '    <span style="font-size: 11px; color:#737373" id="up-num'+i+'">' + like + '</span>&nbsp;&nbsp;&nbsp;&nbsp;\n' +
-            '    <span class="glyphicon glyphicon-thumbs-down" onclick="document.getElementById(\'down-num'+i+'\').innerhtml=parseInt(document.getElementById(\'down-num'+i+'\').innerHTML)+1;" style="margin-left: 10px; margin-right: 5px"></span>\n' +
-            '    <span style="font-size: 11px; color:#737373"id="down-num'+num+'">' + dislike + '</span>\n' +
+            '    <span class="glyphicon glyphicon-thumbs-up" style="color: green; margin-right: 5px" onclick="document.getElementById(\'up-num' + i + '\').innerHTML=parseInt(document.getElementById(\'up-num' + i + '\').innerHTML)+1;" ></span>   \n' +
+            '    <span style="font-size: 11px; color:#737373" id="up-num' + i + '">' + like + '</span>&nbsp;&nbsp;&nbsp;&nbsp;\n' +
+            '    <span class="glyphicon glyphicon-thumbs-down" onclick="document.getElementById(\'down-num' + i + '\').innerHTML=parseInt(document.getElementById(\'down-num' + i + '\').innerHTML)-1;" style="margin-left: 10px; margin-right: 5px"></span>\n' +
+            '    <span style="font-size: 11px; color:#737373"id="down-num' + num + '">' + dislike + '</span>\n' +
             '  </div>  \n' +
-            '</div>';;
+            '</div>';
+        ;
     }
 
     num += 1;
@@ -398,10 +410,11 @@ function putReviews() {
 }
 
 function clickUp(index) {
-    document.getElementById("up-num"+i).innerHTML+=1;
+    document.getElementById("up-num" + i).innerHTML += 1;
 }
+
 function clickDown(index) {
-    document.getElementById("down-num"+i).innerHTML+=1;
+    document.getElementById("down-num" + i).innerHTML += 1;
 }
 
 function expend(i) {

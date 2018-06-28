@@ -49,7 +49,7 @@
 <!-- Header -->
 <div class="header">
     <jsp:include page="template/navbar.jsp"></jsp:include>
-    <div class="banner">
+    <div class="banner statistic-background">
         <div id="banner" class="bann-info">
             <h1><em>32254</em> films from <em>123</em> countries,</h1>
             <h1>across <em>104</em> years,</h1>
@@ -85,17 +85,21 @@
     var indexList = document.getElementById('indexList');
     var oArrow = indexList.firstElementChild;
     var aLi = indexList.getElementsByTagName('li');
-    oArrow.style.display = 'none';
-    //    indexList.onmouseover = function () {
-
-    //    };
-    //    indexList.onmouseout = function () {
-    //        oArrow.style.display = 'block';
-    //        for (var i = 0; i < aLi.length; i++) {
-    //            aLi[i].style.opacity = 0;
-    //            aLi[i].style.display = 'none';
-    //        }
-    //    };
+    // oArrow.style.display = 'none';
+    indexList.onmouseover = function () {
+        oArrow.style.display = 'none';
+        for (var i = 0; i < aLi.length; i++) {
+            aLi[i].style.display = 'block';
+            aLi[i].style.opacity = 1;
+        }
+    };
+    indexList.onmouseout = function () {
+        oArrow.style.display = 'block';
+        for (var i = 0; i < aLi.length; i++) {
+            aLi[i].style.opacity = 0;
+            aLi[i].style.display = 'none';
+        }
+    };
     var lastLi = aLi[0];
     for (var i = 0; i < aLi.length; i++) {
         aLi[i].onclick = function () {
@@ -109,8 +113,13 @@
     window.onscroll = function () {
         var oScroll = document.body.scrollTop || document.documentElement.scrollTop;
         var lock = false;
+        if (oScroll >= 500 && !lock) {
+            lock = true;
+            indexList.style.display = 'block';
+        }
         if (oScroll < 500) {
             lock = false;
+            indexList.style.display = 'none';
             for (var i = 0; i < aLi.length; i++) {
                 aLi[i].style.opacity = 0;
                 aLi[i].style.display = 'none';
@@ -1115,7 +1124,7 @@
 <!--loginBox-->
 <jsp:include page="../common/loginbox.jsp"></jsp:include>
 <jsp:include page="../common/footer.jsp"></jsp:include>
-<script>document.getElementById('nav_stat').className='active'</script>
+<script>document.getElementById('nav_stat').className = 'active'</script>
 
 <script src="../../js/search_pro.js"></script>
 
