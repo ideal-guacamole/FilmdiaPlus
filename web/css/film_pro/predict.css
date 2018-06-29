@@ -285,7 +285,7 @@ h6 {
     background: rgba(0, 0, 0, 0.6);
     min-width: 250px;
     height: 222px;
-    margin-left: 55.23%;
+    margin-left: 11.95%;
 }
 
 .bli1r {
@@ -301,3 +301,43 @@ h6 {
     vertical-align: middle;
     color: #fff;
 }
+
+@keyframes emerge
+{
+    from {opacity:0;}
+    to {opacity:1;}
+}
+
+@-moz-keyframes emerge /* Firefox */
+{
+    from {opacity:0;}
+    to {opacity:1;}
+}
+
+@-webkit-keyframes emerge /* Safari and Chrome */
+{
+    from {opacity:0;}
+    to {opacity:1;}
+}
+
+@-o-keyframes emerge /* Opera */
+{
+    from {opacity:0;}
+    to {opacity:1;}
+}
+
+.film_Box{
+    margin-top: 10%;
+    margin-left: 600px;
+}
+.the-col{
+    width: 180px;height: 222px;
+}
+
+.chartWrapper, .film_Box{
+    animation:emerge 1s;
+    -moz-animation:emerge 1s; /* Firefox */
+    -webkit-animation:emerge 1s; /* Safari and Chrome */
+    -o-animation:emerge 1s; /* Opera */
+}
+

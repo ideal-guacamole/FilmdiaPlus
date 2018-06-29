@@ -6,7 +6,7 @@
         <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
         <property name="connection.url">jdbc:mysql://118.89.178.181:3306/filmdia?useUnicode=true&amp;characterEncoding=utf-8</property>
         <property name="connection.username">xzh</property>
-        <property name="connection.password">Xzh123456.</property>
+        <property name="connection.password">Xzh02563.</property>
 
         <!-- JDBC connection pool -->
         <property name="hibernate.connection.provider_class">org.hibernate.c3p0.internal.C3P0ConnectionProvider</property>
