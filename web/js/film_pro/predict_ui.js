@@ -8,7 +8,7 @@ $(document).ready(function() {
         $sections = $(".sections"),
         $paginationPage = $(".pagination .page"),
         $paginationTotal = $(".total-pages"),
-        $textStuff = $(".section-heading, .additional-text, .chartWrapper");
+        $textStuff = $(".section-heading, .additional-text, .chartWrapper, .film_Box");
 
     if (pages >= 10) {
         $paginationTotal.text(pages);

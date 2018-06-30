@@ -143,7 +143,8 @@
                 <div class="section-heading">
 
                     <h2>Predicted Gross In USA </h2>
-                    <h2 class="value" style="color:orange; text-align:right;font-size:6rem;font-famliy:pfd-medium">$988M </h2>
+                    <h2 class="value" style="color:orange; text-align:right;font-size:6rem;font-famliy:pfd-medium">
+                        $988M </h2>
                 </div>
                 <%--<p class="additional-text">Fallen Kingdom</p>--%>
                 <div class="chartWrapper">
@@ -155,34 +156,24 @@
                     </div>
                 </div>
 
-                <div class="film_Box" style="margin-top: 10%;">
-                    <div style="margin-left: 600px">
-                        <div class="col-md-4" style="width: 180px;height: 222px">
-                            <div class=" slow-zoom vertical">
-                                <a href="" class="b-link-stripe b-animate-go  swipebox">
-                                    <div class="img-box">
-                                        <img src="https://m.media-amazon.com/images/M/MV5BNzIxMjYwNDEwN15BMl5BanBnXkFtZTgwMzk5MDI3NTM@._V1_.jpg"
-                                             alt="image" class="img-responsive zoom-img">
-                                    </div>
-                                    <div class="info-box">
-                                        <div class="caption_overlay text-center">
-                                            <div class="primary" style="font-size: 12px">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
+                <div class="film_Box">
+                    <div class="col-md-4" style="width: 180px;height: 222px;">
+                        <div class="vertical">
+                            <a href="" class="b-link-stripe swipebox">
+                                <div class="img-box">
+                                    <img src="https://m.media-amazon.com/images/M/MV5BNzIxMjYwNDEwN15BMl5BanBnXkFtZTgwMzk5MDI3NTM@._V1_.jpg"
+                                         alt="image" class="img-responsive">
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="film_right">
-                        <div class=""
-                             style="font-size: 15px;margin:10px">
+                        <div style="font-size: 15px;margin:10px">
 
                             <a style="color: white; margin-left: 5px" href="">Jurassic World: Fallen Kingdom</a>
                         </div>
 
-                        <div class=""
-                             style=" max-width: 300px;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
+                        <div style="max-width: 301px;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
                             <div style="margin-top:-1rem;margin-bottom: 1rem ">
                                 <span class="bli1r">Action</span><span class="bli1r">Adventure</span><span
                                     class="bli1r">Sci-Fi</span>
@@ -210,7 +201,8 @@
                 <div class="section-heading">
 
                     <h2>Predicted Gross In USA </h2>
-                    <h2 class="value" style="color:orange; text-align:right;font-size:6rem;font-famliy:pfd-medium">$56M </h2>
+                    <h2 class="value" style="color:orange; text-align:right;font-size:6rem;font-famliy:pfd-medium">
+                        $56M </h2>
                 </div>
                 <div class="chartWrapper">
                     <div class="chartTitle">
@@ -221,22 +213,20 @@
                     </div>
                 </div>
                 <div class="film_Box" style="margin-top: 10%;">
-                    <div style="margin-left: 600px">
-                        <div class="col-md-4" style="width: 180px;height: 222px">
-                            <div class=" slow-zoom vertical">
-                                <a href="" class="b-link-stripe b-animate-go  swipebox">
-                                    <div class="img-box">
-                                        <img src="https://m.media-amazon.com/images/M/MV5BMjAxNjY2NjY2OV5BMl5BanBnXkFtZTgwMzM2NzY1NTM@._V1_SY1000_CR0,0,674,1000_AL_.jpg"
-                                             alt="image" class="img-responsive zoom-img">
-                                    </div>
-                                    <div class="info-box">
-                                        <div class="caption_overlay text-center">
-                                            <div class="primary" style="font-size: 12px">
-                                            </div>
+                    <div class="col-md-4" style="width: 180px;height: 222px">
+                        <div class=" slow-zoom vertical">
+                            <a href="" class="b-link-stripe b-animate-go  swipebox">
+                                <div class="img-box">
+                                    <img src="https://m.media-amazon.com/images/M/MV5BMjAxNjY2NjY2OV5BMl5BanBnXkFtZTgwMzM2NzY1NTM@._V1_SY1000_CR0,0,674,1000_AL_.jpg"
+                                         alt="image" class="img-responsive zoom-img">
+                                </div>
+                                <div class="info-box">
+                                    <div class="caption_overlay text-center">
+                                        <div class="primary" style="font-size: 12px">
                                         </div>
                                     </div>
-                                </a>
-                            </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="film_right">
@@ -247,7 +237,7 @@
                         </div>
 
                         <div class=""
-                             style=" max-width: 300px;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
+                             style=" max-width: 301px;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
                             <div style="margin-top:-1rem;margin-bottom: 1rem ">
                                 <span class="bli1r">Drama</span><span class="bli1r">Comedy</span><span
                                     class="bli1r">Western</span>
@@ -275,7 +265,8 @@
                 <div class="section-heading">
 
                     <h2>Predicted Gross In USA </h2>
-                    <h2 class="value" style="color:orange; text-align:right;font-size:6rem;font-famliy:pfd-medium">$59M </h2>
+                    <h2 class="value" style="color:orange; text-align:right;font-size:6rem;font-famliy:pfd-medium">
+                        $59M </h2>
                 </div>
                 <div class="chartWrapper">
                     <div class="chartTitle">
@@ -286,22 +277,20 @@
                     </div>
                 </div>
                 <div class="film_Box" style="margin-top: 10%;">
-                    <div style="margin-left: 600px">
-                        <div class="col-md-4" style="width: 180px;height: 222px">
-                            <div class=" slow-zoom vertical">
-                                <a href="" class="b-link-stripe b-animate-go  swipebox">
-                                    <div class="img-box">
-                                        <img src="https://m.media-amazon.com/images/M/MV5BODhlNDc0ZTQtN2FiOS00OGRiLWE2YmYtZmI2ZmU1NzM5MmJlXkEyXkFqcGdeQXVyODY3Nzc0OTk@._V1_SY1000_SX675_AL_.jpg"
-                                             alt="image" class="img-responsive zoom-img">
-                                    </div>
-                                    <div class="info-box">
-                                        <div class="caption_overlay text-center">
-                                            <div class="primary" style="font-size: 12px">
-                                            </div>
+                    <div class="col-md-4" style="width: 180px;height: 222px">
+                        <div class=" slow-zoom vertical">
+                            <a href="" class="b-link-stripe b-animate-go  swipebox">
+                                <div class="img-box">
+                                    <img src="https://m.media-amazon.com/images/M/MV5BODhlNDc0ZTQtN2FiOS00OGRiLWE2YmYtZmI2ZmU1NzM5MmJlXkEyXkFqcGdeQXVyODY3Nzc0OTk@._V1_SY1000_SX675_AL_.jpg"
+                                         alt="image" class="img-responsive zoom-img">
+                                </div>
+                                <div class="info-box">
+                                    <div class="caption_overlay text-center">
+                                        <div class="primary" style="font-size: 12px">
                                         </div>
                                     </div>
-                                </a>
-                            </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="film_right">
@@ -312,7 +301,7 @@
                         </div>
 
                         <div class=""
-                             style=" max-width: 300px;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
+                             style=" max-width: 301px;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
                             <div style="margin-top:-1rem;margin-bottom: 1rem ">
                                 <span class="bli1r">Biography</span><span class="bli1r">Drama</span><span
                                     class="bli1r">War</span>
@@ -338,7 +327,8 @@
                 <div class="section-heading">
 
                     <h2>Predicted Gross In USA </h2>
-                    <h2 class="value" style="color:orange; text-align:right;font-size:6rem;font-famliy:pfd-medium">$145M </h2>
+                    <h2 class="value" style="color:orange; text-align:right;font-size:6rem;font-famliy:pfd-medium">
+                        $145M </h2>
                 </div>
                 <div class="chartWrapper">
                     <div class="chartTitle">
@@ -349,22 +339,20 @@
                     </div>
                 </div>
                 <div class="film_Box" style="margin-top: 10%;">
-                    <div style="margin-left: 600px">
-                        <div class="col-md-4" style="width: 180px;height: 222px">
-                            <div class=" slow-zoom vertical">
-                                <a href="" class="b-link-stripe b-animate-go  swipebox">
-                                    <div class="img-box">
-                                        <img src="https://m.media-amazon.com/images/M/MV5BMjgyOWRhMDctZTZlNC00M2I1LWI0NDQtYzlmODdmYjY2MThiXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_SY1000_SX675_AL_.jpg"
-                                             alt="image" class="img-responsive zoom-img">
-                                    </div>
-                                    <div class="info-box">
-                                        <div class="caption_overlay text-center">
-                                            <div class="primary" style="font-size: 12px">
-                                            </div>
+                    <div class="col-md-4" style="width: 180px;height: 222px">
+                        <div class=" slow-zoom vertical">
+                            <a href="" class="b-link-stripe b-animate-go  swipebox">
+                                <div class="img-box">
+                                    <img src="https://m.media-amazon.com/images/M/MV5BMjgyOWRhMDctZTZlNC00M2I1LWI0NDQtYzlmODdmYjY2MThiXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_SY1000_SX675_AL_.jpg"
+                                         alt="image" class="img-responsive zoom-img">
+                                </div>
+                                <div class="info-box">
+                                    <div class="caption_overlay text-center">
+                                        <div class="primary" style="font-size: 12px">
                                         </div>
                                     </div>
-                                </a>
-                            </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="film_right">
@@ -375,7 +363,7 @@
                         </div>
 
                         <div class=""
-                             style=" max-width: 300px;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
+                             style=" max-width: 301px;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
                             <div style="margin-top:-1rem;margin-bottom: 1rem ">
                                 <span class="bli1r">Action</span><span class="bli1r">Crime</span><span
                                     class="bli1r">Thriller</span>
@@ -402,7 +390,8 @@
                 <div class="section-heading">
 
                     <h2>Predicted Gross In USA </h2>
-                    <h2 class="value" style="color:orange; text-align:right;font-size:6rem;font-famliy:pfd-medium">$51M </h2>
+                    <h2 class="value" style="color:orange; text-align:right;font-size:6rem;font-famliy:pfd-medium">
+                        $51M </h2>
                 </div>
                 <div class="chartWrapper">
                     <div class="chartTitle">
@@ -413,22 +402,20 @@
                     </div>
                 </div>
                 <div class="film_Box" style="margin-top: 10%;">
-                    <div style="margin-left: 600px">
-                        <div class="col-md-4" style="width: 180px;height: 222px">
-                            <div class=" slow-zoom vertical">
-                                <a href="" class="b-link-stripe b-animate-go  swipebox">
-                                    <div class="img-box">
-                                        <img src="http://wx2.sinaimg.cn/mw690/6ae72ecely1fsolq44zpqj20iq0rstm4.jpg"
-                                             alt="image" class="img-responsive zoom-img">
-                                    </div>
-                                    <div class="info-box">
-                                        <div class="caption_overlay text-center">
-                                            <div class="primary" style="font-size: 12px">
-                                            </div>
+                    <div class="col-md-4" style="width: 180px;height: 222px">
+                        <div class=" slow-zoom vertical">
+                            <a href="" class="b-link-stripe b-animate-go  swipebox">
+                                <div class="img-box">
+                                    <img src="http://wx2.sinaimg.cn/mw690/6ae72ecely1fsolq44zpqj20iq0rstm4.jpg"
+                                         alt="image" class="img-responsive zoom-img">
+                                </div>
+                                <div class="info-box">
+                                    <div class="caption_overlay text-center">
+                                        <div class="primary" style="font-size: 12px">
                                         </div>
                                     </div>
-                                </a>
-                            </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="film_right">
@@ -439,7 +426,7 @@
                         </div>
 
                         <div class=""
-                             style=" max-width: 300px;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
+                             style=" max-width: 301px;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
                             <div style="margin-top:-1rem;margin-bottom: 1rem ">
                                 <span class="bli1r">Documentary</span>
                             </div>
@@ -466,7 +453,8 @@
                 <div class="section-heading">
 
                     <h2>Predicted Gross In USA </h2>
-                    <h2 class="value" style="color:orange; text-align:right;font-size:6rem;font-famliy:pfd-medium">$113M </h2>
+                    <h2 class="value" style="color:orange; text-align:right;font-size:6rem;font-famliy:pfd-medium">
+                        $113M </h2>
                 </div>
                 <div class="chartWrapper">
                     <div class="chartTitle">
@@ -477,22 +465,20 @@
                     </div>
                 </div>
                 <div class="film_Box" style="margin-top: 10%;">
-                    <div style="margin-left: 600px">
-                        <div class="col-md-4" style="width: 180px;height: 222px">
-                            <div class=" slow-zoom vertical">
-                                <a href="" class="b-link-stripe b-animate-go  swipebox">
-                                    <div class="img-box">
-                                        <img src="http://wx1.sinaimg.cn/mw690/6ae72ecely1fsolll9w2ij20i00qpto2.jpg"
-                                             alt="image" class="img-responsive zoom-img">
-                                    </div>
-                                    <div class="info-box">
-                                        <div class="caption_overlay text-center">
-                                            <div class="primary" style="font-size: 12px">
-                                            </div>
+                    <div class="col-md-4" style="width: 180px;height: 222px">
+                        <div class=" slow-zoom vertical">
+                            <a href="" class="b-link-stripe b-animate-go  swipebox">
+                                <div class="img-box">
+                                    <img src="http://wx1.sinaimg.cn/mw690/6ae72ecely1fsolll9w2ij20i00qpto2.jpg"
+                                         alt="image" class="img-responsive zoom-img">
+                                </div>
+                                <div class="info-box">
+                                    <div class="caption_overlay text-center">
+                                        <div class="primary" style="font-size: 12px">
                                         </div>
                                     </div>
-                                </a>
-                            </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="film_right">
@@ -503,7 +489,7 @@
                         </div>
 
                         <div class=""
-                             style=" max-width: 300px;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
+                             style=" max-width: 301px;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
                             <div style="margin-top:-1rem;margin-bottom: 1rem ">
                                 <span class="bli1r">Comedy</span>
                             </div>
@@ -529,7 +515,8 @@
                 <div class="section-heading">
 
                     <h2>Predicted Gross In USA </h2>
-                    <h2 class="value" style="color:orange; text-align:right;font-size:6rem;font-famliy:pfd-medium">$73M </h2>
+                    <h2 class="value" style="color:orange; text-align:right;font-size:6rem;font-famliy:pfd-medium">
+                        $73M </h2>
                 </div>
                 <div class="chartWrapper">
                     <div class="chartTitle">
@@ -540,22 +527,20 @@
                     </div>
                 </div>
                 <div class="film_Box" style="margin-top: 10%;">
-                    <div style="margin-left: 600px">
-                        <div class="col-md-4" style="width: 180px;height: 222px">
-                            <div class=" slow-zoom vertical">
-                                <a href="" class="b-link-stripe b-animate-go  swipebox">
-                                    <div class="img-box">
-                                        <img src="https://m.media-amazon.com/images/M/MV5BMjE3OTI1MTU0OV5BMl5BanBnXkFtZTgwNTg1MzkzNTM@._V1_SY1000_CR0,0,674,1000_AL_.jpg"
-                                             alt="image" class="img-responsive zoom-img">
-                                    </div>
-                                    <div class="info-box">
-                                        <div class="caption_overlay text-center">
-                                            <div class="primary" style="font-size: 12px">
-                                            </div>
+                    <div class="col-md-4" style="width: 180px;height: 222px">
+                        <div class=" slow-zoom vertical">
+                            <a href="" class="b-link-stripe b-animate-go  swipebox">
+                                <div class="img-box">
+                                    <img src="https://m.media-amazon.com/images/M/MV5BMjE3OTI1MTU0OV5BMl5BanBnXkFtZTgwNTg1MzkzNTM@._V1_SY1000_CR0,0,674,1000_AL_.jpg"
+                                         alt="image" class="img-responsive zoom-img">
+                                </div>
+                                <div class="info-box">
+                                    <div class="caption_overlay text-center">
+                                        <div class="primary" style="font-size: 12px">
                                         </div>
                                     </div>
-                                </a>
-                            </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="film_right">
@@ -566,7 +551,7 @@
                         </div>
 
                         <div class=""
-                             style=" max-width: 300px;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
+                             style=" max-width: 301px;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
                             <div style="margin-top:-1rem;margin-bottom: 1rem ">
                                 <span class="bli1r">Drama</span>
                             </div>
