@@ -86,20 +86,21 @@
     var oArrow = indexList.firstElementChild;
     var aLi = indexList.getElementsByTagName('li');
     // oArrow.style.display = 'none';
-    indexList.onmouseover = function () {
+    // indexList.onmouseover = function () {
         oArrow.style.display = 'none';
-        for (var i = 0; i < aLi.length; i++) {
-            aLi[i].style.display = 'block';
-            aLi[i].style.opacity = 1;
-        }
-    };
-    indexList.onmouseout = function () {
-        oArrow.style.display = 'block';
-        for (var i = 0; i < aLi.length; i++) {
-            aLi[i].style.opacity = 0;
-            aLi[i].style.display = 'none';
-        }
-    };
+    //     for (var i = 0; i < aLi.length; i++) {
+    //         aLi[i].style.display = 'block';
+    //         aLi[i].style.opacity = 1;
+    //     }
+    //     indexList.style.backgroundColor = '#000';
+    // };
+    // indexList.onmouseout = function () {
+    //     oArrow.style.display = 'block';
+    //     for (var i = 0; i < aLi.length; i++) {
+    //         aLi[i].style.opacity = 0;
+    //         aLi[i].style.display = 'none';
+    //     }
+    // };
     var lastLi = aLi[0];
     for (var i = 0; i < aLi.length; i++) {
         aLi[i].onclick = function () {
@@ -113,13 +114,13 @@
     window.onscroll = function () {
         var oScroll = document.body.scrollTop || document.documentElement.scrollTop;
         var lock = false;
-        if (oScroll >= 500 && !lock) {
-            lock = true;
-            indexList.style.display = 'block';
-        }
+        // if (oScroll >= 500 && !lock) {
+        //     lock = true;
+        //     indexList.style.display = 'block';
+        // }
         if (oScroll < 500) {
             lock = false;
-            indexList.style.display = 'none';
+            // indexList.style.display = 'none';
             for (var i = 0; i < aLi.length; i++) {
                 aLi[i].style.opacity = 0;
                 aLi[i].style.display = 'none';
@@ -128,7 +129,7 @@
         }
         if (oScroll >= 500 && !lock) {
             lock = true;
-            indexList.style.width = '300px';
+            indexList.style.width = '160px';
             for (var i = 0; i < aLi.length; i++) {
                 aLi[i].style.display = 'block';
                 aLi[i].style.opacity = 1;
@@ -251,11 +252,11 @@
                             h1Arr[3].style.cssText = "opacity: 1;text-indent: 200px";
                             setTimeout(function () {
                                 h1Arr[4].style.cssText = "opacity: 1;text-indent: 200px";
-                            }, 1000);
-                        }, 1000);
-                    }, 1000);
-                }, 1000);
-            }, 1000);
+                            }, 500);
+                        }, 500);
+                    }, 500);
+                }, 500);
+            }, 500);
 
 
         };
@@ -700,7 +701,7 @@
                                     },
                                     itemStyle: {
                                         normal: {
-                                            color: '#27a7ff',
+                                            // color: '#27a7ff',
                                             shadowBlur: 10,
                                             shadowColor: 'rgba(0, 0, 0, 0.8)'
                                         }
@@ -770,7 +771,7 @@
                                 },
                                 itemStyle: {
                                     normal: {
-                                        color: '#27a7ff',
+                                        // color: '#27a7ff',
                                         shadowBlur: 10,
                                         shadowColor: 'rgba(0, 0, 0, 0.8)'
                                     }

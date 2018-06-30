@@ -72,18 +72,22 @@
     top: 0;
     /*visibility: hidden;*/
     background: rgba(0,0,0,0.8);
-    transition: 0.5s;
-    left: 30px;
+    transition: width 0.5s;
+    left: 10px;
     list-style: none;
     z-index: 99;
     /*width: 300px;*/
-    width: 70px;
-    height: 0px;
-}
-.index:hover{
-    width: 300px;
+    width: 0px;
     height: 450px;
 }
+/*#indexList:hover {*/
+    /*background: rgba(0,0,0,0.8);*/
+/*}*/
+/*.index:hover{*/
+    /*width: 300px;*/
+    /*height: 450px;*/
+    /*background: rgba(0,0,0,0.8);*/
+/*}*/
 .index li{
     transition: 0.5s;
     white-space: nowrap;
@@ -104,7 +108,7 @@
 .index li a{
     transition: 0.5s;
     color: white;
-    font-size: 20px;
+    font-size: 14px;
     line-height: 50px;
     text-align: center;
 }

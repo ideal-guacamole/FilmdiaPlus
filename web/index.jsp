@@ -87,9 +87,9 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav ">
-                            <li><a class="active" href="index.jsp">Home</a></li>
-                            <li><a href="views/film/library.jsp">Library</a></li>
-                            <li><a href="views/film/topfilms.jsp">Top Films</a></li>
+                            <li><a class="active" href="index.jsp">HOME</a></li>
+                            <li><a href="views/film/library.jsp">LIBRARY</a></li>
+                            <li><a href="views/film/topfilms.jsp">CHARTS</a></li>
                         </ul>
                         <jsp:include page="views/common/searchbar.jsp"></jsp:include>
                         <span style="position: absolute; top: 35%; right: -10%"><a href="views/film_pro/index_pro.jsp">FilmdiaPro</a></span>
