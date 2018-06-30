@@ -397,8 +397,8 @@ a:focus, a:hover {
 }
 
 .navbar-nav {
-    float: right;
-    left: 50px;
+    /*float: right;*/
+    /*left: 50px;*/
     width: 80%;
 }
 
@@ -453,12 +453,11 @@ a.navbar-brand span {
 .navbar-default .navbar-nav > li > a {
     color: #fff;
     font-size: 17px;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .navbar-nav > li > a {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding: 25px 25px;
 }
 
 .navbar-brand {
