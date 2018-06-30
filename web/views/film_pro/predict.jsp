@@ -93,10 +93,10 @@
 
                         <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav " style="float:left;padding-left:6.3em;position: fixed">
-                                <li><a href="index_pro.jsp" id="nav_home">Home</a></li>
-                                <li><a href="library.jsp" id="nav_lib">Library</a></li>
-                                <li><a href="statistic.jsp" id="nav_stat">Statistic</a></li>
-                                <li><a href="predict.jsp" id="nav_pred">Predict</a></li>
+                                <li><a href="index_pro.jsp" id="nav_home">HOME</a></li>
+                                <li><a href="library.jsp" id="nav_lib">LIBRARY</a></li>
+                                <li><a href="statistic.jsp" id="nav_stat">STATISTICS</a></li>
+                                <li><a href="predict.jsp" id="nav_pred">PREDICTION</a></li>
                             </ul>
                         </div>
                     </nav>
