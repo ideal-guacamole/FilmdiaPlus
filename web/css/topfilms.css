@@ -404,7 +404,7 @@ html, body {
     text-transform: uppercase;
     bottom: 8rem;
     left: calc(50% - 15rem);
-    color: #fff;
+    color: lightgray;
     width: 30rem;
     text-align: center;
 }

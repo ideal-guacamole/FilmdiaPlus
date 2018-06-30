@@ -75,8 +75,9 @@
     </div>
     <div class="sections">
         <div class="section section-1">
-            <div class="left-part"></div>
-            <div class="content">
+            <jsp:include page="template/navbar.jsp"></jsp:include>
+            <div class="left-part" style="z-index: 8"></div>
+            <div class="content" style="z-index: 5">
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
                 <div class="bg-part"></div>
@@ -89,7 +90,6 @@
                 <%--<p class="additional-text">Some cool info or hashtags #1</p>--%>
                 <div class="header" style="position: fixed">
                     <!-- Top-Bar -->
-                    <jsp:include page="template/navbar.jsp"></jsp:include>
                     <!-- //Top-Bar -->
                     <div class="banner">
                         <div class="bann-info">

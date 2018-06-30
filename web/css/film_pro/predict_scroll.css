@@ -39,12 +39,12 @@ html, body {
     position: fixed;
     z-index: 100;
     left: 0;
-    width: 15rem;
+    width: 12rem;
 }
 .sidebar-hover:after {
     content: "";
     display: block;
-    width: 1px;
+    width: 0;
     height: 100%;
     position: absolute;
     top: 0;
@@ -100,7 +100,7 @@ html, body {
     font-family: ptsans-regular;
     top: 26.7rem;
     left: 0rem;
-    width: 15rem;
+    width: 12rem;
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
     padding: 0.5rem;
@@ -136,7 +136,7 @@ html, body {
 /* REAL SIDEBAR (OFF-CANVAS MENU) STYLES */
 .sidebar-real {
     z-index: 200;
-    left: 15rem;
+    left: 12rem;
     width: 30rem;
     height: 500rem;
     max-width: 0;
@@ -255,10 +255,8 @@ html, body {
     height: 100%;
 }
 .section.section-1 .left-part {
-    background-image: url("../../images/bgPredict.jpg");
 }
 .section.section-1 .bg-part {
-    background-image:url("../../images/bgPredict.jpg");
 }
 .section.section-2 .left-part {
     background-image: url(../../images/predict/Jurassic_R.jpg);
@@ -316,13 +314,14 @@ html, body {
 .left-part {
     z-index: 20;
     left: 0;
-    width: 15rem;
+    width: 12rem;
     transition-delay: 1s;
 }
 
 .content {
-    left: 15rem;
-    width: calc(100% - 15rem);
+    left: 12rem;
+    width: calc(100% - 12rem);
+    z-index: 15;
     height: 100%;
     transition: -webkit-transform 0.4s 0.2s;
     transition: transform 0.4s 0.2s, -webkit-transform 0.4s 0.2s;

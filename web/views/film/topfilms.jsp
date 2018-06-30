@@ -48,7 +48,7 @@
 <div class="main">
     <div class="sidebar-hover">
         <p class="pagination">
-            <span class="page">01</span> / <span class="total-pages">08</span>
+            <span class="page">01</span> / <span class="total-pages">05</span>
         </p>
     </div>
     <div class="sidebar-real">
@@ -80,13 +80,13 @@
                                         <span class="icon-bar"></span>
                                         <span class="icon-bar"></span>
                                     </button>
-                                    <h1><a class="navbar-brand" style="margin-left: 50px" href="../../index.jsp"><img
+                                    <h1><a class="navbar-brand" href="../../index.jsp"><img
                                             src="../../images/logo2.png"></a></h1>
                                 </div>
                                 <!-- Collect the nav links, forms, and other content for toggling -->
                                 <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
                                     <ul class="nav navbar-nav">
-                                        <li><a href="../../index.jsp" style="margin-left: 50px">HOME</a></li>
+                                        <li><a href="../../index.jsp">HOME</a></li>
                                         <li><a href="library.jsp">LIBRARY</a></li>
                                         <li><a class="active" href="topfilms.jsp">CHARTS</a></li>
                                     </ul>
@@ -242,7 +242,7 @@
             <%--</div>--%>
         <%--</div>--%>
     </div>
-    <h2 class="scroll-down"></h2>
+    <h2 class="scroll-down">Scroll Down</h2>
 </div>
 
 <%--<div class="header w3layouts-1">--%>
@@ -599,8 +599,8 @@
                     filmScore = '';
                 }
                 imdb_top1Box = '' +
-                    '<div class="col-md-4" style="width: 180px;height: 222px">' +
-                    '<div class="content-grid-effect slow-zoom vertical">' +
+                    '<div class="col-md-4" style="width: 180px;height: 222px;margin-left: 8px">' +
+                    '<div class="slow-zoom vertical"">' +
                     '<a href="' + url + '" class="b-link-stripe b-animate-go  swipebox">' +
                     '<div class="img-box">' +
                     '<img src=' + item.posterURL + ' alt="image" class="img-responsive zoom-img">' +
@@ -700,8 +700,8 @@
                     filmScore = '';
                 }
                 _2017boxoffice_top1Box = '' +
-                    '<div class="col-md-4" style="width: 180px;height: 222px">' +
-                    '<div class="content-grid-effect slow-zoom vertical">' +
+                    '<div class="col-md-4" style="width: 180px;height: 222px;margin-left: 8px">' +
+                    '<div class="slow-zoom vertical">' +
                     '<a href="' + url + '" class="b-link-stripe b-animate-go  swipebox">' +
                     '<div class="img-box">' +
                     '<img src=' + item.posterURL + ' alt="image" class="img-responsive zoom-img">' +
@@ -801,8 +801,8 @@
                     filmScore = '';
                 }
                 _2017score_top1Box = '' +
-                    '<div class="col-md-4" style="width: 180px;height: 222px">' +
-                    '<div class="content-grid-effect slow-zoom vertical">' +
+                    '<div class="col-md-4" style="width: 180px;height: 222px;margin-left: 8px">' +
+                    '<div class="slow-zoom vertical">' +
                     '<a href="' + url + '" class="b-link-stripe b-animate-go  swipebox">' +
                     '<div class="img-box">' +
                     '<img src=' + item.posterURL + ' alt="image" class="img-responsive zoom-img">' +
@@ -900,8 +900,8 @@
                     filmScore = '';
                 }
                 oscar_top1Box = '' +
-                    '<div class="col-md-4" style="width: 180px;height: 222px">' +
-                    '<div class="content-grid-effect slow-zoom vertical">' +
+                    '<div class="col-md-4" style="width: 180px;height: 222px;margin-left: 8px">' +
+                    '<div class="slow-zoom vertical">' +
                     '<a href="' + url + '" class="b-link-stripe b-animate-go  swipebox">' +
                     '<div class="img-box">' +
                     '<img src=' + item.posterURL + ' alt="image" class="img-responsive zoom-img">' +
