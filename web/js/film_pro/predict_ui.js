@@ -20,9 +20,9 @@ $(document).ready(function() {
     Sets random transition-delay for blocks between 0.4 and 1.2 seconds on every call
     */
     function randomDelay() {
-        $(".left-part").css("transition-delay", (Math.floor(Math.random() * 9) + 2)/10 + "s");
+        $(".left-part").css("transition-delay", (Math.floor(Math.random() * 9) + 2)/15 + "s");
         for (var i = 1; i <= pages; i++) {
-            $(".bg-part:nth-child("+i+")").css("transition-delay", (Math.floor(Math.random() * 9) + 2)/10 + "s");
+            $(".bg-part:nth-child("+i+")").css("transition-delay", (Math.floor(Math.random() * 9) + 2)/15 + "s");
         }
     }
 
@@ -30,7 +30,7 @@ $(document).ready(function() {
     On production, 410 number must be .section-heading transform transition time in miliseconds + 10, but i'm sort of tired of this demo :D
     */
     function timeoutNav(t) {
-        var time = t || 2000;
+        var time = t || 1300;
         $textStuff.addClass("not-visible");
         setTimeout(function() {
             navigating = false;

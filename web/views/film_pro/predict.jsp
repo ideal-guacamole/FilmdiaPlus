@@ -173,7 +173,7 @@
                             <a style="color: white; margin-left: 5px" href="">Jurassic World: Fallen Kingdom</a>
                         </div>
 
-                        <div style="max-width: 301px;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
+                        <div style="max-width: 31.1rem;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
                             <div style="margin-top:-1rem;margin-bottom: 1rem ">
                                 <span class="bli1r">Action</span><span class="bli1r">Adventure</span><span
                                     class="bli1r">Sci-Fi</span>
@@ -237,7 +237,7 @@
                         </div>
 
                         <div class=""
-                             style=" max-width: 301px;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
+                             style=" max-width: 31.1rem;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
                             <div style="margin-top:-1rem;margin-bottom: 1rem ">
                                 <span class="bli1r">Drama</span><span class="bli1r">Comedy</span><span
                                     class="bli1r">Western</span>
@@ -301,7 +301,7 @@
                         </div>
 
                         <div class=""
-                             style=" max-width: 301px;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
+                             style=" max-width: 31.1rem;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
                             <div style="margin-top:-1rem;margin-bottom: 1rem ">
                                 <span class="bli1r">Biography</span><span class="bli1r">Drama</span><span
                                     class="bli1r">War</span>
@@ -363,7 +363,7 @@
                         </div>
 
                         <div class=""
-                             style=" max-width: 301px;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
+                             style=" max-width:31.1rem;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
                             <div style="margin-top:-1rem;margin-bottom: 1rem ">
                                 <span class="bli1r">Action</span><span class="bli1r">Crime</span><span
                                     class="bli1r">Thriller</span>
@@ -426,7 +426,7 @@
                         </div>
 
                         <div class=""
-                             style=" max-width: 301px;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
+                             style=" max-width: 31.1rem;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
                             <div style="margin-top:-1rem;margin-bottom: 1rem ">
                                 <span class="bli1r">Documentary</span>
                             </div>
@@ -489,7 +489,7 @@
                         </div>
 
                         <div class=""
-                             style=" max-width: 301px;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
+                             style=" max-width: 31.1rem;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
                             <div style="margin-top:-1rem;margin-bottom: 1rem ">
                                 <span class="bli1r">Comedy</span>
                             </div>
@@ -551,7 +551,7 @@
                         </div>
 
                         <div class=""
-                             style=" max-width: 301px;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
+                             style=" max-width:31.1rem;font-size: 14px;margin: 30px 10px 10px 15px;color: darkgray">
                             <div style="margin-top:-1rem;margin-bottom: 1rem ">
                                 <span class="bli1r">Drama</span>
                             </div>

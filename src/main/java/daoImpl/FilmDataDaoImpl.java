@@ -273,6 +273,7 @@ public class FilmDataDaoImpl implements FilmDataDao{
         Query q = session.createQuery("from UpdateFilm f where f.imdb_filmID = :id");
         q.setParameter("id",imdb_filmID);
         UpdateFilm updateFilm = (UpdateFilm) q.getSingleResult();
+
         session.close();
         return updateFilm;
     }

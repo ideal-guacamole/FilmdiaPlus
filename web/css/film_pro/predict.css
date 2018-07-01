@@ -284,12 +284,12 @@ h6 {
     background: rgba(0, 0, 0, 0.6);
     min-width: 250px;
     height: 222px;
-    margin-left: 11.9%;
-    margin-top: 14rem;
+    margin-left: 11.66%;
+    margin-top: 14.2rem;
 }
 
 .col-md-4{
-    margin-top: 14rem;
+    margin-top: 14.2rem;
 }
 .bli1r {
     display: inline-block;
@@ -353,9 +353,9 @@ h6 {
     height: 222px;
 }
 
-.chartWrapper ,.film_Box{
-    animation: emerge 1s;
-    -moz-animation: emerge 1s; /* Firefox */
-    -webkit-animation: emerge 1s; /* Safari and Chrome */
-    -o-animation: emerge 1s; /* Opera */
+.chartWrapper ,.film_Box,.section-heading{
+    animation: emerge 1.5s;
+    -moz-animation: emerge 1.5s; /* Firefox */
+    -webkit-animation: emerge 1.5s; /* Safari and Chrome */
+    -o-animation: emerge 1.5s; /* Opera */
 }

@@ -255,11 +255,9 @@
         <!--Graphs-->
         <div id="graphForStatistics" class="product">
             <h1 class="heads-for-detail">STATISTICS</h1>
-            <h2 class="detail-little-titles" style="color: #428bca;">General Statistics</h2>
-            <div id="radarBox" class="half_graphs" style="">
-            </div>
-            <div id="commentWordsBox" class="half_graphs">
-            </div>
+            <%--<div id="radarBox" class="half_graphs" style="">--%>
+            <%--</div>--%>
+
             <h2 class="detail-little-titles" style="color: #428bca;">Review Statistics</h2>
             <div id="mapBox" class=""
                  style="float: left;width: 50%;height:60vh;min-height:400px;max-height: 800px">
@@ -275,6 +273,9 @@
             <div id="scoreNumBox" class="half_graphs detail-little-titles" style=" margin-bottom: 8%!important;">
             </div>
             <div id="scoreFluctuationBox" class="half_graphs" style="margin-bottom: 8%!important;">
+            </div>
+            <h2 class="detail-little-titles" style="color: #428bca;">General Statistics</h2>
+            <div id="commentWordsBox" class="half_graphs">
             </div>
             <%--<button--%>
             <%--style="margin-bottom:20px;margin-left:470px;width: 80px;text-align: center;height: 30px;display: inline-block"--%>
@@ -299,7 +300,7 @@
 
             if (!graph.isEnter) {
                 graph.isEnter = true;
-                makeRadar();
+//                makeRadar();
                 makeReviewMap();
                 makeScoreNum();
                 makeScoreFluctuation();
