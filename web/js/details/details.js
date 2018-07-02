@@ -351,6 +351,9 @@ function putReviews() {
         filmStar += star_dark;
         j++;
     }
+    if(reviewData[i].helpfulness === "") {
+        reviewData[i].helpfulness = "0/0";
+    }
     var helpfulnessArray = reviewData[i].helpfulness.split("/");
     var like = helpfulnessArray[0].replace(/,/g, "");
     var dislike = helpfulnessArray[1].replace(/,/g, "") - like;
@@ -374,9 +377,9 @@ function putReviews() {
             '    <a href="javascript:" style="font-weight: bold" onclick="expend(' + i + ')" >fold</a> )\n' +
             '  </div>\n' +
             '  <div class="review_footer">&nbsp;&nbsp;&nbsp;&nbsp;\n' +
-            '    <span class="glyphicon glyphicon-thumbs-up" style="color: green; margin-right: 5px" onclick="document.getElementById(\'up-num' + i + '\').innerHTML=parseInt(document.getElementById(\'up-num' + i + '\').innerHTML)+1;"></span>   \n' +
+            '    <span class="glyphicon glyphicon-thumbs-up" style="color: green; margin-right: 5px" onclick=clickUp('+i+')></span>   \n' +
             '    <span style="font-size: 11px; color:#737373" id="up-num' + i + '">' + like + '</span>&nbsp;&nbsp;&nbsp;&nbsp;\n' +
-            '    <span class="glyphicon glyphicon-thumbs-down" onclick="document.getElementById(\'down-num' + i + '\').innerHTML=parseInt(document.getElementById(\'down-num' + i + '\').innerHTML)-1;" style="margin-left: 10px; margin-right: 5px"></span>\n' +
+            '    <span class="glyphicon glyphicon-thumbs-down" onclick=clickDown('+i+') style="margin-left: 10px; margin-right: 5px"></span>\n' +
             '    <span style="font-size: 11px; color:#737373"id="down-num' + num + '">' + dislike + '</span>\n' +
             '  </div>  \n' +
             '</div>';
@@ -396,9 +399,9 @@ function putReviews() {
             '  <div class="review_text" id="fullContent' + i + '" style="display:none">' + fullContentText + '\n' +
             '  </div>\n' +
             '  <div class="review_footer">&nbsp;&nbsp;&nbsp;&nbsp;\n' +
-            '    <span class="glyphicon glyphicon-thumbs-up" style="color: green; margin-right: 5px" onclick="document.getElementById(\'up-num' + i + '\').innerHTML=parseInt(document.getElementById(\'up-num' + i + '\').innerHTML)+1;" ></span>   \n' +
+            '    <span class="glyphicon glyphicon-thumbs-up" style="color: green; margin-right: 5px" onclick=clickUp('+i+') ></span>   \n' +
             '    <span style="font-size: 11px; color:#737373" id="up-num' + i + '">' + like + '</span>&nbsp;&nbsp;&nbsp;&nbsp;\n' +
-            '    <span class="glyphicon glyphicon-thumbs-down" onclick="document.getElementById(\'down-num' + i + '\').innerHTML=parseInt(document.getElementById(\'down-num' + i + '\').innerHTML)-1;" style="margin-left: 10px; margin-right: 5px"></span>\n' +
+            '    <span class="glyphicon glyphicon-thumbs-down" onclick=clickDown('+i+') style="margin-left: 10px; margin-right: 5px"></span>\n' +
             '    <span style="font-size: 11px; color:#737373"id="down-num' + num + '">' + dislike + '</span>\n' +
             '  </div>  \n' +
             '</div>';
@@ -408,11 +411,11 @@ function putReviews() {
 
 }
 
-function clickUp(index) {
-    document.getElementById("up-num" + i).innerHTML += 1;
+function clickUp(i) {
+    document.getElementById("up-num" + i).innerHTML = parseInt(document.getElementById("up-num" + i).innerHTML) + 1;
 }
 
-function clickDown(index) {
+function clickDown(i) {
     document.getElementById("down-num" + i).innerHTML += 1;
 }
 
@@ -457,7 +460,6 @@ function addFav(userid) {
                 add_fav.setAttribute("disabled", "true");
                 add_fav.innerHTML = "Added to Favorite";
                 layer.msg('Successfully added!', {icon: 6}, function () {
-                    window.location.reload(true);
                 });
             } else {
                 layer.msg('You have already added it!', {icon: 5}, function () {

@@ -92,7 +92,7 @@
                         <ul class="nav navbar-nav ">
                             <li><a class="active" href="../../index.jsp">Home</a></li>
                             <li><a href="../../views/film/library.jsp">Library</a></li>
-                            <li><a href="../../views/film/topfilms.jsp">Top Films</a></li>
+                            <li><a href="../../views/film/topfilms.jsp">Charts</a></li>
                         </ul>
                         <jsp:include page="../common/searchbar.jsp"></jsp:include>
                         <span style="position: absolute; top: 35%; right: -10%"><a href="../../views/film_pro/index_pro.jsp">FilmdiaPro</a></span>

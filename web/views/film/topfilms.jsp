@@ -600,7 +600,7 @@
                 }
                 imdb_top1Box = '' +
                     '<div class="col-md-4" style="width: 180px;height: 222px;margin-left: 8px">' +
-                    '<div class="slow-zoom vertical"">' +
+                    '<div class="slow-zoom vertical">' +
                     '<a href="' + url + '" class="b-link-stripe b-animate-go  swipebox">' +
                     '<div class="img-box">' +
                     '<img src=' + item.posterURL + ' alt="image" class="img-responsive zoom-img">' +
