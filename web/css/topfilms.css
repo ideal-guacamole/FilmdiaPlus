@@ -509,3 +509,7 @@ html, body {
     font-size: 60px;
     color: #fbf592;
 }
+
+.content-grid-effect {
+    box-shadow: 0 4px 10px #2E2D3C;
+}

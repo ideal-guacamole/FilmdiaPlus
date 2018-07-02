@@ -661,7 +661,7 @@ if (userid === 0) {
                                 </label>\
                                 <label>\
                                     <span>Text :</span>\
-                                    <div style="color: black;width: 500px;margin-left: 180px;height: 200px;line-height: 35px;">' + thisComment.text + '</div>\
+                                    <div style="color: black;width: 500px;margin-left: 180px;height: 100px;line-height: 35px;">' + thisComment.text + '</div>\
                                 </label>\
                             </form>';
                 commentBox.parentNode.innerHTML = reviewDiv;
