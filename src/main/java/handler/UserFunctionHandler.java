@@ -76,7 +76,7 @@ public class UserFunctionHandler {
     }
 
     @RequestMapping("/getPersonalReview")
-    public @ResponseBody List<Review> getPersonalReview(@RequestBody int userID){
-        return userFunctionService.getPersonalReview(userID);
+    public @ResponseBody List<Review> getPersonalReview(@RequestBody int userid){
+        return userFunctionService.getPersonalReview(userid);
     }
 }

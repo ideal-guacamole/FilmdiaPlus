@@ -402,7 +402,6 @@ function putReviews() {
             '    <span style="font-size: 11px; color:#737373"id="down-num' + num + '">' + dislike + '</span>\n' +
             '  </div>  \n' +
             '</div>';
-        ;
     }
 
     num += 1;
@@ -566,8 +565,8 @@ if (userid === 0) {
     $.ajax({
         type: 'post',
         url: '/user/getPersonalReview.action',
-        contentType: 'application/json',
-        data: userid,
+        contentType: 'application/json;charset=utf-8',
+        data: JSON.stringify(userid),
         success: function (data) {
             if (data === null || data.length === 0) {
                 return false;
