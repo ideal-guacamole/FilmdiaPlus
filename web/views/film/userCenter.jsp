@@ -86,7 +86,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <h1><a class="navbar-brand" href="../../index.jsp"><img src="../../images/logo2.png"
+                        <h1><a class="navbar-brand" href="../../index.jsp"><img src="../../images/Filmdia.png"
                                                                                 style="top:-65px;"></a></h1>
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->

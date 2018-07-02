@@ -1,5 +1,5 @@
 <div class="top-bar w3-1">
-    <div class="container">
+    <div class="container" style="width: 80%;">
         <div class="header-nav w3-agileits-1">
             <nav class="navbar navbar-default">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -11,7 +11,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <h1><a class="navbar-brand" href="index_pro.jsp"><img src="../../images/logo2.png"></a></h1>
+                    <h1><a class="navbar-brand" href="index_pro.jsp"><img style="height: 41px; width: 232px" src="../../../images/FilmdiaPro.png"></a></h1>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">

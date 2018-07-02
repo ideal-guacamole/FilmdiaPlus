@@ -416,10 +416,13 @@ a:focus, a:hover {
 
 a.navbar-brand img {
     position: relative;
-    top: -19px;
-    left: -90px;
+    /*top: -19px;*/
+    /*left: -90px;*/
+    left: -15.5%;
     display: inline-block;
     opacity: .7;
+    height: 41px;
+    width: 186px;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
