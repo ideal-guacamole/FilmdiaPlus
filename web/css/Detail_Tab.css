@@ -220,7 +220,7 @@ img {
 #castTable {
     max-width: 650px;
     margin: 20px 0 0 0;
-    font-style: 1.4em;
+    font-size: 0.8em;
 }
 
 #castTable > tbody > tr:hover > td,
@@ -295,7 +295,7 @@ h3 {
     border: 2px solid #e7e7e7;
     margin-top: 20px;
     height: auto;
-    font-size: 0.8em;
+    font-size: 14px;
     padding: 10px;
 }
 
@@ -362,7 +362,7 @@ h3 {
     border: 2px solid #e7e7e7;
     margin-top: 20px;
     height: 130px;
-    font-size: 0.8em;
+    font-size: 14px;
 }
 
 .BoxOffice .detail_form span {
@@ -382,8 +382,9 @@ h3 {
     /*height: 180px;*/
     border: 2px solid #e7e7e7;
     margin-top: 20px;
-    font-size: 1.4em;
+    font-size: 1.2em;
     padding: 1em;
+    line-height: 1.7em;
 }
 
 .Storyline .storyline_form .storyline_part {
@@ -392,7 +393,7 @@ h3 {
 }
 
 .Storyline .storyline_form .keyword_part {
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 .Storyline .storyline_form label {
@@ -401,7 +402,9 @@ h3 {
     margin-top: 12px;
     /*margin-left: 10px;*/
 }
-
+.tagline_part {
+    font-size: 1em;
+}
 /*Review*/
 .reviews {
     position: relative;

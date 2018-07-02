@@ -78,7 +78,7 @@
 <div class="banner" id="movie-background"
      style="">
     <div class="title-info">
-        <div class="film_poster"><a href=""><img id="poster" style="width: 15vw" class="poster-image" src=""></a></div>
+        <div class="film_poster"><a href=""><img id="poster" class="poster-image" src=""></a></div>
         <div class="fast_info">
             <h2 id="title" class="film_title"><span class="Year">Title</span></h2>
 
