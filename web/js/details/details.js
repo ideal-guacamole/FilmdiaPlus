@@ -378,9 +378,9 @@ function putReviews() {
             '    <a href="javascript:" style="font-weight: bold" onclick="expend(' + i + ')" >fold</a> )\n' +
             '  </div>\n' +
             '  <div class="review_footer">&nbsp;&nbsp;&nbsp;&nbsp;\n' +
-            '    <span class="glyphicon glyphicon-thumbs-up" style="color: green; margin-right: 5px" onclick=clickUp('+i+')></span>   \n' +
+            '    <span id="thumb-up'+i+'"  class="glyphicon glyphicon-thumbs-up" style="color: green; margin-right: 5px" onclick=clickUp('+i+')></span>   \n' +
             '    <span style="font-size: 11px; color:#737373" id="up-num' + i + '">' + like + '</span>&nbsp;&nbsp;&nbsp;&nbsp;\n' +
-            '    <span class="glyphicon glyphicon-thumbs-down" onclick=clickDown('+i+') style="margin-left: 10px; margin-right: 5px"></span>\n' +
+            '    <span id="thumb-down'+i+'" class="glyphicon glyphicon-thumbs-down" onclick=clickDown('+i+') style="margin-left: 10px; margin-right: 5px"></span>\n' +
             '    <span style="font-size: 11px; color:#737373"id="down-num' + num + '">' + dislike + '</span>\n' +
             '  </div>  \n' +
             '</div>';
@@ -400,10 +400,10 @@ function putReviews() {
             '  <div class="review_text" id="fullContent' + i + '" style="display:none">' + fullContentText + '\n' +
             '  </div>\n' +
             '  <div class="review_footer">&nbsp;&nbsp;&nbsp;&nbsp;\n' +
-            '    <span class="glyphicon glyphicon-thumbs-up" style="color: green; margin-right: 5px" onclick=clickUp('+i+') ></span>   \n' +
+            '    <span id="thumb-up'+i+'" class="glyphicon glyphicon-thumbs-up" style="color: green; margin-right: 5px" onclick=clickUp('+i+') ></span>   \n' +
             '    <span style="font-size: 11px; color:#737373" id="up-num' + i + '">' + like + '</span>&nbsp;&nbsp;&nbsp;&nbsp;\n' +
-            '    <span class="glyphicon glyphicon-thumbs-down" onclick=clickDown('+i+') style="margin-left: 10px; margin-right: 5px"></span>\n' +
-            '    <span style="font-size: 11px; color:#737373"id="down-num' + num + '">' + dislike + '</span>\n' +
+            '    <span id="thumb-down'+i+'" class="glyphicon glyphicon-thumbs-down" onclick=clickDown('+i+') style="margin-left: 10px; margin-right: 5px"></span>\n' +
+            '    <span style="font-size: 11px; color:#737373" id="down-num' + num + '">' + dislike + '</span>\n' +
             '  </div>  \n' +
             '</div>';
     }
@@ -413,10 +413,12 @@ function putReviews() {
 }
 
 function clickUp(i) {
+    document.getElementById("thumb-up" + i).style.color = "#cccccc";
     document.getElementById("up-num" + i).innerHTML = parseInt(document.getElementById("up-num" + i).innerHTML) + 1;
 }
 
 function clickDown(i) {
+    document.getElementById("thumb-down" + i).style.color = "#cccccc";
     document.getElementById("down-num" + i).innerHTML += 1;
 }
 
