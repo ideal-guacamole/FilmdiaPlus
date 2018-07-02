@@ -188,7 +188,7 @@
     <div class="product-wrap" style="background: rgba(255,255,255,1);">
         <!--Specific-->
         <div id="spec" class="product showing">
-            <h1 class="heads-for-detail">ABOUT MOVIE</h1>
+            <%--<h1 class="heads-for-detail">ABOUT MOVIE</h1>--%>
             <!-- base Info -->
             <div class="info_line1">
                 <span class="country_label">Country: </span><label id="country" class="Country"></label>
@@ -199,16 +199,17 @@
             <!-- Cast -->
             <div id="castBox" class="Cast left">
                 <h3 class="detail-little-titles">Cast</h3>
-                <table class="table table-hover" id="castTable">
-                    <colgroup>
-                        <col class="Pic">
-                        <col class="Name">
-                        <col class="Role">
-                    </colgroup>
+                <table class="table table-striped" id="castTable">
+                    <%--<colgroup>--%>
+                        <%--<col class="Pic">--%>
+                        <%--<col class="Name">--%>
+                        <%--<col class="Role">--%>
+                    <%--</colgroup>--%>
                     <thead>
                     <tr>
                         <th>No.</th>
                         <th>Name</th>
+                        <th></th>
                         <th>Role</th>
                     </tr>
                     </thead>
@@ -303,7 +304,7 @@
         </div>
 
         <div class="product" id="recommend">
-            <h1 class="heads-for-detail" style="margin-top: 0">RECOMMEND FOR YOU</h1>
+            <h1 class="heads-for-detail" style="margin-top: 0">RECOMMENDED FOR YOU</h1>
             <%--<div class="recommend-title">Recommend For You--%>
             <%--</div>--%>
             <div class="recommend-wrapper">

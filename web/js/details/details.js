@@ -147,6 +147,7 @@ if (name == 'null') {
             //cast table
             castMap = film.cast;
             //遍历cast这个map
+            var rowIndex = 0;
             for (var key in castMap) {
                 var rowNum = castTable.rows.length;
                 var newRow = castTable.insertRow(rowNum);
@@ -154,8 +155,14 @@ if (name == 'null') {
                 col1.innerHTML = rowNum;
                 var col2 = newRow.insertCell(1); //name
                 col2.innerHTML = key;
-                var col3 = newRow.insertCell(2); //role
-                col3.innerHTML = castMap[key];
+                var col3 = newRow.insertCell(2); //...
+                col3.innerHTML = "···";
+                var col4 = newRow.insertCell(3); //role
+                col4.innerHTML = castMap[key];
+                if (rowIndex % 2 === 0) {
+                    newRow.style.backgroundColor = "rgba(0,0,0,.02)";
+                }
+                rowIndex++;
             }
 
             //core members
@@ -216,24 +223,47 @@ if (name == 'null') {
             //cast table
             castMap = film.cast;
             //遍历cast这个map
-            var i = 1;
-            var add = '';
+            var rowIndex = 0;
             for (var key in castMap) {
-                // var rowNum = castTable.rows.length;
-                // var newRow = castTable.insertRow(rowNum);
-                // var col1 = newRow.insertCell(0); //pic
-                // col1.innerHTML = rowNum;
-                // var col2 = newRow.insertCell(1); //name
-                // col2.innerHTML = key;
-                // var col3 = newRow.insertCell(2); //role
-                // col3.innerHTML = castMap[key];
-                add = '<tr>' +
-                    '<td>' + i + '</td>' +
-                    '<td>' + key + '</td>>' +
-                    '<td>' + castMap[key] + '</td>' +
-                    '</tr>>';
-                casttbody += add
+                var rowNum = castTable.rows.length;
+                var newRow = castTable.insertRow(rowNum);
+                var col1 = newRow.insertCell(0); //pic
+                col1.innerHTML = rowNum;
+                var col2 = newRow.insertCell(1); //name
+                col2.innerHTML = key;
+                var col3 = newRow.insertCell(2); //...
+                col3.innerHTML = "···";
+                var col4 = newRow.insertCell(3); //role
+                col4.innerHTML = castMap[key];
+                if (rowIndex % 2 === 0) {
+                    newRow.style.backgroundColor = "rgba(0,0,0,.02)";
+                }
+                rowIndex++;
             }
+            // var i = 1;
+            // var add = '';
+            // for (var key in castMap) {
+            //     // var rowNum = castTable.rows.length;
+            //     // var newRow = castTable.insertRow(rowNum);
+            //     // var col1 = newRow.insertCell(0); //pic
+            //     // col1.innerHTML = rowNum;
+            //     // var col2 = newRow.insertCell(1); //name
+            //     // col2.innerHTML = key;
+            //     // var col3 = newRow.insertCell(2); //role
+            //     // col3.innerHTML = castMap[key];
+            //     if (i % 2 !== 0) {
+            //         add = '<tr style="background-color: rgba(0,0,0,.02)">';
+            //     } else {
+            //         add = '<tr>';
+            //     }
+            //     add += '<td>' + i + '</td>' +
+            //         '<td>' + key + '</td>>' +
+            //         '<td>' + '···' + '</td>>' +
+            //     '<td>' + castMap[key] + '</td>' +
+            //         '</tr>>';
+            //     casttbody.innerHTML += add;
+            //     i++;
+            // }
 
             //core members
             var directorlist = film.directors;
