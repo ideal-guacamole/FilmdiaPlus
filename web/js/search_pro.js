@@ -69,7 +69,7 @@ function getResults() {
                 success: function (data) {
                     $.each(data, function (i, item) {
                         if (i < 6) {
-                            var url = '../views/film/details.jsp';
+                            var url = '../film/details.jsp';
                             url = setQueryString(url, 'filmID', item.filmID);
                             url = setQueryString(url, 'imdb_filmID', item.imdb_filmID);
                             var tagLine = item.tagLine ? item.tagLine : 'No tagline now...';
