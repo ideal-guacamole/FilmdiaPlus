@@ -272,6 +272,7 @@ $.ajax({
         reviewNum = data.length;
         reviewData = data;
         num = 0;
+        loadReviews();
     }
 });
 

@@ -581,6 +581,10 @@
         getOscar_top10();
     });
 
+    function locate(url) {
+        location.href = url;
+    }
+
     function getImdb_top10() {
         $.ajax({
             type: 'post',
@@ -600,17 +604,12 @@
                 }
                 imdb_top1Box = '' +
                     '<div class="col-md-4" style="width: 180px;height: 222px;margin-left: 8px">' +
-                    '<div class="slow-zoom vertical">' +
+                    '<div class="content-grid-effect slow-zoom vertical" style="box-shadow: none">' +
                     '<a href="' + url + '" class="b-link-stripe b-animate-go  swipebox">' +
                     '<div class="img-box">' +
                     '<img src=' + item.posterURL + ' alt="image" class="img-responsive zoom-img">' +
                     '</div>' +
                     '<div class="info-box">' +
-                    '<div class="caption_overlay text-center">' +
-                    '<div class="primary" style="font-size: 12px">' +
-                    '<a href="' + url + '">' + item.name + '<span style="color: orange">' + '&nbsp;' + filmScore + '</span>' + '</a>' +
-                    '</div>' +
-                    '</div>' +
                     '</div>' +
                     '</a>' +
                     '</div>' +
@@ -665,7 +664,7 @@
                         '<span style="background-color: orange;color: white;font-size: 15px">&nbsp;' + (i + 1) + '&nbsp;</span>' +
                         '<div class="caption_overlay text-center">' +
                         '<div class="primary" style="font-size: 12px">' +
-                        '<a href="' + url + '">' + item.name + '<span style="color: orange">' + '&nbsp;' + filmScore + '</span>' + '</a>' +
+                        '' + item.name + '<span style="color: orange">' + '&nbsp;' + filmScore + '</span>' + '' +
                         '</div>' +
                         '</div>' +
                         '</div>' +
@@ -701,17 +700,12 @@
                 }
                 _2017boxoffice_top1Box = '' +
                     '<div class="col-md-4" style="width: 180px;height: 222px;margin-left: 8px">' +
-                    '<div class="slow-zoom vertical">' +
+                    '<div class="content-grid-effect slow-zoom vertical" style="box-shadow: none">' +
                     '<a href="' + url + '" class="b-link-stripe b-animate-go  swipebox">' +
                     '<div class="img-box">' +
                     '<img src=' + item.posterURL + ' alt="image" class="img-responsive zoom-img">' +
                     '</div>' +
                     '<div class="info-box">' +
-                    '<div class="caption_overlay text-center">' +
-                    '<div class="primary" style="font-size: 12px">' +
-                    '<a href="' + url + '">' + item.name + '<span style="color: orange">' + '&nbsp;' + filmScore + '</span>' + '</a>' +
-                    '</div>' +
-                    '</div>' +
                     '</div>' +
                     '</a>' +
                     '</div>' +
@@ -766,7 +760,7 @@
                         '<span style="background-color: orange;color: white;font-size: 15px">&nbsp;' + (i + 1) + '&nbsp;</span>' +
                         '<div class="caption_overlay text-center">' +
                         '<div class="primary" style="font-size: 12px">' +
-                        '<a href="' + url + '">' + item.name + '<span style="color: orange">' + '&nbsp;' + filmScore + '</span>' + '</a>' +
+                        '' + item.name + '<span style="color: orange">' + '&nbsp;' + filmScore + '</span>' + '' +
                         '</div>' +
                         '</div>' +
                         '</div>' +
@@ -802,17 +796,12 @@
                 }
                 _2017score_top1Box = '' +
                     '<div class="col-md-4" style="width: 180px;height: 222px;margin-left: 8px">' +
-                    '<div class="slow-zoom vertical">' +
+                    '<div class="content-grid-effect slow-zoom vertical" style="box-shadow: none">' +
                     '<a href="' + url + '" class="b-link-stripe b-animate-go  swipebox">' +
                     '<div class="img-box">' +
                     '<img src=' + item.posterURL + ' alt="image" class="img-responsive zoom-img">' +
                     '</div>' +
                     '<div class="info-box">' +
-                    '<div class="caption_overlay text-center">' +
-                    '<div class="primary" style="font-size: 12px">' +
-                    '<a href="' + url + '">' + item.name + '<span style="color: orange">' + '&nbsp;' + filmScore + '</span>' + '</a>' +
-                    '</div>' +
-                    '</div>' +
                     '</div>' +
                     '</a>' +
                     '</div>' +
@@ -864,10 +853,10 @@
                         '<img src=' + item.posterURL + ' alt="image" class="img-responsive zoom-img">' +
                         '</div>' +
                         '<div class="info-box">' +
-                        '<span style="background-color: orange;color: white;font-size: 15px">&nbsp;' + (i + 1) + '&nbsp;</span>' +
+                        '<span style="background-color: orange;color: white;font-size: 15px">&nbsp;' + (i - 1) + '&nbsp;</span>' +
                         '<div class="caption_overlay text-center">' +
                         '<div class="primary" style="font-size: 12px">' +
-                        '<a href="' + url + '">' + item.name + '<span style="color: orange">' + '&nbsp;' + filmScore + '</span>' + '</a>' +
+                        '' + item.name + '<span style="color: orange">' + '&nbsp;' + filmScore + '</span>' + '' +
                         '</div>' +
                         '</div>' +
                         '</div>' +
@@ -901,17 +890,12 @@
                 }
                 oscar_top1Box = '' +
                     '<div class="col-md-4" style="width: 180px;height: 222px;margin-left: 8px">' +
-                    '<div class="slow-zoom vertical">' +
+                    '<div class="content-grid-effect slow-zoom vertical" style="box-shadow: none">' +
                     '<a href="' + url + '" class="b-link-stripe b-animate-go  swipebox">' +
                     '<div class="img-box">' +
                     '<img src=' + item.posterURL + ' alt="image" class="img-responsive zoom-img">' +
                     '</div>' +
                     '<div class="info-box">' +
-                    '<div class="caption_overlay text-center">' +
-                    '<div class="primary" style="font-size: 12px">' +
-                    '<a href="' + url + '">' + item.name + '<span style="color: orange">' + '&nbsp;' + filmScore + '</span>' + '</a>' +
-                    '</div>' +
-                    '</div>' +
                     '</div>' +
                     '</a>' +
                     '</div>' +
@@ -966,7 +950,7 @@
                         '<span style="background-color: orange;color: white;font-size: 15px">&nbsp;' + (i + 1) + '&nbsp;</span>' +
                         '<div class="caption_overlay text-center">' +
                         '<div class="primary" style="font-size: 12px">' +
-                        '<a href="' + url + '">' + item.name + '<span style="color: orange">' + '&nbsp;' + filmScore + '</span>' + '</a>' +
+                        '' + item.name + '<span style="color: orange">' + '&nbsp;' + filmScore + '</span>' + '' +
                         '</div>' +
                         '</div>' +
                         '</div>' +

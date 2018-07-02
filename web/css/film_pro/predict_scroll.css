@@ -123,7 +123,7 @@ html, body {
     color: #fff;
     position: absolute;
     display: block;
-    right: 3rem;
+    right: 2rem;
     top: 0.5rem;
     -webkit-animation: navArrowMove 1s infinite;
     animation: navArrowMove 1s infinite;

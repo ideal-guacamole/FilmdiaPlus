@@ -274,7 +274,8 @@ var add_fav = document.getElementById('add_fav');
 
 function addFav(userid) {
     if (userid === 0) {
-        alert('Please sign in first.');
+        layer.msg('Please sign in first!', {icon: 5}, function () {
+        });
         return;
     }
     favorite.userID = userid;
@@ -285,11 +286,13 @@ function addFav(userid) {
         data: JSON.stringify(favorite),
         success: function (data) {
             if (data.result === 'success') {
-                alert('Successfully added!\nYou can check it in User Center.');
                 add_fav.setAttribute("disabled", "true");
                 add_fav.innerHTML = "Added to Favorite";
+                layer.msg('Successfully added!', {icon: 6}, function () {
+                });
             } else {
-                alert('You have already added it!');
+                layer.msg('You have already added it!', {icon: 5}, function () {
+                });
             }
 
         }

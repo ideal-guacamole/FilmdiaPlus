@@ -102,6 +102,7 @@
     <!-- //Top-Bar -->
 
 </div>
+
 <!-- //Header -->
 <div class="gallery wthree-3">
     <!-- The filter -->
