@@ -1,7 +1,7 @@
 .title-info {
     position: absolute;
     /*background:rgba(0, 0, 0, .2);*/
-    width: 90vw;
+    width: 82.5vw;
     margin: 25vh auto 0;
     height: 300px;
     display: block;
@@ -10,6 +10,9 @@
     z-index: 20;
 }
 
+.film_title {
+    font-size: 40px;
+}
 .title-info .film_poster {
     float: left;
     position: relative;
@@ -18,7 +21,7 @@
 }
 
 .title-info .film_poster img {
-    box-shadow: 0 0 14px 0 rgba(0, 0, 0, .5);
+    box-shadow: 0 5px 14px 0 rgba(0, 0, 0, .6);
 }
 
 .fast_info {
@@ -29,11 +32,12 @@
     width: 40vw;
     /*height: 270px;*/
     /*background: #123456;*/
+    font-size: 16px;
     color: #fff;
 }
 
 h2 {
-    max-width: 400px;
+    max-width: 500px;
     color: #fff;
 }
 
@@ -42,42 +46,35 @@ h2 {
     top: 10px;
     color: #fff;
     width: 600px;
-    font-size: 1.3em;
-}
-
-.fast_info label {
-    font-size: 1.2em;
+    /*font-size: 1.2em;*/
+    line-height: 1.8em;
 }
 
 .fast_info .Directors {
     position: relative;
     display: block;
     top: 25px;
-    font-size: 13px;
-    margin-bottom: 15px;
-}
-
-.fast_info .Directors > label, span {
-    font-size: 1.2em;
+    /*font-size: 13px;*/
+    margin-bottom: 20px;
 }
 
 .fast_info .Stars {
     position: relative;
     display: block;
-    top: 15px;
-    font-size: 13px;
+    top: 20px;
+    /*font-size: 13px;*/
     margin-bottom: 15px;
 }
 
-.fast_info .Stars > label, span {
-    font-size: 1.1em;
+.fast_info .Stars {
+    /*font-size: 1.2em;*/
 }
 
 .fast_info .Tags {
     position: relative;
     display: block;
-    font-size: 13px;
-    top: 5px;
+    /*font-size: 1.2em;*/
+    top: 20px;
 }
 
 .add_fav {
@@ -168,13 +165,8 @@ h2 {
 
 }
 
-.film_title {
-    font-size: 3em;
-}
 
-.tagline_part {
-    font-size: 0.8em;
-}
+
 
 .recommend-title {
     font-size: 3em;
