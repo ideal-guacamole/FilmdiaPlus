@@ -49,7 +49,7 @@
     <script type="text/javascript" src="../../js/lib/jquery-3.2.1.js"></script>
     <script type="text/javascript" src="../../js/lib/bootstrap.min.js"></script>
     <script type="text/javascript" src="../../js/lib/layui/layui.all.js"></script>
-
+    <script type="text/javascript" src="../../js/lib/jquery.smooth-scroll.js"></script>
     <!-- Own css and js-->
     <link rel="stylesheet" href="../../css/details.css" type="text/css" media="all">
     <link rel="stylesheet" href="../../css/Detail_Tab.css" type="text/css" media="all">
@@ -69,8 +69,9 @@
 <!-- //Head -->
 <!-- Body -->
 <body style="">
+<a id="backToTop" href="#header" style="display: none; position: fixed; right: 2%; bottom: 5%"><span style="color: #073763" class="glyphicon glyphicon-chevron-up"></span></a>
 <!-- Header -->
-<div class="header">
+<div class="header" id="header">
     <!-- Top-Bar -->
     <div class="top-bar w3-1">
         <div class="container">
@@ -368,6 +369,7 @@
 <script src="../../js/details/searchdetail.js"></script>
 
 <script>
+
     function loadReviews() {
         layui.use('flow', function () {
             var flow = layui.flow;
@@ -398,6 +400,7 @@
 
 <!-- footer -->
 <%--<jsp:include page="common/footer.jsp"></jsp:include>--%>
+
 </body>
 <!-- //Body -->
 </html>

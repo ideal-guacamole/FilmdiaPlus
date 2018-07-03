@@ -110,7 +110,22 @@ function split3(list, obj) {
     });
     obj.innerHTML = str;
 }
-
+$('#backToTop').smoothScroll({
+    speed: 1000
+});
+var backToTop = document.getElementById('backToTop');
+window.onscroll = function (ev) {
+    var oScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    var lock = false;
+    if (oScroll < 500) {
+        lock = false;
+        backToTop.style.display = 'none';
+    }
+    if (oScroll >= 500 && !lock) {
+        lock = true;
+        backToTop.style.display = 'block';
+    }
+}
 if (name == 'null') {
     //加载电影详情(电影库电影)
     $.ajax({

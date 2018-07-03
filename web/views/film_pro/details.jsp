@@ -49,7 +49,7 @@
     <script type="text/javascript" src="../../js/lib/jquery-3.2.1.js"></script>
     <script type="text/javascript" src="../../js/lib/bootstrap.min.js"></script>
     <script type="text/javascript" src="../../js/lib/layui/layui.all.js"></script>
-
+    <script type="text/javascript" src="../../js/lib/jquery.smooth-scroll.js"></script>
     <!-- Own css and js-->
     <link rel="stylesheet" href="../../css/details.css" type="text/css" media="all">
     <link rel="stylesheet" href="../../css/Detail_Tab.css" type="text/css" media="all">
@@ -70,7 +70,8 @@
 <!-- Body -->
 <body style="">
 <!-- Header -->
-<div class="header">
+<a id="backToTop" href="#header" style="display: none; position: fixed; right: 2%; bottom: 5%"><span style="color: #073763" class="glyphicon glyphicon-chevron-up"></span></a>
+<div class="header" id="header">
     <jsp:include page="template/navbar.jsp"></jsp:include>
 </div>
 
