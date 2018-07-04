@@ -460,12 +460,16 @@ function putReviews() {
 
 function clickUp(i) {
     document.getElementById("thumb-up" + i).style.color = "#cccccc";
+    document.getElementById("thumb-down" + i).style.pointerEvents = "none";
+    document.getElementById("thumb-up" + i).style.pointerEvents = "none";
     document.getElementById("up-num" + i).innerHTML = parseInt(document.getElementById("up-num" + i).innerHTML) + 1;
 }
 
 function clickDown(i) {
     document.getElementById("thumb-down" + i).style.color = "#cccccc";
-    document.getElementById("down-num" + i).innerHTML += 1;
+    document.getElementById("thumb-up" + i).style.pointerEvents = "none";
+    document.getElementById("thumb-down" + i).style.pointerEvents = "none";
+    document.getElementById("down-num" + i).innerHTML = parseInt(document.getElementById("down-num" + i).innerHTML) + 1;
 }
 
 function expend(i) {

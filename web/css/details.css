@@ -7,7 +7,7 @@
     display: block;
     left: 0;
     right: 0;
-    z-index: 20;
+    z-index: 10;
 }
 
 .film_title {
@@ -17,6 +17,7 @@
     float: left;
     position: relative;
     left: 20px;
+    width: 180px;
     /*top: 20px;*/
 }
 

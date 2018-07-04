@@ -353,7 +353,6 @@
                       style="color: #37a; margin-left:15px; font-size: 16px; cursor: pointer"></span>
             </ul>
             <div id="reviewBox" class="reviews">
-
             </div>
             <div style="font: 0px/0px sans-serif;clear: both;display: block"></div>
         </div>
