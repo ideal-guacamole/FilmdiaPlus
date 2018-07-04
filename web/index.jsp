@@ -773,7 +773,7 @@
         });
     });
 </script>
-<script src="js/search.js"></script>
+<script src="js/search_index.js"></script>
 </body>
 <!-- //Body -->
 </html>

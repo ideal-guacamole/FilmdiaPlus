@@ -20,7 +20,7 @@ document.body.onclick = function () {
 
 function search() {
     if (searchField.value !== '') {
-        var url = '/views/film_pro/searchPage.jsp';
+        var url = '/views/film/searchPage.jsp';
         var ref = 'searchMsg';
         var value = searchField.value;
         url = setQueryString(url, ref, value);
@@ -69,7 +69,7 @@ function getResults() {
                 success: function (data) {
                     $.each(data, function (i, item) {
                         if (i < 6) {
-                            var url = '../film/details.jsp';
+                            var url = '../views/film/details.jsp';
                             url = setQueryString(url, 'filmID', item.filmID);
                             url = setQueryString(url, 'imdb_filmID', item.imdb_filmID);
                             var tagLine = item.tagLine ? item.tagLine : 'No tagline now...';
